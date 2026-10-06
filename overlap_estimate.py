@@ -48,7 +48,7 @@ amazon = pd.read_csv("data/amazon_books_subset.csv")
 goodreads = pd.read_csv("data/books_1.Best_Books_Ever.csv")
 dbpedia = pd.DataFrame(
     {"title": b.findtext("title"), "authors": [a.text for a in b.findall("authors/author") if a.text]}
-    for b in ET.parse("data/dbpedia_books.xml").getroot().findall("book")
+    for b in ET.parse("data/dbpedia_book_data.xml").getroot().findall("book")
 )
 
 amazon["key"] = [key(t, (json.loads(a) or [""])[0] if isinstance(a, str) else "")
