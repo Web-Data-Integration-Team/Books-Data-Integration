@@ -75,9 +75,9 @@ in a common schema with twelve attributes: \texttt{title}, \texttt{authors}, \te
 Three different datasets are used for this project: a Goodreads dataset from
 Kaggle, book data from DBpedia, and an Amazon Books dataset from Hugging Face.
 The Goodreads and Amazon datasets are provided in CSV format. The DBpedia data
-was retrieved in XML format using a SPARQL query executed in Python. The SPARQL
-query returned approximately 20,000 results. The DBpedia dataset used in this
-project contains 20,981 entities.
+was retrieved in XML format using a SPARQL query executed in Python. 
+The SPARQL query selected all resources of type \texttt{dbo:Book} and returned 20,981 results. 
+The exact number of results may vary slightly between query executions.
 
 Table~\ref{tab:overview} gives an overview of the three datasets, including their sources, formats, number of entities, and available attributes.
 
@@ -165,6 +165,7 @@ Amazon Reviews 2023 & Hugging Face\tnote{3} & CSV & 40,000 & 13\tnote{4} & title
 
 \end{threeparttable}
 \end{table}
+All three datasets have been downloaded and are available to the team.
 
 \subsubsection{Integrated Schema}
 
