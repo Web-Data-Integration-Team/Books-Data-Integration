@@ -1,0 +1,281 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.21 of 2022/01/12
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage[T1]{fontenc}
+% T1 fonts will be used to generate the final print and online PDFs,
+% so please use T1 fonts in your manuscript whenever possible.
+% Other font encondings may result in incorrect characters.
+%
+\usepackage{graphicx}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following two lines
+% to display URLs in blue roman font according to Springer's eBook style:
+%\usepackage{color}
+%\renewcommand\UrlFont{\color{blue}\rmfamily}
+%
+\usepackage{tabularx}
+\usepackage{xurl} % Ermöglicht saubere Zeilenumbrüche in URLs
+\usepackage{booktabs} % Für professionelle Linien (\toprule, \midrule, \bottomrule)
+\usepackage{array}
+\usepackage{threeparttable}
+\usepackage{ragged2e}
+
+\begin{document}
+%
+\title{Web Data Integration Project Abstract (Group 6)}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{\textit{XXXX XXXX}\orcidID{XXXXXXX}
+\and \textit{XXXX XXXX}\orcidID{XXXXXXX}
+\and \textit{XXXX XXXX}\orcidID{XXXXXXX}
+\and \textit{XXXX XXXX}\orcidID{XXXXXXX}
+Lucia Bolduan \orcidID{2261625} \and
+Safa Shaghely\orcidID{2480414}}
+
+\institute{~}
+%
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+This project considers three different book datasets to combine information from different sources in a common schema. The datasets are a Goodreads dataset from Kaggle, book data from DBpedia, and an Amazon Books dataset from Hugging Face.
+The datasets are expected to contain some of the same books, but they differ in their attributes, attribute names, and data formats. The goal is to identify matching books across the different sources and combine their information.
+
+The three datasets contain between 20,981 and 52,478 records. The planned
+integrated schema contains common attributes such as title, authors, publisher, publication date, number of pages, language, and genres. Depending on the source, additional information such as ratings, number of ratings, price, series, and awards is available. Matching books will be identified using a combination of
+common attributes, especially title and authors. By integrating the three
+sources, information about the same book can be combined in a common schema.
+
+
+\end{abstract}
+%
+%
+%
+
+
+
+
+\section{Content}
+
+\subsection{Use Case}
+
+The goal of this project is to integrate book information from three different
+data sources. The sources are expected to contain some of the same books.
+However, they provide different information about the books and use different
+attribute names and data formats.
+
+The integration aims to identify matching books and combine their information
+in a common schema. The resulting dataset can contain information such as title,
+authors, publisher, publication date, number of pages, language, genres, ratings,
+and price.
+
+
+\subsection{Requirements Fulfillment}
+
+\subsubsection{Datasets}
+
+Three different datasets are used for this project: a Goodreads dataset from
+Kaggle, book data from DBpedia, and an Amazon Books dataset from Hugging Face.
+The Goodreads and Amazon datasets are provided in CSV format. The DBpedia data
+was retrieved in XML format using a SPARQL query executed in Python. The SPARQL
+query returned approximately 20,000 results. The DBpedia dataset used in this
+project contains 20,981 entities.
+
+Table~\ref{tab:overview} gives an overview of the three datasets, including their sources, formats, number of entities, and available attributes.
+
+The project requirements are addressed as follows:
+
+\begin{itemize}
+
+    \item \textbf{Three different datasets:}
+    The project uses three different data sources: Goodreads, DBpedia, and
+    Amazon Books. This requirement is fulfilled.
+
+    \item \textbf{At least 2,500 entities in the integrated dataset:}
+    The three input datasets contain 52,478 entities (Goodreads),
+    20,981 entities (DBpedia), and 40,000 entities (Amazon). All three
+    datasets are also within the recommended range of 10,000 to 100,000
+    entities. Since the datasets have not yet been integrated, the exact
+    number of entities in the integrated dataset cannot be determined at
+    this stage. However, based on the size of the input datasets, the
+    required minimum of 2,500 entities is expected to be reached.
+
+    \item \textbf{At least 1,000 entities contained in at least two datasets:}
+    Since the datasets have not yet been integrated and the books have not
+    yet been matched across the datasets, the exact number of shared entities
+    cannot be determined at this stage. The expected overlap is discussed in
+    the section \textit{Expected Entity Overlap}.
+
+    \item \textbf{At least eight attributes in the integrated dataset:}
+    The planned integrated schema contains 12 attributes and therefore meets
+    this requirement. Books can be identified using a combination of at least
+    two attributes. In particular, \texttt{title} and \texttt{authors} can
+    be used for this purpose.
+
+    \item \textbf{At least five attributes contained in at least two datasets:}
+    Ten attributes of the planned integrated schema are available in at least
+    two of the three input datasets. Seven attributes --
+    \texttt{title}, \texttt{authors}, \texttt{publisher},
+    \texttt{publicationDate}, \texttt{pages}, \texttt{language}, and
+    \texttt{genres} -- are available in all three datasets. This requirement
+    is therefore fulfilled.
+
+    \item \textbf{At least one list attribute:}
+    The planned integrated schema contains several list attributes, including
+    \texttt{authors}, \texttt{genres}, and \texttt{awards}. This requirement
+    is fulfilled.
+
+\end{itemize}
+
+The datasets also differ in their completeness. Attributes with more than
+30\% missing values are marked with MV (Missing Values) in
+Table~\ref{tab:overview}. In the Goodreads dataset, this applies to
+\texttt{series}, \texttt{characters}, \texttt{edition},
+\texttt{firstPublishDate}, \texttt{awards}, and \texttt{setting}.
+In the DBpedia dataset, \texttt{genres}, \texttt{language}, and
+\texttt{year} have more than 30\% missing values.
+
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Overview of the analyzed datasets.}
+\label{tab:overview}
+\small
+
+\newcolumntype{L}[1]{>{\RaggedRight}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft}p{#1}}
+\newcolumntype{Y}{>{\RaggedRight\hbadness=10000}X}
+
+\begin{tabularx}{\textwidth}{|L{1.8cm}|L{1.5cm}|l|R{1.1cm}|R{0.8cm}|Y|}
+\hline
+\textbf{Dataset} & \textbf{Source} & \textbf{Format} & \textbf{\# Ent.} & \textbf{\# Attr.} & \textbf{List of attributes} \\
+\hline
+
+Goodreads "Best Books Ever" & Kaggle\tnote{1} & CSV & 52,478 & 23 & title, series (MV), author, rating, description, language, isbn, genres, characters (MV), bookFormat, edition (MV), pages, publisher, publishDate, firstPublishDate (MV), awards (MV), numRatings, ratingsByStars, likedPercent, setting (MV), bbeScore, bbeVotes, price \\
+\hline
+
+DBpedia & DBpedia\tnote{2} & XML & 20,981 & 8 & authors, genres (MV), isbns, language (MV), pages, publisher, title, year (MV) \\
+\hline
+
+Amazon Reviews 2023 & Hugging Face\tnote{3} & CSV & 40,000 & 11 & title, subtitle, authors, publisher, publication\_date, language, pages, genres, average\_rating, ratings\_count, price \\
+\hline
+\end{tabularx}
+
+\begin{tablenotes}\footnotesize
+  \item[1] \url{https://www.kaggle.com/datasets/meetnaren/goodreads-best-books}
+  \item[2] \url{https://dbpedia.org/sparql}
+  \item[3] \url{https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023}
+\end{tablenotes}
+
+\end{threeparttable}
+\end{table}
+
+\subsubsection{Integrated Schema}
+
+The attributes of the three datasets are mapped to a common schema (Table~\ref{tab:schema}).
+Attributes that describe the same information but have different names in
+the input datasets are mapped to the same attribute. For example,
+\texttt{author} in Goodreads and \texttt{authors} in DBpedia and Amazon
+are mapped to the common attribute \texttt{authors}. Similarly,
+\texttt{publishDate}, \texttt{year}, and \texttt{publication\_date}
+are mapped to \texttt{publicationDate}.
+
+Table~\ref{tab:schema} shows the planned integrated schema and the corresponding
+attributes in the input datasets. The planned schema contains 12 attributes.
+Ten of these attributes are available in at least two datasets. The attributes
+\texttt{title}, \texttt{authors}, \texttt{publisher},
+\texttt{publicationDate}, \texttt{pages}, \texttt{language}, and
+\texttt{genres} can be mapped to attributes from all three datasets.
+
+The shared attributes can later be used to identify matching books across the
+datasets. For example, a combination of \texttt{title} and \texttt{authors}
+can be used for this purpose.
+
+Some attributes differ in their representation and level of detail. For
+example, DBpedia provides only the publication year, while Goodreads and
+Amazon provide a publication date. Such differences have to be considered
+during the integration process.
+
+The datasets also provide different information about books. Goodreads and
+Amazon contain rating information, while DBpedia does not. Goodreads provides
+additional information such as series and awards, while Amazon also provides
+subtitles. The integration can therefore combine information about a book
+from different sources.
+
+
+
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Attribute Intersection with Integrated Schema}
+\label{tab:schema}
+\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Attribute name} & \textbf{Type} & \textbf{Datasets in which the attribute is found} \\
+\hline
+title            & string       & GR (title), DB (title), AM (title) \\
+authors          & list$<$string$>$ & GR (author), DB (authors), AM (authors) \\
+publisher        & string       & GR (publisher), DB (publisher), AM (publisher) \\
+publicationDate  & date         & GR (publishDate), DB (year), AM (publication\_date) \\
+pages            & integer      & GR (pages), DB (pages), AM (pages) \\
+language         & string       & GR (language), DB (language), AM (language) \\
+genres           & list$<$string$>$ & GR (genres), DB (genres), AM (genres) \\
+rating           & float        & GR (rating), AM (average\_rating) \\
+ratingsCount     & integer      & GR (numRatings), AM (ratings\_count) \\
+price            & float        & GR (price), AM (price) \\
+series           & string       & GR (series) \\
+awards           & list$<$string$>$ & GR (awards) \\
+\hline
+\multicolumn{3}{|l|}{\emph{Identifier for the gold standard only (not used for matching):}} \\
+isbn             & string       & GR (isbn), DB (isbns), AM (isbn13, isbn10) \\
+\hline
+\end{tabular}
+\begin{tablenotes}[para,flushleft]
+  \footnotesize
+  \emph{Notes:} One record per \emph{work}. GR = Goodreads Best Books Ever, DB = DBpedia, AM = Amazon; source column names in brackets.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+
+
+
+
+
+\subsubsection{Explanation}
+The three datasets contain information about the same type of entities, but provide 
+different information about them. For example, Goodreads and Amazon contain rating 
+information, while DBpedia does not. Goodreads also provides information such as 
+series and awards, while Amazon contains additional information such as subtitles. 
+At the same time, several attributes, including title, authors, publisher, pages, 
+language, and genres, are shared across all three datasets.
+
+Therefore, integrating the datasets can provide more complete information about a 
+book than using only one of the datasets. The shared attributes can also be used to 
+identify books that occur in multiple datasets.
+
+\subsubsection{Expected Entity Overlap}
+
+The exact number of books that occur in more than one dataset is not yet known,
+because the three datasets have not yet been matched. Since all three datasets
+contain book data and share several attributes, some overlap between the
+datasets is expected.
+
+
+
+
+
+
+\end{document}
