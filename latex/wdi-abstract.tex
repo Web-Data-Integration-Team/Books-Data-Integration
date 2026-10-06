@@ -46,7 +46,7 @@
 \maketitle              % typeset the header of the contribution
 %
 \begin{abstract}
-We assess the feasibility of integrating Goodreads, DBpedia, and Amazon book data into a common schema. The sources contain 52,478, 20,981, and 40,000 records, respectively. A blocking key formed from normalized title and first-author surname yields 10,397 distinct keys in at least two datasets and 94,823 distinct keys in the union. A manual review labels 60 of 60 sampled candidate pairs as matches (20 per dataset pair). These are key-based estimates, not a materialized set of confirmed works. ISBN is reserved for gold-standard evaluation and is not used for matching. The target schema contains \texttt{title}, \texttt{authors}, \texttt{genres}, \texttt{publication\_year}, \texttt{publisher}, \texttt{page\_count}, \texttt{language}, \texttt{rating}, \texttt{ratingsCount}, \texttt{price},  \texttt{series},  and \texttt{awards}; authors and genres are list-valued.
+We assess the feasibility of integrating Goodreads, DBpedia, and Amazon book data into a common schema. The sources contain 52,478, 20,981, and 40,000 records, respectively. A blocking key formed from normalized title and first-author surname yields 10,397 distinct keys in at least two datasets and 94,823 distinct keys in the union. A manual review labels 60 of 60 sampled candidate pairs as matches (20 per dataset pair). These are key-based estimates, not a materialized set of confirmed works. ISBN is reserved for gold-standard evaluation and is not used for matching. The target schema contains \texttt{title}, \texttt{authors}, \texttt{genres}, \texttt{publication\_year}, \texttt{publisher}, \texttt{page\_count}, \texttt{language}, \texttt{rating}, \texttt{ratings_count}, \texttt{price},  \texttt{series},  and \texttt{awards}; authors and genres are list-valued.
 
 \end{abstract}
 %
@@ -65,7 +65,7 @@ sources. They describe overlapping books but use different attribute names,
 formats, and levels of detail.
 
 The integration aims to identify matching books and combine their information
-in a common schema with twelve attributes: \texttt{title}, \texttt{authors}, \texttt{genres}, \texttt{publication\_year}, \texttt{publisher}, \texttt{page\_count}, \texttt{language}, \texttt{rating}, \texttt{ratingsCount}, \texttt{price},  \texttt{series}, and \texttt{awards}.
+in a common schema with twelve attributes: \texttt{title}, \texttt{authors}, \texttt{genres}, \texttt{publication\_year}, \texttt{publisher}, \texttt{page\_count}, \texttt{language}, \texttt{rating}, \texttt{ratings_count}, \texttt{price},  \texttt{series}, and \texttt{awards}.
 
 
 \subsection{Requirements Fulfillment}
@@ -228,7 +228,7 @@ publisher        & string       & GR (publisher), DB (publisher), AM (publisher)
 page\_count      & integer      & GR (pages), DB (pages), AM (pages) \\
 language         & string       & GR (language), DB (language), AM (language) \\
 rating           & float        & GR (rating), AM (average\_rating) \\
-ratingsCount     & integer      & GR (numRatings), AM (ratings\_count) \\
+ratings_count     & integer      & GR (numRatings), AM (ratings\_count) \\
 price            & float        & GR (price), AM (price) \\
 series           & string       & GR (series) \\
 awards           & list$<$string$>$ & GR (awards) \\
