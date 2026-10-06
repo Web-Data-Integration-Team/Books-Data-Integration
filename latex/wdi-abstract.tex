@@ -28,19 +28,16 @@
 \begin{document}
 %
 \title{Web Data Integration Project Abstract (Group 6)}
+\titlerunning{Book Data Integration}
+\authorrunning{Bolduan et al.}
 %
 %\titlerunning{Abbreviated paper title}
 % If the paper title is too long for the running head, you can set
 % an abbreviated paper title here
 %
-\author{\textit{XXXX XXXX}\orcidID{XXXXXXX}
-\and \textit{XXXX XXXX}\orcidID{XXXXXXX}
-\and \textit{XXXX XXXX}\orcidID{XXXXXXX}
-\and \textit{XXXX XXXX}\orcidID{XXXXXXX}
-Lucia Bolduan \orcidID{2261625} \and
-Safa Shaghely\orcidID{2480414}}
+\author{Lucia Bolduan \orcidID{2261625} \and Safa Shaghely \orcidID{2480414} \and Selma Nezihoglu \orcidID{2390917} \and Minji Oh \and \textit{XXXX XXXX}\orcidID{XXXXXXX}}
 
-\institute{~}
+\institute{University of Mannheim}
 %
 % First names are abbreviated in the running head.
 % If there are more than two authors, 'et al.' is used.
@@ -49,13 +46,7 @@ Safa Shaghely\orcidID{2480414}}
 \maketitle              % typeset the header of the contribution
 %
 \begin{abstract}
-This project considers three different book datasets to combine information from different sources in a common schema. The datasets are a Goodreads dataset from Kaggle, book data from DBpedia, and an Amazon Books dataset from Hugging Face.
-The datasets are expected to contain some of the same books, but they differ in their attributes, attribute names, and data formats. The goal is to identify matching books across the different sources and combine their information.
-
-The three datasets contain between 20,981 and 52,478 records. The planned
-integrated schema contains common attributes such as title, authors, publisher, publication date, number of pages, language, and genres. Depending on the source, additional information such as ratings, number of ratings, price, series, and awards is available. Matching books will be identified using a combination of
-common attributes, especially title and authors. By integrating the three
-sources, information about the same book can be combined in a common schema.
+We assess the feasibility of integrating Goodreads, DBpedia, and Amazon book data into a common schema. The sources contain 52,478, 20,981, and 40,000 records, respectively. A blocking key formed from normalized title and first-author surname yields 10,397 distinct keys in at least two datasets and 94,823 distinct keys in the union. A manual review labels 60 of 60 sampled candidate pairs as matches (20 per dataset pair). These are key-based estimates, not a materialized set of confirmed works. ISBN is reserved for gold-standard evaluation and is not used for matching. The target schema contains \texttt{title}, \texttt{authors}, \texttt{genres}, \texttt{publication\_year}, \texttt{publisher}, \texttt{page\_count}, \texttt{language}, and \texttt{rating}; authors and genres are list-valued.
 
 
 \end{abstract}
@@ -70,15 +61,14 @@ sources, information about the same book can be combined in a common schema.
 
 \subsection{Use Case}
 
-The goal of this project is to integrate book information from three different
-data sources. The sources are expected to contain some of the same books.
-However, they provide different information about the books and use different
-attribute names and data formats.
+The goal is to integrate book information from three independently maintained
+sources. They describe overlapping books but use different attribute names,
+formats, and levels of detail.
 
 The integration aims to identify matching books and combine their information
-in a common schema. The resulting dataset can contain information such as title,
-authors, publisher, publication date, number of pages, language, genres, ratings,
-and price.
+in a common schema with eight required attributes: \texttt{title},
+\texttt{authors}, \texttt{genres}, \texttt{publication\_year},
+\texttt{publisher}, \texttt{page\_count}, \texttt{language}, and \texttt{rating}.
 
 
 \subsection{Requirements Fulfillment}
@@ -98,24 +88,15 @@ The project requirements are addressed as follows:
 
 \begin{itemize}
 
-    \item \textbf{Three different datasets:}
-    The project uses three different data sources: Goodreads, DBpedia, and
-    Amazon Books. This requirement is fulfilled.
+    \item \textbf{Three different datasets:} Goodreads, DBpedia, and Amazon
+    Books satisfy this requirement.
 
-    \item \textbf{At least 2,500 entities in the integrated dataset:}
-    The three input datasets contain 52,478 entities (Goodreads),
-    20,981 entities (DBpedia), and 40,000 entities (Amazon). All three
-    datasets are also within the recommended range of 10,000 to 100,000
-    entities. Since the datasets have not yet been integrated, the exact
-    number of entities in the integrated dataset cannot be determined at
-    this stage. However, based on the size of the input datasets, the
-    required minimum of 2,500 entities is expected to be reached.
+    \item \textbf{At least 2,500 entities:} The union contains 94,823 distinct
+    normalized blocking keys, comfortably above the threshold. This is a
+    key-based estimate, not a materialized integrated dataset.
 
-    \item \textbf{At least 1,000 entities contained in at least two datasets:}
-    Since the datasets have not yet been integrated and the books have not
-    yet been matched across the datasets, the exact number of shared entities
-    cannot be determined at this stage. The expected overlap is discussed in
-    the section \textit{Expected Entity Overlap}.
+    \item \textbf{At least 1,000 entities in at least two datasets:} The
+    key-based estimate is 10,397 distinct keys, above the threshold.
 
     \item \textbf{At least eight attributes in the integrated dataset:}
     The planned integrated schema contains 12 attributes and therefore meets
@@ -124,20 +105,20 @@ The project requirements are addressed as follows:
     be used for this purpose.
 
     \item \textbf{At least five attributes contained in at least two datasets:}
-    Ten attributes of the planned integrated schema are available in at least
-    two of the three input datasets. Seven attributes --
-    \texttt{title}, \texttt{authors}, \texttt{publisher},
-    \texttt{publicationDate}, \texttt{pages}, \texttt{language}, and
-    \texttt{genres} -- are available in all three datasets. This requirement
-    is therefore fulfilled.
+    Ten attributes of the planned schema are available in at least two
+    datasets. Seven -- \texttt{title}, \texttt{authors}, \texttt{publisher},
+    \texttt{publication\_year}, \texttt{page\_count}, \texttt{language}, and
+    \texttt{genres} -- are represented in all three through the mappings in
+    Table~\ref{tab:schema}.
 
-    \item \textbf{At least one list attribute:}
-    The planned integrated schema contains several list attributes, including
-    \texttt{authors}, \texttt{genres}, and \texttt{awards}. This requirement
-    is fulfilled.
+    \item \textbf{List attribute and entity identification:} \texttt{authors}
+    and \texttt{genres} are list-valued; matching uses normalized
+    \texttt{title} and first-author surname. ISBN is excluded from matching
+    and reserved for evaluation.
 
 \end{itemize}
 
+\begin{sloppypar}
 The datasets also differ in their completeness. Attributes with more than
 30\% missing values are marked with MV (Missing Values) in
 Table~\ref{tab:overview}. In the Goodreads dataset, this applies to
@@ -145,6 +126,7 @@ Table~\ref{tab:overview}. In the Goodreads dataset, this applies to
 \texttt{firstPublishDate}, \texttt{awards}, and \texttt{setting}.
 In the DBpedia dataset, \texttt{genres}, \texttt{language}, and
 \texttt{year} have more than 30\% missing values.
+\end{sloppypar}
 
 \begin{table}[htbp]
 \centering
@@ -157,12 +139,12 @@ In the DBpedia dataset, \texttt{genres}, \texttt{language}, and
 \newcolumntype{R}[1]{>{\raggedleft}p{#1}}
 \newcolumntype{Y}{>{\RaggedRight\hbadness=10000}X}
 
-\begin{tabularx}{\textwidth}{|L{1.8cm}|L{1.5cm}|l|R{1.1cm}|R{0.8cm}|Y|}
+\begin{tabularx}{\textwidth}{|L{1.8cm}|L{1.5cm}|l|R{1.1cm}|R{1.0cm}|Y|}
 \hline
 \textbf{Dataset} & \textbf{Source} & \textbf{Format} & \textbf{\# Ent.} & \textbf{\# Attr.} & \textbf{List of attributes} \\
 \hline
 
-Goodreads "Best Books Ever" & Kaggle\tnote{1} & CSV & 52,478 & 23 & title, series (MV), author, rating, description, language, isbn, genres, characters (MV), bookFormat, edition (MV), pages, publisher, publishDate, firstPublishDate (MV), awards (MV), numRatings, ratingsByStars, likedPercent, setting (MV), bbeScore, bbeVotes, price \\
+Goodreads Best Books Ever & Kaggle\tnote{1} & CSV & 52,478 & 23 & title, series (MV), author, rating, description, language, isbn, genres, characters (MV), bookFormat, edition (MV), pages, publisher, publishDate, firstPublishDate (MV), awards (MV), numRatings, ratingsByStars, likedPercent, setting (MV), bbeScore, bbeVotes, price \\
 \hline
 
 DBpedia & DBpedia\tnote{2} & XML & 20,981 & 8 & authors, genres (MV), isbns, language (MV), pages, publisher, title, year (MV) \\
@@ -176,6 +158,7 @@ Amazon Reviews 2023 & Hugging Face\tnote{3} & CSV & 40,000 & 11 & title, subtitl
   \item[1] \url{https://www.kaggle.com/datasets/meetnaren/goodreads-best-books}
   \item[2] \url{https://dbpedia.org/sparql}
   \item[3] \url{https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023}
+  \item[4] Amazon's 11 data attributes exclude \texttt{amazon\_id}, \texttt{asin}, \texttt{isbn13}, and \texttt{isbn10}.
 \end{tablenotes}
 
 \end{threeparttable}
@@ -183,19 +166,20 @@ Amazon Reviews 2023 & Hugging Face\tnote{3} & CSV & 40,000 & 11 & title, subtitl
 
 \subsubsection{Integrated Schema}
 
-The attributes of the three datasets are mapped to a common schema (Table~\ref{tab:schema}).
+The source attributes are mapped to canonical names in a common schema (Table~\ref{tab:schema}).
 Attributes that describe the same information but have different names in
 the input datasets are mapped to the same attribute. For example,
 \texttt{author} in Goodreads and \texttt{authors} in DBpedia and Amazon
-are mapped to the common attribute \texttt{authors}. Similarly,
-\texttt{publishDate}, \texttt{year}, and \texttt{publication\_date}
-are mapped to \texttt{publicationDate}.
+are mapped to the common attribute \texttt{authors}. Goodreads
+\texttt{publishDate}, DBpedia \texttt{year}, and the year extracted from
+Amazon \texttt{publication\_date} map to \texttt{publication\_year}; date
+precision therefore differs by source.
 
 Table~\ref{tab:schema} shows the planned integrated schema and the corresponding
 attributes in the input datasets. The planned schema contains 12 attributes.
 Ten of these attributes are available in at least two datasets. The attributes
 \texttt{title}, \texttt{authors}, \texttt{publisher},
-\texttt{publicationDate}, \texttt{pages}, \texttt{language}, and
+\texttt{publication\_year}, \texttt{page\_count}, \texttt{language}, and
 \texttt{genres} can be mapped to attributes from all three datasets.
 
 The shared attributes can later be used to identify matching books across the
@@ -221,17 +205,17 @@ from different sources.
 \caption{Attribute Intersection with Integrated Schema}
 \label{tab:schema}
 \footnotesize\setlength{\tabcolsep}{4pt}
-\begin{tabular}{|l|l|l|}
+\begin{tabularx}{\textwidth}{|l|l|>{\RaggedRight\arraybackslash}X|}
 \hline
 \textbf{Attribute name} & \textbf{Type} & \textbf{Datasets in which the attribute is found} \\
 \hline
 title            & string       & GR (title), DB (title), AM (title) \\
 authors          & list$<$string$>$ & GR (author), DB (authors), AM (authors) \\
-publisher        & string       & GR (publisher), DB (publisher), AM (publisher) \\
-publicationDate  & date         & GR (publishDate), DB (year), AM (publication\_date) \\
-pages            & integer      & GR (pages), DB (pages), AM (pages) \\
-language         & string       & GR (language), DB (language), AM (language) \\
 genres           & list$<$string$>$ & GR (genres), DB (genres), AM (genres) \\
+publication\_year & integer      & GR (publishDate), DB (year), AM (publication\_date) \\
+publisher        & string       & GR (publisher), DB (publisher), AM (publisher) \\
+page\_count      & integer      & GR (pages), DB (pages), AM (pages) \\
+language         & string       & GR (language), DB (language), AM (language) \\
 rating           & float        & GR (rating), AM (average\_rating) \\
 ratingsCount     & integer      & GR (numRatings), AM (ratings\_count) \\
 price            & float        & GR (price), AM (price) \\
@@ -241,7 +225,7 @@ awards           & list$<$string$>$ & GR (awards) \\
 \multicolumn{3}{|l|}{\emph{Identifier for the gold standard only (not used for matching):}} \\
 isbn             & string       & GR (isbn), DB (isbns), AM (isbn13, isbn10) \\
 \hline
-\end{tabular}
+\end{tabularx}
 \begin{tablenotes}[para,flushleft]
   \footnotesize
   \emph{Notes:} One record per \emph{work}. GR = Goodreads Best Books Ever, DB = DBpedia, AM = Amazon; source column names in brackets.
@@ -254,24 +238,42 @@ isbn             & string       & GR (isbn), DB (isbns), AM (isbn13, isbn10) \\
 
 
 
-\subsubsection{Explanation}
-The three datasets contain information about the same type of entities, but provide 
-different information about them. For example, Goodreads and Amazon contain rating 
-information, while DBpedia does not. Goodreads also provides information such as 
-series and awards, while Amazon contains additional information such as subtitles. 
-At the same time, several attributes, including title, authors, publisher, pages, 
-language, and genres, are shared across all three datasets.
+\subsubsection{Entity Matching and Overlap}
+Candidate works are blocked by normalized title and first-author surname.
+Normalization lowercases titles, removes diacritics and punctuation, drops
+bracketed text and (when present) subtitles, and ignores common leading
+articles. ISBN does not participate in this key; it is reserved for the
+evaluation gold standard. The overlap script reports 6,562 Amazon--Goodreads,
+2,129 Amazon--DBpedia, and 4,634 Goodreads--DBpedia shared keys, with 1,464
+keys in all three sources. In total, 10,397 keys occur in at least two sources
+and the union contains 94,823 distinct keys. A manually labelled sample of 20
+candidate pairs per source pair contains 60/60 accepted matches (100\%
+sampled precision). These are key-based estimates, not confirmed counts in a
+materialized integrated database; title normalization can conflate distinct
+works, and the sample does not measure recall.
 
-Therefore, integrating the datasets can provide more complete information about a 
-book than using only one of the datasets. The shared attributes can also be used to 
-identify books that occur in multiple datasets.
-
-\subsubsection{Expected Entity Overlap}
-
-The exact number of books that occur in more than one dataset is not yet known,
-because the three datasets have not yet been matched. Since all three datasets
-contain book data and share several attributes, some overlap between the
-datasets is expected.
+\begin{table}[htbp]
+\centering
+\caption{Overlap summary by distinct normalized blocking key.}
+\label{tab:overlap}
+\small
+\begin{tabular}{lr}
+\toprule
+\textbf{Measure} & \textbf{Count} \\
+\midrule
+Amazon $\cap$ Goodreads & 6,562 \\
+Amazon $\cap$ DBpedia & 2,129 \\
+Goodreads $\cap$ DBpedia & 4,634 \\
+All three datasets & 1,464 \\
+Keys in at least two datasets & 10,397 \\
+Union of distinct normalized keys & 94,823 \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}\footnotesize
+Table~\ref{tab:overlap} counts distinct keys based on normalized title and
+first-author surname, so it differs from the record counts in Table~\ref{tab:overview}.
+\end{flushleft}
+\end{table}
 
 
 
