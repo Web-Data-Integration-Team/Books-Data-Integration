@@ -49,7 +49,7 @@
 \maketitle              % typeset the header of the contribution
 %
 \begin{abstract}
-We assess the feasibility of integrating Goodreads, DBpedia, and Amazon book data into a common schema. The sources contain 52,478, 20,981, and 40,000 records, respectively. A blocking key formed from normalized title and first-author surname yields 10,397 distinct keys in at least two datasets and 94,823 distinct keys in the union. A manual review labels 60 of 60 sampled candidate pairs as matches (20 per dataset pair). These are key-based estimates, not a materialized set of confirmed works. ISBN is reserved for gold-standard evaluation and is not used for matching. The target schema contains \texttt{title}, \texttt{authors}, \texttt{genres}, \texttt{publication\_year}, \texttt{publisher}, \texttt{page\_count}, \texttt{language}, \texttt{rating}, \texttt{ratings\_count}, \texttt{price},  \texttt{series},  and \texttt{awards}; authors and genres are list-valued.
+We assess the feasibility of integrating Goodreads, DBpedia, and Amazon book data into a common schema. The sources contain 52,478, 20,981, and 40,000 records, respectively. A blocking key formed from normalized title and first-author surname yields 10,397 distinct keys in at least two datasets and 94,823 distinct keys in the union. A manual review labels 60 of 60 sampled candidate pairs as matches (20 per dataset pair). These are key-based estimates, not a materialized set of confirmed works. ISBN is reserved for gold-standard evaluation and is not used for matching. The target schema contains \texttt{title}, \texttt{authors}, \texttt{genres}, \texttt{publication\_year}, \texttt{publisher}, \texttt{page\_count}, \texttt{language}, \texttt{rating}, \texttt{ratings\_count}, \texttt{price},  \texttt{series},  and \texttt{awards}; \texttt{authors} and \texttt{genres} are list-valued.
 
 \end{abstract}
 %
@@ -68,7 +68,7 @@ sources. They describe overlapping books but use different attribute names,
 formats, and levels of detail.
 
 The integration maps the sources into a common schema with eight required
-fields plus \texttt{ratings\_count}, price, series, and awards
+fields plus \texttt{ratings\_count}, \texttt{price}, \texttt{series}, and \texttt{awards}
 (Table~\ref{tab:schema}).
 
 
@@ -156,7 +156,7 @@ Amazon Reviews 2023 & Hugging Face\tnote{3} & CSV & 40,000 & 13\tnote{4} & title
 \end{tabularx}
 
 \begin{tablenotes}\footnotesize
-  \item[1] \url{https://www.kaggle.com/datasets/meetnaren/goodreads-best-books}
+  \item[1] \url{https://www.kaggle.com/datasets/arnabchaki/goodreads-best-books-ever?resource=download}
   \item[2] \url{https://dbpedia.org/sparql}
   \item[3] \url{https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023}
   \item[4] Amazon's 13 attributes exclude the internal identifiers \texttt{amazon\_id} and \texttt{asin}.
