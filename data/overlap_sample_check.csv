@@ -1,61 +1,61 @@
-pair,key,title_left,title_right,true_match (y/n),note
-Amazon-Goodreads,swimming to catalina|woods,Swimming to Catalina,Swimming To Catalina,y,
-Amazon-Goodreads,innocent man|grisham,The Innocent Man,The Innocent Man: Murder and Injustice in a Small Town,y,"same work, subtitle differs"
-Amazon-Goodreads,secret zoo|chick,The Secret Zoo,The Secret Zoo: The Final Fight,n,different books of the same series (The Secret Zoo #1 vs The Final Fight)
-Amazon-Goodreads,couple next door|lapena,The Couple Next Door (Thorndike Press Large Print Basic Series),The Couple Next Door,y,"same work, series/edition info in brackets"
-Amazon-Goodreads,mrs funnybones|khanna,Mrs Funnybones,Mrs Funnybones: She's just like You and a lot like Me,y,"same work, subtitle differs"
-Amazon-Goodreads,la leyenda del ladr n|jurado,La leyenda del ladrón,La leyenda del ladrón,y,
-Amazon-Goodreads,last battle|lewis,"The Last Battle (Chronicles of Narnia, Book 7)",The Last Battle,y,"same work, series/edition info in brackets"
-Amazon-Goodreads,untethered soul|singer,The Untethered Soul: The Journey Beyond Yourself,The Untethered Soul: The Journey Beyond Yourself,y,
-Amazon-Goodreads,raspberry danish murder|fluke,Raspberry Danish Murder (A Hannah Swensen Mystery),Raspberry Danish Murder,y,"same work, series/edition info in brackets"
-Amazon-Goodreads,touching the void|simpson,Touching the Void: The Harrowing First Person Account Of One Man's Miraculous Survival,Touching the Void: The True Story of One Man's Miraculous Survival,y,"same work, subtitle differs"
-Amazon-Goodreads,brethren|grisham,The Brethren,The Brethren,y,
-Amazon-Goodreads,alchemyst|scott,The Alchemyst - The Secrets Of The Immortal Nicholas Flamel,The Alchemyst,y,"same work, subtitle differs"
-Amazon-Goodreads,royal assassin|hobb,Royal Assassin (The Farseer Trilogy),Royal Assassin,y,"same work, series/edition info in brackets"
-Amazon-Goodreads,half the world|abercrombie,Half the World (Shattered Sea),Half the World,y,"same work, series/edition info in brackets"
-Amazon-Goodreads,p s i hate you|renshaw,P.S. I Hate You,P.S. I Hate You,y,
-Amazon-Goodreads,why men marry bitches|argov,Why Men Marry Bitches: A Woman's Guide to Winning Her Man's Heart,Why Men Marry Bitches: A Woman's Guide to Winning Her Man's Heart,y,
-Amazon-Goodreads,go set a watchman|lee,Go Set A Watchman (Large Print Edition) (Turtleback School & Library Binding Edition),Go Set a Watchman,y,"same work, series/edition info in brackets"
-Amazon-Goodreads,dead or alive|clancy,Dead or Alive (Plus Bonus Digital Copy of Dead or Alive) (Jack Ryan Series),Dead or Alive,y,"same work, series/edition info in brackets"
-Amazon-Goodreads,kingdom s cost|tomlin,A Kingdom's Cost: Book I of the Black Douglas Trilogy,A Kingdom's Cost,y,
-Amazon-Goodreads,girl in 6e|torre,The Girl in 6E,The Girl in 6E,y,
-Amazon-DBpedia,getting things done|allen,Getting Things Done: The Art of Stress-Free Productivity,Getting Things Done,y,"same work, subtitle differs"
-Amazon-DBpedia,gilead|robinson,Gilead,Gilead (novel),y,"same work, DBpedia disambiguation suffix"
-Amazon-DBpedia,skyward|sanderson,Skyward (The Skyward Series),Skyward (novel),y,"same work, series/edition info in brackets"
-Amazon-DBpedia,oathbringer|sanderson,"Oathbringer: Book Three of the Stormlight Archive (The Stormlight Archive, 3)",Oathbringer,y,"same work, series/edition info in brackets"
-Amazon-DBpedia,killing floor|child,Killing Floor (Jack Reacher Series),Killing Floor (novel),y,"same work, series/edition info in brackets"
-Amazon-DBpedia,foundation and earth|asimov,Foundation and earth,Foundation and Earth,y,
-Amazon-DBpedia,army at dawn|atkinson,"An Army at Dawn: The War in North Africa, 1942-1943, Volume One of the Liberation Trilogy (The Liberation Trilogy, 1)",An Army at Dawn,y,
-Amazon-DBpedia,prince of tides|conroy,The Prince of Tides,The Prince of Tides (novel),y,"same work, DBpedia disambiguation suffix"
-Amazon-DBpedia,amazing grace|steel,Amazing Grace,Amazing Grace (novel),y,"same work, DBpedia disambiguation suffix"
-Amazon-DBpedia,knife of dreams|jordan,"Knife of Dreams: Book Eleven of 'The Wheel of Time' (Wheel of Time, 11)",Knife of Dreams,y,"same work, series/edition info in brackets"
-Amazon-DBpedia,rules|lord,Rules,Rules (novel),y,"same work, DBpedia disambiguation suffix"
-Amazon-DBpedia,post office|bukowski,Post Office,Post Office (novel),y,"same work, DBpedia disambiguation suffix"
-Amazon-DBpedia,jesus calling|young,Jesus Calling : Enjoying Peace in His Presence,Jesus Calling,y,
-Amazon-DBpedia,no second chance|coben,No Second Chance,No Second Chance,y,
-Amazon-DBpedia,spin|wilson,"Spin (Spin, 1)",Spin (novel),y,"same work, series/edition info in brackets"
-Amazon-DBpedia,redshirts|scalzi,Redshirts,Redshirts (novel),y,"same work, DBpedia disambiguation suffix"
-Amazon-DBpedia,days without end|barry,Days Without End: A Novel,Days Without End (novel),y,"same work, DBpedia disambiguation suffix"
-Amazon-DBpedia,echoes|steel,Echoes (Danielle Steel),Echoes (Steel novel),y,"same work, DBpedia disambiguation suffix"
-Amazon-DBpedia,orphan x|hurwitz,Orphan X,Orphan X,y,
-Amazon-DBpedia,cibola burn|corey,"Cibola Burn (The Expanse, 4)",Cibola Burn,y,"same work, series/edition info in brackets"
-Goodreads-DBpedia,guards guards|pratchett,Guards! Guards!,Guards! Guards!,y,
-Goodreads-DBpedia,walk two moons|creech,Walk Two Moons,Walk Two Moons,y,
-Goodreads-DBpedia,larklight|reeve,Larklight,Larklight,y,
-Goodreads-DBpedia,dancing in my nuddy pants|rennison,Dancing in My Nuddy-Pants,Dancing in my Nuddy-Pants,y,
-Goodreads-DBpedia,fire world|lacey,Fire World,Fire World,y,
-Goodreads-DBpedia,breaking open the head|pinchbeck,Breaking Open the Head: A Psychedelic Journey Into the Heart of Contemporary Shamanism,Breaking Open the Head,y,"same work, subtitle differs"
-Goodreads-DBpedia,know my name|miller,Know My Name,Know My Name: A Memoir,y,"same work, subtitle differs"
-Goodreads-DBpedia,fever|destefano,Fever,Fever (Destefano novel),y,"same work, DBpedia disambiguation suffix"
-Goodreads-DBpedia,cibola burn|corey,Cibola Burn,Cibola Burn,y,
-Goodreads-DBpedia,god of small things|roy,The God of Small Things,The God of Small Things,y,
-Goodreads-DBpedia,on my honor|bauer,On My Honor,On My Honor,y,
-Goodreads-DBpedia,firestar s quest|hunter,Firestar's Quest,Firestar's Quest,y,
-Goodreads-DBpedia,mexico|michener,Mexico,Mexico (novel),y,"same work, DBpedia disambiguation suffix"
-Goodreads-DBpedia,captains courageous|kipling,Captains Courageous,Captains Courageous,y,
-Goodreads-DBpedia,cosmos and psyche|tarnas,Cosmos and Psyche: Intimations of a New World View,Cosmos and Psyche,y,"same work, subtitle differs"
-Goodreads-DBpedia,everyone poops|gomi,Everyone Poops,Everyone Poops,y,
-Goodreads-DBpedia,buffalo girls|mcmurtry,Buffalo Girls,Buffalo Girls,y,
-Goodreads-DBpedia,night parade|tanquary,The Night Parade,The Night Parade,y,
-Goodreads-DBpedia,renegade s magic|hobb,Renegade's Magic,Renegade's Magic,y,
-Goodreads-DBpedia,jpod|coupland,JPod,JPod,y,
+pair,key,title_left,title_right,true_match (y/n)
+Amazon_Goodreads,death on the nile|christie,Death on the Nile (Classic Reprint),Death on the Nile,y
+Amazon_Goodreads,do no harm|marsh,"Do No Harm: Stories of Life, Death, and Brain Surgery","Do No Harm: Stories of Life, Death and Brain Surgery",y
+Amazon_Goodreads,one small sacrifice|davidson,"One Small Sacrifice (Shadows of New York, 1)",One Small Sacrifice,y
+Amazon_Goodreads,under different stars|bartol,Under Different Stars (The Kricket Series),Under Different Stars,y
+Amazon_Goodreads,dead as a doornail|harris,"Dead as a Doornail (Sookie Stackhouse/True Blood, Book 5)",Dead as a Doornail,y
+Amazon_Goodreads,one second after|forstchen,"One Second After (A John Matherson Novel, 1)",One Second After,y
+Amazon_Goodreads,call of the wild|london,The Call of the Wild (Enriched Classics),The Call of the Wild,y
+Amazon_Goodreads,bud not buddy|curtis,"Bud, Not Buddy","Bud, Not Buddy",y
+Amazon_Goodreads,kindle fire owner s manual|weber,"Kindle Fire Owner's Manual: The ultimate Kindle Fire guide to getting started, advanced user tips, and finding unlimited free books, videos and apps on Amazon and beyond","Kindle Fire Owner's Manual: The ultimate Kindle Fire guide to getting started, advanced user tips, and finding unlimited free books, videos and apps on Amazon and beyond",y
+Amazon_Goodreads,hazel wood|albert,"The Hazel Wood (Hazel Wood, 1)",The Hazel Wood,y
+Amazon_Goodreads,fall into temptation|score,Fall into Temptation: A Small Town Love Story (Blue Moon),Fall Into Temptation,y
+Amazon_Goodreads,dawn|butler,Dawn (Xenogenesis),Dawn,y
+Amazon_Goodreads,girl who loved tom gordon|king,The Girl Who Loved Tom Gordon,The Girl Who Loved Tom Gordon,y
+Amazon_Goodreads,sleep no more|iles,Sleep No More,Sleep No More,y
+Amazon_Goodreads,letter to a christian nation|harris,LETTER TO A CHRISTIAN NATION,Letter to a Christian Nation,y
+Amazon_Goodreads,roses are red|patterson,Roses Are Red (Alex Cross),Roses are Red,y
+Amazon_Goodreads,lodestar|messenger,Lodestar (5) (Keeper of the Lost Cities),Lodestar,y
+Amazon_Goodreads,lady chatterley s lover|lawrence,Lady Chatterley's Lover (Penguin Clothbound Classics),Lady Chatterley's Lover,y
+Amazon_Goodreads,jolly postman or other people s letters|ahlberg,The Jolly Postman Or Other People's Letters,"The Jolly Postman, or Other People's Letters",y
+Amazon_Goodreads,it s in his kiss|quinn,"It's In His Kiss (Bridgerton series, Volume 7)",It's in His Kiss,y
+Amazon_DBpedia,born to run|springsteen,Born to Run (Wheeler Publishing Large Print Hardcover),Born to Run (autobiography),y
+Amazon_DBpedia,waylander|gemmell,Waylander,Waylander (novel),y
+Amazon_DBpedia,post office|bukowski,Post Office,Post Office (novel),y
+Amazon_DBpedia,last tudor|gregory,The Last Tudor (The Plantagenet and Tudor Novels),The Last Tudor,y
+Amazon_DBpedia,what the dog saw|gladwell,What the Dog Saw: And Other Adventures,What the Dog Saw,y
+Amazon_DBpedia,breaking history|kushner,Breaking History: A White House Memoir,Breaking History,y
+Amazon_DBpedia,promise me dad|biden,"Promise Me, Dad: A Year of Hope, Hardship, and Purpose","Promise Me, Dad",y
+Amazon_DBpedia,men without women|murakami,Men Without Women: Stories (Vintage International),Men Without Women (Murakami short story collection),y
+Amazon_DBpedia,alexander hamilton|chernow,Alexander Hamilton,Alexander Hamilton (book),y
+Amazon_DBpedia,braiding sweetgrass|kimmerer,"Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants",Braiding Sweetgrass,y
+Amazon_DBpedia,predictably irrational|ariely,Predictably Irrational: The Hidden Forces That Shape Our Decisions,Predictably Irrational,y
+Amazon_DBpedia,west with the night|markham,West with the Night,West with the Night,y
+Amazon_DBpedia,cross fire|patterson,Cross Fire,Cross Fire (novel),y
+Amazon_DBpedia,under the banner of heaven|krakauer,Under the Banner of Heaven,Under the Banner of Heaven,y
+Amazon_DBpedia,girl who loved tom gordon|king,The Girl Who Loved Tom Gordon,The Girl Who Loved Tom Gordon,y
+Amazon_DBpedia,cloud atlas|mitchell,Cloud Atlas,Cloud Atlas (novel),y
+Amazon_DBpedia,vicious circle|smith,Vicious Circle (Hector Cross),Vicious Circle (novel),y
+Amazon_DBpedia,reasons to vote for democrats|knowles,Reasons To Vote For Democrats: A Comprehensive Guide,Reasons to Vote for Democrats,y
+Amazon_DBpedia,behind the scenes at the museum|atkinson,Behind the Scenes at the Museum,Behind the Scenes at the Museum,y
+Amazon_DBpedia,anna and the french kiss|perkins,Anna and the French Kiss,Anna and the French Kiss,y
+Goodreads_DBpedia,celestial bodies|alharthi,Celestial Bodies,Celestial Bodies,y
+Goodreads_DBpedia,fudge a mania|blume,Fudge-a-Mania,Fudge-a-Mania,y
+Goodreads_DBpedia,physics of the impossible|kaku,Physics of the Impossible,Physics of the Impossible,y
+Goodreads_DBpedia,king of the wind|henry,King of the Wind: The Story of the Godolphin Arabian,King of the Wind,y
+Goodreads_DBpedia,2666|bolano,2666,2666,y
+Goodreads_DBpedia,hurricane gold|higson,Hurricane Gold,Hurricane Gold,y
+Goodreads_DBpedia,i married a communist|roth,I Married a Communist,I Married a Communist,y
+Goodreads_DBpedia,metamagical themas|hofstadter,Metamagical Themas: Questing for the Essence of Mind and Pattern,Metamagical Themas,y
+Goodreads_DBpedia,one of those hideous books where the mother dies|sones,One of Those Hideous Books Where the Mother Dies,One of Those Hideous Books Where the Mother Dies,y
+Goodreads_DBpedia,and afterward the dark|copper,"And Afterward, the Dark: Seven Tales","And Afterward, the Dark",y
+Goodreads_DBpedia,little fires everywhere|ng,Little Fires Everywhere,Little Fires Everywhere (novel),y
+Goodreads_DBpedia,big fish|wallace,Big Fish,Big Fish: A Novel of Mythic Proportions,y
+Goodreads_DBpedia,land remembered|smith,A Land Remembered,A Land Remembered,y
+Goodreads_DBpedia,peter and the sword of mercy|barry,Peter and the Sword of Mercy,Peter and the Sword of Mercy,y
+Goodreads_DBpedia,stranger beside me|rule,The Stranger Beside Me: Ted Bundy: The Shocking Inside Story,The Stranger Beside Me,y
+Goodreads_DBpedia,bone garden|gerritsen,The Bone Garden,The Bone Garden,y
+Goodreads_DBpedia,quest for lost heroes|gemmell,Quest for Lost Heroes,Quest for Lost Heroes,y
+Goodreads_DBpedia,cross country|patterson,Cross Country,Cross Country (novel),y
+Goodreads_DBpedia,crosstalk|willis,Crosstalk,Crosstalk (novel),y
+Goodreads_DBpedia,van de koele meren des doods|eeden,Van de koele meren des doods,Van de koele meren des doods,y
