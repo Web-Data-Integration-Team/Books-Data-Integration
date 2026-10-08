@@ -1,180 +1,158 @@
 """
-Entity overlap estimate between the three book datasets (for the project abstract).
+Overlap estimate between Goodreads, DBpedia and Amazon at EDITION level (project proposal).
 
-Blocking key = normalised title + surname of the first author.
+Entity = edition. Two records describe the same edition if they share an ISBN
+(ISBN-10 and ISBN-13 normalised to ISBN-13). ISBN is only used here and for the
+gold standard -- the matchers in Phase II will not see it.
 
-Normalisation:
-  lower case, accents removed (e.g. Garcia Marquez), "(...)" and "[...]" dropped
-  (e.g. DBpedia's "Ammonite (novel)"), optional subtitle removal after ":" or " - ",
-  punctuation dropped, leading "The/A/An" and trailing ", The" dropped.
-Surname: last word of the first author, ignoring suffixes such as Jr, Sr, III.
-
-This is a rough estimate (exact key match). To support it in the abstract, the script
-also writes a random sample of matched pairs to data/overlap_sample_check.csv.
-Check about 60 rows by hand, fill the last column with y or n, and run the script
-again. It then prints the share of true matches per dataset pair.
+The script reports:
+  1. Edition overlap (shared ISBN-13) for each pair, all three, and in >= 2 datasets.
+  2. Work overlap (normalised title + first-author surname), to show how many shared
+     works appear in a DIFFERENT edition in the other source. Those are the hard
+     corner cases for identity resolution: same title and author, different edition.
+  3. If data/amazon_books_random.csv exists (python amazon_subset.py ... --sample random):
+     the overlap of a RANDOM Amazon sample with Goodreads, compared to the popularity-
+     based subset (answers "why does your Amazon subset overlap so much?").
 
 Usage:  python overlap_estimate.py
 """
 
-import ast
 import json
-import os
 import re
 import unicodedata
 import xml.etree.ElementTree as ET
+from pathlib import Path
 
 import pandas as pd
 
-# Set to False if the manual check shows many false matches for series books
-# (e.g. "Star Wars: Episode I" and "Star Wars: Episode II" both becoming "star wars").
-STRIP_SUBTITLE = True
-
-SAMPLE_FILE = "data/overlap_sample_check.csv"
-SAMPLE_SIZE_PER_PAIR = 20
-SUFFIXES = {"jr", "sr", "ii", "iii", "iv", "phd", "md"}
+GOODREADS = "data/books_1.Best_Books_Ever.csv"
+DBPEDIA = "data/dbpedia_book_data.xml"
+AMAZON = "data/amazon_books_subset.csv"
+AMAZON_RANDOM = "data/amazon_books_random.csv"
 
 
-def ascii_lower(s):
-    """Lower case and strip accents: 'García Márquez' -> 'garcia marquez'."""
-    return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+# --- ISBN ------------------------------------------------------------------
+def isbn13(raw):
+    """All valid ISBN-13s found in a string (handles '0-14-143951-3 (pbk)', 'ISBN 978...')."""
+    if not isinstance(raw, str):
+        return set()
+    out = set()
+    for tok in re.findall(r"(?:97[89][\s-]?)?(?:\d[\s-]?){9}[\dXx]", raw):
+        d = re.sub(r"[^0-9Xx]", "", tok).upper()
+        if len(set(d)) == 1:  # placeholders like 9999999999999
+            continue
+        if len(d) == 13 and d.isdigit() and d.startswith(("978", "979")) and d != "9999999999999":
+            if sum(int(c) * (1 if i % 2 == 0 else 3) for i, c in enumerate(d)) % 10 == 0:
+                out.add(d)
+        elif len(d) == 10 and d[:9].isdigit() and sum((10 - i) * (10 if c == "X" else int(c)) for i, c in enumerate(d)) % 11 == 0:
+            core = "978" + d[:9]
+            s = sum(int(c) * (1 if i % 2 == 0 else 3) for i, c in enumerate(core))
+            out.add(core + str((10 - s % 10) % 10))
+    return out
 
 
+# --- work key (title + first-author surname) ----------------------------------
 def norm_title(t):
     if not isinstance(t, str):
         return ""
-    t = ascii_lower(t)
+    t = unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode().lower()
     t = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", t)
-    if STRIP_SUBTITLE:
-        t = re.sub(r"\s*(:| - ).*$", "", t)
-    t = re.sub(r",\s*(the|a|an)\s*$", "", t.strip())  # "Hobbit, The" -> "Hobbit"
+    t = re.sub(r"\s*(:| - ).*$", "", t)
     t = re.sub(r"[^a-z0-9 ]", " ", t)
     t = re.sub(r"\s+", " ", t).strip()
     return re.sub(r"^(the|a|an) ", "", t)
 
 
 def surname(a):
-    if not isinstance(a, str) or not a.strip():
+    if not isinstance(a, str):
         return ""
-    a = re.sub(r"\(.*?\)", "", ascii_lower(a))
-    words = re.sub(r"[^a-z ]", " ", a).split()
-    words = [w for w in words if w not in SUFFIXES]
-    return words[-1] if words else ""
+    a = unicodedata.normalize("NFKD", re.sub(r"\(.*?\)", "", a)).encode("ascii", "ignore").decode()
+    w = re.sub(r"[^a-z ]", " ", a.lower()).split()
+    return w[-1] if w else ""
 
 
-def key(title, first_author):
-    t, s = norm_title(title), surname(first_author)
+def work_key(title, author):
+    t, s = norm_title(title), surname(author)
     return f"{t}|{s}" if t and s else None
 
 
-def first_author_amazon(a):
-    """Amazon authors can be a JSON list, a Python style list string, or a plain string."""
-    if isinstance(a, (list, tuple)):
-        parsed = list(a)
-    elif isinstance(a, str) and a.strip():
-        s = a.strip()
-        parsed = None
-        for loader in (json.loads, ast.literal_eval):
-            try:
-                parsed = loader(s)
-                break
-            except (ValueError, SyntaxError):
-                continue
-        if parsed is None:
-            parsed = [s]
-    else:
-        return ""
-    if isinstance(parsed, str):
-        return parsed
-    if isinstance(parsed, (list, tuple)) and parsed:
-        return str(parsed[0])
-    return ""
+# --- load --------------------------------------------------------------------
+def load_goodreads():
+    df = pd.read_csv(GOODREADS, dtype=str)
+    if df["isbn"].str.contains(r"E\+", na=False).mean() > 0.05:
+        raise SystemExit(f"{GOODREADS} has ISBNs in scientific notation (file was saved with Excel). "
+                         "Replace it with the original file first.")
+    df["isbns"] = df["isbn"].map(isbn13)
+    df["work"] = [work_key(t, str(a).split(",")[0]) for t, a in zip(df.title, df.author)]
+    return df
 
 
-def first_author_goodreads(a):
-    """Goodreads: 'Suzanne Collins, Mary GrandPre (Illustrator)' -> 'Suzanne Collins'."""
-    return a.split(",")[0] if isinstance(a, str) else ""
+def load_dbpedia():
+    rows = []
+    for b in ET.parse(DBPEDIA).getroot().iter("book"):
+        isb = set()
+        for i in b.findall("isbns/isbn"):
+            isb |= isbn13(i.text)
+        authors = [a.text for a in b.findall("authors/author") if a.text]
+        rows.append({"title": b.findtext("title"), "isbns": isb,
+                     "work": work_key(b.findtext("title"), authors[0] if authors else "")})
+    return pd.DataFrame(rows)
 
 
-# --- load ---------------------------------------------------------------
-amazon = pd.read_csv("data/amazon_books_subset.csv")
-goodreads = pd.read_csv("data/books_1.Best_Books_Ever.csv")
-dbpedia = pd.DataFrame(
-    {
-        "title": b.findtext("title"),
-        "authors": [a.text for a in b.findall("authors/author") if a.text],
-    }
-    for b in ET.parse("data/dbpedia_book_data.xml").getroot().findall("book")
-)
+def load_amazon(path):
+    df = pd.read_csv(path, dtype=str)
+    df["isbns"] = [isbn13(f"{a} {b}") for a, b in zip(df.isbn13, df.isbn10)]
+    first = [(json.loads(a) or [""])[0] if isinstance(a, str) and a.startswith("[") else "" for a in df.authors]
+    df["work"] = [work_key(t, a) for t, a in zip(df.title, first)]
+    return df
 
-amazon["key"] = [key(t, first_author_amazon(a)) for t, a in zip(amazon.title, amazon.authors)]
-goodreads["key"] = [key(t, first_author_goodreads(a)) for t, a in zip(goodreads.title, goodreads.author)]
-dbpedia["key"] = [key(t, a[0] if a else "") for t, a in zip(dbpedia.title, dbpedia.authors)]
 
-A, G, D = (set(df.key.dropna()) for df in (amazon, goodreads, dbpedia))
-at_least_two = (A & G) | (A & D) | (G & D)
+def isbn_set(df):
+    return set().union(*df["isbns"]) if len(df) else set()
 
-# --- report -------------------------------------------------------------
-print(f"Subtitle stripping: {STRIP_SUBTITLE}")
-print(f"Records: Amazon {len(amazon):,} | Goodreads {len(goodreads):,} | DBpedia {len(dbpedia):,}")
-print(
-    "Records without key (excluded): "
-    f"Amazon {amazon.key.isna().sum():,} | Goodreads {goodreads.key.isna().sum():,} "
-    f"| DBpedia {dbpedia.key.isna().sum():,}"
-)
-print(f"Distinct keys: Amazon {len(A):,} | Goodreads {len(G):,} | DBpedia {len(D):,}")
-print()
-print(f"Amazon ∩ Goodreads:     {len(A & G):>6,}")
-print(f"Amazon ∩ DBpedia:       {len(A & D):>6,}")
-print(f"Goodreads ∩ DBpedia:    {len(G & D):>6,}")
-print(f"In all three:           {len(A & G & D):>6,}")
-print(f"In at least two:        {len(at_least_two):>6,}   (requirement: >= 1,000)")
-print(f"Distinct entities total:{len(A | G | D):>7,}   (requirement: >= 2,500, ideally 10k to 100k)")
 
-# --- manual check: evaluate if already filled, otherwise create ----------
-if os.path.exists(SAMPLE_FILE):
-    chk = pd.read_csv(SAMPLE_FILE)
-    col = "true_match (y/n)"
-    chk[col] = chk[col].astype(str).str.strip().str.lower()
-    done = chk[chk[col].isin(["y", "n"])]
-    print(f"\n{SAMPLE_FILE} already exists, not overwritten.")
-    if done.empty:
-        print("No y/n answers filled in yet.")
-    else:
-        print(f"Manual precision check ({len(done)} pairs rated):")
-        for pair, g in done.groupby("pair"):
-            print(f"  {pair}: {(g[col] == 'y').sum()}/{len(g)} true matches")
-        print(f"  Overall: {(done[col] == 'y').sum()}/{len(done)} "
-              f"({(done[col] == 'y').mean():.0%})")
-    raise SystemExit
+def work_set(df):
+    return set(df["work"].dropna())
 
-first = {
-    "Amazon": amazon.dropna(subset=["key"]).drop_duplicates("key").set_index("key"),
-    "Goodreads": goodreads.dropna(subset=["key"]).drop_duplicates("key").set_index("key"),
-    "DBpedia": dbpedia.dropna(subset=["key"]).drop_duplicates("key").set_index("key"),
-}
 
-sample = []
-for name, left, right, ks in [
-    ("Amazon_Goodreads", "Amazon", "Goodreads", A & G),
-    ("Amazon_DBpedia", "Amazon", "DBpedia", A & D),
-    ("Goodreads_DBpedia", "Goodreads", "DBpedia", G & D),
-]:
-    if not ks:
-        continue
-    picks = pd.Series(sorted(ks)).sample(min(SAMPLE_SIZE_PER_PAIR, len(ks)), random_state=42)
-    for k in picks:
-        sample.append(
-            {
-                "pair": name,
-                "key": k,
-                "title_left": first[left].loc[k, "title"],
-                "title_right": first[right].loc[k, "title"],
-                "true_match (y/n)": "",
-            }
-        )
+def main():
+    gr, db, am = load_goodreads(), load_dbpedia(), load_amazon(AMAZON)
+    G, D, A = isbn_set(gr), isbn_set(db), isbn_set(am)
+    WG, WD, WA = work_set(gr), work_set(db), work_set(am)
 
-os.makedirs(os.path.dirname(SAMPLE_FILE), exist_ok=True)
-pd.DataFrame(sample).to_csv(SAMPLE_FILE, index=False)
-print(f"\nWrote {len(sample)} matched pairs to {SAMPLE_FILE} for a manual precision check.")
-print("Fill the last column with y or n, then run the script again.")
+    print(f"Records: Goodreads {len(gr):,} | DBpedia {len(db):,} | Amazon {len(am):,}")
+    print(f"Records with a valid ISBN: Goodreads {(gr.isbns.str.len() > 0).mean():.1%} | "
+          f"DBpedia {(db.isbns.str.len() > 0).mean():.1%} | Amazon {(am.isbns.str.len() > 0).mean():.1%}")
+
+    print("\n1) EDITION overlap (shared ISBN-13) -- lower bound, records without ISBN cannot be counted")
+    two = (A & G) | (A & D) | (G & D)
+    for name, n in [("Amazon ∩ Goodreads", len(A & G)), ("Amazon ∩ DBpedia", len(A & D)),
+                    ("Goodreads ∩ DBpedia", len(G & D)), ("in all three", len(A & G & D)),
+                    ("in at least two  (requirement >= 1,000)", len(two))]:
+        print(f"   {name:<42}{n:>7,}")
+
+    print("\n2) WORK overlap (normalised title + first-author surname) and edition corner cases")
+    for name, L, R, WL, WR in [("Amazon-Goodreads", am, gr, WA, WG), ("Amazon-DBpedia", am, db, WA, WD),
+                               ("Goodreads-DBpedia", gr, db, WG, WD)]:
+        shared = WL & WR
+        li = L.dropna(subset=["work"]).groupby("work")["isbns"].agg(lambda s: set().union(*s))
+        ri = R.dropna(subset=["work"]).groupby("work")["isbns"].agg(lambda s: set().union(*s))
+        both_isbn = [w for w in shared if li.get(w) and ri.get(w)]
+        diff = sum(1 for w in both_isbn if not (li[w] & ri[w]))
+        print(f"   {name:<20} shared works {len(shared):>6,} | with ISBN on both sides {len(both_isbn):>6,} "
+              f"| of these in a DIFFERENT edition: {diff:>6,} ({diff / max(len(both_isbn), 1):.0%})")
+    multi = am.dropna(subset=["work"]).groupby("work").size()
+    print(f"   Amazon works with more than one edition in the subset: {(multi > 1).sum():,} "
+          f"({multi[multi > 1].sum():,} records)")
+
+    if Path(AMAZON_RANDOM).exists():
+        rnd = load_amazon(AMAZON_RANDOM)
+        R_, WR_ = isbn_set(rnd), work_set(rnd)
+        print("\n3) Amazon selection: popularity subset vs. random sample of the same size")
+        print(f"   {'':<28}{'editions ∩ Goodreads':>22}{'works ∩ Goodreads':>20}")
+        print(f"   {'top by #ratings':<28}{len(A & G):>22,}{len(WA & WG):>20,}")
+        print(f"   {'random (seed 42)':<28}{len(R_ & G):>22,}{len(WR_ & WG):>20,}")
+
+
+if __name__ == "__main__":
+    main()
