@@ -12,8 +12,9 @@ How this script avoids that:
      (A, B, ..., Z, 0-9, other). Every partition is fetched in pages of 10,000 rows
      (LIMIT 10000 OFFSET ...). The endpoint refuses OFFSET beyond 40,000, so the
      script stops with an error if a partition would ever need that.
-  2. Instead of one heavy query, every attribute is fetched with its own small,
-     fast query (book -> value), and the results are joined in Python.
+  2. Attributes are then fetched for 150 known books per query (VALUES block), which the
+     endpoint answers quickly. If it still returns a partial result (HTTP 206 = time
+     limit hit), the block is split in half and fetched again, so nothing is lost silently.
   3. Year and language use the raw infobox properties dbp:releaseDate, dbp:pubDate
      and dbp:language in addition to the dbo: ones, as suggested in the feedback.
   4. At the end the number of downloaded books is compared with COUNT(dbo:Book).
@@ -68,13 +69,26 @@ session = requests.Session()
 session.headers["User-Agent"] = "UniMannheim-WDI-student-project (books)"
 
 
+class Partial(Exception):
+    """HTTP 206: the endpoint hit its time limit and returned only part of the rows."""
+
+
 def sparql(query: str, tries: int = 6) -> list[dict]:
     for attempt in range(1, tries + 1):
         try:
             r = session.post(ENDPOINT, data={"query": PREFIXES + query,
-                                             "format": "application/sparql-results+json"}, timeout=120)
-            r.raise_for_status()
+                                             "format": "application/sparql-results+json"}, timeout=180)
+            if r.status_code == 206:
+                raise Partial()
+            if r.status_code != 200:
+                msg = " ".join(r.text.split())[:300]
+                if attempt >= 2 or r.status_code == 400:   # show the server's reason for the failure
+                    print(f"    server said ({r.status_code}): {msg}")
+                    print(f"    query was: {' '.join(query.split())[:300]}")
+                raise RuntimeError(f"HTTP {r.status_code}")
             return r.json()["results"]["bindings"]
+        except Partial:
+            raise
         except Exception as e:  # timeouts, 5xx, rate limits
             wait = 5 * attempt
             print(f"    request failed ({type(e).__name__}: {str(e)[:80]}), retry {attempt}/{tries} in {wait}s")
@@ -82,13 +96,21 @@ def sparql(query: str, tries: int = 6) -> list[dict]:
     sys.exit("Endpoint keeps failing - try again later.")
 
 
-def paged(query_body: str, label: str) -> list[dict]:
+def paged(query_body: str, label: str, order: str = "?book ?v") -> list[dict]:
     """Run a SELECT in pages of 10,000 rows with a stable ORDER BY."""
     rows, offset = [], 0
     while True:
         if offset >= MAX_OFFSET:
             sys.exit(f"Partition {label} needs OFFSET >= {MAX_OFFSET}; split it further.")
-        page = sparql(f"{query_body}\nORDER BY ?book ?v\nLIMIT {PAGE} OFFSET {offset}")
+        for attempt in range(4):
+            try:
+                page = sparql(f"{query_body}\nORDER BY {order}\nLIMIT {PAGE} OFFSET {offset}")
+                break
+            except Partial:
+                print(f"    partial result for {label}, retrying in 10s")
+                time.sleep(10)
+        else:
+            sys.exit(f"Endpoint only returns partial results for {label} - try again later.")
         rows += page
         if len(page) < PAGE:
             return rows
@@ -108,38 +130,75 @@ def value_of(b: dict) -> str | None:
     return v["value"]
 
 
+BLOCK = 150
+PRED_ORDER = [(attr, pred) for attr, preds in ATTRIBUTES.items() for pred in preds]
+
+
+def iri(uri: str) -> str:
+    """<...> IRI, percent-encoding the few characters SPARQL does not allow inside <>."""
+    for ch in '<>"{}|^`\\ ':
+        uri = uri.replace(ch, "%{:02X}".format(ord(ch)))
+    return f"<{uri}>"
+
+
+def fetch_block(block: list[str]) -> list[dict]:
+    """All attribute values for a list of books in one query; split the block if the result is partial."""
+    preds = " ".join(f"({i} {pred})" for i, (_, pred) in enumerate(PRED_ORDER))
+    q = f"""SELECT ?book ?i ?v ?label WHERE {{
+        VALUES ?book {{ {" ".join(iri(u) for u in block)} }}
+        VALUES (?i ?p) {{ {preds} }}
+        ?book ?p ?v .
+        FILTER(?p != rdfs:label || lang(?v) = "en")
+        OPTIONAL {{ ?v rdfs:label ?label . FILTER(lang(?label) = "en") }}
+    }}"""
+    try:
+        rows = sparql(q)
+        if len(rows) < PAGE:
+            return rows
+    except Partial:
+        pass
+    if len(block) == 1:
+        print(f"    could not get all values for {block[0]} (kept what the endpoint returned)")
+        return []
+    mid = len(block) // 2
+    return fetch_block(block[:mid]) + fetch_block(block[mid:])
+
+
 def main():
     total = int(sparql("SELECT (COUNT(DISTINCT ?book) AS ?n) WHERE { ?book a dbo:Book }")[0]["n"]["value"])
     print(f"dbo:Book resources on the endpoint: {total:,}\n")
 
-    data = defaultdict(lambda: defaultdict(list))   # book -> attribute -> values (in priority order)
-    books = set()
-
+    # 1) list of all book URIs, partition by partition
+    books = []
     for part, filt in PARTITIONS:
-        ids = paged(f"SELECT DISTINCT ?book (1 AS ?v) WHERE {{ ?book a dbo:Book . FILTER({filt}) }}", part)
-        books.update(b["book"]["value"] for b in ids)
-        n_part = len(ids)
-        for attr, preds in ATTRIBUTES.items():
-            for pred in preds:
-                lang = 'FILTER(lang(?v) = "en")' if pred == "rdfs:label" else ""
-                body = f"""SELECT ?book ?v ?label WHERE {{
-                    ?book a dbo:Book ; {pred} ?v . FILTER({filt}) {lang}
-                    OPTIONAL {{ ?v rdfs:label ?label . FILTER(lang(?label) = "en") }}
-                }}"""
-                for b in paged(body, f"{part}/{pred}"):
-                    val = value_of(b)
-                    if val and val.strip():
-                        lst = data[b["book"]["value"]][attr]
-                        if val.strip() not in lst:
-                            lst.append(val.strip())
-                time.sleep(0.3)
-        print(f"  partition {part:>5}: {n_part:>6,} books (total so far {len(books):,})")
+        ids = paged(f"SELECT DISTINCT ?book WHERE {{ ?book a dbo:Book . FILTER({filt}) }}", part, order="?book")
+        books += [b["book"]["value"] for b in ids]
+        print(f"  partition {part:>5}: {len(ids):>6,} books (total so far {len(books):,})")
+    books = sorted(set(books))
+    print(f"\nFound {len(books):,} of {total:,} books. Fetching attributes in blocks of {BLOCK} ...")
 
+    # 2) attributes, BLOCK books per query
+    found = defaultdict(lambda: defaultdict(list))   # book -> attribute -> [(priority, value)]
+    for start in range(0, len(books), BLOCK):
+        for b in fetch_block(books[start:start + BLOCK]):
+            val = value_of(b)
+            if val and val.strip():
+                i = int(b["i"]["value"])
+                attr = PRED_ORDER[i][0]
+                lst = found[b["book"]["value"]][attr]
+                if all(val.strip() != v for _, v in lst):
+                    lst.append((i, val.strip()))
+        done = min(start + BLOCK, len(books))
+        if done % 3000 < BLOCK or done == len(books):
+            print(f"  attributes fetched for {done:,} / {len(books):,} books")
+        time.sleep(0.2)
+
+    data = {bk: {attr: [v for _, v in sorted(vals)] for attr, vals in attrs.items()} for bk, attrs in found.items()}
     print(f"\nDownloaded {len(books):,} of {total:,} books")
     if len(books) < total:
         print("WARNING: fewer books than COUNT - re-run, the endpoint may have cut off a query.")
 
-    write_xml(books, data)
+    write_xml(set(books), data)
 
 
 def year_of(dates: list[str]) -> str:
