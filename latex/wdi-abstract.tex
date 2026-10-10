@@ -82,7 +82,9 @@ itself a popularity-based list: a uniform random sample of 40,000 editions
 the popularity-based subset (Table~\ref{tab:overlap}). Amazon reports one
 rating count for all editions of a work, so the selection contains popular
 works together with many of their editions -- exactly the hard cases for
-edition-level matching.
+edition-level matching. This choice has a cost. The overlap figures in Table 3 are higher than they would be for a random Amazon sample. 
+They describe this subset and should not be generalized to all of Amazon. 
+Our aim is a benchmark with enough shared editions, not a representative sample.
 
 \begin{table}[htbp]
 \centering
@@ -212,5 +214,8 @@ share 3,146 works (22\% in different editions), and within the Amazon subset
 6,588 works appear in more than one edition (33,540 records). A matcher based
 on title and author alone would therefore produce many false matches; date,
 publisher, format and page count are needed to tell editions apart.
+In Phase II, the matchers will therefore compare title, authors, publisher, publication date, format and page count.
+Title and authors first generate candidate pairs. The other attributes then decide whether two candidates are the same edition.
+We evaluate against the ISBN gold standard.
 
 \end{document}
