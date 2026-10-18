@@ -10,7 +10,7 @@
 					<targets>
 						<datapoint pos="0" key="13"/>
 					</targets>
-					<view ltx="496" lty="293" rbx="531" rby="308"/>
+					<view ltx="496" lty="293" rbx="534" rby="310"/>
 					<data>
 						<constant value="2" datatype="decimal"/>
 					</data>
@@ -19,7 +19,7 @@
 					<targets>
 						<datapoint pos="0" key="11"/>
 					</targets>
-					<view ltx="481" lty="243" rbx="516" rby="258"/>
+					<view ltx="481" lty="243" rbx="519" rby="260"/>
 					<data>
 						<constant value="1" datatype="decimal"/>
 					</data>
@@ -28,7 +28,7 @@
 					<targets>
 						<datapoint pos="0" key="17"/>
 					</targets>
-					<view ltx="482" lty="391" rbx="517" rby="406"/>
+					<view ltx="482" lty="391" rbx="520" rby="408"/>
 					<data>
 						<constant value="4" datatype="decimal"/>
 					</data>
@@ -37,7 +37,7 @@
 					<targets>
 						<datapoint pos="0" key="29"/>
 					</targets>
-					<view ltx="483" lty="558" rbx="518" rby="573"/>
+					<view ltx="483" lty="558" rbx="521" rby="575"/>
 					<data>
 						<constant value="2" datatype="decimal"/>
 					</data>
@@ -46,7 +46,7 @@
 					<targets>
 						<datapoint pos="0" key="26"/>
 					</targets>
-					<view ltx="468" lty="508" rbx="503" rby="523"/>
+					<view ltx="468" lty="508" rbx="506" rby="525"/>
 					<data>
 						<constant value="7" datatype="decimal"/>
 					</data>
@@ -58,13 +58,13 @@
 					<targets>
 						<datapoint pos="0" key="39"/>
 					</targets>
-					<view ltx="692" lty="507" rbx="750" rby="541"/>
+					<view ltx="692" lty="507" rbx="754" rby="544"/>
 				</component>
 				<component name="constant" library="core" uid="31" kind="2">
 					<targets>
 						<datapoint pos="0" key="40"/>
 					</targets>
-					<view ltx="709" lty="557" rbx="750" rby="572"/>
+					<view ltx="709" lty="557" rbx="753" rby="574"/>
 					<data>
 						<constant value="26" datatype="decimal"/>
 					</data>
@@ -77,13 +77,13 @@
 					<targets>
 						<datapoint pos="0" key="43"/>
 					</targets>
-					<view ltx="789" lty="506" rbx="845" rby="554"/>
+					<view ltx="789" lty="506" rbx="849" rby="559"/>
 				</component>
 				<component name="constant" library="core" uid="18" kind="2">
 					<targets>
 						<datapoint pos="0" key="19"/>
 					</targets>
-					<view ltx="497" lty="441" rbx="532" rby="456"/>
+					<view ltx="497" lty="441" rbx="535" rby="458"/>
 					<data>
 						<constant value="2" datatype="decimal"/>
 					</data>
@@ -97,13 +97,13 @@
 					<targets>
 						<datapoint pos="0" key="44"/>
 					</targets>
-					<view ltx="564" lty="476" rbx="631" rby="539"/>
+					<view ltx="564" lty="476" rbx="640" rby="545"/>
 				</component>
 				<component name="constant" library="core" uid="41" kind="2">
 					<targets>
 						<datapoint pos="0" key="33"/>
 					</targets>
-					<view ltx="724" lty="350" rbx="773" rby="365"/>
+					<view ltx="724" lty="350" rbx="776" rby="367"/>
 					<data>
 						<constant value="19" datatype="string"/>
 					</data>
@@ -112,7 +112,7 @@
 					<targets>
 						<datapoint pos="0" key="31"/>
 					</targets>
-					<view ltx="734" lty="415" rbx="783" rby="430"/>
+					<view ltx="734" lty="415" rbx="786" rby="432"/>
 					<data>
 						<constant value="20" datatype="string"/>
 					</data>
@@ -125,7 +125,7 @@
 					<targets>
 						<datapoint pos="0" key="47"/>
 					</targets>
-					<view ltx="820" lty="332" rbx="888" rby="380"/>
+					<view ltx="820" lty="332" rbx="896" rby="385"/>
 				</component>
 				<component name="concat" library="core" uid="39" kind="5" growable="1" growablebasename="value">
 					<sources>
@@ -135,7 +135,7 @@
 					<targets>
 						<datapoint pos="0" key="49"/>
 					</targets>
-					<view ltx="820" lty="402" rbx="888" rby="450"/>
+					<view ltx="820" lty="402" rbx="896" rby="455"/>
 				</component>
 				<component name="if-else" library="core" uid="36" kind="4">
 					<sources>
@@ -146,7 +146,7 @@
 					<targets>
 						<datapoint pos="0" key="53"/>
 					</targets>
-					<view ltx="940" lty="501" rbx="1028" rby="564"/>
+					<view ltx="940" lty="501" rbx="1036" rby="570"/>
 				</component>
 				<component name="substring" library="core" uid="15" kind="5">
 					<sources>
@@ -157,13 +157,13 @@
 					<targets>
 						<datapoint pos="0" key="54"/>
 					</targets>
-					<view ltx="564" lty="144" rbx="631" rby="207"/>
+					<view ltx="564" lty="144" rbx="640" rby="213"/>
 				</component>
 				<component name="constant" library="core" uid="47" kind="2">
 					<targets>
 						<datapoint pos="0" key="36"/>
 					</targets>
-					<view ltx="962" lty="457" rbx="1005" rby="472"/>
+					<view ltx="962" lty="457" rbx="1007" rby="474"/>
 					<data>
 						<constant value="-" datatype="string"/>
 					</data>
@@ -177,7 +177,7 @@
 					<targets>
 						<datapoint pos="0" key="55"/>
 					</targets>
-					<view ltx="584" lty="265" rbx="651" rby="328"/>
+					<view ltx="584" lty="265" rbx="660" rby="334"/>
 				</component>
 				<component name="concat" library="core" uid="43" kind="5" growable="1" growablebasename="value">
 					<sources>
@@ -190,13 +190,13 @@
 					<targets>
 						<datapoint pos="0" key="60"/>
 					</targets>
-					<view ltx="1064" lty="391" rbx="1140" rby="483"/>
+					<view ltx="1064" lty="391" rbx="1148" rby="492"/>
 				</component>
 				<component name="constant" library="core" uid="46" kind="2">
 					<targets>
 						<datapoint pos="0" key="34"/>
 					</targets>
-					<view ltx="981" lty="391" rbx="1024" rby="406"/>
+					<view ltx="981" lty="391" rbx="1026" rby="408"/>
 					<data>
 						<constant value="-" datatype="string"/>
 					</data>
@@ -205,7 +205,7 @@
 					<targets>
 						<datapoint pos="0" key="37"/>
 					</targets>
-					<view ltx="1064" lty="557" rbx="1197" rby="572"/>
+					<view ltx="1064" lty="557" rbx="1201" rby="574"/>
 					<data>
 						<constant value="[Y0001]-[M01]-[D01]" datatype="string"/>
 					</data>
@@ -218,26 +218,16 @@
 					<targets>
 						<datapoint/>
 					</targets>
-					<view ltx="1214" lty="521" rbx="1287" rby="569"/>
+					<view ltx="1214" lty="521" rbx="1291" rby="574"/>
 				</component>
 				<component name="constant" library="core" uid="206" kind="2">
 					<targets>
 						<datapoint pos="0" key="143"/>
 					</targets>
-					<view ltx="350" lty="-73" rbx="391" rby="-58"/>
+					<view ltx="350" lty="-73" rbx="394" rby="-56"/>
 					<data>
 						<constant value="," datatype="string"/>
 					</data>
-				</component>
-				<component name="tokenize" library="core" uid="205" kind="5">
-					<sources>
-						<datapoint pos="0" key="144"/>
-						<datapoint pos="1" key="145"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="146"/>
-					</targets>
-					<view ltx="429" lty="-109" rbx="507" rby="-61"/>
 				</component>
 				<component name="normalize-space" library="core" uid="208" kind="5">
 					<sources>
@@ -246,31 +236,10 @@
 					<targets>
 						<datapoint pos="0" key="148"/>
 					</targets>
-					<view ltx="583" lty="-92" rbx="680" rby="-58"/>
-				</component>
-				<component name="Parse_Date" library="user" uid="210" kind="19" visible="0" blackbox="0">
-					<view ltx="664" lty="60" rbx="845" rby="76"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="publishDate" inpkey="151" componentid="100"/>
-						</root>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="publication_date" outkey="152" componentid="101"/>
-						</root>
-					</data>
+					<view ltx="583" lty="-92" rbx="685" rby="-55"/>
 				</component>
 				<component name="Safe_Number" library="user" uid="216" kind="19" visible="0" blackbox="0">
-					<view ltx="528" lty="-18" rbx="630" rby="-2"/>
+					<view ltx="528" lty="-18" rbx="636" rby="-1"/>
 					<data>
 						<root>
 							<header>
@@ -291,7 +260,7 @@
 					</data>
 				</component>
 				<component name="Safe_Number" library="user" uid="218" kind="19" visible="0" blackbox="0">
-					<view ltx="856" lty="231" rbx="958" rby="247"/>
+					<view ltx="856" lty="231" rbx="964" rby="248"/>
 					<data>
 						<root>
 							<header>
@@ -312,7 +281,7 @@
 					</data>
 				</component>
 				<component name="Clean_List" library="user" uid="220" kind="19" visible="0" blackbox="0">
-					<view ltx="640" lty="643" rbx="732" rby="659"/>
+					<view ltx="640" lty="643" rbx="736" rby="660"/>
 					<data>
 						<root>
 							<header>
@@ -332,47 +301,87 @@
 						</root>
 					</data>
 				</component>
-				<component name="target" library="xml" uid="9" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="1364" lty="15" rbx="1531" rby="215"/>
+				<component name="Clean_List" library="user" uid="222" kind="19" visible="0" blackbox="0">
+					<view ltx="284" lty="501" rbx="380" rby="518"/>
 					<data>
-						<root scrollposition="127">
+						<root>
 							<header>
 								<namespaces>
 									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
 								</namespaces>
 							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="books" expanded="1">
-										<entry name="book" inpkey="1" expanded="1">
-											<entry name="title" inpkey="2"/>
-											<entry name="authors" expanded="1">
-												<entry name="author" inpkey="149"/>
-											</entry>
-											<entry name="genres" expanded="1">
-												<entry name="genre" inpkey="150"/>
-											</entry>
-											<entry name="publication_date" inpkey="3"/>
-											<entry name="publisher" inpkey="68"/>
-											<entry name="page_count" inpkey="155"/>
-											<entry name="language" inpkey="69"/>
-											<entry name="format" inpkey="156"/>
-											<entry name="edition" inpkey="70"/>
-											<entry name="rating" inpkey="157"/>
-											<entry name="ratings_count" inpkey="158"/>
-											<entry name="price" inpkey="159"/>
-											<entry name="series" inpkey="71"/>
-											<entry name="awards" expanded="1">
-												<entry name="award" inpkey="98"/>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
+							<entry name="value" inpkey="169" componentid="100"/>
 						</root>
-						<document schema="..\..\..\..\Downloads\target.xsd" instanceroot="{}books" inputinstance="..\..\..\..\Downloads\target.xml" outputinstance="..\..\..\..\Downloads\target.xml"/>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="items" outkey="170" componentid="101"/>
+						</root>
+					</data>
+				</component>
+				<component name="tokenize" library="core" uid="205" kind="5">
+					<sources>
+						<datapoint pos="0" key="144"/>
+						<datapoint pos="1" key="145"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="146"/>
+					</targets>
+					<view ltx="429" lty="-109" rbx="517" rby="-56"/>
+				</component>
+				<component name="Parse_Date" library="user" uid="210" kind="19" visible="0" blackbox="0">
+					<view ltx="664" lty="60" rbx="849" rby="77"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="publishDate" inpkey="151" componentid="100"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="publication_date" outkey="152" componentid="101"/>
+						</root>
+					</data>
+				</component>
+				<component name="auto-number" library="core" uid="229" kind="5">
+					<sources>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="171"/>
+					</targets>
+					<view ltx="253" lty="-221" rbx="383" rby="-136"/>
+				</component>
+				<component name="concat" library="core" uid="227" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="172"/>
+						<datapoint pos="1" key="173"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="174"/>
+					</targets>
+					<view ltx="611" lty="-253" rbx="687" rby="-200"/>
+				</component>
+				<component name="constant" library="core" uid="230" kind="2">
+					<targets>
+						<datapoint pos="0" key="175"/>
+					</targets>
+					<view ltx="442" lty="-233" rbx="551" rby="-216"/>
+					<data>
+						<constant value="goodreads_id_" datatype="string"/>
 					</data>
 				</component>
 				<component name="Goodreads" library="text" uid="10" kind="16">
@@ -438,25 +447,48 @@
 						</text>
 					</data>
 				</component>
-				<component name="Clean_List" library="user" uid="222" kind="19" visible="0" blackbox="0">
-					<view ltx="284" lty="501" rbx="376" rby="517"/>
+				<component name="target" library="xml" uid="9" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1364" lty="15" rbx="1531" rby="215"/>
 					<data>
-						<root>
+						<root scrollposition="142">
 							<header>
 								<namespaces>
 									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
 								</namespaces>
 							</header>
-							<entry name="value" inpkey="169" componentid="100"/>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="books" expanded="1">
+										<entry name="book" inpkey="1" expanded="1">
+											<entry name="id" type="attribute" inpkey="176"/>
+											<entry name="title" inpkey="2"/>
+											<entry name="authors" expanded="1">
+												<entry name="author" inpkey="149"/>
+											</entry>
+											<entry name="genres" expanded="1">
+												<entry name="genre" inpkey="150"/>
+											</entry>
+											<entry name="publication_date" inpkey="3"/>
+											<entry name="publisher" inpkey="68"/>
+											<entry name="page_count" inpkey="155"/>
+											<entry name="language" inpkey="69"/>
+											<entry name="format" inpkey="156"/>
+											<entry name="edition" inpkey="70"/>
+											<entry name="rating" inpkey="157"/>
+											<entry name="ratings_count" inpkey="158"/>
+											<entry name="price" inpkey="159"/>
+											<entry name="series" inpkey="71"/>
+											<entry name="awards" expanded="1">
+												<entry name="award" inpkey="98"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
 						</root>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="items" outkey="170" componentid="101"/>
-						</root>
+						<document schema="..\..\..\..\Downloads\target_neu(1).xsd" instanceroot="{}books" inputinstance="..\..\..\..\Downloads\target_neu(1).xml" outputinstance="..\..\..\..\Downloads\target_neu(1).xml"/>
 					</data>
 				</component>
 			</children>
@@ -686,6 +718,21 @@
 					<vertex vertexkey="77">
 						<edges>
 							<edge vertexkey="169"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="175">
+						<edges>
+							<edge vertexkey="172"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="171">
+						<edges>
+							<edge vertexkey="173"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="174">
+						<edges>
+							<edge vertexkey="176"/>
 						</edges>
 					</vertex>
 				</vertices>
