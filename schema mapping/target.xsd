@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="books">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="book" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="title" type="xs:string"/>
+							<xs:element name="authors">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="author" maxOccurs="unbounded" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="genres">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="genre" maxOccurs="unbounded" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="publication_date" type="xs:date"/>
+							<xs:element name="publisher" type="xs:string"/>
+							<xs:element name="page_count" type="xs:short"/>
+							<xs:element name="language" type="xs:string"/>
+							<xs:element name="format" type="xs:string"/>
+							<xs:element name="edition" type="xs:string"/>
+							<xs:element name="rating" type="xs:decimal"/>
+							<xs:element name="ratings_count" type="xs:short"/>
+							<xs:element name="price" type="xs:decimal"/>
+							<xs:element name="series" type="xs:string"/>
+							<xs:element name="awards">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="award" maxOccurs="unbounded" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="isbn" type="xs:long"/>
+						</xs:sequence>
+						<xs:attribute name="id" use="required" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
