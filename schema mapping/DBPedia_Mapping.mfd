@@ -6,32 +6,11 @@
 		<properties SelectedLanguage="builtin"/>
 		<structure>
 			<children>
-				<component name="Safe_Number" library="user" uid="107" kind="19" visible="0" blackbox="0">
-					<view ltx="267" lty="253" rbx="377" rby="269"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="value" inpkey="1" componentid="100"/>
-						</root>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="number" outkey="2" componentid="101"/>
-						</root>
-					</data>
-				</component>
 				<component name="constant" library="core" uid="114" kind="2">
 					<targets>
 						<datapoint pos="0" key="3"/>
 					</targets>
-					<view ltx="284" lty="414" rbx="422" rby="431"/>
+					<view ltx="284" lty="414" rbx="421" rby="431"/>
 					<data>
 						<constant value="[Y0001]-[M01]-[D01]" datatype="string"/>
 					</data>
@@ -40,7 +19,7 @@
 					<targets>
 						<datapoint pos="0" key="12"/>
 					</targets>
-					<view ltx="52" lty="425" rbx="180" rby="442"/>
+					<view ltx="52" lty="425" rbx="178" rby="442"/>
 					<data>
 						<constant value="^\d{4}-\d\d-\d\d$" datatype="string"/>
 					</data>
@@ -53,7 +32,7 @@
 					<targets>
 						<datapoint pos="0" key="15"/>
 					</targets>
-					<view ltx="227" lty="339" rbx="321" rby="393"/>
+					<view ltx="227" lty="339" rbx="320" rby="392"/>
 				</component>
 				<component name="parse-date" library="core" uid="111" kind="5">
 					<sources>
@@ -63,41 +42,7 @@
 					<targets>
 						<datapoint pos="0" key="18"/>
 					</targets>
-					<view ltx="500" lty="349" rbx="579" rby="403"/>
-				</component>
-				<component name="dbpedia_book_data" library="xml" uid="3" kind="14">
-					<properties/>
-					<view ltx="-77" lty="-107" rbx="158" rby="93"/>
-					<data>
-						<root scrollposition="34">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="books" expanded="1">
-										<entry name="book" outkey="4" expanded="1">
-											<entry name="title" outkey="5"/>
-											<entry name="publisher" outkey="6"/>
-											<entry name="release_date" outkey="7"/>
-											<entry name="pages" outkey="8"/>
-											<entry name="language" outkey="9"/>
-											<entry name="authors" expanded="1">
-												<entry name="author" outkey="10"/>
-											</entry>
-											<entry name="genres" expanded="1">
-												<entry name="genre" outkey="11"/>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="Project\dbpedia_book_data.xsd" instanceroot="{}books" inputinstance="..\..\..\..\Downloads\dbpedia_book_data.xml" outputinstance="..\..\..\..\Downloads\dbpedia_book_data.xml"/>
-					</data>
+					<view ltx="500" lty="349" rbx="577" rby="402"/>
 				</component>
 				<component name="if-else" library="core" uid="112" kind="4">
 					<sources>
@@ -108,10 +53,10 @@
 					<targets>
 						<datapoint pos="0" key="32"/>
 					</targets>
-					<view ltx="681" lty="152" rbx="776" rby="225"/>
+					<view ltx="681" lty="152" rbx="777" rby="221"/>
 				</component>
 				<component name="Parse_Date" library="user" uid="150" kind="19" visible="0" blackbox="0">
-					<view ltx="360" lty="153" rbx="550" rby="169"/>
+					<view ltx="360" lty="153" rbx="545" rby="170"/>
 					<data>
 						<root>
 							<header>
@@ -135,22 +80,10 @@
 					<targets>
 						<datapoint pos="0" key="34"/>
 					</targets>
-					<view ltx="472" lty="-225" rbx="583" rby="-208"/>
+					<view ltx="472" lty="-225" rbx="581" rby="-208"/>
 					<data>
 						<constant value="goodreads_id_" datatype="string"/>
 					</data>
-				</component>
-				<component name="auto-number" library="core" uid="151" kind="5">
-					<sources>
-						<datapoint/>
-						<datapoint/>
-						<datapoint/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="36"/>
-					</targets>
-					<view ltx="283" lty="-213" rbx="413" rby="-126"/>
 				</component>
 				<component name="concat" library="core" uid="152" kind="5" growable="1" growablebasename="value">
 					<sources>
@@ -160,13 +93,13 @@
 					<targets>
 						<datapoint pos="0" key="33"/>
 					</targets>
-					<view ltx="641" lty="-245" rbx="715" rby="-190"/>
+					<view ltx="641" lty="-245" rbx="717" rby="-192"/>
 				</component>
 				<component name="target" library="xml" uid="2" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
 					<view ltx="818" lty="-139" rbx="984" rby="61"/>
 					<data>
-						<root>
+						<root scrollposition="126">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -197,15 +130,77 @@
 						<document schema="..\..\..\..\Downloads\target_neu(1).xsd" instanceroot="{}books" inputinstance="..\..\..\..\Downloads\target_neu(1).xml" outputinstance="..\..\..\..\Downloads\target_neu(1).xml"/>
 					</data>
 				</component>
+				<component name="Page_Count" library="user" uid="155" kind="19" visible="0" blackbox="0">
+					<view ltx="254" lty="214" rbx="362" rby="231"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="value" inpkey="39" componentid="100"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="number" outkey="40" componentid="101"/>
+						</root>
+					</data>
+				</component>
+				<component name="dbpedia_book_data" library="xml" uid="3" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-146" lty="-159" rbx="89" rby="41"/>
+					<data>
+						<root scrollposition="33">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="books" expanded="1">
+										<entry name="book" outkey="4" expanded="1">
+											<entry name="title" outkey="5"/>
+											<entry name="publisher" outkey="6"/>
+											<entry name="release_date" outkey="7"/>
+											<entry name="pages" outkey="8"/>
+											<entry name="language" outkey="9"/>
+											<entry name="authors" expanded="1">
+												<entry name="author" outkey="10"/>
+											</entry>
+											<entry name="genres" expanded="1">
+												<entry name="genre" outkey="11"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="Project\dbpedia_book_data.xsd" instanceroot="{}books" inputinstance="..\..\..\..\Downloads\dbpedia_book_data.xml" outputinstance="..\..\..\..\Downloads\dbpedia_book_data.xml"/>
+					</data>
+				</component>
+				<component name="auto-number" library="core" uid="151" kind="5">
+					<sources>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="36"/>
+					</targets>
+					<view ltx="243" lty="-261" rbx="373" rby="-176"/>
+				</component>
 			</children>
 			<graph directed="1">
 				<edges/>
 				<vertices>
-					<vertex vertexkey="8">
-						<edges>
-							<edge vertexkey="1"/>
-						</edges>
-					</vertex>
 					<vertex vertexkey="7">
 						<edges>
 							<edge vertexkey="13"/>
@@ -253,7 +248,7 @@
 							<edge vertexkey="26"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="2">
+					<vertex vertexkey="40">
 						<edges>
 							<edge vertexkey="27"/>
 						</edges>
@@ -291,6 +286,11 @@
 					<vertex vertexkey="33">
 						<edges>
 							<edge vertexkey="38"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges>
+							<edge vertexkey="39"/>
 						</edges>
 					</vertex>
 				</vertices>
