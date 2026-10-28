@@ -13,13 +13,13 @@
 					<targets>
 						<datapoint pos="0" key="26"/>
 					</targets>
-					<view ltx="324" lty="469" rbx="414" rby="505"/>
+					<view ltx="324" lty="469" rbx="405" rby="503"/>
 				</component>
 				<component name="constant" library="core" uid="129" kind="2">
 					<targets>
 						<datapoint pos="0" key="27"/>
 					</targets>
-					<view ltx="399" lty="537" rbx="437" rby="553"/>
+					<view ltx="399" lty="537" rbx="434" rby="552"/>
 					<data>
 						<constant value="4" datatype="decimal"/>
 					</data>
@@ -28,7 +28,7 @@
 					<targets>
 						<datapoint pos="0" key="28"/>
 					</targets>
-					<view ltx="523" lty="536" rbx="561" rby="552"/>
+					<view ltx="523" lty="536" rbx="558" rby="551"/>
 					<data>
 						<constant value="3" datatype="decimal"/>
 					</data>
@@ -41,7 +41,7 @@
 					<targets>
 						<datapoint pos="0" key="31"/>
 					</targets>
-					<view ltx="453" lty="468" rbx="531" rby="521"/>
+					<view ltx="453" lty="468" rbx="521" rby="516"/>
 				</component>
 				<component name="substring" library="core" uid="126" kind="5">
 					<sources>
@@ -52,13 +52,13 @@
 					<targets>
 						<datapoint pos="0" key="35"/>
 					</targets>
-					<view ltx="580" lty="452" rbx="659" rby="518"/>
+					<view ltx="580" lty="452" rbx="647" rby="515"/>
 				</component>
 				<component name="constant" library="core" uid="131" kind="2">
 					<targets>
 						<datapoint pos="0" key="36"/>
 					</targets>
-					<view ltx="629" lty="536" rbx="679" rby="552"/>
+					<view ltx="629" lty="536" rbx="678" rby="551"/>
 					<data>
 						<constant value="&quot;,&quot;" datatype="string"/>
 					</data>
@@ -67,7 +67,7 @@
 					<targets>
 						<datapoint pos="0" key="40"/>
 					</targets>
-					<view ltx="89" lty="-145" rbx="228" rby="-129"/>
+					<view ltx="89" lty="-145" rbx="223" rby="-130"/>
 					<data>
 						<constant value="^[A-Z][a-z]+ \d{1,2}, \d{4}$" datatype="string"/>
 					</data>
@@ -76,7 +76,7 @@
 					<targets>
 						<datapoint pos="0" key="41"/>
 					</targets>
-					<view ltx="112" lty="-96" rbx="242" rby="-80"/>
+					<view ltx="112" lty="-96" rbx="239" rby="-81"/>
 					<data>
 						<constant value="[MNn] [D1], [Y0001]" datatype="string"/>
 					</data>
@@ -89,7 +89,7 @@
 					<targets>
 						<datapoint pos="0" key="44"/>
 					</targets>
-					<view ltx="319" lty="-191" rbx="414" rby="-140"/>
+					<view ltx="319" lty="-191" rbx="407" rby="-143"/>
 				</component>
 				<component name="parse-date" library="core" uid="135" kind="5">
 					<sources>
@@ -99,7 +99,7 @@
 					<targets>
 						<datapoint pos="0" key="47"/>
 					</targets>
-					<view ltx="452" lty="-190" rbx="531" rby="-139"/>
+					<view ltx="452" lty="-190" rbx="525" rby="-142"/>
 				</component>
 				<component name="if-else" library="core" uid="136" kind="4">
 					<sources>
@@ -110,7 +110,7 @@
 					<targets>
 						<datapoint pos="0" key="50"/>
 					</targets>
-					<view ltx="584" lty="-262" rbx="683" rby="-193"/>
+					<view ltx="584" lty="-262" rbx="672" rby="-199"/>
 				</component>
 				<component name="tokenize" library="core" uid="128" kind="5">
 					<sources>
@@ -120,10 +120,10 @@
 					<targets>
 						<datapoint pos="0" key="39"/>
 					</targets>
-					<view ltx="701" lty="468" rbx="790" rby="519"/>
+					<view ltx="701" lty="468" rbx="779" rby="516"/>
 				</component>
 				<component name="Clean_List" library="user" uid="116" kind="19" visible="0" blackbox="0">
-					<view ltx="399" lty="393" rbx="494" rby="409"/>
+					<view ltx="399" lty="393" rbx="491" rby="409"/>
 					<data>
 						<root>
 							<header>
@@ -143,9 +143,80 @@
 						</root>
 					</data>
 				</component>
+				<component name="auto-number" library="core" uid="139" kind="5">
+					<sources>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="58"/>
+					</targets>
+					<view ltx="302" lty="-331" rbx="423" rby="-254"/>
+				</component>
+				<component name="concat" library="core" uid="140" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="57"/>
+						<datapoint pos="1" key="59"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="55"/>
+					</targets>
+					<view ltx="660" lty="-363" rbx="728" rby="-315"/>
+				</component>
+				<component name="constant" library="core" uid="141" kind="2">
+					<targets>
+						<datapoint pos="0" key="56"/>
+					</targets>
+					<view ltx="491" lty="-343" rbx="582" rby="-328"/>
+					<data>
+						<constant value="amazon_id_" datatype="string"/>
+					</data>
+				</component>
+				<component name="target" library="xml" uid="2" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="824" lty="-115" rbx="994" rby="85"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="books" expanded="1">
+										<entry name="book" inpkey="1" expanded="1">
+											<entry name="id" type="attribute" inpkey="60"/>
+											<entry name="title" inpkey="2"/>
+											<entry name="authors" expanded="1">
+												<entry name="author" inpkey="3"/>
+											</entry>
+											<entry name="genres" expanded="1">
+												<entry name="genre" inpkey="4"/>
+											</entry>
+											<entry name="publication_date" inpkey="53"/>
+											<entry name="publisher" inpkey="5"/>
+											<entry name="page_count" inpkey="6"/>
+											<entry name="language" inpkey="7"/>
+											<entry name="format" inpkey="8"/>
+											<entry name="edition" inpkey="9"/>
+											<entry name="rating" inpkey="54"/>
+											<entry name="ratings_count" inpkey="10"/>
+											<entry name="price" inpkey="11"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\..\..\..\Downloads\target_neu(1).xsd" instanceroot="{}books" inputinstance="..\..\..\..\Downloads\target_neu(1).xml" outputinstance="..\..\..\..\Downloads\target_neu(1).xml"/>
+					</data>
+				</component>
 				<component name="Amazon dataset" library="text" uid="3" kind="16">
 					<properties/>
-					<view ltx="64" lty="35" rbx="312" rby="335"/>
+					<view ltx="-44" lty="32" rbx="204" rby="332"/>
 					<data>
 						<root>
 							<header>
@@ -195,77 +266,6 @@
 								</names>
 							</settings>
 						</text>
-					</data>
-				</component>
-				<component name="auto-number" library="core" uid="139" kind="5">
-					<sources>
-						<datapoint/>
-						<datapoint/>
-						<datapoint/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="58"/>
-					</targets>
-					<view ltx="302" lty="-331" rbx="437" rby="-250"/>
-				</component>
-				<component name="concat" library="core" uid="140" kind="5" growable="1" growablebasename="value">
-					<sources>
-						<datapoint pos="0" key="57"/>
-						<datapoint pos="1" key="59"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="55"/>
-					</targets>
-					<view ltx="660" lty="-363" rbx="738" rby="-310"/>
-				</component>
-				<component name="constant" library="core" uid="141" kind="2">
-					<targets>
-						<datapoint pos="0" key="56"/>
-					</targets>
-					<view ltx="491" lty="-343" rbx="588" rby="-327"/>
-					<data>
-						<constant value="amazon_id_" datatype="string"/>
-					</data>
-				</component>
-				<component name="target" library="xml" uid="2" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="824" lty="-115" rbx="994" rby="85"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="books" expanded="1">
-										<entry name="book" inpkey="1" expanded="1">
-											<entry name="id" type="attribute" inpkey="60"/>
-											<entry name="title" inpkey="2"/>
-											<entry name="authors" expanded="1">
-												<entry name="author" inpkey="3"/>
-											</entry>
-											<entry name="genres" expanded="1">
-												<entry name="genre" inpkey="4"/>
-											</entry>
-											<entry name="publication_date" inpkey="53"/>
-											<entry name="publisher" inpkey="5"/>
-											<entry name="page_count" inpkey="6"/>
-											<entry name="language" inpkey="7"/>
-											<entry name="format" inpkey="8"/>
-											<entry name="edition" inpkey="9"/>
-											<entry name="rating" inpkey="54"/>
-											<entry name="ratings_count" inpkey="10"/>
-											<entry name="price" inpkey="11"/>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="..\..\..\..\Downloads\target_neu(1).xsd" instanceroot="{}books" inputinstance="..\..\..\..\Downloads\target_neu(1).xml" outputinstance="..\..\..\..\Downloads\target_neu(1).xml"/>
 					</data>
 				</component>
 			</children>
