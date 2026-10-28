@@ -10,7 +10,7 @@
 					<targets>
 						<datapoint pos="0" key="13"/>
 					</targets>
-					<view ltx="496" lty="293" rbx="534" rby="310"/>
+					<view ltx="496" lty="293" rbx="534" rby="309"/>
 					<data>
 						<constant value="2" datatype="decimal"/>
 					</data>
@@ -19,7 +19,7 @@
 					<targets>
 						<datapoint pos="0" key="11"/>
 					</targets>
-					<view ltx="481" lty="243" rbx="519" rby="260"/>
+					<view ltx="481" lty="243" rbx="519" rby="259"/>
 					<data>
 						<constant value="1" datatype="decimal"/>
 					</data>
@@ -28,7 +28,7 @@
 					<targets>
 						<datapoint pos="0" key="17"/>
 					</targets>
-					<view ltx="482" lty="391" rbx="520" rby="408"/>
+					<view ltx="482" lty="391" rbx="520" rby="407"/>
 					<data>
 						<constant value="4" datatype="decimal"/>
 					</data>
@@ -37,7 +37,7 @@
 					<targets>
 						<datapoint pos="0" key="29"/>
 					</targets>
-					<view ltx="483" lty="558" rbx="521" rby="575"/>
+					<view ltx="483" lty="558" rbx="521" rby="574"/>
 					<data>
 						<constant value="2" datatype="decimal"/>
 					</data>
@@ -46,7 +46,7 @@
 					<targets>
 						<datapoint pos="0" key="26"/>
 					</targets>
-					<view ltx="468" lty="508" rbx="506" rby="525"/>
+					<view ltx="468" lty="508" rbx="506" rby="524"/>
 					<data>
 						<constant value="7" datatype="decimal"/>
 					</data>
@@ -58,13 +58,13 @@
 					<targets>
 						<datapoint pos="0" key="39"/>
 					</targets>
-					<view ltx="692" lty="507" rbx="754" rby="544"/>
+					<view ltx="692" lty="507" rbx="755" rby="543"/>
 				</component>
 				<component name="constant" library="core" uid="31" kind="2">
 					<targets>
 						<datapoint pos="0" key="40"/>
 					</targets>
-					<view ltx="709" lty="557" rbx="753" rby="574"/>
+					<view ltx="709" lty="557" rbx="752" rby="573"/>
 					<data>
 						<constant value="26" datatype="decimal"/>
 					</data>
@@ -77,13 +77,13 @@
 					<targets>
 						<datapoint pos="0" key="43"/>
 					</targets>
-					<view ltx="789" lty="506" rbx="849" rby="559"/>
+					<view ltx="789" lty="506" rbx="849" rby="557"/>
 				</component>
 				<component name="constant" library="core" uid="18" kind="2">
 					<targets>
 						<datapoint pos="0" key="19"/>
 					</targets>
-					<view ltx="497" lty="441" rbx="535" rby="458"/>
+					<view ltx="497" lty="441" rbx="535" rby="457"/>
 					<data>
 						<constant value="2" datatype="decimal"/>
 					</data>
@@ -97,13 +97,13 @@
 					<targets>
 						<datapoint pos="0" key="44"/>
 					</targets>
-					<view ltx="564" lty="476" rbx="640" rby="545"/>
+					<view ltx="564" lty="476" rbx="643" rby="542"/>
 				</component>
 				<component name="constant" library="core" uid="41" kind="2">
 					<targets>
 						<datapoint pos="0" key="33"/>
 					</targets>
-					<view ltx="724" lty="350" rbx="776" rby="367"/>
+					<view ltx="724" lty="350" rbx="775" rby="366"/>
 					<data>
 						<constant value="19" datatype="string"/>
 					</data>
@@ -112,41 +112,10 @@
 					<targets>
 						<datapoint pos="0" key="31"/>
 					</targets>
-					<view ltx="734" lty="415" rbx="786" rby="432"/>
+					<view ltx="734" lty="415" rbx="785" rby="431"/>
 					<data>
 						<constant value="20" datatype="string"/>
 					</data>
-				</component>
-				<component name="concat" library="core" uid="38" kind="5" growable="1" growablebasename="value">
-					<sources>
-						<datapoint pos="0" key="45"/>
-						<datapoint pos="1" key="46"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="47"/>
-					</targets>
-					<view ltx="820" lty="332" rbx="896" rby="385"/>
-				</component>
-				<component name="concat" library="core" uid="39" kind="5" growable="1" growablebasename="value">
-					<sources>
-						<datapoint pos="0" key="32"/>
-						<datapoint pos="1" key="48"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="49"/>
-					</targets>
-					<view ltx="820" lty="402" rbx="896" rby="455"/>
-				</component>
-				<component name="if-else" library="core" uid="36" kind="4">
-					<sources>
-						<datapoint pos="0" key="50"/>
-						<datapoint pos="1" key="51"/>
-						<datapoint pos="2" key="52"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="53"/>
-					</targets>
-					<view ltx="940" lty="501" rbx="1036" rby="570"/>
 				</component>
 				<component name="substring" library="core" uid="15" kind="5">
 					<sources>
@@ -157,27 +126,16 @@
 					<targets>
 						<datapoint pos="0" key="54"/>
 					</targets>
-					<view ltx="564" lty="144" rbx="640" rby="213"/>
+					<view ltx="564" lty="144" rbx="643" rby="210"/>
 				</component>
 				<component name="constant" library="core" uid="47" kind="2">
 					<targets>
 						<datapoint pos="0" key="36"/>
 					</targets>
-					<view ltx="962" lty="457" rbx="1007" rby="474"/>
+					<view ltx="962" lty="457" rbx="1005" rby="473"/>
 					<data>
 						<constant value="-" datatype="string"/>
 					</data>
-				</component>
-				<component name="substring" library="core" uid="20" kind="5">
-					<sources>
-						<datapoint pos="0" key="16"/>
-						<datapoint pos="1" key="18"/>
-						<datapoint pos="2" key="20"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="55"/>
-					</targets>
-					<view ltx="584" lty="265" rbx="660" rby="334"/>
 				</component>
 				<component name="concat" library="core" uid="43" kind="5" growable="1" growablebasename="value">
 					<sources>
@@ -190,13 +148,13 @@
 					<targets>
 						<datapoint pos="0" key="60"/>
 					</targets>
-					<view ltx="1064" lty="391" rbx="1148" rby="492"/>
+					<view ltx="1064" lty="391" rbx="1151" rby="492"/>
 				</component>
 				<component name="constant" library="core" uid="46" kind="2">
 					<targets>
 						<datapoint pos="0" key="34"/>
 					</targets>
-					<view ltx="981" lty="391" rbx="1026" rby="408"/>
+					<view ltx="981" lty="391" rbx="1024" rby="407"/>
 					<data>
 						<constant value="-" datatype="string"/>
 					</data>
@@ -205,7 +163,7 @@
 					<targets>
 						<datapoint pos="0" key="37"/>
 					</targets>
-					<view ltx="1064" lty="557" rbx="1201" rby="574"/>
+					<view ltx="1064" lty="557" rbx="1196" rby="573"/>
 					<data>
 						<constant value="[Y0001]-[M01]-[D01]" datatype="string"/>
 					</data>
@@ -218,13 +176,13 @@
 					<targets>
 						<datapoint/>
 					</targets>
-					<view ltx="1214" lty="521" rbx="1291" rby="574"/>
+					<view ltx="1214" lty="521" rbx="1293" rby="572"/>
 				</component>
 				<component name="constant" library="core" uid="206" kind="2">
 					<targets>
 						<datapoint pos="0" key="143"/>
 					</targets>
-					<view ltx="350" lty="-73" rbx="394" rby="-56"/>
+					<view ltx="350" lty="-73" rbx="392" rby="-57"/>
 					<data>
 						<constant value="," datatype="string"/>
 					</data>
@@ -236,73 +194,10 @@
 					<targets>
 						<datapoint pos="0" key="148"/>
 					</targets>
-					<view ltx="583" lty="-92" rbx="685" rby="-55"/>
-				</component>
-				<component name="Safe_Number" library="user" uid="216" kind="19" visible="0" blackbox="0">
-					<view ltx="528" lty="-18" rbx="636" rby="-1"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="value" inpkey="153" componentid="100"/>
-						</root>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="number" outkey="154" componentid="101"/>
-						</root>
-					</data>
-				</component>
-				<component name="Safe_Number" library="user" uid="218" kind="19" visible="0" blackbox="0">
-					<view ltx="856" lty="231" rbx="964" rby="248"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="value" inpkey="160" componentid="100"/>
-						</root>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="number" outkey="161" componentid="101"/>
-						</root>
-					</data>
-				</component>
-				<component name="Clean_List" library="user" uid="220" kind="19" visible="0" blackbox="0">
-					<view ltx="640" lty="643" rbx="736" rby="660"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="value" inpkey="167" componentid="100"/>
-						</root>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="items" outkey="168" componentid="101"/>
-						</root>
-					</data>
+					<view ltx="583" lty="-92" rbx="687" rby="-56"/>
 				</component>
 				<component name="Clean_List" library="user" uid="222" kind="19" visible="0" blackbox="0">
-					<view ltx="284" lty="501" rbx="380" rby="518"/>
+					<view ltx="284" lty="501" rbx="379" rby="517"/>
 					<data>
 						<root>
 							<header>
@@ -330,10 +225,125 @@
 					<targets>
 						<datapoint pos="0" key="146"/>
 					</targets>
-					<view ltx="429" lty="-109" rbx="517" rby="-56"/>
+					<view ltx="429" lty="-109" rbx="518" rby="-58"/>
+				</component>
+				<component name="auto-number" library="core" uid="229" kind="5">
+					<sources>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="171"/>
+					</targets>
+					<view ltx="253" lty="-221" rbx="388" rby="-140"/>
+				</component>
+				<component name="concat" library="core" uid="227" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="172"/>
+						<datapoint pos="1" key="173"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="174"/>
+					</targets>
+					<view ltx="611" lty="-253" rbx="689" rby="-200"/>
+				</component>
+				<component name="constant" library="core" uid="230" kind="2">
+					<targets>
+						<datapoint pos="0" key="175"/>
+					</targets>
+					<view ltx="442" lty="-233" rbx="554" rby="-217"/>
+					<data>
+						<constant value="goodreads_id_" datatype="string"/>
+					</data>
+				</component>
+				<component name="Safe_Number" library="user" uid="216" kind="19" visible="0" blackbox="0">
+					<view ltx="528" lty="-18" rbx="635" rby="-2"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="value" inpkey="153" componentid="100"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="number" outkey="154" componentid="101"/>
+						</root>
+					</data>
+				</component>
+				<component name="substring" library="core" uid="20" kind="5">
+					<sources>
+						<datapoint pos="0" key="16"/>
+						<datapoint pos="1" key="18"/>
+						<datapoint pos="2" key="20"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="55"/>
+					</targets>
+					<view ltx="584" lty="265" rbx="663" rby="331"/>
+				</component>
+				<component name="concat" library="core" uid="38" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="45"/>
+						<datapoint pos="1" key="46"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="47"/>
+					</targets>
+					<view ltx="820" lty="332" rbx="898" rby="385"/>
+				</component>
+				<component name="concat" library="core" uid="39" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="32"/>
+						<datapoint pos="1" key="48"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="49"/>
+					</targets>
+					<view ltx="820" lty="402" rbx="898" rby="455"/>
+				</component>
+				<component name="if-else" library="core" uid="36" kind="4">
+					<sources>
+						<datapoint pos="0" key="50"/>
+						<datapoint pos="1" key="51"/>
+						<datapoint pos="2" key="52"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="53"/>
+					</targets>
+					<view ltx="940" lty="501" rbx="1039" rby="570"/>
+				</component>
+				<component name="Clean_List" library="user" uid="220" kind="19" visible="0" blackbox="0">
+					<view ltx="640" lty="643" rbx="735" rby="659"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="value" inpkey="167" componentid="100"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="items" outkey="168" componentid="101"/>
+						</root>
+					</data>
 				</component>
 				<component name="Parse_Date" library="user" uid="210" kind="19" visible="0" blackbox="0">
-					<view ltx="664" lty="60" rbx="849" rby="77"/>
+					<view ltx="664" lty="60" rbx="848" rby="76"/>
 					<data>
 						<root>
 							<header>
@@ -351,37 +361,6 @@
 							</header>
 							<entry name="publication_date" outkey="152" componentid="101"/>
 						</root>
-					</data>
-				</component>
-				<component name="auto-number" library="core" uid="229" kind="5">
-					<sources>
-						<datapoint/>
-						<datapoint/>
-						<datapoint/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="171"/>
-					</targets>
-					<view ltx="253" lty="-221" rbx="383" rby="-136"/>
-				</component>
-				<component name="concat" library="core" uid="227" kind="5" growable="1" growablebasename="value">
-					<sources>
-						<datapoint pos="0" key="172"/>
-						<datapoint pos="1" key="173"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="174"/>
-					</targets>
-					<view ltx="611" lty="-253" rbx="687" rby="-200"/>
-				</component>
-				<component name="constant" library="core" uid="230" kind="2">
-					<targets>
-						<datapoint pos="0" key="175"/>
-					</targets>
-					<view ltx="442" lty="-233" rbx="551" rby="-216"/>
-					<data>
-						<constant value="goodreads_id_" datatype="string"/>
 					</data>
 				</component>
 				<component name="Goodreads" library="text" uid="10" kind="16">
@@ -451,7 +430,7 @@
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
 					<view ltx="1364" lty="15" rbx="1531" rby="215"/>
 					<data>
-						<root scrollposition="142">
+						<root scrollposition="53">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -489,6 +468,27 @@
 							</entry>
 						</root>
 						<document schema="..\..\..\..\Downloads\target_neu(1).xsd" instanceroot="{}books" inputinstance="..\..\..\..\Downloads\target_neu(1).xml" outputinstance="..\..\..\..\Downloads\target_neu(1).xml"/>
+					</data>
+				</component>
+				<component name="Page_Count" library="user" uid="232" kind="19" visible="0" blackbox="0">
+					<view ltx="829" lty="125" rbx="936" rby="141"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="value" inpkey="177" componentid="100"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="number" outkey="178" componentid="101"/>
+						</root>
 					</data>
 				</component>
 			</children>
@@ -680,7 +680,7 @@
 							<edge vertexkey="153"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="161">
+					<vertex vertexkey="178">
 						<edges>
 							<edge vertexkey="155"/>
 						</edges>
@@ -703,11 +703,6 @@
 					<vertex vertexkey="154">
 						<edges>
 							<edge vertexkey="159"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="164">
-						<edges>
-							<edge vertexkey="160"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="142">
@@ -733,6 +728,11 @@
 					<vertex vertexkey="174">
 						<edges>
 							<edge vertexkey="176"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="164">
+						<edges>
+							<edge vertexkey="177"/>
 						</edges>
 					</vertex>
 				</vertices>
