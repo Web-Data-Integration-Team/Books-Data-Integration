@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2019r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="Page_Count" library="user" uid="51" kind="19" visible="0" blackbox="0">
+					<view ltx="300" lty="100" rbx="480" rby="160"/>
+					<data>
+						<root>
+							<header>
+<namespaces>
+<namespace/>
+</namespaces>
+</header>
+							<entry name="value" inpkey="1" componentid="100"/>
+						</root>
+						<root>
+							<header>
+<namespaces>
+<namespace/>
+</namespaces>
+</header>
+							<entry name="number" outkey="2" componentid="101"/>
+						</root>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices/>
+			</graph>
+		</structure>
+	</component>
+	<component name="Page_Count" library="user" uid="50" inline="1" editable="1" blackbox="0">
+		<properties/>
+		<structure>
+			<children>
+				<component name="value" library="core" uid="100" kind="6">
+					<properties/>
+					<sources><datapoint/></sources>
+					<targets><datapoint pos="0" key="1"/></targets>
+					<view ltx="0" lty="100" rbx="90" rby="138"/>
+					<data><input datatype="string"/><parameter usageKind="input" name="value"/></data>
+				</component>
+				<component name="number" library="core" uid="101" kind="7">
+					<properties/>
+					<sources><datapoint pos="0" key="24"/></sources>
+					<view ltx="1100" lty="100" rbx="1200" rby="138"/>
+					<data><output datatype="decimal"/><parameter usageKind="output" name="number"/></data>
+				</component>
+				<component name="constant" library="core" uid="102" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="2"/></targets>
+					<view ltx="100" lty="20" rbx="230" rby="38"/>
+					<data><constant value="^\d+ pages?$" datatype="string"/></data>
+				</component>
+				<component name="constant" library="core" uid="103" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="3"/></targets>
+					<view ltx="100" lty="260" rbx="230" rby="278"/>
+					<data><constant value=" " datatype="string"/></data>
+				</component>
+				<component name="constant" library="core" uid="104" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="4"/></targets>
+					<view ltx="450" lty="330" rbx="580" rby="348"/>
+					<data><constant value="^\d+$" datatype="string"/></data>
+				</component>
+				<component name="match-pattern" library="lang" uid="105" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="12"/><datapoint pos="1" key="13"/></sources>
+					<targets><datapoint pos="0" key="5"/></targets>
+					<view ltx="300" lty="20" rbx="410" rby="60"/>
+				</component>
+				<component name="substring-before" library="core" uid="106" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="14"/><datapoint pos="1" key="15"/></sources>
+					<targets><datapoint pos="0" key="6"/></targets>
+					<view ltx="300" lty="200" rbx="420" rby="260"/>
+				</component>
+				<component name="if-else" library="core" uid="107" kind="4">
+					<properties/>
+					<sources><datapoint pos="0" key="16"/><datapoint pos="1" key="17"/><datapoint pos="2" key="18"/></sources>
+					<targets><datapoint pos="0" key="7"/></targets>
+					<view ltx="520" lty="120" rbx="630" rby="190"/>
+				</component>
+				<component name="match-pattern" library="lang" uid="108" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="19"/><datapoint pos="1" key="20"/></sources>
+					<targets><datapoint pos="0" key="8"/></targets>
+					<view ltx="650" lty="330" rbx="760" rby="370"/>
+				</component>
+				<component name="filter" library="core" uid="109" kind="3">
+					<properties/>
+					<sources><datapoint pos="0" key="21"/><datapoint pos="1" key="22"/></sources>
+					<targets><datapoint pos="0" key="9"/><datapoint/></targets>
+					<view ltx="800" lty="120" rbx="910" rby="190"/>
+				</component>
+				<component name="number" library="core" uid="110" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="23"/></sources>
+					<targets><datapoint pos="0" key="11"/></targets>
+					<view ltx="950" lty="120" rbx="1050" rby="160"/>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges><edge vertexkey="12"/><edge vertexkey="14"/><edge vertexkey="18"/></edges>
+					</vertex>
+					<vertex vertexkey="2">
+						<edges><edge vertexkey="13"/></edges>
+					</vertex>
+					<vertex vertexkey="3">
+						<edges><edge vertexkey="15"/></edges>
+					</vertex>
+					<vertex vertexkey="5">
+						<edges><edge vertexkey="16"/></edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges><edge vertexkey="17"/></edges>
+					</vertex>
+					<vertex vertexkey="7">
+						<edges><edge vertexkey="19"/><edge vertexkey="21"/></edges>
+					</vertex>
+					<vertex vertexkey="4">
+						<edges><edge vertexkey="20"/></edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges><edge vertexkey="22"/></edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges><edge vertexkey="23"/></edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges><edge vertexkey="24"/></edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2019r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="Parse_Date" library="user" uid="51" kind="19" visible="0" blackbox="0">
+					<view ltx="300" lty="100" rbx="520" rby="160"/>
+					<data>
+						<root>
+							<header>
+<namespaces>
+<namespace/>
+</namespaces>
+</header>
+							<entry name="publishDate" inpkey="1" componentid="100"/>
+						</root>
+						<root>
+							<header>
+<namespaces>
+<namespace/>
+</namespaces>
+</header>
+							<entry name="publication_date" outkey="2" componentid="101"/>
+						</root>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices/>
+			</graph>
+		</structure>
+	</component>
+	<component name="Parse_Date" library="user" uid="50" inline="1" editable="1" blackbox="0">
+		<properties/>
+		<structure>
+			<children>
+				<component name="publishDate" library="core" uid="100" kind="6">
+					<properties/>
+					<sources><datapoint/></sources>
+					<targets><datapoint pos="0" key="1"/></targets>
+					<view ltx="0" lty="300" rbx="100" rby="338"/>
+					<data><input datatype="string"/><parameter usageKind="input" name="publishDate"/></data>
+				</component>
+				<component name="publication_date" library="core" uid="101" kind="7">
+					<properties/>
+					<sources><datapoint pos="0" key="121"/></sources>
+					<view ltx="1700" lty="400" rbx="1830" rby="438"/>
+					<data><output datatype="date"/><parameter usageKind="output" name="publication_date"/></data>
+				</component>
+				<component name="constant" library="core" uid="102" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="2"/></targets>
+					<view ltx="150" lty="20" rbx="245" rby="38"/>
+					<data><constant value="1" datatype="decimal"/></data>
+				</component>
+				<component name="constant" library="core" uid="103" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="3"/></targets>
+					<view ltx="150" lty="60" rbx="245" rby="78"/>
+					<data><constant value="2" datatype="decimal"/></data>
+				</component>
+				<component name="constant" library="core" uid="104" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="4"/></targets>
+					<view ltx="150" lty="100" rbx="245" rby="118"/>
+					<data><constant value="4" datatype="decimal"/></data>
+				</component>
+				<component name="constant" library="core" uid="105" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="5"/></targets>
+					<view ltx="150" lty="140" rbx="245" rby="158"/>
+					<data><constant value="7" datatype="decimal"/></data>
+				</component>
+				<component name="constant" library="core" uid="106" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="6"/></targets>
+					<view ltx="520" lty="200" rbx="615" rby="218"/>
+					<data><constant value="26" datatype="decimal"/></data>
+				</component>
+				<component name="constant" library="core" uid="107" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="7"/></targets>
+					<view ltx="520" lty="30" rbx="615" rby="48"/>
+					<data><constant value="19" datatype="string"/></data>
+				</component>
+				<component name="constant" library="core" uid="108" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="8"/></targets>
+					<view ltx="520" lty="110" rbx="615" rby="128"/>
+					<data><constant value="20" datatype="string"/></data>
+				</component>
+				<component name="constant" library="core" uid="109" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="9"/></targets>
+					<view ltx="520" lty="290" rbx="615" rby="308"/>
+					<data><constant value="-" datatype="string"/></data>
+				</component>
+				<component name="constant" library="core" uid="110" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="10"/></targets>
+					<view ltx="520" lty="560" rbx="615" rby="578"/>
+					<data><constant value="-01-01" datatype="string"/></data>
+				</component>
+				<component name="constant" library="core" uid="111" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="11"/></targets>
+					<view ltx="150" lty="780" rbx="245" rby="798"/>
+					<data><constant value=" " datatype="string"/></data>
+				</component>
+				<component name="constant" library="core" uid="112" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="12"/></targets>
+					<view ltx="900" lty="380" rbx="995" rby="398"/>
+					<data><constant value="[Y0001]-[M01]-[D01]" datatype="string"/></data>
+				</component>
+				<component name="constant" library="core" uid="113" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="13"/></targets>
+					<view ltx="1000" lty="860" rbx="1095" rby="878"/>
+					<data><constant value="[MNn] [D1] [Y0001]" datatype="string"/></data>
+				</component>
+				<component name="constant" library="core" uid="114" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="14"/></targets>
+					<view ltx="900" lty="470" rbx="995" rby="488"/>
+					<data><constant value="[M01]/[D01]/[Y0001]" datatype="string"/></data>
+				</component>
+				<component name="constant" library="core" uid="115" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="15"/></targets>
+					<view ltx="1100" lty="1000" rbx="1195" rby="1018"/>
+					<data><constant value="^\d\d/\d\d/\d\d$" datatype="string"/></data>
+				</component>
+				<component name="constant" library="core" uid="116" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="16"/></targets>
+					<view ltx="1100" lty="1040" rbx="1195" rby="1058"/>
+					<data><constant value="^\d\d/\d\d/\d{4}$" datatype="string"/></data>
+				</component>
+				<component name="constant" library="core" uid="117" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="17"/></targets>
+					<view ltx="1100" lty="1080" rbx="1195" rby="1098"/>
+					<data><constant value="^\d{4}$" datatype="string"/></data>
+				</component>
+				<component name="constant" library="core" uid="118" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="18"/></targets>
+					<view ltx="1100" lty="1120" rbx="1195" rby="1138"/>
+					<data><constant value="^(January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}(st|nd|rd|th) \d{4}$" datatype="string"/></data>
+				</component>
+				<component name="substring" library="core" uid="119" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="29"/><datapoint pos="1" key="30"/><datapoint pos="2" key="31"/></sources>
+					<targets><datapoint pos="0" key="19"/></targets>
+					<view ltx="330" lty="10" rbx="425" rby="70"/>
+				</component>
+				<component name="substring" library="core" uid="120" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="32"/><datapoint pos="1" key="33"/><datapoint pos="2" key="34"/></sources>
+					<targets><datapoint pos="0" key="20"/></targets>
+					<view ltx="330" lty="90" rbx="425" rby="150"/>
+				</component>
+				<component name="substring" library="core" uid="121" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="35"/><datapoint pos="1" key="36"/><datapoint pos="2" key="37"/></sources>
+					<targets><datapoint pos="0" key="21"/></targets>
+					<view ltx="330" lty="170" rbx="425" rby="230"/>
+				</component>
+				<component name="number" library="core" uid="122" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="38"/></sources>
+					<targets><datapoint pos="0" key="22"/></targets>
+					<view ltx="650" lty="200" rbx="750" rby="240"/>
+				</component>
+				<component name="greater" library="core" uid="123" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="39"/><datapoint pos="1" key="40"/></sources>
+					<targets><datapoint pos="0" key="23"/></targets>
+					<view ltx="780" lty="200" rbx="880" rby="250"/>
+				</component>
+				<component name="concat" library="core" uid="124" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources><datapoint pos="0" key="41"/><datapoint pos="1" key="42"/></sources>
+					<targets><datapoint pos="0" key="24"/></targets>
+					<view ltx="700" lty="30" rbx="795" rby="90"/>
+				</component>
+				<component name="concat" library="core" uid="125" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources><datapoint pos="0" key="43"/><datapoint pos="1" key="44"/></sources>
+					<targets><datapoint pos="0" key="25"/></targets>
+					<view ltx="700" lty="110" rbx="795" rby="170"/>
+				</component>
+				<component name="if-else" library="core" uid="126" kind="4">
+					<properties/>
+					<sources><datapoint pos="0" key="45"/><datapoint pos="1" key="46"/><datapoint pos="2" key="47"/></sources>
+					<targets><datapoint pos="0" key="26"/></targets>
+					<view ltx="930" lty="90" rbx="1040" rby="160"/>
+				</component>
+				<component name="concat" library="core" uid="127" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources><datapoint pos="0" key="48"/><datapoint pos="1" key="49"/><datapoint pos="2" key="50"/><datapoint pos="3" key="51"/><datapoint pos="4" key="52"/></sources>
+					<targets><datapoint pos="0" key="27"/></targets>
+					<view ltx="1100" lty="250" rbx="1195" rby="310"/>
+				</component>
+				<component name="parse-date" library="core" uid="128" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="53"/><datapoint pos="1" key="54"/></sources>
+					<targets><datapoint pos="0" key="28"/></targets>
+					<view ltx="1230" lty="330" rbx="1325" rby="390"/>
+				</component>
+				<component name="parse-date" library="core" uid="129" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="56"/><datapoint pos="1" key="57"/></sources>
+					<targets><datapoint pos="0" key="55"/></targets>
+					<view ltx="1230" lty="470" rbx="1325" rby="530"/>
+				</component>
+				<component name="concat" library="core" uid="130" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources><datapoint pos="0" key="60"/><datapoint pos="1" key="61"/></sources>
+					<targets><datapoint pos="0" key="58"/></targets>
+					<view ltx="700" lty="540" rbx="795" rby="600"/>
+				</component>
+				<component name="parse-date" library="core" uid="131" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="62"/><datapoint pos="1" key="63"/></sources>
+					<targets><datapoint pos="0" key="59"/></targets>
+					<view ltx="1230" lty="560" rbx="1325" rby="620"/>
+				</component>
+				<component name="substring-before" library="core" uid="132" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="73"/><datapoint pos="1" key="74"/></sources>
+					<targets><datapoint pos="0" key="64"/></targets>
+					<view ltx="330" lty="780" rbx="450" rby="840"/>
+				</component>
+				<component name="substring-after" library="core" uid="133" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="75"/><datapoint pos="1" key="76"/></sources>
+					<targets><datapoint pos="0" key="65"/></targets>
+					<view ltx="330" lty="860" rbx="450" rby="920"/>
+				</component>
+				<component name="substring-before" library="core" uid="134" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="77"/><datapoint pos="1" key="78"/></sources>
+					<targets><datapoint pos="0" key="66"/></targets>
+					<view ltx="520" lty="860" rbx="640" rby="920"/>
+				</component>
+				<component name="substring-after" library="core" uid="135" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="79"/><datapoint pos="1" key="80"/></sources>
+					<targets><datapoint pos="0" key="67"/></targets>
+					<view ltx="520" lty="940" rbx="640" rby="1000"/>
+				</component>
+				<component name="string-length" library="core" uid="136" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="81"/></sources>
+					<targets><datapoint pos="0" key="68"/></targets>
+					<view ltx="680" lty="860" rbx="790" rby="900"/>
+				</component>
+				<component name="subtract" library="core" uid="137" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="82"/><datapoint pos="1" key="83"/></sources>
+					<targets><datapoint pos="0" key="69"/></targets>
+					<view ltx="820" lty="860" rbx="920" rby="910"/>
+				</component>
+				<component name="substring" library="core" uid="138" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="84"/><datapoint pos="1" key="85"/><datapoint pos="2" key="86"/></sources>
+					<targets><datapoint pos="0" key="70"/></targets>
+					<view ltx="960" lty="940" rbx="1055" rby="1000"/>
+				</component>
+				<component name="concat" library="core" uid="139" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources><datapoint pos="0" key="87"/><datapoint pos="1" key="88"/><datapoint pos="2" key="89"/><datapoint pos="3" key="90"/><datapoint pos="4" key="91"/></sources>
+					<targets><datapoint pos="0" key="71"/></targets>
+					<view ltx="1100" lty="860" rbx="1195" rby="920"/>
+				</component>
+				<component name="parse-date" library="core" uid="140" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="92"/><datapoint pos="1" key="93"/></sources>
+					<targets><datapoint pos="0" key="72"/></targets>
+					<view ltx="1230" lty="860" rbx="1325" rby="920"/>
+				</component>
+				<component name="match-pattern" library="lang" uid="141" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="98"/><datapoint pos="1" key="99"/></sources>
+					<targets><datapoint pos="0" key="94"/></targets>
+					<view ltx="1250" lty="1000" rbx="1360" rby="1040"/>
+				</component>
+				<component name="match-pattern" library="lang" uid="142" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="100"/><datapoint pos="1" key="101"/></sources>
+					<targets><datapoint pos="0" key="95"/></targets>
+					<view ltx="1250" lty="1040" rbx="1360" rby="1080"/>
+				</component>
+				<component name="match-pattern" library="lang" uid="143" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="102"/><datapoint pos="1" key="103"/></sources>
+					<targets><datapoint pos="0" key="96"/></targets>
+					<view ltx="1250" lty="1080" rbx="1360" rby="1120"/>
+				</component>
+				<component name="match-pattern" library="lang" uid="144" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="104"/><datapoint pos="1" key="105"/></sources>
+					<targets><datapoint pos="0" key="97"/></targets>
+					<view ltx="1250" lty="1120" rbx="1360" rby="1160"/>
+				</component>
+				<component name="if-else" library="core" uid="145" kind="4">
+					<properties/>
+					<sources><datapoint pos="0" key="110"/><datapoint pos="1" key="111"/><datapoint/></sources>
+					<targets><datapoint pos="0" key="106"/></targets>
+					<view ltx="1450" lty="860" rbx="1560" rby="930"/>
+				</component>
+				<component name="if-else" library="core" uid="146" kind="4">
+					<properties/>
+					<sources><datapoint pos="0" key="112"/><datapoint pos="1" key="113"/><datapoint pos="2" key="114"/></sources>
+					<targets><datapoint pos="0" key="107"/></targets>
+					<view ltx="1450" lty="700" rbx="1560" rby="770"/>
+				</component>
+				<component name="if-else" library="core" uid="147" kind="4">
+					<properties/>
+					<sources><datapoint pos="0" key="115"/><datapoint pos="1" key="116"/><datapoint pos="2" key="117"/></sources>
+					<targets><datapoint pos="0" key="108"/></targets>
+					<view ltx="1450" lty="540" rbx="1560" rby="610"/>
+				</component>
+				<component name="if-else" library="core" uid="148" kind="4">
+					<properties/>
+					<sources><datapoint pos="0" key="118"/><datapoint pos="1" key="119"/><datapoint pos="2" key="120"/></sources>
+					<targets><datapoint pos="0" key="109"/></targets>
+					<view ltx="1450" lty="400" rbx="1560" rby="470"/>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges><edge vertexkey="29"/><edge vertexkey="32"/><edge vertexkey="35"/><edge vertexkey="56"/><edge vertexkey="60"/><edge vertexkey="73"/><edge vertexkey="75"/><edge vertexkey="98"/><edge vertexkey="100"/><edge vertexkey="102"/><edge vertexkey="104"/></edges>
+					</vertex>
+					<vertex vertexkey="2">
+						<edges><edge vertexkey="30"/><edge vertexkey="85"/></edges>
+					</vertex>
+					<vertex vertexkey="3">
+						<edges><edge vertexkey="31"/><edge vertexkey="34"/><edge vertexkey="37"/><edge vertexkey="83"/></edges>
+					</vertex>
+					<vertex vertexkey="4">
+						<edges><edge vertexkey="33"/></edges>
+					</vertex>
+					<vertex vertexkey="5">
+						<edges><edge vertexkey="36"/></edges>
+					</vertex>
+					<vertex vertexkey="21">
+						<edges><edge vertexkey="38"/><edge vertexkey="42"/><edge vertexkey="44"/></edges>
+					</vertex>
+					<vertex vertexkey="22">
+						<edges><edge vertexkey="39"/></edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges><edge vertexkey="40"/></edges>
+					</vertex>
+					<vertex vertexkey="7">
+						<edges><edge vertexkey="41"/></edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges><edge vertexkey="43"/></edges>
+					</vertex>
+					<vertex vertexkey="23">
+						<edges><edge vertexkey="45"/></edges>
+					</vertex>
+					<vertex vertexkey="24">
+						<edges><edge vertexkey="46"/></edges>
+					</vertex>
+					<vertex vertexkey="25">
+						<edges><edge vertexkey="47"/></edges>
+					</vertex>
+					<vertex vertexkey="26">
+						<edges><edge vertexkey="48"/></edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges><edge vertexkey="49"/><edge vertexkey="51"/></edges>
+					</vertex>
+					<vertex vertexkey="19">
+						<edges><edge vertexkey="50"/></edges>
+					</vertex>
+					<vertex vertexkey="20">
+						<edges><edge vertexkey="52"/></edges>
+					</vertex>
+					<vertex vertexkey="27">
+						<edges><edge vertexkey="53"/></edges>
+					</vertex>
+					<vertex vertexkey="12">
+						<edges><edge vertexkey="54"/><edge vertexkey="63"/></edges>
+					</vertex>
+					<vertex vertexkey="14">
+						<edges><edge vertexkey="57"/></edges>
+					</vertex>
+					<vertex vertexkey="10">
+						<edges><edge vertexkey="61"/></edges>
+					</vertex>
+					<vertex vertexkey="58">
+						<edges><edge vertexkey="62"/></edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges><edge vertexkey="74"/><edge vertexkey="76"/><edge vertexkey="78"/><edge vertexkey="80"/><edge vertexkey="88"/><edge vertexkey="90"/></edges>
+					</vertex>
+					<vertex vertexkey="65">
+						<edges><edge vertexkey="77"/><edge vertexkey="79"/></edges>
+					</vertex>
+					<vertex vertexkey="66">
+						<edges><edge vertexkey="81"/><edge vertexkey="84"/></edges>
+					</vertex>
+					<vertex vertexkey="68">
+						<edges><edge vertexkey="82"/></edges>
+					</vertex>
+					<vertex vertexkey="69">
+						<edges><edge vertexkey="86"/></edges>
+					</vertex>
+					<vertex vertexkey="64">
+						<edges><edge vertexkey="87"/></edges>
+					</vertex>
+					<vertex vertexkey="70">
+						<edges><edge vertexkey="89"/></edges>
+					</vertex>
+					<vertex vertexkey="67">
+						<edges><edge vertexkey="91"/></edges>
+					</vertex>
+					<vertex vertexkey="71">
+						<edges><edge vertexkey="92"/></edges>
+					</vertex>
+					<vertex vertexkey="13">
+						<edges><edge vertexkey="93"/></edges>
+					</vertex>
+					<vertex vertexkey="15">
+						<edges><edge vertexkey="99"/></edges>
+					</vertex>
+					<vertex vertexkey="16">
+						<edges><edge vertexkey="101"/></edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges><edge vertexkey="103"/></edges>
+					</vertex>
+					<vertex vertexkey="18">
+						<edges><edge vertexkey="105"/></edges>
+					</vertex>
+					<vertex vertexkey="97">
+						<edges><edge vertexkey="110"/></edges>
+					</vertex>
+					<vertex vertexkey="72">
+						<edges><edge vertexkey="111"/></edges>
+					</vertex>
+					<vertex vertexkey="96">
+						<edges><edge vertexkey="112"/></edges>
+					</vertex>
+					<vertex vertexkey="59">
+						<edges><edge vertexkey="113"/></edges>
+					</vertex>
+					<vertex vertexkey="106">
+						<edges><edge vertexkey="114"/></edges>
+					</vertex>
+					<vertex vertexkey="95">
+						<edges><edge vertexkey="115"/></edges>
+					</vertex>
+					<vertex vertexkey="55">
+						<edges><edge vertexkey="116"/></edges>
+					</vertex>
+					<vertex vertexkey="107">
+						<edges><edge vertexkey="117"/></edges>
+					</vertex>
+					<vertex vertexkey="94">
+						<edges><edge vertexkey="118"/></edges>
+					</vertex>
+					<vertex vertexkey="28">
+						<edges><edge vertexkey="119"/></edges>
+					</vertex>
+					<vertex vertexkey="108">
+						<edges><edge vertexkey="120"/></edges>
+					</vertex>
+					<vertex vertexkey="109">
+						<edges><edge vertexkey="121"/></edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

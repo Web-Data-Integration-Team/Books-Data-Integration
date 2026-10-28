@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2019r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="Safe_Number" library="user" uid="51" kind="19" visible="0" blackbox="0">
+					<view ltx="300" lty="100" rbx="480" rby="160"/>
+					<data>
+						<root>
+							<header>
+<namespaces>
+<namespace/>
+</namespaces>
+</header>
+							<entry name="value" inpkey="1" componentid="100"/>
+						</root>
+						<root>
+							<header>
+<namespaces>
+<namespace/>
+</namespaces>
+</header>
+							<entry name="number" outkey="2" componentid="101"/>
+						</root>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices/>
+			</graph>
+		</structure>
+	</component>
+	<component name="Safe_Number" library="user" uid="50" inline="1" editable="1" blackbox="0">
+		<properties/>
+		<structure>
+			<children>
+				<component name="value" library="core" uid="100" kind="6">
+					<properties/>
+					<sources><datapoint/></sources>
+					<targets><datapoint pos="0" key="1"/></targets>
+					<view ltx="0" lty="100" rbx="90" rby="138"/>
+					<data><input datatype="string"/><parameter usageKind="input" name="value"/></data>
+				</component>
+				<component name="number" library="core" uid="101" kind="7">
+					<properties/>
+					<sources><datapoint pos="0" key="12"/></sources>
+					<view ltx="860" lty="100" rbx="960" rby="138"/>
+					<data><output datatype="decimal"/><parameter usageKind="output" name="number"/></data>
+				</component>
+				<component name="constant" library="core" uid="102" kind="2">
+					<properties/>
+					<targets><datapoint pos="0" key="2"/></targets>
+					<view ltx="150" lty="200" rbx="280" rby="218"/>
+					<data><constant value="^\d+(\.\d+)?$" datatype="string"/></data>
+				</component>
+				<component name="match-pattern" library="lang" uid="103" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="7"/><datapoint pos="1" key="8"/></sources>
+					<targets><datapoint pos="0" key="3"/></targets>
+					<view ltx="350" lty="150" rbx="460" rby="190"/>
+				</component>
+				<component name="number" library="core" uid="104" kind="5">
+					<properties/>
+					<sources><datapoint pos="0" key="11"/></sources>
+					<targets><datapoint pos="0" key="4"/></targets>
+					<view ltx="700" lty="90" rbx="800" rby="130"/>
+				</component>
+				<component name="filter" library="core" uid="105" kind="3">
+					<properties/>
+					<sources><datapoint pos="0" key="9"/><datapoint pos="1" key="10"/></sources>
+					<targets><datapoint pos="0" key="5"/><datapoint/></targets>
+					<view ltx="560" lty="90" rbx="670" rby="160"/>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges><edge vertexkey="7"/><edge vertexkey="9"/></edges>
+					</vertex>
+					<vertex vertexkey="2">
+						<edges><edge vertexkey="8"/></edges>
+					</vertex>
+					<vertex vertexkey="3">
+						<edges><edge vertexkey="10"/></edges>
+					</vertex>
+					<vertex vertexkey="5">
+						<edges><edge vertexkey="11"/></edges>
+					</vertex>
+					<vertex vertexkey="4">
+						<edges><edge vertexkey="12"/></edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
