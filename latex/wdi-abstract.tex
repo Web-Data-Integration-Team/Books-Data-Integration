@@ -218,4 +218,342 @@ In Phase II, the matchers will therefore compare title, authors, publisher, publ
 Title and authors first generate candidate pairs. The other attributes then decide whether two candidates are the same edition.
 We evaluate against the ISBN gold standard.
 
+
+\section{Phase I: Target Schema and Mappings}
+
+In Phase I, we transform the three book datasets (Goodreads,
+DBpedia, and Amazon) into a common XML structure. Based on the
+integrated schema presented in Table~\ref{tab:schema}, we created
+an XML Schema Definition (\texttt{target.xsd}). As explained
+earlier, each target record represents a specific book edition
+rather than a work in general.
+
+For each dataset, we create a separate mapping in Altova MapForce
+(\texttt{.mfd}), which assigns the source attributes to the
+target schema and generates an XML output file.
+
+We followed the same procedure for all three datasets. First,
+we analyzed the raw data with Python in the notebook
+\texttt{WDI\_Vorab\_Analyse.ipynb} to identify and quantify
+different formats, missing values, invalid entries, and other
+data quality issues. We then implemented the mappings in
+MapForce, making sure that individual invalid values do not
+cause the entire transformation to fail.
+
+
+\subsection{Target Schema and General Mapping Rules}
+
+The target schema contains the 14 descriptive attributes listed
+in Table~\ref{tab:schema}. In addition, it includes an
+\texttt{isbn} field, which is used only for overlap estimation
+and the gold standard, not as a matching attribute. Each book
+also receives a unique ID consisting of a source prefix and a
+sequential number, such as \texttt{goodreads\_1}.
+
+The XSD defines the data types of the attributes.
+\texttt{authors}, \texttt{genres}, and \texttt{awards} are lists
+with repeated child elements (\texttt{author}, \texttt{genre},
+and \texttt{award}). The publication date uses
+\texttt{xs:date}, page count and rating count are integers,
+and rating and price are decimal numbers. All remaining
+attributes are stored as strings.
+
+All descriptive attributes are optional because not every
+source provides all information and invalid values may be
+omitted during mapping. The ISBN is stored as a string because
+it may start with zero or end with the letter X. In an initial
+schema generated from a sample XML file, ISBN was incorrectly
+recognized as a number, which caused mapping failures.
+
+\subsubsection{General Mapping Rules}
+
+We import the Goodreads and Amazon CSV files into MapForce
+with all fields treated as strings, while DBpedia is imported
+directly as XML. Each CSV row (\texttt{Rows}) or DBpedia
+\texttt{book} element is mapped to one \texttt{book} element
+in the target schema. For list attributes, we connect the
+values to the repeated child elements rather than to the
+list container.
+
+For numeric values and dates, we use custom functions because
+MapForce may stop the entire transformation if a value cannot
+be converted, for example the invalid price
+\texttt{1.189.88}. Our functions first use
+\texttt{match-pattern} (a regular expression) to check
+whether a value has a valid format. If several formats are
+possible, we select the appropriate conversion using
+\texttt{if-else} conditions.
+
+Invalid values are not written to the output, so the
+corresponding optional XML element is omitted. We only correct
+values when their meaning is clear, for example converting
+\texttt{1 page} to \texttt{1}. Otherwise, we leave them out
+rather than introducing potentially incorrect information.
+
+
+\subsection{Goodreads Mapping}
+
+\subsubsection{Data Analysis}
+
+The Goodreads dataset contains 52,478 books. Using Python,
+we examined the data structure, date formats, numeric fields,
+ISBNs, lists, missing values, and special characters.
+
+Publication dates vary considerably: 42,913 entries (81.8\%)
+contain a complete date, 4,362 (8.3\%) contain only a year,
+1,219 (2.3\%) already contain January 1 as a complete date,
+and 880 (1.7\%) are empty. Another 3,104 entries (5.9\%)
+do not match any recognized format. These include incomplete
+dates such as \texttt{December 2002} and six cases where
+list names appear instead of dates, such as
+\texttt{Great Erotica}, probably due to scraping errors.
+
+We also found problems in numeric fields. The \texttt{pages}
+column contains \texttt{1 page} instead of a number in
+23 cases. Some prices have invalid formats, such as
+\texttt{1.189.88}. ISBN problems include placeholders
+(\texttt{9999999999999}), values damaged by Excel
+(\texttt{9.78044E+12}), and ASINs
+(\texttt{B0064CPN7I}), which are not ISBNs.
+Genres and awards are stored as Python-style lists within
+single CSV fields, for example \texttt{['A', 'B']}.
+
+\subsubsection{Implementation in MapForce}
+
+For publication dates, we created the custom function
+\texttt{Parse\_Date}. It recognizes formats such as
+\texttt{MM/DD/YY}, \texttt{MM/DD/YYYY}, year-only values,
+and dates with written month names and ordinal suffixes,
+such as \texttt{April 27th 2010}. All recognized values
+are converted to \texttt{YYYY-MM-DD}.
+
+Two-digit years up to 26 are interpreted as 20xx, while
+larger values are interpreted as 19xx. Ordinal suffixes
+such as \texttt{st}, \texttt{nd}, \texttt{rd}, and
+\texttt{th} are removed before conversion because
+\texttt{parse-date} cannot process them directly.
+For year-only values, we append \texttt{-01-01} because
+\texttt{xs:date} requires a complete date. Unrecognized
+values are omitted.
+
+For prices, ratings, and rating counts, we use
+\texttt{Safe\_Number}, which converts only valid numeric
+values. The separate function \texttt{Page\_Count}
+also handles entries such as \texttt{1 page} and converts
+them to \texttt{1}.
+
+Genres and awards are processed with \texttt{Clean\_List}.
+This function splits the values at the separator
+\texttt{', '} and creates individual XML child elements.
+
+Before mapping, we cleaned the ISBNs using Python.
+Placeholders, Excel-damaged values, and ASINs were removed,
+so only valid ISBN-10 and ISBN-13 values are transferred
+to the target schema.
+
+
+\subsection{DBpedia Mapping}
+
+\subsubsection{Data Analysis}
+
+The DBpedia dataset contains 59,270 books and is already
+available in XML format. Nevertheless, we identified
+several data quality issues.
+
+For \texttt{release\_date}, 58.0\% of the records contain
+only a year, 21.8\% a complete date, 6.8\% a month and year,
+and 0.5\% already contain January 1. Another 9.2\% are
+empty, while 3.6\% contain unusable values such as
+\texttt{--11-01} or \texttt{20072010}.
+
+DBpedia also provides a separate \texttt{year} attribute.
+We compared it with \texttt{release\_date} and found that
+the years agree in 47,554 out of 47,556 comparable records.
+This makes \texttt{year} a suitable fallback in most cases.
+For 4,933 books, \texttt{release\_date} is unusable but
+\texttt{year} is available, allowing us to recover the
+publication year.
+
+ISBN data also contain problems. An ISBN is missing for
+39.0\% of the books. We found 28,819 ISBN entries with
+nine characters or fewer, such as \texttt{0} or
+\texttt{978}. In addition, 28,557 books contain two
+ISBN entries.
+
+Missing values are especially common for \texttt{pages}
+(38.4\%), \texttt{genres} (36.4\%), \texttt{publisher}
+(20.5\%), \texttt{language} (20.4\%), and \texttt{authors}
+(9.1\%). Furthermore, 5,446 books contain an ampersand
+character (\texttt{\&}).
+
+\subsubsection{Implementation in MapForce}
+
+Since DBpedia already uses XML, the \texttt{authors}
+and \texttt{genres} elements can be mapped directly
+without splitting text-based lists.
+
+For publication dates, we use an \texttt{if-else}
+condition combined with \texttt{match-pattern}.
+If \texttt{release\_date} contains a complete date,
+we convert it using \texttt{parse-date}. Otherwise,
+we use the separate \texttt{year} attribute and append
+\texttt{-01-01} to obtain a valid \texttt{xs:date}.
+This allows us to recover a date for 4,933 books.
+
+For ISBNs, we remove values with nine characters or
+fewer and select the first remaining entry. This
+filters out obviously incomplete ISBNs, although
+it does not perform full ISBN validation.
+
+Attributes that DBpedia does not provide, such as
+\texttt{format}, \texttt{edition}, \texttt{rating},
+\texttt{ratings\_count}, \texttt{price},
+\texttt{series}, and \texttt{awards}, are omitted
+from the target output.
+
+
+\subsection{Amazon Mapping}
+
+\subsubsection{Data Analysis}
+
+Our Amazon dataset contains 40,000 books. The Python
+analysis did not identify any shifted CSV rows.
+
+Publication dates are relatively consistent:
+31,012 entries (77.5\%) contain a complete date,
+such as \texttt{April 30, 2019}, 7,022 (17.6\%)
+already contain January 1, and 1,966 (4.9\%) are
+empty. Year-only values do not occur.
+
+For numeric fields, \texttt{pages} contains valid
+values for 28,197 books (70.5\%) and is empty
+for 11,803 (29.5\%). The price is missing for
+4,724 books (11.8\%).
+
+Amazon provides two ISBN columns:
+\texttt{isbn13} and \texttt{isbn10}. For 85 books
+(0.2\%), \texttt{isbn13} is missing, but
+\texttt{isbn10} is available in every case.
+There are no books where both fields are empty.
+Interestingly, \texttt{isbn10} contains 13-digit
+ISBNs for 3,029 books (7.6\%). We also found
+six ASINs.
+
+Authors and genres are stored as JSON-like lists,
+for example \texttt{["A","B"]}. All 40,000 books
+use this format for \texttt{authors}. For
+\texttt{genres}, 37,042 books (92.6\%) contain
+a list with values, while 2,958 (7.4\%) contain
+an empty list \texttt{[]}. Unlike Goodreads,
+there is no space after the comma.
+
+Other missing values include \texttt{edition}
+(40.1\%), \texttt{format} (8.4\%),
+\texttt{publisher} (4.7\%), and
+\texttt{language} (1.0\%). In addition,
+34,187 books (approximately 85\%) contain
+an ampersand, for example in
+\texttt{Literature \& Fiction}.
+
+\subsubsection{Implementation in MapForce}
+
+For dates, we created the function
+\texttt{Amazon\_Date}. It uses
+\texttt{parse-date} with the format pattern
+\texttt{[MNn] [D1], [Y0001]}. Before conversion,
+\texttt{match-pattern} checks whether the value
+matches the expected format to prevent errors.
+
+Authors and genres are processed using
+\texttt{Clean\_List\_JSON}. First,
+\texttt{substring} removes the outer list
+characters. Then, \texttt{tokenize} splits
+the remaining content at the separator
+\texttt{","}. Empty values are filtered out,
+so an empty list \texttt{[]} does not create
+a \texttt{genre} element.
+
+As with Goodreads, we use \texttt{Page\_Count}
+for page counts and \texttt{Safe\_Number}
+for prices, ratings, and rating counts.
+
+For ISBNs, we prefer \texttt{isbn13} and use
+\texttt{isbn10} only when \texttt{isbn13} is
+missing. This fallback is required for 85 books.
+The fact that \texttt{isbn10} sometimes contains
+13-digit values is not a problem for the mapping
+because ISBNs are stored as strings and used
+only as identifiers.
+
+Ampersands are automatically written as
+\texttt{\&amp;} in XML. This is the correct
+XML representation, not a data error.
+An XML parser converts it back to the
+original ampersand when reading the file.
+
+
+\subsection{Cross-Source Issue: Ambiguity of January 1}
+
+A common issue is the addition of \texttt{-01-01}
+to year-only publication dates. Since the target
+schema uses \texttt{xs:date}, a complete date is
+required. For example, \texttt{2010} becomes
+\texttt{2010-01-01}.
+
+However, some source records already contain
+January 1 as their publication date. In the
+resulting XML files, we can no longer distinguish
+between dates where January 1 was originally
+present and dates where we added it.
+
+We used Python to quantify both cases:
+
+\begin{table}[htbp]
+\centering
+\caption{January 1 dates in the three datasets.}
+\label{tab:january-first}
+\footnotesize
+\begin{tabular}{lrr}
+\toprule
+\textbf{Dataset} &
+\textbf{January 1 added} &
+\textbf{January 1 in source} \\
+\midrule
+Goodreads & 4,362 & 1,219 \\
+DBpedia   & 34,355 & 321 \\
+Amazon    & 0 & 7,022 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+For Goodreads, the 1,219 original January 1 dates
+represent approximately 22\% of all January 1
+values after conversion. For DBpedia, only about
+0.9\% of these values were originally present
+(321 compared with 34,355 added dates).
+
+Amazon is different: we did not need to add
+January 1 to any year-only values, but 7,022
+books (17.6\%) already have this date.
+This unusually high share suggests that Amazon
+may use January 1 as a default when the exact
+publication day is unknown. However, we cannot
+confirm this from the available data.
+
+This ambiguity is relevant for matching in
+Phase II because comparing complete dates
+could lead to incorrect differences or matches.
+We therefore plan to compare only the
+publication year.
+
+Another cross-source issue concerns missing
+values. A missing value in the target output
+may already have been missing in the source,
+or it may result from our cleaning process
+when an invalid value was deliberately omitted.
+We analyzed and quantified these problems
+with Python before implementing the mappings
+to make our decisions traceable.
+
+
 \end{document}
