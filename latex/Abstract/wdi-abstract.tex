@@ -1,0 +1,221 @@
+% Revised project proposal (Group 6) -- addresses the feedback of 8 Oct 2026:
+% (1) entity = edition, (2) complete DBpedia download with dbp: properties,
+% (3) documented Amazon selection with random baseline.
+\documentclass[runningheads]{llncs}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{xurl}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{threeparttable}
+\usepackage{ragged2e}
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\setlength{\floatsep}{6pt plus 2pt minus 2pt}
+\setlength{\emergencystretch}{2em}
+
+\begin{document}
+\title{Web Data Integration Project Proposal (Group 6) -- Revised}
+\titlerunning{Book Data Integration}
+\authorrunning{Bolduan et al.}
+\author{Lucia Bolduan \orcidID{2261625} \and Safa Shaghely \orcidID{2480414} \and Selma Nezihoglu \orcidID{2390917} \and Minji Oh \orcidID{2389125} \and Kejsi Limaci \orcidID{2389812} \and Shiqi Xu \orcidID{1863435}}
+\institute{University of Mannheim}
+\maketitle
+
+\begin{abstract}
+We integrate book data from Goodreads (52,478 records), DBpedia (59,270) and
+Amazon (40,000) into a common schema. Following the feedback, the entity is a
+book \emph{edition} (e.g.\ the 2018 Putnam hardcover of \emph{Where the Crawdads
+Sing}), not a work. Using the ISBN only as an evaluation key, 6,087 editions
+occur in at least two datasets. Many works appear in several editions with the
+same title and author (6,588 works with 33,540 editions in the Amazon subset),
+which makes telling editions apart the central challenge for identity
+resolution. The integrated schema has 14 attributes, 12 of which occur in at
+least two datasets; \texttt{authors} and \texttt{genres} are list attributes.
+\end{abstract}
+
+\section{Use Case and Entity Definition}
+
+The goal is to integrate book information from three independently maintained
+sources that describe overlapping books with different attribute names,
+formats and levels of detail. One record of the integrated dataset describes
+one \textbf{edition}: a specific publication of a work by a publisher, in a
+format (hardcover, paperback, \dots), at a date, with its own page count and ISBN.
+Goodreads and Amazon list editions directly. A DBpedia resource describes a
+work, but its infobox values (ISBN, publisher, release date, pages) are those
+of the first edition, so each DBpedia record is treated as the first edition of
+its work. Matching therefore has to distinguish, e.g., the hardcover, paperback,
+large-print and movie tie-in editions of the same novel, which share title and
+author but differ in publisher, date, format and page count.
+
+\section{Datasets}
+
+\textbf{Goodreads.} The ``Best Books Ever'' dataset (scraped from the Goodreads
+list of the same name) lists one edition per book. We use the original CSV;
+an earlier copy had been re-saved with a spreadsheet program, which had turned
+91\% of the ISBNs into scientific notation and altered dates.
+
+\textbf{DBpedia.} All 59,270 resources of type \texttt{dbo:Book} were
+downloaded from the public SPARQL endpoint. Because the endpoint silently cuts
+off long-running queries, the download (1) lists the book URIs in partitions by
+first character, paged with \texttt{LIMIT 10000 OFFSET} (below the 40,000 offset
+limit), and (2) fetches the attributes for 150 known URIs per query
+(\texttt{VALUES}); a block that returns a partial result (HTTP 206) is split
+and fetched again. The final count equals \texttt{COUNT(dbo:Book)}. Year and
+language combine \texttt{dbo:releaseDate}/\texttt{dbo:language} with the raw
+infobox properties \texttt{dbp:releaseDate}, \texttt{dbp:pubDate} and
+\texttt{dbp:language}, which lowers missing values from 88.5\% to 11.4\%
+(year) and from 87.6\% to 20.4\% (language). Unlike the first version, books
+without an ISBN are no longer excluded, so 39.0\% of the records have no ISBN.
+
+\textbf{Amazon.} The metadata file of Amazon Reviews 2023 (McAuley Lab)
+contains 4,448,181 book products. 4,336,308 have a title and an author, and
+3,526,297 of these also have an ISBN; this is the population we sample from.
+Products without ISBN (mostly Kindle and Audible) are excluded because the
+ISBN is our gold-standard key. From this population we take the
+\textbf{40,000 editions with the most ratings} (at least 6,506 ratings each).
+The selection uses only Amazon's own rating counts, no information from the
+other datasets. We chose popularity because Goodreads ``Best Books Ever'' is
+itself a popularity-based list: a uniform random sample of 40,000 editions
+(fixed seed) shares only 331 editions with Goodreads, compared with 2,169 for
+the popularity-based subset (Table~\ref{tab:overlap}). Amazon reports one
+rating count for all editions of a work, so the selection contains popular
+works together with many of their editions -- exactly the hard cases for
+edition-level matching. This choice has a cost. The overlap figures in Table 3 are higher than they would be for a random Amazon sample. 
+They describe this subset and should not be generalized to all of Amazon. 
+Our aim is a benchmark with enough shared editions, not a representative sample.
+
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Overview of the datasets.}
+\label{tab:overview}
+\footnotesize
+\newcolumntype{L}[1]{>{\RaggedRight}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft}p{#1}}
+\newcolumntype{Y}{>{\RaggedRight\hbadness=10000}X}
+\begin{tabularx}{\textwidth}{|L{1.7cm}|L{1.6cm}|l|R{1.0cm}|R{0.8cm}|Y|}
+\hline
+\textbf{Dataset} & \textbf{Source} & \textbf{Format} & \textbf{\# Ent.} & \textbf{\# Attr.} & \textbf{List of attributes} \\
+\hline
+Goodreads Best Books Ever & Kaggle / Zenodo\tnote{1} & CSV & 52,478 & 25 & bookId, title, series (MV), author, rating, description, language, isbn, genres, characters (MV), bookFormat, edition (MV), pages, publisher, publishDate, firstPublishDate (MV), awards (MV), numRatings, ratingsByStars, likedPercent, setting (MV), coverImg, bbeScore, bbeVotes, price \\
+\hline
+DBpedia & SPARQL endpoint\tnote{2} & XML & 59,270 & 9\tnote{4} & title, authors, publisher, release\_date, year, pages (MV), language, genres (MV), isbns (MV) \\
+\hline
+Amazon Reviews 2023 & Hugging Face\tnote{3} & CSV & 40,000 & 14\tnote{4} & title, authors, format, publisher, edition (MV), publication\_date, language, pages, genres, average\_rating, ratings\_count, price, isbn13, isbn10 \\
+\hline
+\end{tabularx}
+\begin{tablenotes}\footnotesize
+  \item[1] \url{https://www.kaggle.com/datasets/arnabchaki/goodreads-best-books-ever}, original: \url{https://doi.org/10.5281/zenodo.4265096}
+  \item[2] \url{https://dbpedia.org/sparql}, script \texttt{dbpedia\_books.py}
+  \item[3] \url{https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023}, script \texttt{amazon\_subset.py}
+  \item[4] Without the identifiers \texttt{uri} (DBpedia) and \texttt{amazon\_id}, \texttt{asin} (Amazon).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+Attributes with more than 30\% missing values are marked (MV). In Goodreads
+these are \texttt{series} (55.3\%), \texttt{characters} (73.8\%),
+\texttt{edition} (90.6\%), \texttt{firstPublishDate} (40.6\%),
+\texttt{awards} (79.8\%) and \texttt{setting} (77.9\%); in DBpedia
+\texttt{pages} (38.4\%), \texttt{genres} (36.4\%) and \texttt{isbns} (39.0\%);
+in Amazon only \texttt{edition} (40.1\%).
+
+\section{Integrated Schema}
+
+Table~\ref{tab:schema} maps the source attributes to the integrated schema.
+Compared with the first proposal, \texttt{format} and \texttt{edition} were
+added because they distinguish editions of the same work, and the publication
+date is kept per edition instead of being reduced to a year.
+
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Attribute intersection with the integrated schema (one record per edition).}
+\label{tab:schema}
+\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{|l|l|>{\RaggedRight\arraybackslash}X|}
+\hline
+\textbf{Attribute name} & \textbf{Type} & \textbf{Datasets in which the attribute is found} \\
+\hline
+title             & string           & GR (title), DB (title), AM (title) \\
+authors           & list$<$string$>$ & GR (author), DB (authors), AM (authors) \\
+genres            & list$<$string$>$ & GR (genres), DB (genres), AM (genres) \\
+publication\_date & date             & GR (publishDate), DB (release\_date), AM (publication\_date) \\
+publisher         & string           & GR (publisher), DB (publisher), AM (publisher) \\
+page\_count       & integer          & GR (pages), DB (pages), AM (pages) \\
+language          & string           & GR (language), DB (language), AM (language) \\
+format            & string           & GR (bookFormat), AM (format) \\
+edition           & string           & GR (edition), AM (edition) \\
+rating            & float            & GR (rating), AM (average\_rating) \\
+ratings\_count    & integer          & GR (numRatings), AM (ratings\_count) \\
+price             & float            & GR (price), AM (price) \\
+series            & string           & GR (series) \\
+awards            & list$<$string$>$ & GR (awards) \\
+\hline
+\multicolumn{3}{|l|}{\emph{Identifier for overlap estimation and the gold standard only (not used for matching):}} \\
+isbn              & string           & GR (isbn), DB (isbns), AM (isbn13, isbn10) \\
+\hline
+\end{tabularx}
+\begin{tablenotes}[para,flushleft]
+  \footnotesize GR = Goodreads, DB = DBpedia, AM = Amazon; source column names in brackets.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+Twelve attributes occur in at least two datasets and seven in all three
+(\texttt{title}, \texttt{authors}, \texttt{genres}, \texttt{publication\_date},
+\texttt{publisher}, \texttt{page\_count}, \texttt{language}), which allows
+fusion by voting. Representations differ: Amazon titles carry series or edition
+details in brackets (``Where the Crawdads Sing (Movie Tie-in)''), Goodreads
+stores contributors and roles in one string (``J.K. Rowling, Mary GrandPr\'e
+(Illustrator)''), DBpedia dates range from years to full dates, and the
+sources use different genre vocabularies.
+
+\section{Overlap Estimation}
+
+Two records describe the same edition if they share an ISBN (ISBN-10 and
+ISBN-13 normalised to ISBN-13). The ISBN is used only for this estimate and as
+the gold standard; the matchers in Phase~II will not use it. Since records
+without an ISBN cannot be counted, the numbers in Table~\ref{tab:overlap} are
+lower bounds.
+
+\begin{table}[htbp]
+\centering
+\caption{Edition overlap (shared ISBN-13) and comparison with a random Amazon sample.}
+\label{tab:overlap}
+\footnotesize
+\begin{tabular}{lr}
+\toprule
+\textbf{Measure} & \textbf{Editions} \\
+\midrule
+Amazon $\cap$ Goodreads & 2,169 \\
+Amazon $\cap$ DBpedia & 1,725 \\
+Goodreads $\cap$ DBpedia & 3,271 \\
+In all three datasets & 539 \\
+\textbf{In at least two datasets} & \textbf{6,087} \\
+\midrule
+Random Amazon sample (40,000, seed 42) $\cap$ Goodreads & 331 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+With 6,087 editions in at least two datasets, the requirement of 1,000 is met
+even under this strict criterion. The total number of distinct editions is
+well above 2,500, since the three sources contain 151,748 records with at most
+6,087 shared editions.
+
+To show the difficulty of edition-level matching, we also compared works
+(normalised title and first-author surname). Goodreads and DBpedia share
+10,619 works; for 4,759 of the 7,561 shared works with ISBNs on both sides
+(63\%), the two sources list \emph{different} editions. Amazon and Goodreads
+share 3,146 works (22\% in different editions), and within the Amazon subset
+6,588 works appear in more than one edition (33,540 records). A matcher based
+on title and author alone would therefore produce many false matches; date,
+publisher, format and page count are needed to tell editions apart.
+In Phase II, the matchers will therefore compare title, authors, publisher, publication date, format and page count.
+Title and authors first generate candidate pairs. The other attributes then decide whether two candidates are the same edition.
+We evaluate against the ISBN gold standard.
+
+\end{document}
