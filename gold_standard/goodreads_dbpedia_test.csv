@@ -1,4 +1,5 @@
 id1,id2,label
+goodreads_id_10705,dbpedia_id_54860,FALSE
 goodreads_id_46010,dbpedia_id_18610,TRUE
 goodreads_id_30213,dbpedia_id_24682,FALSE
 goodreads_id_31716,dbpedia_id_53928,FALSE
@@ -9,15 +10,12 @@ goodreads_id_38456,dbpedia_id_57167,FALSE
 goodreads_id_33765,dbpedia_id_35882,TRUE
 goodreads_id_47668,dbpedia_id_7312,FALSE
 goodreads_id_1743,dbpedia_id_50867,TRUE
-goodreads_id_2675,dbpedia_id_38921,TRUE
 goodreads_id_21534,dbpedia_id_20015,FALSE
 goodreads_id_1288,dbpedia_id_31532,TRUE
-goodreads_id_17498,dbpedia_id_34128,TRUE
 goodreads_id_37975,dbpedia_id_14906,FALSE
 goodreads_id_9876,dbpedia_id_9081,FALSE
 goodreads_id_1054,dbpedia_id_5616,FALSE
 goodreads_id_8426,dbpedia_id_19100,FALSE
-goodreads_id_8237,dbpedia_id_50469,TRUE
 goodreads_id_4118,dbpedia_id_30971,FALSE
 goodreads_id_5486,dbpedia_id_25847,TRUE
 goodreads_id_41020,dbpedia_id_51097,TRUE
@@ -64,7 +62,6 @@ goodreads_id_13079,dbpedia_id_57048,FALSE
 goodreads_id_24647,dbpedia_id_15875,FALSE
 goodreads_id_18831,dbpedia_id_35400,FALSE
 goodreads_id_15789,dbpedia_id_26992,TRUE
-goodreads_id_30926,dbpedia_id_48777,TRUE
 goodreads_id_37324,dbpedia_id_52062,FALSE
 goodreads_id_19194,dbpedia_id_20823,FALSE
 goodreads_id_2896,dbpedia_id_43565,FALSE
@@ -79,7 +76,6 @@ goodreads_id_4871,dbpedia_id_32438,TRUE
 goodreads_id_188,dbpedia_id_47024,TRUE
 goodreads_id_46687,dbpedia_id_35952,FALSE
 goodreads_id_43733,dbpedia_id_55222,FALSE
-goodreads_id_9207,dbpedia_id_40509,TRUE
 goodreads_id_20818,dbpedia_id_48803,FALSE
 goodreads_id_12816,dbpedia_id_16808,FALSE
 goodreads_id_41423,dbpedia_id_11397,FALSE
@@ -95,9 +91,7 @@ goodreads_id_14540,dbpedia_id_7080,FALSE
 goodreads_id_12263,dbpedia_id_21598,TRUE
 goodreads_id_17941,dbpedia_id_48493,FALSE
 goodreads_id_46373,dbpedia_id_49956,FALSE
-goodreads_id_14657,dbpedia_id_34903,TRUE
 goodreads_id_46116,dbpedia_id_18815,TRUE
-goodreads_id_45807,dbpedia_id_26015,TRUE
 goodreads_id_7634,dbpedia_id_19139,TRUE
 goodreads_id_8478,dbpedia_id_25965,FALSE
 goodreads_id_3567,dbpedia_id_48036,TRUE
@@ -150,7 +144,6 @@ goodreads_id_18947,dbpedia_id_46311,TRUE
 goodreads_id_21326,dbpedia_id_33652,FALSE
 goodreads_id_9462,dbpedia_id_38136,TRUE
 goodreads_id_24141,dbpedia_id_418,TRUE
-goodreads_id_7895,dbpedia_id_57032,TRUE
 goodreads_id_5209,dbpedia_id_57220,FALSE
 goodreads_id_31748,dbpedia_id_23249,TRUE
 goodreads_id_33062,dbpedia_id_35232,TRUE
@@ -263,13 +256,11 @@ goodreads_id_7731,dbpedia_id_42488,FALSE
 goodreads_id_5502,dbpedia_id_42951,FALSE
 goodreads_id_32113,dbpedia_id_47639,FALSE
 goodreads_id_38506,dbpedia_id_22988,FALSE
-goodreads_id_41303,dbpedia_id_7618,TRUE
 goodreads_id_26760,dbpedia_id_31977,FALSE
 goodreads_id_2220,dbpedia_id_19163,FALSE
 goodreads_id_40067,dbpedia_id_56050,FALSE
 goodreads_id_48599,dbpedia_id_12201,FALSE
 goodreads_id_45929,dbpedia_id_45088,FALSE
-goodreads_id_24236,dbpedia_id_54660,TRUE
 goodreads_id_9127,dbpedia_id_5154,TRUE
 goodreads_id_22609,dbpedia_id_25564,FALSE
 goodreads_id_12735,dbpedia_id_9030,FALSE
@@ -293,7 +284,6 @@ goodreads_id_16899,dbpedia_id_48821,FALSE
 goodreads_id_51601,dbpedia_id_54146,TRUE
 goodreads_id_30814,dbpedia_id_41671,FALSE
 goodreads_id_7430,dbpedia_id_55485,TRUE
-goodreads_id_22053,dbpedia_id_54660,TRUE
 goodreads_id_27930,dbpedia_id_48541,FALSE
 goodreads_id_26433,dbpedia_id_8743,FALSE
 goodreads_id_12442,dbpedia_id_21240,FALSE
@@ -304,7 +294,6 @@ goodreads_id_26001,dbpedia_id_9321,FALSE
 goodreads_id_10137,dbpedia_id_25971,TRUE
 goodreads_id_22528,dbpedia_id_34791,FALSE
 goodreads_id_416,dbpedia_id_13684,TRUE
-goodreads_id_3576,dbpedia_id_20548,TRUE
 goodreads_id_25601,dbpedia_id_3846,TRUE
 goodreads_id_10384,dbpedia_id_47258,TRUE
 goodreads_id_9093,dbpedia_id_25828,TRUE
@@ -313,7 +302,6 @@ goodreads_id_36864,dbpedia_id_27772,FALSE
 goodreads_id_29795,dbpedia_id_41402,FALSE
 goodreads_id_37187,dbpedia_id_56824,FALSE
 goodreads_id_36104,dbpedia_id_50578,FALSE
-goodreads_id_24162,dbpedia_id_56989,TRUE
 goodreads_id_35270,dbpedia_id_44161,TRUE
 goodreads_id_32747,dbpedia_id_42235,TRUE
 goodreads_id_38390,dbpedia_id_35026,FALSE
@@ -338,7 +326,6 @@ goodreads_id_20229,dbpedia_id_38866,FALSE
 goodreads_id_45577,dbpedia_id_29379,TRUE
 goodreads_id_24771,dbpedia_id_56419,TRUE
 goodreads_id_5225,dbpedia_id_50255,FALSE
-goodreads_id_35811,dbpedia_id_2394,TRUE
 goodreads_id_14982,dbpedia_id_27739,FALSE
 goodreads_id_3382,dbpedia_id_41889,FALSE
 goodreads_id_10437,dbpedia_id_5594,FALSE
@@ -348,7 +335,6 @@ goodreads_id_31797,dbpedia_id_52077,FALSE
 goodreads_id_50923,dbpedia_id_16309,TRUE
 goodreads_id_971,dbpedia_id_56357,TRUE
 goodreads_id_6531,dbpedia_id_50767,FALSE
-goodreads_id_37258,dbpedia_id_51214,TRUE
 goodreads_id_7249,dbpedia_id_41859,FALSE
 goodreads_id_13212,dbpedia_id_58536,TRUE
 goodreads_id_6465,dbpedia_id_14736,FALSE
@@ -358,7 +344,6 @@ goodreads_id_28455,dbpedia_id_4428,TRUE
 goodreads_id_22801,dbpedia_id_26206,TRUE
 goodreads_id_22373,dbpedia_id_23409,TRUE
 goodreads_id_7528,dbpedia_id_45530,FALSE
-goodreads_id_42890,dbpedia_id_52292,TRUE
 goodreads_id_5059,dbpedia_id_33555,FALSE
 goodreads_id_13053,dbpedia_id_39238,TRUE
 goodreads_id_16333,dbpedia_id_37667,FALSE
@@ -376,19 +361,15 @@ goodreads_id_18037,dbpedia_id_32713,FALSE
 goodreads_id_3506,dbpedia_id_50216,FALSE
 goodreads_id_40572,dbpedia_id_45338,TRUE
 goodreads_id_29323,dbpedia_id_35831,FALSE
-goodreads_id_31882,dbpedia_id_7634,TRUE
 goodreads_id_13286,dbpedia_id_58120,FALSE
 goodreads_id_20038,dbpedia_id_6767,FALSE
 goodreads_id_17731,dbpedia_id_11141,TRUE
 goodreads_id_6944,dbpedia_id_47963,TRUE
-goodreads_id_2277,dbpedia_id_33964,TRUE
 goodreads_id_38572,dbpedia_id_37756,FALSE
 goodreads_id_21786,dbpedia_id_11815,TRUE
 goodreads_id_15504,dbpedia_id_58439,FALSE
 goodreads_id_42167,dbpedia_id_53813,FALSE
-goodreads_id_574,dbpedia_id_15452,TRUE
 goodreads_id_26029,dbpedia_id_28415,FALSE
-goodreads_id_7695,dbpedia_id_15388,TRUE
 goodreads_id_9939,dbpedia_id_31748,FALSE
 goodreads_id_6729,dbpedia_id_34616,FALSE
 goodreads_id_44099,dbpedia_id_26188,TRUE

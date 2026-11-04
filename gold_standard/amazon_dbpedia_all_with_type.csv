@@ -4,7 +4,6 @@ amazon_id_39589,dbpedia_id_1433,TRUE,random match
 amazon_id_4122,dbpedia_id_22812,TRUE,random match
 amazon_id_27562,dbpedia_id_35840,FALSE,random non-match
 amazon_id_28530,dbpedia_id_45289,FALSE,corner-case non-match
-amazon_id_8115,dbpedia_id_32492,TRUE,corner-case match
 amazon_id_6,dbpedia_id_57731,FALSE,corner-case non-match
 amazon_id_10172,dbpedia_id_11599,FALSE,corner-case non-match
 amazon_id_13406,dbpedia_id_5756,TRUE,random match
@@ -62,7 +61,6 @@ amazon_id_4171,dbpedia_id_136,TRUE,random match
 amazon_id_5959,dbpedia_id_33022,FALSE,random non-match
 amazon_id_17119,dbpedia_id_7972,FALSE,corner-case non-match
 amazon_id_7517,dbpedia_id_40632,TRUE,random match
-amazon_id_32328,dbpedia_id_45041,TRUE,corner-case match
 amazon_id_19198,dbpedia_id_32259,FALSE,corner-case non-match
 amazon_id_27432,dbpedia_id_15389,FALSE,corner-case non-match
 amazon_id_19867,dbpedia_id_33729,FALSE,random non-match
@@ -147,7 +145,6 @@ amazon_id_4969,dbpedia_id_23662,FALSE,corner-case non-match
 amazon_id_655,dbpedia_id_18104,TRUE,random match
 amazon_id_7026,dbpedia_id_43852,TRUE,random match
 amazon_id_9237,dbpedia_id_9649,TRUE,random match
-amazon_id_18239,dbpedia_id_26137,TRUE,corner-case match
 amazon_id_22994,dbpedia_id_40310,TRUE,random match
 amazon_id_35490,dbpedia_id_44821,FALSE,random non-match
 amazon_id_23500,dbpedia_id_55220,FALSE,random non-match
@@ -157,7 +154,6 @@ amazon_id_16616,dbpedia_id_43426,FALSE,corner-case non-match
 amazon_id_32355,dbpedia_id_53227,FALSE,corner-case non-match
 amazon_id_7409,dbpedia_id_58725,FALSE,corner-case non-match
 amazon_id_7089,dbpedia_id_2125,FALSE,random non-match
-amazon_id_16830,dbpedia_id_51725,TRUE,corner-case match
 amazon_id_17661,dbpedia_id_45102,FALSE,random non-match
 amazon_id_10069,dbpedia_id_5973,FALSE,random non-match
 amazon_id_21761,dbpedia_id_44088,TRUE,random match
@@ -196,7 +192,6 @@ amazon_id_26843,dbpedia_id_55870,FALSE,random non-match
 amazon_id_6010,dbpedia_id_11608,FALSE,corner-case non-match
 amazon_id_1595,dbpedia_id_7938,TRUE,random match
 amazon_id_9163,dbpedia_id_45488,TRUE,random match
-amazon_id_27589,dbpedia_id_53549,TRUE,corner-case match
 amazon_id_23024,dbpedia_id_59186,FALSE,random non-match
 amazon_id_2831,dbpedia_id_11681,FALSE,corner-case non-match
 amazon_id_35424,dbpedia_id_31115,FALSE,corner-case non-match
@@ -217,7 +212,6 @@ amazon_id_18378,dbpedia_id_53542,FALSE,random non-match
 amazon_id_21019,dbpedia_id_25920,FALSE,random non-match
 amazon_id_22657,dbpedia_id_49619,FALSE,corner-case non-match
 amazon_id_33963,dbpedia_id_31342,TRUE,random match
-amazon_id_4867,dbpedia_id_28895,TRUE,corner-case match
 amazon_id_8484,dbpedia_id_47024,FALSE,random non-match
 amazon_id_32220,dbpedia_id_55565,FALSE,corner-case non-match
 amazon_id_37042,dbpedia_id_36643,TRUE,random match
@@ -257,7 +251,6 @@ amazon_id_13417,dbpedia_id_16738,FALSE,corner-case non-match
 amazon_id_4611,dbpedia_id_4740,TRUE,random match
 amazon_id_27076,dbpedia_id_40289,FALSE,random non-match
 amazon_id_28751,dbpedia_id_38869,FALSE,corner-case non-match
-amazon_id_13306,dbpedia_id_51801,TRUE,corner-case match
 amazon_id_33294,dbpedia_id_44441,TRUE,random match
 amazon_id_30561,dbpedia_id_28072,FALSE,corner-case non-match
 amazon_id_13886,dbpedia_id_55523,TRUE,corner-case match
@@ -272,7 +265,6 @@ amazon_id_4364,dbpedia_id_33820,FALSE,corner-case non-match
 amazon_id_23540,dbpedia_id_52200,FALSE,random non-match
 amazon_id_20159,dbpedia_id_11150,FALSE,random non-match
 amazon_id_36185,dbpedia_id_35291,FALSE,random non-match
-amazon_id_22256,dbpedia_id_30065,TRUE,random match
 amazon_id_23653,dbpedia_id_344,FALSE,random non-match
 amazon_id_34798,dbpedia_id_17718,TRUE,random match
 amazon_id_17724,dbpedia_id_51066,FALSE,corner-case non-match
@@ -318,7 +310,6 @@ amazon_id_28834,dbpedia_id_31155,FALSE,corner-case non-match
 amazon_id_23202,dbpedia_id_23050,FALSE,random non-match
 amazon_id_24224,dbpedia_id_41141,TRUE,corner-case match
 amazon_id_1338,dbpedia_id_17534,FALSE,corner-case non-match
-amazon_id_13193,dbpedia_id_40509,TRUE,corner-case match
 amazon_id_7573,dbpedia_id_33469,FALSE,random non-match
 amazon_id_27465,dbpedia_id_16890,TRUE,corner-case match
 amazon_id_38444,dbpedia_id_3690,TRUE,random match
@@ -337,7 +328,6 @@ amazon_id_18202,dbpedia_id_30874,FALSE,corner-case non-match
 amazon_id_39408,dbpedia_id_13424,FALSE,corner-case non-match
 amazon_id_34167,dbpedia_id_19093,TRUE,random match
 amazon_id_26326,dbpedia_id_49539,TRUE,random match
-amazon_id_21180,dbpedia_id_49482,TRUE,corner-case match
 amazon_id_13943,dbpedia_id_30014,TRUE,random match
 amazon_id_14771,dbpedia_id_52003,TRUE,random match
 amazon_id_15304,dbpedia_id_2384,FALSE,corner-case non-match
@@ -423,7 +413,6 @@ amazon_id_324,dbpedia_id_33361,FALSE,corner-case non-match
 amazon_id_18686,dbpedia_id_44971,TRUE,random match
 amazon_id_19065,dbpedia_id_49477,FALSE,random non-match
 amazon_id_4720,dbpedia_id_661,FALSE,corner-case non-match
-amazon_id_11743,dbpedia_id_46042,TRUE,corner-case match
 amazon_id_2458,dbpedia_id_18381,FALSE,random non-match
 amazon_id_1366,dbpedia_id_40941,TRUE,random match
 amazon_id_10562,dbpedia_id_53419,FALSE,corner-case non-match
@@ -470,7 +459,6 @@ amazon_id_28392,dbpedia_id_38081,TRUE,corner-case match
 amazon_id_11390,dbpedia_id_20431,FALSE,random non-match
 amazon_id_28181,dbpedia_id_55246,FALSE,corner-case non-match
 amazon_id_6687,dbpedia_id_49900,TRUE,corner-case match
-amazon_id_29509,dbpedia_id_35972,TRUE,corner-case match
 amazon_id_38983,dbpedia_id_25121,TRUE,random match
 amazon_id_25755,dbpedia_id_53459,FALSE,random non-match
 amazon_id_25333,dbpedia_id_23020,TRUE,random match
@@ -502,7 +490,6 @@ amazon_id_10952,dbpedia_id_58937,TRUE,random match
 amazon_id_15154,dbpedia_id_49572,FALSE,random non-match
 amazon_id_14471,dbpedia_id_23671,FALSE,corner-case non-match
 amazon_id_10239,dbpedia_id_163,FALSE,corner-case non-match
-amazon_id_7159,dbpedia_id_32489,TRUE,corner-case match
 amazon_id_5817,dbpedia_id_36256,FALSE,random non-match
 amazon_id_16248,dbpedia_id_25947,FALSE,random non-match
 amazon_id_1176,dbpedia_id_374,FALSE,random non-match
@@ -603,7 +590,6 @@ amazon_id_19821,dbpedia_id_7716,FALSE,corner-case non-match
 amazon_id_20260,dbpedia_id_18718,FALSE,random non-match
 amazon_id_5044,dbpedia_id_44350,FALSE,corner-case non-match
 amazon_id_16272,dbpedia_id_38500,FALSE,random non-match
-amazon_id_2933,dbpedia_id_53000,TRUE,corner-case match
 amazon_id_14824,dbpedia_id_35971,TRUE,corner-case match
 amazon_id_4189,dbpedia_id_18401,TRUE,random match
 amazon_id_12074,dbpedia_id_52342,TRUE,corner-case match
@@ -624,7 +610,6 @@ amazon_id_3789,dbpedia_id_54362,FALSE,corner-case non-match
 amazon_id_26308,dbpedia_id_32202,TRUE,random match
 amazon_id_31659,dbpedia_id_10897,TRUE,random match
 amazon_id_16335,dbpedia_id_48915,TRUE,random match
-amazon_id_22294,dbpedia_id_7286,TRUE,corner-case match
 amazon_id_15250,dbpedia_id_23458,FALSE,random non-match
 amazon_id_19200,dbpedia_id_50699,TRUE,corner-case match
 amazon_id_8033,dbpedia_id_4689,FALSE,random non-match
@@ -632,7 +617,6 @@ amazon_id_10635,dbpedia_id_14127,FALSE,corner-case non-match
 amazon_id_24426,dbpedia_id_37079,FALSE,random non-match
 amazon_id_3233,dbpedia_id_51670,FALSE,random non-match
 amazon_id_22647,dbpedia_id_57101,FALSE,corner-case non-match
-amazon_id_11484,dbpedia_id_35038,TRUE,corner-case match
 amazon_id_26647,dbpedia_id_12888,FALSE,random non-match
 amazon_id_39146,dbpedia_id_26008,TRUE,random match
 amazon_id_10415,dbpedia_id_2104,TRUE,random match
@@ -653,7 +637,6 @@ amazon_id_31101,dbpedia_id_4858,FALSE,corner-case non-match
 amazon_id_4184,dbpedia_id_48967,TRUE,random match
 amazon_id_32856,dbpedia_id_31631,TRUE,random match
 amazon_id_812,dbpedia_id_57107,FALSE,random non-match
-amazon_id_36001,dbpedia_id_19377,TRUE,random match
 amazon_id_12270,dbpedia_id_29778,FALSE,random non-match
 amazon_id_2345,dbpedia_id_36172,FALSE,corner-case non-match
 amazon_id_25019,dbpedia_id_57568,FALSE,random non-match
@@ -694,7 +677,6 @@ amazon_id_419,dbpedia_id_44346,FALSE,random non-match
 amazon_id_22279,dbpedia_id_53405,TRUE,random match
 amazon_id_29116,dbpedia_id_48638,FALSE,random non-match
 amazon_id_14239,dbpedia_id_2384,FALSE,corner-case non-match
-amazon_id_12035,dbpedia_id_49493,TRUE,corner-case match
 amazon_id_21148,dbpedia_id_14659,FALSE,random non-match
 amazon_id_16112,dbpedia_id_31987,FALSE,random non-match
 amazon_id_19259,dbpedia_id_10405,FALSE,random non-match
@@ -705,7 +687,6 @@ amazon_id_20850,dbpedia_id_49115,FALSE,random non-match
 amazon_id_6031,dbpedia_id_58033,FALSE,corner-case non-match
 amazon_id_22406,dbpedia_id_18112,FALSE,random non-match
 amazon_id_7648,dbpedia_id_57927,FALSE,corner-case non-match
-amazon_id_32145,dbpedia_id_51787,TRUE,corner-case match
 amazon_id_1609,dbpedia_id_10488,FALSE,corner-case non-match
 amazon_id_23258,dbpedia_id_18546,FALSE,random non-match
 amazon_id_26828,dbpedia_id_58597,FALSE,random non-match
@@ -751,7 +732,6 @@ amazon_id_10542,dbpedia_id_20263,TRUE,random match
 amazon_id_7287,dbpedia_id_7150,TRUE,corner-case match
 amazon_id_34187,dbpedia_id_27615,TRUE,random match
 amazon_id_22495,dbpedia_id_23841,FALSE,random non-match
-amazon_id_26623,dbpedia_id_35870,TRUE,corner-case match
 amazon_id_28347,dbpedia_id_55953,FALSE,corner-case non-match
 amazon_id_32523,dbpedia_id_15088,FALSE,random non-match
 amazon_id_1327,dbpedia_id_36494,FALSE,random non-match
@@ -767,7 +747,6 @@ amazon_id_524,dbpedia_id_39894,FALSE,random non-match
 amazon_id_9744,dbpedia_id_3762,FALSE,random non-match
 amazon_id_20845,dbpedia_id_57090,FALSE,corner-case non-match
 amazon_id_3015,dbpedia_id_6834,FALSE,random non-match
-amazon_id_17360,dbpedia_id_57998,TRUE,corner-case match
 amazon_id_13205,dbpedia_id_48343,FALSE,corner-case non-match
 amazon_id_13073,dbpedia_id_40357,FALSE,random non-match
 amazon_id_37409,dbpedia_id_50758,TRUE,random match
@@ -844,7 +823,6 @@ amazon_id_39045,dbpedia_id_11702,FALSE,corner-case non-match
 amazon_id_28810,dbpedia_id_38875,TRUE,corner-case match
 amazon_id_10756,dbpedia_id_33626,TRUE,corner-case match
 amazon_id_19559,dbpedia_id_44728,FALSE,random non-match
-amazon_id_22704,dbpedia_id_55489,TRUE,corner-case match
 amazon_id_18492,dbpedia_id_35619,TRUE,random match
 amazon_id_3526,dbpedia_id_38604,TRUE,random match
 amazon_id_33541,dbpedia_id_8058,FALSE,random non-match
@@ -913,7 +891,6 @@ amazon_id_7963,dbpedia_id_1266,FALSE,random non-match
 amazon_id_21672,dbpedia_id_25220,FALSE,random non-match
 amazon_id_17267,dbpedia_id_28923,FALSE,corner-case non-match
 amazon_id_243,dbpedia_id_31892,TRUE,random match
-amazon_id_35347,dbpedia_id_42698,TRUE,corner-case match
 amazon_id_647,dbpedia_id_29361,FALSE,corner-case non-match
 amazon_id_9895,dbpedia_id_11591,TRUE,corner-case match
 amazon_id_3158,dbpedia_id_41799,FALSE,random non-match
@@ -922,7 +899,6 @@ amazon_id_14824,dbpedia_id_54426,FALSE,corner-case non-match
 amazon_id_36286,dbpedia_id_6620,FALSE,random non-match
 amazon_id_26020,dbpedia_id_13262,FALSE,random non-match
 amazon_id_30317,dbpedia_id_15393,FALSE,corner-case non-match
-amazon_id_28478,dbpedia_id_46163,TRUE,corner-case match
 amazon_id_16052,dbpedia_id_8769,TRUE,random match
 amazon_id_16201,dbpedia_id_43066,FALSE,corner-case non-match
 amazon_id_3310,dbpedia_id_3530,TRUE,random match
@@ -950,7 +926,6 @@ amazon_id_6866,dbpedia_id_31994,TRUE,random match
 amazon_id_6099,dbpedia_id_4831,FALSE,random non-match
 amazon_id_18885,dbpedia_id_34051,FALSE,corner-case non-match
 amazon_id_7273,dbpedia_id_57242,FALSE,random non-match
-amazon_id_28522,dbpedia_id_25376,TRUE,corner-case match
 amazon_id_2813,dbpedia_id_2047,TRUE,random match
 amazon_id_17886,dbpedia_id_17311,TRUE,random match
 amazon_id_5655,dbpedia_id_43525,FALSE,corner-case non-match
@@ -1127,7 +1102,6 @@ amazon_id_31331,dbpedia_id_66,FALSE,random non-match
 amazon_id_7553,dbpedia_id_13946,TRUE,random match
 amazon_id_28147,dbpedia_id_43639,FALSE,random non-match
 amazon_id_3830,dbpedia_id_32489,TRUE,random match
-amazon_id_7312,dbpedia_id_12818,TRUE,corner-case match
 amazon_id_16452,dbpedia_id_42334,TRUE,random match
 amazon_id_20287,dbpedia_id_33211,FALSE,corner-case non-match
 amazon_id_10672,dbpedia_id_7001,TRUE,corner-case match
@@ -1146,7 +1120,6 @@ amazon_id_102,dbpedia_id_5566,TRUE,random match
 amazon_id_11592,dbpedia_id_33970,FALSE,random non-match
 amazon_id_33129,dbpedia_id_14271,FALSE,random non-match
 amazon_id_18053,dbpedia_id_45846,FALSE,random non-match
-amazon_id_37687,dbpedia_id_23757,TRUE,corner-case match
 amazon_id_22120,dbpedia_id_54058,FALSE,corner-case non-match
 amazon_id_22017,dbpedia_id_21805,TRUE,random match
 amazon_id_28122,dbpedia_id_51941,FALSE,random non-match
@@ -1177,7 +1150,6 @@ amazon_id_12322,dbpedia_id_44834,TRUE,random match
 amazon_id_673,dbpedia_id_2667,TRUE,random match
 amazon_id_20060,dbpedia_id_10000,TRUE,corner-case match
 amazon_id_38010,dbpedia_id_30476,FALSE,corner-case non-match
-amazon_id_37736,dbpedia_id_37262,TRUE,corner-case match
 amazon_id_23565,dbpedia_id_7981,TRUE,random match
 amazon_id_15174,dbpedia_id_56597,FALSE,random non-match
 amazon_id_27450,dbpedia_id_47487,TRUE,random match

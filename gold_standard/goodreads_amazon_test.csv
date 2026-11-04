@@ -1,6 +1,4 @@
 id1,id2,label
-goodreads_id_1949,amazon_id_32615,TRUE
-goodreads_id_40892,amazon_id_12042,FALSE
 goodreads_id_3299,amazon_id_4041,TRUE
 goodreads_id_16800,amazon_id_21258,FALSE
 goodreads_id_287,amazon_id_32557,FALSE
@@ -90,7 +88,6 @@ goodreads_id_4099,amazon_id_13590,TRUE
 goodreads_id_609,amazon_id_19131,FALSE
 goodreads_id_36134,amazon_id_2133,FALSE
 goodreads_id_8306,amazon_id_39102,FALSE
-goodreads_id_24833,amazon_id_29123,TRUE
 goodreads_id_19971,amazon_id_3171,FALSE
 goodreads_id_21599,amazon_id_38645,FALSE
 goodreads_id_8415,amazon_id_10020,FALSE
@@ -137,7 +134,6 @@ goodreads_id_17190,amazon_id_9873,FALSE
 goodreads_id_44449,amazon_id_19151,FALSE
 goodreads_id_25135,amazon_id_29010,FALSE
 goodreads_id_15489,amazon_id_8842,FALSE
-goodreads_id_7956,amazon_id_19162,TRUE
 goodreads_id_3853,amazon_id_5187,TRUE
 goodreads_id_7921,amazon_id_25553,TRUE
 goodreads_id_240,amazon_id_926,FALSE
@@ -153,7 +149,6 @@ goodreads_id_52089,amazon_id_17868,TRUE
 goodreads_id_25,amazon_id_277,FALSE
 goodreads_id_9218,amazon_id_28194,FALSE
 goodreads_id_33050,amazon_id_36152,TRUE
-goodreads_id_47729,amazon_id_33006,TRUE
 goodreads_id_22609,amazon_id_18534,FALSE
 goodreads_id_43371,amazon_id_13187,FALSE
 goodreads_id_21459,amazon_id_28833,FALSE

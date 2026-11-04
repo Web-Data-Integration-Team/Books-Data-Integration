@@ -10,7 +10,6 @@ goodreads_id_21361,dbpedia_id_13339,FALSE,random non-match
 goodreads_id_32791,dbpedia_id_33142,FALSE,corner-case non-match
 goodreads_id_5949,dbpedia_id_13124,FALSE,corner-case non-match
 goodreads_id_14585,dbpedia_id_33819,FALSE,corner-case non-match
-goodreads_id_16687,dbpedia_id_37598,TRUE,corner-case match
 goodreads_id_43253,dbpedia_id_51451,FALSE,random non-match
 goodreads_id_11232,dbpedia_id_47434,FALSE,random non-match
 goodreads_id_12807,dbpedia_id_46978,FALSE,corner-case non-match
@@ -58,7 +57,6 @@ goodreads_id_3394,dbpedia_id_36174,FALSE,corner-case non-match
 goodreads_id_37812,dbpedia_id_57236,TRUE,random match
 goodreads_id_48540,dbpedia_id_11160,FALSE,corner-case non-match
 goodreads_id_20249,dbpedia_id_28097,FALSE,random non-match
-goodreads_id_44056,dbpedia_id_47559,TRUE,corner-case match
 goodreads_id_5177,dbpedia_id_10808,FALSE,random non-match
 goodreads_id_34509,dbpedia_id_35956,TRUE,corner-case match
 goodreads_id_10951,dbpedia_id_31600,FALSE,random non-match
@@ -76,7 +74,6 @@ goodreads_id_29256,dbpedia_id_57347,FALSE,corner-case non-match
 goodreads_id_15428,dbpedia_id_50488,FALSE,corner-case non-match
 goodreads_id_26062,dbpedia_id_41847,TRUE,random match
 goodreads_id_1350,dbpedia_id_54768,FALSE,corner-case non-match
-goodreads_id_17202,dbpedia_id_58292,TRUE,corner-case match
 goodreads_id_20207,dbpedia_id_35229,TRUE,corner-case match
 goodreads_id_32062,dbpedia_id_14984,FALSE,corner-case non-match
 goodreads_id_47817,dbpedia_id_40442,TRUE,corner-case match
@@ -97,10 +94,7 @@ goodreads_id_52362,dbpedia_id_27681,FALSE,random non-match
 goodreads_id_32758,dbpedia_id_7915,FALSE,random non-match
 goodreads_id_26248,dbpedia_id_1146,FALSE,corner-case non-match
 goodreads_id_2059,dbpedia_id_43307,FALSE,corner-case non-match
-goodreads_id_2360,dbpedia_id_15392,TRUE,corner-case match
-goodreads_id_9347,dbpedia_id_55686,TRUE,corner-case match
 goodreads_id_3244,dbpedia_id_22085,FALSE,corner-case non-match
-goodreads_id_2360,dbpedia_id_15388,TRUE,corner-case match
 goodreads_id_51049,dbpedia_id_16102,FALSE,corner-case non-match
 goodreads_id_49472,dbpedia_id_3305,FALSE,random non-match
 goodreads_id_38048,dbpedia_id_27295,FALSE,random non-match
@@ -184,7 +178,6 @@ goodreads_id_39923,dbpedia_id_37276,TRUE,random match
 goodreads_id_17983,dbpedia_id_17248,TRUE,random match
 goodreads_id_49222,dbpedia_id_38198,FALSE,random non-match
 goodreads_id_9495,dbpedia_id_12012,FALSE,corner-case non-match
-goodreads_id_42154,dbpedia_id_17862,TRUE,corner-case match
 goodreads_id_21178,dbpedia_id_38252,TRUE,random match
 goodreads_id_7426,dbpedia_id_5572,FALSE,random non-match
 goodreads_id_16222,dbpedia_id_15445,FALSE,corner-case non-match
@@ -198,7 +191,6 @@ goodreads_id_3187,dbpedia_id_49637,TRUE,random match
 goodreads_id_46581,dbpedia_id_43054,FALSE,corner-case non-match
 goodreads_id_23573,dbpedia_id_11513,FALSE,random non-match
 goodreads_id_43228,dbpedia_id_13344,TRUE,corner-case match
-goodreads_id_13983,dbpedia_id_42601,TRUE,corner-case match
 goodreads_id_47974,dbpedia_id_11411,TRUE,random match
 goodreads_id_3210,dbpedia_id_4579,TRUE,corner-case match
 goodreads_id_14443,dbpedia_id_35416,FALSE,corner-case non-match
@@ -225,7 +217,6 @@ goodreads_id_9264,dbpedia_id_24483,TRUE,random match
 goodreads_id_17036,dbpedia_id_48936,FALSE,corner-case non-match
 goodreads_id_45449,dbpedia_id_49102,TRUE,corner-case match
 goodreads_id_17193,dbpedia_id_32267,FALSE,random non-match
-goodreads_id_6629,dbpedia_id_57026,TRUE,corner-case match
 goodreads_id_46400,dbpedia_id_31952,TRUE,corner-case match
 goodreads_id_2640,dbpedia_id_8108,TRUE,corner-case match
 goodreads_id_49289,dbpedia_id_25737,FALSE,random non-match
@@ -258,7 +249,6 @@ goodreads_id_30507,dbpedia_id_56235,TRUE,corner-case match
 goodreads_id_4483,dbpedia_id_52987,FALSE,corner-case non-match
 goodreads_id_27541,dbpedia_id_16531,FALSE,random non-match
 goodreads_id_29699,dbpedia_id_27338,FALSE,random non-match
-goodreads_id_49257,dbpedia_id_42045,TRUE,corner-case match
 goodreads_id_25631,dbpedia_id_24180,FALSE,random non-match
 goodreads_id_32874,dbpedia_id_4085,FALSE,corner-case non-match
 goodreads_id_5884,dbpedia_id_19600,FALSE,corner-case non-match
@@ -290,22 +280,17 @@ goodreads_id_40826,dbpedia_id_35370,TRUE,random match
 goodreads_id_7168,dbpedia_id_54728,FALSE,random non-match
 goodreads_id_2045,dbpedia_id_12119,TRUE,random match
 goodreads_id_14318,dbpedia_id_1511,FALSE,random non-match
-goodreads_id_33657,dbpedia_id_30478,TRUE,corner-case match
 goodreads_id_25247,dbpedia_id_30626,TRUE,random match
 goodreads_id_13884,dbpedia_id_17653,FALSE,random non-match
-goodreads_id_2056,dbpedia_id_49493,TRUE,corner-case match
-goodreads_id_32561,dbpedia_id_20154,TRUE,corner-case match
 goodreads_id_2665,dbpedia_id_15156,TRUE,random match
 goodreads_id_9355,dbpedia_id_40671,TRUE,random match
 goodreads_id_24575,dbpedia_id_12543,FALSE,random non-match
 goodreads_id_143,dbpedia_id_45776,TRUE,random match
-goodreads_id_1497,dbpedia_id_29302,TRUE,random match
 goodreads_id_32854,dbpedia_id_39387,FALSE,random non-match
 goodreads_id_46733,dbpedia_id_56007,TRUE,random match
 goodreads_id_49691,dbpedia_id_57935,TRUE,corner-case match
 goodreads_id_10570,dbpedia_id_34276,FALSE,corner-case non-match
 goodreads_id_45108,dbpedia_id_25978,FALSE,corner-case non-match
-goodreads_id_35541,dbpedia_id_47830,TRUE,corner-case match
 goodreads_id_11717,dbpedia_id_32964,FALSE,random non-match
 goodreads_id_52436,dbpedia_id_673,TRUE,corner-case match
 goodreads_id_42566,dbpedia_id_6591,TRUE,corner-case match
@@ -319,7 +304,6 @@ goodreads_id_9607,dbpedia_id_34338,FALSE,random non-match
 goodreads_id_38442,dbpedia_id_16322,FALSE,random non-match
 goodreads_id_6182,dbpedia_id_57342,TRUE,random match
 goodreads_id_37519,dbpedia_id_54298,FALSE,random non-match
-goodreads_id_15453,dbpedia_id_16680,TRUE,corner-case match
 goodreads_id_3768,dbpedia_id_5568,FALSE,random non-match
 goodreads_id_14405,dbpedia_id_9187,FALSE,random non-match
 goodreads_id_47017,dbpedia_id_54792,TRUE,corner-case match
@@ -332,11 +316,9 @@ goodreads_id_5899,dbpedia_id_801,TRUE,random match
 goodreads_id_45043,dbpedia_id_35173,FALSE,random non-match
 goodreads_id_7104,dbpedia_id_52416,FALSE,corner-case non-match
 goodreads_id_2,dbpedia_id_17536,FALSE,corner-case non-match
-goodreads_id_4287,dbpedia_id_53476,TRUE,corner-case match
 goodreads_id_447,dbpedia_id_51903,TRUE,random match
 goodreads_id_22712,dbpedia_id_25192,FALSE,random non-match
 goodreads_id_17859,dbpedia_id_58549,FALSE,random non-match
-goodreads_id_4995,dbpedia_id_20623,TRUE,corner-case match
 goodreads_id_42193,dbpedia_id_16831,TRUE,corner-case match
 goodreads_id_2300,dbpedia_id_47571,FALSE,corner-case non-match
 goodreads_id_6283,dbpedia_id_52516,FALSE,corner-case non-match
@@ -359,7 +341,6 @@ goodreads_id_33274,dbpedia_id_44161,FALSE,random non-match
 goodreads_id_35593,dbpedia_id_2680,TRUE,random match
 goodreads_id_46026,dbpedia_id_58898,FALSE,random non-match
 goodreads_id_32703,dbpedia_id_19138,FALSE,random non-match
-goodreads_id_38365,dbpedia_id_35396,TRUE,corner-case match
 goodreads_id_27421,dbpedia_id_6869,FALSE,random non-match
 goodreads_id_24491,dbpedia_id_56114,FALSE,random non-match
 goodreads_id_3853,dbpedia_id_8521,TRUE,random match
@@ -383,7 +364,6 @@ goodreads_id_9445,dbpedia_id_47226,TRUE,corner-case match
 goodreads_id_487,dbpedia_id_8597,TRUE,random match
 goodreads_id_36008,dbpedia_id_25175,FALSE,random non-match
 goodreads_id_48604,dbpedia_id_15388,FALSE,random non-match
-goodreads_id_7156,dbpedia_id_42068,TRUE,corner-case match
 goodreads_id_22320,dbpedia_id_8991,FALSE,random non-match
 goodreads_id_25964,dbpedia_id_33904,FALSE,random non-match
 goodreads_id_49264,dbpedia_id_45241,FALSE,random non-match
@@ -418,7 +398,6 @@ goodreads_id_37262,dbpedia_id_6103,FALSE,corner-case non-match
 goodreads_id_3257,dbpedia_id_34196,FALSE,random non-match
 goodreads_id_29501,dbpedia_id_48845,FALSE,corner-case non-match
 goodreads_id_23216,dbpedia_id_6183,TRUE,corner-case match
-goodreads_id_32371,dbpedia_id_42227,TRUE,corner-case match
 goodreads_id_14963,dbpedia_id_56417,TRUE,random match
 goodreads_id_22677,dbpedia_id_25484,TRUE,corner-case match
 goodreads_id_629,dbpedia_id_50334,TRUE,random match
@@ -436,8 +415,6 @@ goodreads_id_26651,dbpedia_id_8410,FALSE,corner-case non-match
 goodreads_id_10115,dbpedia_id_31473,TRUE,random match
 goodreads_id_15087,dbpedia_id_51730,TRUE,corner-case match
 goodreads_id_26732,dbpedia_id_14016,FALSE,random non-match
-goodreads_id_10072,dbpedia_id_4434,TRUE,corner-case match
-goodreads_id_6436,dbpedia_id_5791,TRUE,corner-case match
 goodreads_id_41853,dbpedia_id_32915,FALSE,corner-case non-match
 goodreads_id_32124,dbpedia_id_41370,TRUE,random match
 goodreads_id_43891,dbpedia_id_38337,FALSE,random non-match
@@ -455,10 +432,8 @@ goodreads_id_36379,dbpedia_id_2550,FALSE,corner-case non-match
 goodreads_id_7174,dbpedia_id_13411,FALSE,corner-case non-match
 goodreads_id_13706,dbpedia_id_29052,FALSE,corner-case non-match
 goodreads_id_3030,dbpedia_id_14716,FALSE,random non-match
-goodreads_id_2160,dbpedia_id_21262,TRUE,corner-case match
 goodreads_id_2569,dbpedia_id_18120,FALSE,corner-case non-match
 goodreads_id_6050,dbpedia_id_46625,FALSE,random non-match
-goodreads_id_7695,dbpedia_id_15391,TRUE,corner-case match
 goodreads_id_27138,dbpedia_id_49405,FALSE,corner-case non-match
 goodreads_id_32531,dbpedia_id_51725,FALSE,random non-match
 goodreads_id_45033,dbpedia_id_42870,FALSE,corner-case non-match
@@ -488,9 +463,7 @@ goodreads_id_17428,dbpedia_id_21661,FALSE,corner-case non-match
 goodreads_id_13437,dbpedia_id_45219,FALSE,random non-match
 goodreads_id_45080,dbpedia_id_34933,TRUE,corner-case match
 goodreads_id_42351,dbpedia_id_4098,FALSE,random non-match
-goodreads_id_18038,dbpedia_id_34731,TRUE,corner-case match
 goodreads_id_32000,dbpedia_id_10182,FALSE,random non-match
-goodreads_id_8382,dbpedia_id_49417,TRUE,corner-case match
 goodreads_id_49377,dbpedia_id_31974,TRUE,corner-case match
 goodreads_id_37041,dbpedia_id_41628,TRUE,corner-case match
 goodreads_id_30847,dbpedia_id_12581,FALSE,random non-match
@@ -499,7 +472,6 @@ goodreads_id_11386,dbpedia_id_7116,FALSE,corner-case non-match
 goodreads_id_46822,dbpedia_id_33383,FALSE,random non-match
 goodreads_id_51795,dbpedia_id_58744,TRUE,random match
 goodreads_id_2001,dbpedia_id_1994,TRUE,random match
-goodreads_id_30455,dbpedia_id_41541,TRUE,corner-case match
 goodreads_id_10629,dbpedia_id_20020,FALSE,corner-case non-match
 goodreads_id_51885,dbpedia_id_30185,FALSE,random non-match
 goodreads_id_25379,dbpedia_id_25302,FALSE,corner-case non-match
@@ -604,10 +576,8 @@ goodreads_id_31386,dbpedia_id_55032,FALSE,random non-match
 goodreads_id_43371,dbpedia_id_14223,FALSE,random non-match
 goodreads_id_42517,dbpedia_id_1300,FALSE,corner-case non-match
 goodreads_id_5198,dbpedia_id_37321,FALSE,random non-match
-goodreads_id_24833,dbpedia_id_14856,TRUE,corner-case match
 goodreads_id_34669,dbpedia_id_51942,TRUE,random match
 goodreads_id_1729,dbpedia_id_15539,TRUE,random match
-goodreads_id_15450,dbpedia_id_37654,TRUE,corner-case match
 goodreads_id_17142,dbpedia_id_12951,FALSE,random non-match
 goodreads_id_1224,dbpedia_id_25601,FALSE,corner-case non-match
 goodreads_id_29470,dbpedia_id_23060,TRUE,corner-case match
@@ -626,7 +596,6 @@ goodreads_id_31372,dbpedia_id_15193,TRUE,corner-case match
 goodreads_id_40203,dbpedia_id_31315,TRUE,random match
 goodreads_id_33528,dbpedia_id_1675,FALSE,random non-match
 goodreads_id_1359,dbpedia_id_21805,FALSE,corner-case non-match
-goodreads_id_31229,dbpedia_id_17616,TRUE,corner-case match
 goodreads_id_5311,dbpedia_id_51255,FALSE,random non-match
 goodreads_id_3133,dbpedia_id_4991,FALSE,random non-match
 goodreads_id_9740,dbpedia_id_12728,TRUE,random match
@@ -638,7 +607,6 @@ goodreads_id_189,dbpedia_id_47785,FALSE,corner-case non-match
 goodreads_id_6194,dbpedia_id_11995,TRUE,random match
 goodreads_id_40465,dbpedia_id_6080,FALSE,random non-match
 goodreads_id_32005,dbpedia_id_24285,TRUE,corner-case match
-goodreads_id_15946,dbpedia_id_49495,TRUE,corner-case match
 goodreads_id_24328,dbpedia_id_2353,FALSE,random non-match
 goodreads_id_34346,dbpedia_id_144,FALSE,random non-match
 goodreads_id_14025,dbpedia_id_38983,FALSE,corner-case non-match
@@ -668,7 +636,6 @@ goodreads_id_4126,dbpedia_id_15161,TRUE,random match
 goodreads_id_37958,dbpedia_id_44179,TRUE,random match
 goodreads_id_48471,dbpedia_id_3445,TRUE,random match
 goodreads_id_47461,dbpedia_id_16434,FALSE,random non-match
-goodreads_id_11765,dbpedia_id_57029,TRUE,corner-case match
 goodreads_id_5235,dbpedia_id_6851,TRUE,random match
 goodreads_id_30001,dbpedia_id_34013,FALSE,random non-match
 goodreads_id_24017,dbpedia_id_39608,TRUE,random match
@@ -684,7 +651,6 @@ goodreads_id_5544,dbpedia_id_3717,FALSE,corner-case non-match
 goodreads_id_4531,dbpedia_id_23458,TRUE,corner-case match
 goodreads_id_45198,dbpedia_id_32505,FALSE,random non-match
 goodreads_id_7730,dbpedia_id_35909,TRUE,random match
-goodreads_id_7711,dbpedia_id_57031,TRUE,corner-case match
 goodreads_id_45587,dbpedia_id_20468,FALSE,random non-match
 goodreads_id_16206,dbpedia_id_55933,FALSE,corner-case non-match
 goodreads_id_8448,dbpedia_id_19693,TRUE,random match
@@ -698,8 +664,6 @@ goodreads_id_30157,dbpedia_id_54223,TRUE,random match
 goodreads_id_42364,dbpedia_id_33078,FALSE,corner-case non-match
 goodreads_id_1498,dbpedia_id_12789,FALSE,corner-case non-match
 goodreads_id_26014,dbpedia_id_56665,FALSE,random non-match
-goodreads_id_26223,dbpedia_id_21644,TRUE,corner-case match
-goodreads_id_43584,dbpedia_id_16248,TRUE,corner-case match
 goodreads_id_37026,dbpedia_id_40117,FALSE,corner-case non-match
 goodreads_id_24450,dbpedia_id_40759,FALSE,random non-match
 goodreads_id_15757,dbpedia_id_53216,FALSE,random non-match
@@ -738,7 +702,6 @@ goodreads_id_44883,dbpedia_id_50198,FALSE,random non-match
 goodreads_id_22666,dbpedia_id_46415,TRUE,corner-case match
 goodreads_id_20424,dbpedia_id_16851,FALSE,corner-case non-match
 goodreads_id_24243,dbpedia_id_38315,TRUE,corner-case match
-goodreads_id_49335,dbpedia_id_56877,TRUE,corner-case match
 goodreads_id_23095,dbpedia_id_55403,TRUE,random match
 goodreads_id_41238,dbpedia_id_21465,TRUE,corner-case match
 goodreads_id_48970,dbpedia_id_51200,FALSE,random non-match
@@ -758,7 +721,6 @@ goodreads_id_43714,dbpedia_id_3605,TRUE,random match
 goodreads_id_51556,dbpedia_id_39605,FALSE,random non-match
 goodreads_id_14668,dbpedia_id_8770,TRUE,random match
 goodreads_id_18976,dbpedia_id_17001,FALSE,random non-match
-goodreads_id_16877,dbpedia_id_26137,TRUE,corner-case match
 goodreads_id_459,dbpedia_id_5874,TRUE,random match
 goodreads_id_13516,dbpedia_id_44308,TRUE,random match
 goodreads_id_50543,dbpedia_id_55405,TRUE,random match
@@ -772,7 +734,6 @@ goodreads_id_12647,dbpedia_id_17265,FALSE,random non-match
 goodreads_id_30774,dbpedia_id_49100,TRUE,corner-case match
 goodreads_id_5326,dbpedia_id_31340,TRUE,corner-case match
 goodreads_id_46753,dbpedia_id_15164,FALSE,random non-match
-goodreads_id_6023,dbpedia_id_7215,TRUE,corner-case match
 goodreads_id_46229,dbpedia_id_54755,TRUE,corner-case match
 goodreads_id_388,dbpedia_id_9864,TRUE,random match
 goodreads_id_1305,dbpedia_id_54227,TRUE,random match
@@ -810,7 +771,6 @@ goodreads_id_23778,dbpedia_id_18933,FALSE,corner-case non-match
 goodreads_id_325,dbpedia_id_7221,FALSE,corner-case non-match
 goodreads_id_35776,dbpedia_id_23038,FALSE,random non-match
 goodreads_id_51006,dbpedia_id_25065,FALSE,random non-match
-goodreads_id_41380,dbpedia_id_17867,TRUE,corner-case match
 goodreads_id_5615,dbpedia_id_22666,TRUE,random match
 goodreads_id_2046,dbpedia_id_39023,FALSE,random non-match
 goodreads_id_678,dbpedia_id_42751,FALSE,corner-case non-match
@@ -865,7 +825,6 @@ goodreads_id_662,dbpedia_id_11529,FALSE,random non-match
 goodreads_id_1694,dbpedia_id_8422,FALSE,corner-case non-match
 goodreads_id_1661,dbpedia_id_13978,TRUE,corner-case match
 goodreads_id_50431,dbpedia_id_144,TRUE,corner-case match
-goodreads_id_40958,dbpedia_id_17864,TRUE,corner-case match
 goodreads_id_46197,dbpedia_id_44896,TRUE,random match
 goodreads_id_47850,dbpedia_id_51593,FALSE,random non-match
 goodreads_id_2715,dbpedia_id_13539,FALSE,random non-match
@@ -874,7 +833,6 @@ goodreads_id_37655,dbpedia_id_3690,FALSE,corner-case non-match
 goodreads_id_45794,dbpedia_id_47807,FALSE,random non-match
 goodreads_id_28238,dbpedia_id_44925,FALSE,corner-case non-match
 goodreads_id_51641,dbpedia_id_12319,TRUE,random match
-goodreads_id_15189,dbpedia_id_50564,TRUE,corner-case match
 goodreads_id_12074,dbpedia_id_54058,FALSE,corner-case non-match
 goodreads_id_26338,dbpedia_id_12446,FALSE,corner-case non-match
 goodreads_id_50440,dbpedia_id_36154,FALSE,random non-match
@@ -894,7 +852,6 @@ goodreads_id_7990,dbpedia_id_33122,FALSE,corner-case non-match
 goodreads_id_4075,dbpedia_id_25549,TRUE,random match
 goodreads_id_10578,dbpedia_id_48599,FALSE,corner-case non-match
 goodreads_id_41009,dbpedia_id_37473,TRUE,random match
-goodreads_id_41783,dbpedia_id_17863,TRUE,corner-case match
 goodreads_id_49002,dbpedia_id_42687,FALSE,corner-case non-match
 goodreads_id_4828,dbpedia_id_20701,FALSE,corner-case non-match
 goodreads_id_11116,dbpedia_id_30907,TRUE,random match
@@ -934,13 +891,11 @@ goodreads_id_17344,dbpedia_id_53216,FALSE,corner-case non-match
 goodreads_id_46336,dbpedia_id_37993,TRUE,corner-case match
 goodreads_id_47826,dbpedia_id_5734,FALSE,corner-case non-match
 goodreads_id_34824,dbpedia_id_55367,TRUE,random match
-goodreads_id_3006,dbpedia_id_28895,TRUE,corner-case match
 goodreads_id_14735,dbpedia_id_5456,FALSE,corner-case non-match
 goodreads_id_8658,dbpedia_id_3496,FALSE,random non-match
 goodreads_id_46158,dbpedia_id_26041,FALSE,random non-match
 goodreads_id_3086,dbpedia_id_12295,FALSE,corner-case non-match
 goodreads_id_36101,dbpedia_id_40120,FALSE,random non-match
-goodreads_id_6812,dbpedia_id_49482,TRUE,corner-case match
 goodreads_id_11706,dbpedia_id_22768,TRUE,corner-case match
 goodreads_id_19147,dbpedia_id_5704,FALSE,random non-match
 goodreads_id_167,dbpedia_id_6609,TRUE,random match
@@ -955,15 +910,12 @@ goodreads_id_38456,dbpedia_id_57167,FALSE,random non-match
 goodreads_id_33765,dbpedia_id_35882,TRUE,random match
 goodreads_id_47668,dbpedia_id_7312,FALSE,corner-case non-match
 goodreads_id_1743,dbpedia_id_50867,TRUE,random match
-goodreads_id_2675,dbpedia_id_38921,TRUE,corner-case match
 goodreads_id_21534,dbpedia_id_20015,FALSE,random non-match
 goodreads_id_1288,dbpedia_id_31532,TRUE,random match
-goodreads_id_17498,dbpedia_id_34128,TRUE,random match
 goodreads_id_37975,dbpedia_id_14906,FALSE,random non-match
 goodreads_id_9876,dbpedia_id_9081,FALSE,random non-match
 goodreads_id_1054,dbpedia_id_5616,FALSE,corner-case non-match
 goodreads_id_8426,dbpedia_id_19100,FALSE,corner-case non-match
-goodreads_id_8237,dbpedia_id_50469,TRUE,corner-case match
 goodreads_id_4118,dbpedia_id_30971,FALSE,corner-case non-match
 goodreads_id_5486,dbpedia_id_25847,TRUE,random match
 goodreads_id_41020,dbpedia_id_51097,TRUE,random match
@@ -1010,7 +962,6 @@ goodreads_id_13079,dbpedia_id_57048,FALSE,random non-match
 goodreads_id_24647,dbpedia_id_15875,FALSE,corner-case non-match
 goodreads_id_18831,dbpedia_id_35400,FALSE,corner-case non-match
 goodreads_id_15789,dbpedia_id_26992,TRUE,random match
-goodreads_id_30926,dbpedia_id_48777,TRUE,corner-case match
 goodreads_id_37324,dbpedia_id_52062,FALSE,random non-match
 goodreads_id_19194,dbpedia_id_20823,FALSE,random non-match
 goodreads_id_2896,dbpedia_id_43565,FALSE,corner-case non-match
@@ -1025,7 +976,6 @@ goodreads_id_4871,dbpedia_id_32438,TRUE,random match
 goodreads_id_188,dbpedia_id_47024,TRUE,random match
 goodreads_id_46687,dbpedia_id_35952,FALSE,random non-match
 goodreads_id_43733,dbpedia_id_55222,FALSE,random non-match
-goodreads_id_9207,dbpedia_id_40509,TRUE,corner-case match
 goodreads_id_20818,dbpedia_id_48803,FALSE,random non-match
 goodreads_id_12816,dbpedia_id_16808,FALSE,corner-case non-match
 goodreads_id_41423,dbpedia_id_11397,FALSE,random non-match
@@ -1041,9 +991,7 @@ goodreads_id_14540,dbpedia_id_7080,FALSE,corner-case non-match
 goodreads_id_12263,dbpedia_id_21598,TRUE,corner-case match
 goodreads_id_17941,dbpedia_id_48493,FALSE,random non-match
 goodreads_id_46373,dbpedia_id_49956,FALSE,corner-case non-match
-goodreads_id_14657,dbpedia_id_34903,TRUE,corner-case match
 goodreads_id_46116,dbpedia_id_18815,TRUE,corner-case match
-goodreads_id_45807,dbpedia_id_26015,TRUE,corner-case match
 goodreads_id_7634,dbpedia_id_19139,TRUE,random match
 goodreads_id_8478,dbpedia_id_25965,FALSE,corner-case non-match
 goodreads_id_3567,dbpedia_id_48036,TRUE,random match
@@ -1096,7 +1044,6 @@ goodreads_id_18947,dbpedia_id_46311,TRUE,random match
 goodreads_id_21326,dbpedia_id_33652,FALSE,corner-case non-match
 goodreads_id_9462,dbpedia_id_38136,TRUE,random match
 goodreads_id_24141,dbpedia_id_418,TRUE,random match
-goodreads_id_7895,dbpedia_id_57032,TRUE,corner-case match
 goodreads_id_5209,dbpedia_id_57220,FALSE,random non-match
 goodreads_id_31748,dbpedia_id_23249,TRUE,random match
 goodreads_id_33062,dbpedia_id_35232,TRUE,random match
@@ -1209,13 +1156,11 @@ goodreads_id_7731,dbpedia_id_42488,FALSE,corner-case non-match
 goodreads_id_5502,dbpedia_id_42951,FALSE,corner-case non-match
 goodreads_id_32113,dbpedia_id_47639,FALSE,random non-match
 goodreads_id_38506,dbpedia_id_22988,FALSE,random non-match
-goodreads_id_41303,dbpedia_id_7618,TRUE,corner-case match
 goodreads_id_26760,dbpedia_id_31977,FALSE,random non-match
 goodreads_id_2220,dbpedia_id_19163,FALSE,corner-case non-match
 goodreads_id_40067,dbpedia_id_56050,FALSE,random non-match
 goodreads_id_48599,dbpedia_id_12201,FALSE,corner-case non-match
 goodreads_id_45929,dbpedia_id_45088,FALSE,random non-match
-goodreads_id_24236,dbpedia_id_54660,TRUE,corner-case match
 goodreads_id_9127,dbpedia_id_5154,TRUE,random match
 goodreads_id_22609,dbpedia_id_25564,FALSE,random non-match
 goodreads_id_12735,dbpedia_id_9030,FALSE,corner-case non-match
@@ -1239,7 +1184,6 @@ goodreads_id_16899,dbpedia_id_48821,FALSE,corner-case non-match
 goodreads_id_51601,dbpedia_id_54146,TRUE,random match
 goodreads_id_30814,dbpedia_id_41671,FALSE,corner-case non-match
 goodreads_id_7430,dbpedia_id_55485,TRUE,corner-case match
-goodreads_id_22053,dbpedia_id_54660,TRUE,corner-case match
 goodreads_id_27930,dbpedia_id_48541,FALSE,random non-match
 goodreads_id_26433,dbpedia_id_8743,FALSE,random non-match
 goodreads_id_12442,dbpedia_id_21240,FALSE,random non-match
@@ -1250,7 +1194,6 @@ goodreads_id_26001,dbpedia_id_9321,FALSE,random non-match
 goodreads_id_10137,dbpedia_id_25971,TRUE,random match
 goodreads_id_22528,dbpedia_id_34791,FALSE,random non-match
 goodreads_id_416,dbpedia_id_13684,TRUE,random match
-goodreads_id_3576,dbpedia_id_20548,TRUE,corner-case match
 goodreads_id_25601,dbpedia_id_3846,TRUE,random match
 goodreads_id_10384,dbpedia_id_47258,TRUE,corner-case match
 goodreads_id_9093,dbpedia_id_25828,TRUE,corner-case match
@@ -1259,7 +1202,6 @@ goodreads_id_36864,dbpedia_id_27772,FALSE,random non-match
 goodreads_id_29795,dbpedia_id_41402,FALSE,random non-match
 goodreads_id_37187,dbpedia_id_56824,FALSE,corner-case non-match
 goodreads_id_36104,dbpedia_id_50578,FALSE,random non-match
-goodreads_id_24162,dbpedia_id_56989,TRUE,corner-case match
 goodreads_id_35270,dbpedia_id_44161,TRUE,random match
 goodreads_id_32747,dbpedia_id_42235,TRUE,random match
 goodreads_id_38390,dbpedia_id_35026,FALSE,random non-match
@@ -1284,7 +1226,6 @@ goodreads_id_20229,dbpedia_id_38866,FALSE,random non-match
 goodreads_id_45577,dbpedia_id_29379,TRUE,random match
 goodreads_id_24771,dbpedia_id_56419,TRUE,random match
 goodreads_id_5225,dbpedia_id_50255,FALSE,corner-case non-match
-goodreads_id_35811,dbpedia_id_2394,TRUE,corner-case match
 goodreads_id_14982,dbpedia_id_27739,FALSE,corner-case non-match
 goodreads_id_3382,dbpedia_id_41889,FALSE,random non-match
 goodreads_id_10437,dbpedia_id_5594,FALSE,corner-case non-match
@@ -1294,7 +1235,6 @@ goodreads_id_31797,dbpedia_id_52077,FALSE,random non-match
 goodreads_id_50923,dbpedia_id_16309,TRUE,random match
 goodreads_id_971,dbpedia_id_56357,TRUE,random match
 goodreads_id_6531,dbpedia_id_50767,FALSE,corner-case non-match
-goodreads_id_37258,dbpedia_id_51214,TRUE,corner-case match
 goodreads_id_7249,dbpedia_id_41859,FALSE,random non-match
 goodreads_id_13212,dbpedia_id_58536,TRUE,random match
 goodreads_id_6465,dbpedia_id_14736,FALSE,corner-case non-match
@@ -1304,7 +1244,6 @@ goodreads_id_28455,dbpedia_id_4428,TRUE,random match
 goodreads_id_22801,dbpedia_id_26206,TRUE,random match
 goodreads_id_22373,dbpedia_id_23409,TRUE,corner-case match
 goodreads_id_7528,dbpedia_id_45530,FALSE,corner-case non-match
-goodreads_id_42890,dbpedia_id_52292,TRUE,corner-case match
 goodreads_id_5059,dbpedia_id_33555,FALSE,random non-match
 goodreads_id_13053,dbpedia_id_39238,TRUE,random match
 goodreads_id_16333,dbpedia_id_37667,FALSE,corner-case non-match
@@ -1322,19 +1261,15 @@ goodreads_id_18037,dbpedia_id_32713,FALSE,random non-match
 goodreads_id_3506,dbpedia_id_50216,FALSE,corner-case non-match
 goodreads_id_40572,dbpedia_id_45338,TRUE,corner-case match
 goodreads_id_29323,dbpedia_id_35831,FALSE,random non-match
-goodreads_id_31882,dbpedia_id_7634,TRUE,corner-case match
 goodreads_id_13286,dbpedia_id_58120,FALSE,corner-case non-match
 goodreads_id_20038,dbpedia_id_6767,FALSE,corner-case non-match
 goodreads_id_17731,dbpedia_id_11141,TRUE,random match
 goodreads_id_6944,dbpedia_id_47963,TRUE,random match
-goodreads_id_2277,dbpedia_id_33964,TRUE,corner-case match
 goodreads_id_38572,dbpedia_id_37756,FALSE,random non-match
 goodreads_id_21786,dbpedia_id_11815,TRUE,random match
 goodreads_id_15504,dbpedia_id_58439,FALSE,random non-match
 goodreads_id_42167,dbpedia_id_53813,FALSE,random non-match
-goodreads_id_574,dbpedia_id_15452,TRUE,corner-case match
 goodreads_id_26029,dbpedia_id_28415,FALSE,corner-case non-match
-goodreads_id_7695,dbpedia_id_15388,TRUE,corner-case match
 goodreads_id_9939,dbpedia_id_31748,FALSE,corner-case non-match
 goodreads_id_6729,dbpedia_id_34616,FALSE,random non-match
 goodreads_id_44099,dbpedia_id_26188,TRUE,random match

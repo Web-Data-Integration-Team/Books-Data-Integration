@@ -1,3 +1,113 @@
 id1,id2,reason
 goodreads_id_6037,dbpedia_id_2806,"shared ISBN, but different books (Raja Gidh vs. Aik Din): ISBN error in source data"
 amazon_id_21356,dbpedia_id_36696,"DBpedia resource is the speech 'Cargo cult science', not the book; carries the book's ISBN"
+goodreads_id_1052,amazon_id_29392,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_1113,amazon_id_7312,different books share an ISBN (ISBN error in a source)
+goodreads_id_6040,amazon_id_4400,different books share an ISBN (ISBN error in a source)
+goodreads_id_36308,amazon_id_5141,different books share an ISBN (ISBN error in a source)
+goodreads_id_3299,amazon_id_32328,different books share an ISBN (ISBN error in a source)
+goodreads_id_28952,amazon_id_38498,different books share an ISBN (ISBN error in a source)
+goodreads_id_9046,amazon_id_12876,different books share an ISBN (ISBN error in a source)
+goodreads_id_10852,amazon_id_24793,different books share an ISBN (ISBN error in a source)
+goodreads_id_3256,amazon_id_11723,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_33515,amazon_id_32946,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_4979,amazon_id_16830,different books share an ISBN (ISBN error in a source)
+goodreads_id_40814,amazon_id_4877,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_9,amazon_id_38778,omnibus/box set vs. single book
+goodreads_id_25127,amazon_id_39578,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_24833,amazon_id_29123,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_47729,amazon_id_33006,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_7956,amazon_id_19162,different books share an ISBN (ISBN error in a source)
+goodreads_id_16687,dbpedia_id_37598,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_44056,dbpedia_id_47559,omnibus/box set vs. single book
+goodreads_id_17202,dbpedia_id_58292,different books share an ISBN (ISBN error in a source)
+goodreads_id_2360,dbpedia_id_15392,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_9347,dbpedia_id_55686,different books share an ISBN (ISBN error in a source)
+goodreads_id_2360,dbpedia_id_15388,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_42154,dbpedia_id_17862,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_13983,dbpedia_id_42601,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_6629,dbpedia_id_57026,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_49257,dbpedia_id_42045,different books share an ISBN (ISBN error in a source)
+goodreads_id_33657,dbpedia_id_30478,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_2056,dbpedia_id_49493,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_32561,dbpedia_id_20154,different books share an ISBN (ISBN error in a source)
+goodreads_id_35541,dbpedia_id_47830,different books share an ISBN (ISBN error in a source)
+goodreads_id_15453,dbpedia_id_16680,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_4287,dbpedia_id_53476,different books share an ISBN (ISBN error in a source)
+goodreads_id_4995,dbpedia_id_20623,different books share an ISBN (ISBN error in a source)
+goodreads_id_38365,dbpedia_id_35396,different books share an ISBN (ISBN error in a source)
+goodreads_id_7156,dbpedia_id_42068,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_32371,dbpedia_id_42227,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_10072,dbpedia_id_4434,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_6436,dbpedia_id_5791,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_2160,dbpedia_id_21262,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_7695,dbpedia_id_15391,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_18038,dbpedia_id_34731,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_8382,dbpedia_id_49417,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_30455,dbpedia_id_41541,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_24833,dbpedia_id_14856,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_15450,dbpedia_id_37654,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_31229,dbpedia_id_17616,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_11765,dbpedia_id_57029,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_7711,dbpedia_id_57031,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_26223,dbpedia_id_21644,different books share an ISBN (ISBN error in a source)
+goodreads_id_43584,dbpedia_id_16248,different books share an ISBN (ISBN error in a source)
+goodreads_id_49335,dbpedia_id_56877,different books share an ISBN (ISBN error in a source)
+goodreads_id_16877,dbpedia_id_26137,different books share an ISBN (ISBN error in a source)
+goodreads_id_6023,dbpedia_id_7215,different books share an ISBN (ISBN error in a source)
+goodreads_id_41380,dbpedia_id_17867,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_40958,dbpedia_id_17864,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_15189,dbpedia_id_50564,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_41783,dbpedia_id_17863,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_3006,dbpedia_id_28895,different books share an ISBN (ISBN error in a source)
+goodreads_id_6812,dbpedia_id_49482,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_2675,dbpedia_id_38921,different books share an ISBN (ISBN error in a source)
+goodreads_id_8237,dbpedia_id_50469,different books share an ISBN (ISBN error in a source)
+goodreads_id_30926,dbpedia_id_48777,different books share an ISBN (ISBN error in a source)
+goodreads_id_9207,dbpedia_id_40509,different books share an ISBN (ISBN error in a source)
+goodreads_id_14657,dbpedia_id_34903,different books share an ISBN (ISBN error in a source)
+goodreads_id_45807,dbpedia_id_26015,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_7895,dbpedia_id_57032,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_41303,dbpedia_id_7618,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_24236,dbpedia_id_54660,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_22053,dbpedia_id_54660,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_3576,dbpedia_id_20548,different books share an ISBN (ISBN error in a source)
+goodreads_id_24162,dbpedia_id_56989,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_35811,dbpedia_id_2394,different books share an ISBN (ISBN error in a source)
+goodreads_id_37258,dbpedia_id_51214,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_42890,dbpedia_id_52292,omnibus/box set vs. single book
+goodreads_id_31882,dbpedia_id_7634,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_2277,dbpedia_id_33964,different books share an ISBN (ISBN error in a source)
+goodreads_id_574,dbpedia_id_15452,different books share an ISBN (ISBN error in a source)
+goodreads_id_7695,dbpedia_id_15388,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_1497,dbpedia_id_29302,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_8115,dbpedia_id_32492,different books share an ISBN (ISBN error in a source)
+amazon_id_32328,dbpedia_id_45041,different books share an ISBN (ISBN error in a source)
+amazon_id_18239,dbpedia_id_26137,different books share an ISBN (ISBN error in a source)
+amazon_id_16830,dbpedia_id_51725,different books share an ISBN (ISBN error in a source)
+amazon_id_4867,dbpedia_id_28895,different books share an ISBN (ISBN error in a source)
+amazon_id_13306,dbpedia_id_51801,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+amazon_id_13193,dbpedia_id_40509,different books share an ISBN (ISBN error in a source)
+amazon_id_21180,dbpedia_id_49482,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+amazon_id_11743,dbpedia_id_46042,different books share an ISBN (ISBN error in a source)
+amazon_id_29509,dbpedia_id_35972,different books share an ISBN (ISBN error in a source)
+amazon_id_7159,dbpedia_id_32489,different books share an ISBN (ISBN error in a source)
+amazon_id_2933,dbpedia_id_53000,different books share an ISBN (ISBN error in a source)
+amazon_id_22294,dbpedia_id_7286,different books share an ISBN (ISBN error in a source)
+amazon_id_11484,dbpedia_id_35038,different books share an ISBN (ISBN error in a source)
+amazon_id_12035,dbpedia_id_49493,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+amazon_id_32145,dbpedia_id_51787,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_26623,dbpedia_id_35870,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+amazon_id_17360,dbpedia_id_57998,different books share an ISBN (ISBN error in a source)
+amazon_id_22704,dbpedia_id_55489,different books share an ISBN (ISBN error in a source)
+amazon_id_35347,dbpedia_id_42698,different books share an ISBN (ISBN error in a source)
+amazon_id_28478,dbpedia_id_46163,different books share an ISBN (ISBN error in a source)
+amazon_id_28522,dbpedia_id_25376,different books share an ISBN (ISBN error in a source)
+amazon_id_7312,dbpedia_id_12818,different books share an ISBN (ISBN error in a source)
+amazon_id_37736,dbpedia_id_37262,different books share an ISBN (ISBN error in a source)
+amazon_id_22256,dbpedia_id_30065,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+amazon_id_36001,dbpedia_id_19377,different books share an ISBN (ISBN error in a source)
+amazon_id_27589,dbpedia_id_53549,different books share an ISBN (ISBN error in a source)
+amazon_id_37687,dbpedia_id_23757,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_17498,dbpedia_id_34128,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_15946,dbpedia_id_49495,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"

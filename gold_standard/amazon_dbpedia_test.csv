@@ -1,6 +1,4 @@
 id1,id2,label
-amazon_id_31244,dbpedia_id_45457,FALSE
-amazon_id_11937,dbpedia_id_34457,FALSE
 amazon_id_14614,dbpedia_id_49324,FALSE
 amazon_id_5949,dbpedia_id_11601,TRUE
 amazon_id_6288,dbpedia_id_5472,FALSE
@@ -60,7 +58,6 @@ amazon_id_7963,dbpedia_id_1266,FALSE
 amazon_id_21672,dbpedia_id_25220,FALSE
 amazon_id_17267,dbpedia_id_28923,FALSE
 amazon_id_243,dbpedia_id_31892,TRUE
-amazon_id_35347,dbpedia_id_42698,TRUE
 amazon_id_647,dbpedia_id_29361,FALSE
 amazon_id_9895,dbpedia_id_11591,TRUE
 amazon_id_3158,dbpedia_id_41799,FALSE
@@ -69,7 +66,6 @@ amazon_id_14824,dbpedia_id_54426,FALSE
 amazon_id_36286,dbpedia_id_6620,FALSE
 amazon_id_26020,dbpedia_id_13262,FALSE
 amazon_id_30317,dbpedia_id_15393,FALSE
-amazon_id_28478,dbpedia_id_46163,TRUE
 amazon_id_16052,dbpedia_id_8769,TRUE
 amazon_id_16201,dbpedia_id_43066,FALSE
 amazon_id_3310,dbpedia_id_3530,TRUE
@@ -97,7 +93,6 @@ amazon_id_6866,dbpedia_id_31994,TRUE
 amazon_id_6099,dbpedia_id_4831,FALSE
 amazon_id_18885,dbpedia_id_34051,FALSE
 amazon_id_7273,dbpedia_id_57242,FALSE
-amazon_id_28522,dbpedia_id_25376,TRUE
 amazon_id_2813,dbpedia_id_2047,TRUE
 amazon_id_17886,dbpedia_id_17311,TRUE
 amazon_id_5655,dbpedia_id_43525,FALSE
@@ -274,7 +269,6 @@ amazon_id_31331,dbpedia_id_66,FALSE
 amazon_id_7553,dbpedia_id_13946,TRUE
 amazon_id_28147,dbpedia_id_43639,FALSE
 amazon_id_3830,dbpedia_id_32489,TRUE
-amazon_id_7312,dbpedia_id_12818,TRUE
 amazon_id_16452,dbpedia_id_42334,TRUE
 amazon_id_20287,dbpedia_id_33211,FALSE
 amazon_id_10672,dbpedia_id_7001,TRUE
@@ -293,7 +287,6 @@ amazon_id_102,dbpedia_id_5566,TRUE
 amazon_id_11592,dbpedia_id_33970,FALSE
 amazon_id_33129,dbpedia_id_14271,FALSE
 amazon_id_18053,dbpedia_id_45846,FALSE
-amazon_id_37687,dbpedia_id_23757,TRUE
 amazon_id_22120,dbpedia_id_54058,FALSE
 amazon_id_22017,dbpedia_id_21805,TRUE
 amazon_id_28122,dbpedia_id_51941,FALSE
@@ -324,7 +317,6 @@ amazon_id_12322,dbpedia_id_44834,TRUE
 amazon_id_673,dbpedia_id_2667,TRUE
 amazon_id_20060,dbpedia_id_10000,TRUE
 amazon_id_38010,dbpedia_id_30476,FALSE
-amazon_id_37736,dbpedia_id_37262,TRUE
 amazon_id_23565,dbpedia_id_7981,TRUE
 amazon_id_15174,dbpedia_id_56597,FALSE
 amazon_id_27450,dbpedia_id_47487,TRUE
