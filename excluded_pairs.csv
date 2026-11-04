@@ -1,0 +1,3 @@
+id1,id2,reason
+goodreads_id_6037,dbpedia_id_2806,"shared ISBN, but different books (Raja Gidh vs. Aik Din): ISBN error in source data"
+amazon_id_21356,dbpedia_id_36696,"DBpedia resource is the speech 'Cargo cult science', not the book; carries the book's ISBN"
