@@ -1,0 +1,13 @@
+pair,model,cv f1 (train),val precision,val recall,val f1,params
+goodreads_amazon,LogisticRegression,0.8525082044069385,0.8382352941176471,0.8507462686567164,0.8444444444444444,"{'C': 1.0, 'class_weight': None}"
+goodreads_amazon,RandomForest,0.9008972505116575,0.84,0.9402985074626866,0.8873239436619719,"{'class_weight': 'balanced', 'max_depth': 5, 'n_estimators': 100}"
+goodreads_amazon,GradientBoosting,0.8956691409855967,0.9047619047619048,0.8507462686567164,0.8769230769230769,"{'learning_rate': 0.1, 'max_depth': 2, 'n_estimators': 100}"
+goodreads_amazon,Rule baseline,,0.7457627118644068,0.6567164179104478,0.6984126984126984,{'threshold': 0.99}
+goodreads_dbpedia,LogisticRegression,0.7329236831232174,0.6829268292682927,0.8,0.7368421052631579,"{'C': 10.0, 'class_weight': 'balanced'}"
+goodreads_dbpedia,RandomForest,0.8193688035707233,0.7283950617283951,0.8428571428571429,0.7814569536423841,"{'class_weight': 'balanced', 'max_depth': 10, 'n_estimators': 100}"
+goodreads_dbpedia,GradientBoosting,0.802124112740883,0.7333333333333333,0.7857142857142857,0.7586206896551724,"{'learning_rate': 0.1, 'max_depth': 2, 'n_estimators': 200}"
+goodreads_dbpedia,Rule baseline,,0.46616541353383456,0.8857142857142857,0.6108374384236454,{'threshold': 0.65}
+amazon_dbpedia,LogisticRegression,0.725996380996381,0.7,0.8596491228070176,0.7716535433070866,"{'C': 10.0, 'class_weight': 'balanced'}"
+amazon_dbpedia,RandomForest,0.8323541641188699,0.7166666666666667,0.7543859649122807,0.7350427350427351,"{'class_weight': 'balanced', 'max_depth': 10, 'n_estimators': 300}"
+amazon_dbpedia,GradientBoosting,0.8299967057386034,0.7647058823529411,0.6842105263157895,0.7222222222222222,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200}"
+amazon_dbpedia,Rule baseline,,0.5892857142857143,0.5789473684210527,0.584070796460177,{'threshold': 0.99}

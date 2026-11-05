@@ -8,7 +8,8 @@ Composition per dataset pair follows the lecture (WDI05, slide 34), default 1,50
                                 e.g. "The Last Straw" vs. "Diary of a Wimpy Kid: The Last Straw"
   * 25% corner-case non-matches same normalised title + first-author surname, no shared ISBN
                                 -> same work, DIFFERENT edition
-  * 30% random non-matches      random pairs of records with ISBN that share no ISBN
+  * 30% random non-matches      random pairs by the same first author (like blocking candidates),
+                                different work and no shared ISBN
 
 For each dataset pair (goodreads-amazon, goodreads-dbpedia, amazon-dbpedia) it writes
     gold_standard/<pair>_train.csv, <pair>_test.csv   columns id1,id2,label (TRUE/FALSE), 70/30 split
@@ -167,16 +168,6 @@ def build_pair(L, R, size, rng):
                 if not (isb & risb):
                     corner_neg.add((lid, rid))
 
-    # random non-matches: random pairs of records with ISBN that share no ISBN
-    Lr = [(i, s_) for i, s_ in zip(L.id, L.isbns) if s_]
-    Rr = [(i, s_) for i, s_ in zip(R.id, R.isbns) if s_]
-    n_rand_neg = int(size * 0.30)
-    rand_neg = set()
-    while len(rand_neg) < n_rand_neg:
-        (lid, li), (rid, ri) = rng.choice(Lr), rng.choice(Rr)
-        if not (li & ri):
-            rand_neg.add((lid, rid))
-
     def sample(pool, k, exclude=()):
         pool = sorted(set(pool) - set(exclude))
         return rng.sample(pool, min(k, len(pool)))
@@ -184,9 +175,27 @@ def build_pair(L, R, size, rng):
     cp = sample(corner_pos, int(size * 0.25))
     rp = sample(pos, int(size * 0.20), exclude=cp)
     cn = sample(corner_neg, int(size * 0.25))
+    # random non-matches, drawn like blocking candidates: same first-author surname, different
+    # work, no shared ISBN. (Pairs of completely random books are trivially different and do not
+    # represent what the matcher sees after blocking, where most candidates share the author.)
+    r_by_surname = defaultdict(list)
+    for rid, w, isb in zip(R.id, R.work, R.isbns):
+        if isinstance(w, str) and isb:
+            r_by_surname[w.split("|")[1]].append((rid, w, isb))
+    Lr = [(i, w, s_) for i, w, s_ in zip(L.id, L.work, L.isbns)
+          if isinstance(w, str) and s_ and r_by_surname.get(w.split("|")[1])]
+    n_rand_neg = int(size * 0.30)
+    rand_neg, tries = set(), 0
+    while len(rand_neg) < n_rand_neg and tries < 200 * n_rand_neg:
+        tries += 1
+        lid, lw, li = rng.choice(Lr)
+        rid, rw, ri = rng.choice(r_by_surname[lw.split("|")[1]])
+        if rw != lw and not (li & ri):
+            rand_neg.add((lid, rid))
+
     gs = ([(a, b, "TRUE", "random match") for a, b in rp] + [(a, b, "TRUE", "corner-case match") for a, b in cp]
           + [(a, b, "FALSE", "corner-case non-match") for a, b in cn]
-          + [(a, b, "FALSE", "random non-match") for a, b in sorted(rand_neg)])
+          + [(a, b, "FALSE", "random non-match (same author)") for a, b in sorted(rand_neg)])
     stats = (len(pos), len(corner_pos), len(corner_neg))
     return pd.DataFrame(gs, columns=["id1", "id2", "label", "type"]), stats
 

@@ -111,3 +111,140 @@ amazon_id_27589,dbpedia_id_53549,different books share an ISBN (ISBN error in a 
 amazon_id_37687,dbpedia_id_23757,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
 goodreads_id_17498,dbpedia_id_34128,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
 goodreads_id_15946,dbpedia_id_49495,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+amazon_id_7112,dbpedia_id_1372,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_16183,dbpedia_id_36327,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_9351,dbpedia_id_58725,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_4419,dbpedia_id_55649,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_18800,dbpedia_id_43352,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_29195,dbpedia_id_23939,"uncertain non-match: same publisher, year and pages, likely the same edition despite different ISBNs"
+goodreads_id_6398,dbpedia_id_16399,"uncertain non-match: same publisher, year and pages, likely the same edition despite different ISBNs"
+goodreads_id_1197,dbpedia_id_11608,"uncertain non-match: same publisher, year and pages, likely the same edition despite different ISBNs"
+goodreads_id_972,dbpedia_id_50795,"uncertain non-match: same publisher, year and pages, likely the same edition despite different ISBNs"
+goodreads_id_40730,dbpedia_id_48832,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_32885,dbpedia_id_56267,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_5322,dbpedia_id_27701,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_41051,dbpedia_id_31778,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_2556,dbpedia_id_6118,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_39961,dbpedia_id_36675,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_45025,dbpedia_id_43275,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_3279,dbpedia_id_1216,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_42850,dbpedia_id_4775,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_4526,dbpedia_id_52504,omnibus/box set vs. single book
+amazon_id_4166,dbpedia_id_136,"uncertain non-match: same publisher, year and pages, likely the same edition despite different ISBNs"
+amazon_id_17786,dbpedia_id_48010,"uncertain non-match: same publisher, year and pages, likely the same edition despite different ISBNs"
+amazon_id_31407,dbpedia_id_31357,"uncertain non-match: same publisher, year and pages, likely the same edition despite different ISBNs"
+amazon_id_2265,dbpedia_id_16531,"uncertain non-match: same publisher, year and pages, likely the same edition despite different ISBNs"
+amazon_id_10034,dbpedia_id_49617,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_15720,dbpedia_id_49494,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+amazon_id_9507,dbpedia_id_36163,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_22699,dbpedia_id_8055,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_27273,dbpedia_id_26687,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_12697,dbpedia_id_28137,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_5807,dbpedia_id_51594,different books share an ISBN (ISBN error in a source)
+goodreads_id_9305,dbpedia_id_39326,different books share an ISBN (ISBN error in a source)
+goodreads_id_7430,dbpedia_id_55485,omnibus/box set vs. single book
+goodreads_id_3588,dbpedia_id_34496,different books share an ISBN (ISBN error in a source)
+goodreads_id_49115,dbpedia_id_45896,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_4609,dbpedia_id_1744,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_47017,dbpedia_id_54792,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_7083,dbpedia_id_13686,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_3725,dbpedia_id_6458,omnibus/box set vs. single book
+goodreads_id_5016,dbpedia_id_23416,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_8039,dbpedia_id_21842,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_40572,dbpedia_id_45338,different books share an ISBN (ISBN error in a source)
+goodreads_id_3719,dbpedia_id_48738,different books share an ISBN (ISBN error in a source)
+goodreads_id_4955,dbpedia_id_41454,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_50431,dbpedia_id_146,different books share an ISBN (ISBN error in a source)
+goodreads_id_13796,dbpedia_id_10422,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_22373,dbpedia_id_23409,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_35710,dbpedia_id_12291,different books share an ISBN (ISBN error in a source)
+goodreads_id_6114,dbpedia_id_53549,different books share an ISBN (ISBN error in a source)
+goodreads_id_1945,dbpedia_id_12437,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_4093,dbpedia_id_52723,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_3323,dbpedia_id_57114,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_29425,dbpedia_id_28904,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_13303,dbpedia_id_21848,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_8725,dbpedia_id_41768,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_23459,dbpedia_id_1258,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_24060,dbpedia_id_48810,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_4233,dbpedia_id_20898,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_13419,dbpedia_id_5882,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_22492,dbpedia_id_21337,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_769,dbpedia_id_38397,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_13066,dbpedia_id_57932,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_1401,dbpedia_id_45824,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_16282,dbpedia_id_49708,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_14496,dbpedia_id_9317,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_7833,dbpedia_id_23166,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_4086,dbpedia_id_48860,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_37948,dbpedia_id_48419,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_12165,dbpedia_id_53962,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_16789,dbpedia_id_47772,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_15373,dbpedia_id_49631,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_17754,dbpedia_id_34403,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_1632,dbpedia_id_14709,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_9349,dbpedia_id_47166,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_6447,dbpedia_id_47391,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_27840,dbpedia_id_970,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_8201,dbpedia_id_30601,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_3316,dbpedia_id_282,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_4122,dbpedia_id_38627,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+goodreads_id_25727,dbpedia_id_25521,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_45977,dbpedia_id_41824,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_3894,dbpedia_id_27201,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_6119,dbpedia_id_27384,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_9553,dbpedia_id_8738,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_3380,dbpedia_id_22403,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_1152,dbpedia_id_14090,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_10974,dbpedia_id_24294,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_34039,dbpedia_id_8599,different language/publisher editions share an ISBN (ISBN error in a source)
+goodreads_id_2864,dbpedia_id_37865,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_30551,dbpedia_id_29664,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_15587,dbpedia_id_13454,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_42208,dbpedia_id_7858,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_15940,dbpedia_id_37297,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_1532,dbpedia_id_12193,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_5529,dbpedia_id_13081,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+goodreads_id_6243,dbpedia_id_20553,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_17499,dbpedia_id_36147,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_576,dbpedia_id_17530,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_29427,dbpedia_id_23755,different books share an ISBN (ISBN error in a source)
+amazon_id_19928,dbpedia_id_7716,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_8804,dbpedia_id_27728,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_13780,dbpedia_id_49495,"DBpedia/Amazon record describes a series, collection, author or other topic, not this edition"
+amazon_id_5517,dbpedia_id_9957,different books share an ISBN (ISBN error in a source)
+amazon_id_11700,dbpedia_id_48054,different books share an ISBN (ISBN error in a source)
+amazon_id_532,dbpedia_id_31188,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_12643,dbpedia_id_45368,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_37208,dbpedia_id_50656,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_11627,dbpedia_id_49917,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_38758,dbpedia_id_11065,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_29582,dbpedia_id_47368,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_1960,dbpedia_id_48971,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_9237,dbpedia_id_9649,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_25526,dbpedia_id_36370,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_4899,dbpedia_id_44215,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_6084,dbpedia_id_26712,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_6343,dbpedia_id_18519,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_25992,dbpedia_id_53497,different books share an ISBN (ISBN error in a source)
+amazon_id_23486,dbpedia_id_12431,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_5729,dbpedia_id_36827,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_39040,dbpedia_id_33110,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_36993,dbpedia_id_57342,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_61,dbpedia_id_13015,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_14975,dbpedia_id_7738,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_858,dbpedia_id_57376,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_8508,dbpedia_id_47321,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_10208,dbpedia_id_34559,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_12884,dbpedia_id_49708,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_1670,dbpedia_id_37659,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_27129,dbpedia_id_7275,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_24966,dbpedia_id_53681,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_1007,dbpedia_id_24472,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_6317,dbpedia_id_13012,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_32800,dbpedia_id_46630,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_1318,dbpedia_id_41896,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_33337,dbpedia_id_50545,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_29123,dbpedia_id_14856,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN
+amazon_id_10850,dbpedia_id_29052,different language/publisher editions share an ISBN (ISBN error in a source)
+amazon_id_2466,dbpedia_id_14029,DBpedia describes the first edition (other publisher/year) but carries a later edition's ISBN

@@ -1,1192 +1,1139 @@
 id1,id2,label,type
-amazon_id_1678,dbpedia_id_56204,FALSE,corner-case non-match
-amazon_id_39589,dbpedia_id_1433,TRUE,random match
-amazon_id_4122,dbpedia_id_22812,TRUE,random match
-amazon_id_27562,dbpedia_id_35840,FALSE,random non-match
-amazon_id_28530,dbpedia_id_45289,FALSE,corner-case non-match
-amazon_id_6,dbpedia_id_57731,FALSE,corner-case non-match
-amazon_id_10172,dbpedia_id_11599,FALSE,corner-case non-match
-amazon_id_13406,dbpedia_id_5756,TRUE,random match
-amazon_id_16539,dbpedia_id_14607,TRUE,random match
-amazon_id_37196,dbpedia_id_3512,FALSE,random non-match
-amazon_id_36104,dbpedia_id_41004,FALSE,corner-case non-match
-amazon_id_19672,dbpedia_id_30808,FALSE,corner-case non-match
-amazon_id_18835,dbpedia_id_21071,FALSE,corner-case non-match
-amazon_id_8517,dbpedia_id_55097,FALSE,corner-case non-match
-amazon_id_37244,dbpedia_id_20198,FALSE,corner-case non-match
-amazon_id_13076,dbpedia_id_57198,FALSE,random non-match
-amazon_id_20983,dbpedia_id_25527,FALSE,corner-case non-match
-amazon_id_467,dbpedia_id_14598,FALSE,corner-case non-match
-amazon_id_1819,dbpedia_id_55517,FALSE,corner-case non-match
-amazon_id_27051,dbpedia_id_25833,TRUE,corner-case match
-amazon_id_24415,dbpedia_id_53210,FALSE,random non-match
-amazon_id_4909,dbpedia_id_53546,FALSE,random non-match
-amazon_id_19063,dbpedia_id_41139,TRUE,corner-case match
-amazon_id_5517,dbpedia_id_9956,TRUE,random match
-amazon_id_29919,dbpedia_id_5569,FALSE,random non-match
-amazon_id_8092,dbpedia_id_21267,FALSE,corner-case non-match
-amazon_id_25892,dbpedia_id_54017,FALSE,random non-match
-amazon_id_17365,dbpedia_id_52542,TRUE,corner-case match
-amazon_id_9431,dbpedia_id_43478,FALSE,random non-match
-amazon_id_17662,dbpedia_id_48467,FALSE,corner-case non-match
-amazon_id_21830,dbpedia_id_54055,TRUE,random match
-amazon_id_32342,dbpedia_id_55565,TRUE,corner-case match
-amazon_id_1841,dbpedia_id_55517,FALSE,corner-case non-match
-amazon_id_19807,dbpedia_id_56692,FALSE,random non-match
-amazon_id_26298,dbpedia_id_32202,TRUE,random match
-amazon_id_39138,dbpedia_id_23479,FALSE,random non-match
-amazon_id_3589,dbpedia_id_12798,FALSE,corner-case non-match
-amazon_id_121,dbpedia_id_23474,TRUE,random match
-amazon_id_10299,dbpedia_id_5874,FALSE,random non-match
-amazon_id_19830,dbpedia_id_8091,TRUE,random match
-amazon_id_5774,dbpedia_id_27416,FALSE,corner-case non-match
-amazon_id_24612,dbpedia_id_17131,FALSE,random non-match
-amazon_id_17025,dbpedia_id_13481,TRUE,random match
-amazon_id_21850,dbpedia_id_20549,FALSE,corner-case non-match
-amazon_id_12718,dbpedia_id_31106,TRUE,random match
-amazon_id_4771,dbpedia_id_25569,FALSE,corner-case non-match
-amazon_id_33533,dbpedia_id_12578,FALSE,random non-match
-amazon_id_34103,dbpedia_id_57039,FALSE,random non-match
-amazon_id_32320,dbpedia_id_40994,FALSE,random non-match
-amazon_id_26754,dbpedia_id_35156,FALSE,corner-case non-match
-amazon_id_13121,dbpedia_id_23200,TRUE,random match
-amazon_id_20155,dbpedia_id_41143,TRUE,random match
-amazon_id_22010,dbpedia_id_33373,FALSE,corner-case non-match
-amazon_id_11420,dbpedia_id_38609,FALSE,random non-match
-amazon_id_18688,dbpedia_id_2993,FALSE,random non-match
-amazon_id_784,dbpedia_id_17529,TRUE,random match
-amazon_id_17240,dbpedia_id_56940,FALSE,random non-match
-amazon_id_3610,dbpedia_id_4573,FALSE,corner-case non-match
-amazon_id_4171,dbpedia_id_136,TRUE,random match
-amazon_id_5959,dbpedia_id_33022,FALSE,random non-match
-amazon_id_17119,dbpedia_id_7972,FALSE,corner-case non-match
-amazon_id_7517,dbpedia_id_40632,TRUE,random match
-amazon_id_19198,dbpedia_id_32259,FALSE,corner-case non-match
-amazon_id_27432,dbpedia_id_15389,FALSE,corner-case non-match
-amazon_id_19867,dbpedia_id_33729,FALSE,random non-match
-amazon_id_8997,dbpedia_id_45378,FALSE,random non-match
-amazon_id_22176,dbpedia_id_56516,FALSE,random non-match
-amazon_id_2588,dbpedia_id_31534,FALSE,random non-match
-amazon_id_2653,dbpedia_id_11600,TRUE,corner-case match
-amazon_id_9099,dbpedia_id_44384,TRUE,corner-case match
-amazon_id_7925,dbpedia_id_28535,TRUE,random match
-amazon_id_2034,dbpedia_id_46709,FALSE,random non-match
-amazon_id_9886,dbpedia_id_22308,TRUE,random match
-amazon_id_6006,dbpedia_id_34085,TRUE,random match
-amazon_id_11661,dbpedia_id_48485,FALSE,corner-case non-match
-amazon_id_14294,dbpedia_id_15449,TRUE,random match
-amazon_id_4652,dbpedia_id_3688,FALSE,corner-case non-match
-amazon_id_38067,dbpedia_id_10198,FALSE,random non-match
-amazon_id_36909,dbpedia_id_19996,FALSE,random non-match
-amazon_id_19539,dbpedia_id_39551,TRUE,corner-case match
-amazon_id_5928,dbpedia_id_16767,FALSE,random non-match
-amazon_id_12795,dbpedia_id_7083,TRUE,random match
-amazon_id_39867,dbpedia_id_52516,TRUE,random match
-amazon_id_24510,dbpedia_id_6155,FALSE,random non-match
-amazon_id_3375,dbpedia_id_39141,FALSE,corner-case non-match
-amazon_id_8956,dbpedia_id_41878,TRUE,random match
-amazon_id_18092,dbpedia_id_51066,FALSE,corner-case non-match
-amazon_id_23507,dbpedia_id_3168,FALSE,random non-match
-amazon_id_19739,dbpedia_id_45543,FALSE,random non-match
-amazon_id_17976,dbpedia_id_53661,TRUE,random match
-amazon_id_13448,dbpedia_id_51349,FALSE,corner-case non-match
-amazon_id_29276,dbpedia_id_1202,FALSE,random non-match
-amazon_id_11634,dbpedia_id_52056,FALSE,corner-case non-match
-amazon_id_4236,dbpedia_id_48336,FALSE,corner-case non-match
-amazon_id_5975,dbpedia_id_58983,FALSE,random non-match
-amazon_id_17191,dbpedia_id_19133,TRUE,random match
-amazon_id_3590,dbpedia_id_437,FALSE,corner-case non-match
-amazon_id_15297,dbpedia_id_50645,TRUE,random match
-amazon_id_11310,dbpedia_id_17180,TRUE,random match
-amazon_id_21082,dbpedia_id_42041,FALSE,random non-match
-amazon_id_20788,dbpedia_id_45016,FALSE,corner-case non-match
-amazon_id_29648,dbpedia_id_37679,TRUE,random match
-amazon_id_8832,dbpedia_id_45386,TRUE,random match
-amazon_id_19850,dbpedia_id_49549,TRUE,random match
-amazon_id_934,dbpedia_id_45304,FALSE,corner-case non-match
-amazon_id_22002,dbpedia_id_9563,FALSE,random non-match
-amazon_id_21657,dbpedia_id_5950,TRUE,random match
-amazon_id_6926,dbpedia_id_10821,FALSE,random non-match
-amazon_id_24121,dbpedia_id_9519,FALSE,corner-case non-match
-amazon_id_6427,dbpedia_id_43918,TRUE,random match
-amazon_id_18107,dbpedia_id_56588,FALSE,random non-match
-amazon_id_2039,dbpedia_id_43756,FALSE,random non-match
-amazon_id_38721,dbpedia_id_52533,FALSE,random non-match
-amazon_id_15720,dbpedia_id_49494,TRUE,corner-case match
-amazon_id_3442,dbpedia_id_59134,FALSE,corner-case non-match
-amazon_id_24490,dbpedia_id_40278,FALSE,corner-case non-match
-amazon_id_34783,dbpedia_id_53320,FALSE,corner-case non-match
-amazon_id_16804,dbpedia_id_58400,FALSE,corner-case non-match
-amazon_id_25375,dbpedia_id_56891,FALSE,random non-match
-amazon_id_19309,dbpedia_id_52267,FALSE,random non-match
-amazon_id_20026,dbpedia_id_57195,FALSE,corner-case non-match
-amazon_id_38585,dbpedia_id_33201,FALSE,random non-match
-amazon_id_29066,dbpedia_id_13798,FALSE,random non-match
-amazon_id_7062,dbpedia_id_202,FALSE,corner-case non-match
-amazon_id_7439,dbpedia_id_41583,FALSE,corner-case non-match
-amazon_id_4683,dbpedia_id_25832,FALSE,corner-case non-match
-amazon_id_8111,dbpedia_id_6986,FALSE,corner-case non-match
-amazon_id_17728,dbpedia_id_19127,FALSE,random non-match
-amazon_id_10905,dbpedia_id_44823,FALSE,random non-match
-amazon_id_11940,dbpedia_id_25830,TRUE,corner-case match
-amazon_id_11270,dbpedia_id_10042,TRUE,random match
-amazon_id_1935,dbpedia_id_41433,FALSE,random non-match
-amazon_id_17828,dbpedia_id_25135,FALSE,random non-match
-amazon_id_6280,dbpedia_id_38526,TRUE,random match
-amazon_id_4450,dbpedia_id_50452,FALSE,corner-case non-match
-amazon_id_13156,dbpedia_id_31626,FALSE,random non-match
-amazon_id_30432,dbpedia_id_5519,FALSE,random non-match
-amazon_id_573,dbpedia_id_17530,FALSE,corner-case non-match
-amazon_id_19679,dbpedia_id_18099,FALSE,random non-match
-amazon_id_1568,dbpedia_id_25076,FALSE,random non-match
-amazon_id_26054,dbpedia_id_51122,FALSE,random non-match
-amazon_id_27645,dbpedia_id_17783,FALSE,random non-match
-amazon_id_4969,dbpedia_id_23662,FALSE,corner-case non-match
-amazon_id_655,dbpedia_id_18104,TRUE,random match
-amazon_id_7026,dbpedia_id_43852,TRUE,random match
-amazon_id_9237,dbpedia_id_9649,TRUE,random match
-amazon_id_22994,dbpedia_id_40310,TRUE,random match
-amazon_id_35490,dbpedia_id_44821,FALSE,random non-match
-amazon_id_23500,dbpedia_id_55220,FALSE,random non-match
-amazon_id_15830,dbpedia_id_2995,FALSE,corner-case non-match
-amazon_id_9365,dbpedia_id_58725,FALSE,corner-case non-match
-amazon_id_16616,dbpedia_id_43426,FALSE,corner-case non-match
-amazon_id_32355,dbpedia_id_53227,FALSE,corner-case non-match
-amazon_id_7409,dbpedia_id_58725,FALSE,corner-case non-match
-amazon_id_7089,dbpedia_id_2125,FALSE,random non-match
-amazon_id_17661,dbpedia_id_45102,FALSE,random non-match
-amazon_id_10069,dbpedia_id_5973,FALSE,random non-match
-amazon_id_21761,dbpedia_id_44088,TRUE,random match
-amazon_id_23145,dbpedia_id_1927,TRUE,random match
-amazon_id_3546,dbpedia_id_16059,FALSE,random non-match
-amazon_id_37387,dbpedia_id_14074,TRUE,random match
-amazon_id_36785,dbpedia_id_20131,TRUE,random match
-amazon_id_35764,dbpedia_id_50955,FALSE,corner-case non-match
-amazon_id_25834,dbpedia_id_14179,FALSE,corner-case non-match
-amazon_id_37356,dbpedia_id_42551,FALSE,corner-case non-match
-amazon_id_32816,dbpedia_id_20450,TRUE,random match
-amazon_id_7692,dbpedia_id_6581,TRUE,random match
-amazon_id_4146,dbpedia_id_136,FALSE,corner-case non-match
-amazon_id_26033,dbpedia_id_10939,FALSE,random non-match
-amazon_id_37289,dbpedia_id_13375,FALSE,corner-case non-match
-amazon_id_4303,dbpedia_id_33744,FALSE,random non-match
-amazon_id_9113,dbpedia_id_171,TRUE,random match
-amazon_id_7906,dbpedia_id_25834,TRUE,corner-case match
-amazon_id_8602,dbpedia_id_22655,FALSE,random non-match
-amazon_id_35691,dbpedia_id_52752,FALSE,random non-match
-amazon_id_27504,dbpedia_id_12087,FALSE,random non-match
-amazon_id_3999,dbpedia_id_9405,FALSE,random non-match
-amazon_id_27660,dbpedia_id_49885,TRUE,corner-case match
-amazon_id_1766,dbpedia_id_37910,TRUE,random match
-amazon_id_2544,dbpedia_id_42818,FALSE,random non-match
-amazon_id_12812,dbpedia_id_59265,FALSE,random non-match
-amazon_id_18250,dbpedia_id_26110,TRUE,random match
-amazon_id_15157,dbpedia_id_43104,FALSE,corner-case non-match
-amazon_id_24489,dbpedia_id_42804,FALSE,random non-match
-amazon_id_27413,dbpedia_id_4577,TRUE,random match
-amazon_id_16354,dbpedia_id_44165,TRUE,corner-case match
-amazon_id_8453,dbpedia_id_10989,FALSE,random non-match
-amazon_id_37514,dbpedia_id_974,TRUE,random match
-amazon_id_10981,dbpedia_id_27735,TRUE,random match
-amazon_id_26843,dbpedia_id_55870,FALSE,random non-match
-amazon_id_6010,dbpedia_id_11608,FALSE,corner-case non-match
-amazon_id_1595,dbpedia_id_7938,TRUE,random match
-amazon_id_9163,dbpedia_id_45488,TRUE,random match
-amazon_id_23024,dbpedia_id_59186,FALSE,random non-match
-amazon_id_2831,dbpedia_id_11681,FALSE,corner-case non-match
-amazon_id_35424,dbpedia_id_31115,FALSE,corner-case non-match
-amazon_id_27390,dbpedia_id_35973,FALSE,corner-case non-match
-amazon_id_2641,dbpedia_id_755,TRUE,random match
-amazon_id_17462,dbpedia_id_8010,FALSE,corner-case non-match
-amazon_id_25974,dbpedia_id_55892,FALSE,random non-match
-amazon_id_25142,dbpedia_id_54792,FALSE,random non-match
-amazon_id_17361,dbpedia_id_47036,FALSE,corner-case non-match
-amazon_id_2843,dbpedia_id_14767,FALSE,corner-case non-match
-amazon_id_38361,dbpedia_id_31344,TRUE,random match
-amazon_id_32577,dbpedia_id_12141,FALSE,corner-case non-match
-amazon_id_16069,dbpedia_id_16042,FALSE,random non-match
-amazon_id_14752,dbpedia_id_50257,TRUE,random match
-amazon_id_10991,dbpedia_id_21671,TRUE,random match
-amazon_id_14669,dbpedia_id_27221,FALSE,random non-match
-amazon_id_18378,dbpedia_id_53542,FALSE,random non-match
-amazon_id_21019,dbpedia_id_25920,FALSE,random non-match
-amazon_id_22657,dbpedia_id_49619,FALSE,corner-case non-match
-amazon_id_33963,dbpedia_id_31342,TRUE,random match
-amazon_id_8484,dbpedia_id_47024,FALSE,random non-match
-amazon_id_32220,dbpedia_id_55565,FALSE,corner-case non-match
-amazon_id_37042,dbpedia_id_36643,TRUE,random match
-amazon_id_26859,dbpedia_id_32011,FALSE,random non-match
-amazon_id_9103,dbpedia_id_25828,TRUE,corner-case match
-amazon_id_7864,dbpedia_id_25832,TRUE,corner-case match
-amazon_id_38837,dbpedia_id_34437,FALSE,random non-match
-amazon_id_31829,dbpedia_id_51387,FALSE,random non-match
-amazon_id_20831,dbpedia_id_52161,FALSE,corner-case non-match
-amazon_id_2852,dbpedia_id_48750,FALSE,corner-case non-match
-amazon_id_13727,dbpedia_id_17970,FALSE,random non-match
-amazon_id_36421,dbpedia_id_974,FALSE,corner-case non-match
-amazon_id_10392,dbpedia_id_11591,FALSE,corner-case non-match
-amazon_id_30953,dbpedia_id_20637,FALSE,random non-match
-amazon_id_12682,dbpedia_id_28226,FALSE,corner-case non-match
-amazon_id_29386,dbpedia_id_46571,FALSE,corner-case non-match
-amazon_id_21455,dbpedia_id_9289,FALSE,random non-match
-amazon_id_3799,dbpedia_id_43543,FALSE,corner-case non-match
-amazon_id_37736,dbpedia_id_39630,TRUE,random match
-amazon_id_35043,dbpedia_id_51730,FALSE,random non-match
-amazon_id_2278,dbpedia_id_54677,FALSE,random non-match
-amazon_id_19858,dbpedia_id_29154,TRUE,random match
-amazon_id_36915,dbpedia_id_46904,TRUE,random match
-amazon_id_3302,dbpedia_id_55177,FALSE,random non-match
-amazon_id_18591,dbpedia_id_6546,TRUE,random match
-amazon_id_7413,dbpedia_id_14168,FALSE,random non-match
-amazon_id_4181,dbpedia_id_30045,TRUE,random match
-amazon_id_24010,dbpedia_id_41141,FALSE,corner-case non-match
-amazon_id_23841,dbpedia_id_45388,FALSE,corner-case non-match
-amazon_id_38489,dbpedia_id_44734,FALSE,corner-case non-match
-amazon_id_6210,dbpedia_id_50137,FALSE,random non-match
-amazon_id_25347,dbpedia_id_23708,TRUE,corner-case match
-amazon_id_15671,dbpedia_id_43630,TRUE,random match
-amazon_id_1316,dbpedia_id_887,FALSE,random non-match
-amazon_id_17649,dbpedia_id_46491,FALSE,corner-case non-match
-amazon_id_13417,dbpedia_id_16738,FALSE,corner-case non-match
-amazon_id_4611,dbpedia_id_4740,TRUE,random match
-amazon_id_27076,dbpedia_id_40289,FALSE,random non-match
-amazon_id_28751,dbpedia_id_38869,FALSE,corner-case non-match
-amazon_id_33294,dbpedia_id_44441,TRUE,random match
-amazon_id_30561,dbpedia_id_28072,FALSE,corner-case non-match
-amazon_id_13886,dbpedia_id_55523,TRUE,corner-case match
-amazon_id_33636,dbpedia_id_56376,TRUE,random match
-amazon_id_16384,dbpedia_id_30981,TRUE,random match
-amazon_id_37274,dbpedia_id_3180,FALSE,random non-match
-amazon_id_14935,dbpedia_id_7225,FALSE,corner-case non-match
-amazon_id_36467,dbpedia_id_43001,FALSE,random non-match
-amazon_id_23053,dbpedia_id_15238,FALSE,random non-match
-amazon_id_1488,dbpedia_id_39257,TRUE,random match
-amazon_id_4364,dbpedia_id_33820,FALSE,corner-case non-match
-amazon_id_23540,dbpedia_id_52200,FALSE,random non-match
-amazon_id_20159,dbpedia_id_11150,FALSE,random non-match
-amazon_id_36185,dbpedia_id_35291,FALSE,random non-match
-amazon_id_23653,dbpedia_id_344,FALSE,random non-match
-amazon_id_34798,dbpedia_id_17718,TRUE,random match
-amazon_id_17724,dbpedia_id_51066,FALSE,corner-case non-match
-amazon_id_15613,dbpedia_id_45436,FALSE,random non-match
-amazon_id_20903,dbpedia_id_41140,TRUE,corner-case match
-amazon_id_30630,dbpedia_id_56583,TRUE,random match
-amazon_id_25809,dbpedia_id_53538,FALSE,corner-case non-match
-amazon_id_17260,dbpedia_id_47713,FALSE,random non-match
-amazon_id_180,dbpedia_id_3469,TRUE,random match
-amazon_id_2667,dbpedia_id_20613,FALSE,corner-case non-match
-amazon_id_14421,dbpedia_id_47828,TRUE,random match
-amazon_id_11216,dbpedia_id_11606,TRUE,corner-case match
-amazon_id_18755,dbpedia_id_58125,FALSE,random non-match
-amazon_id_10206,dbpedia_id_40289,FALSE,corner-case non-match
-amazon_id_14929,dbpedia_id_11712,FALSE,corner-case non-match
-amazon_id_2749,dbpedia_id_12508,FALSE,corner-case non-match
-amazon_id_1923,dbpedia_id_30428,FALSE,random non-match
-amazon_id_2835,dbpedia_id_48750,FALSE,corner-case non-match
-amazon_id_30429,dbpedia_id_55001,FALSE,random non-match
-amazon_id_54,dbpedia_id_47181,FALSE,corner-case non-match
-amazon_id_33339,dbpedia_id_52975,FALSE,corner-case non-match
-amazon_id_12305,dbpedia_id_41122,TRUE,corner-case match
-amazon_id_8877,dbpedia_id_45386,FALSE,corner-case non-match
-amazon_id_32805,dbpedia_id_12795,FALSE,random non-match
-amazon_id_630,dbpedia_id_36188,FALSE,random non-match
-amazon_id_22552,dbpedia_id_54706,FALSE,random non-match
-amazon_id_17372,dbpedia_id_12804,FALSE,random non-match
-amazon_id_19789,dbpedia_id_5277,FALSE,corner-case non-match
-amazon_id_6346,dbpedia_id_11594,TRUE,random match
-amazon_id_14460,dbpedia_id_8454,TRUE,random match
-amazon_id_7805,dbpedia_id_46044,TRUE,random match
-amazon_id_4705,dbpedia_id_661,FALSE,corner-case non-match
-amazon_id_36860,dbpedia_id_42551,TRUE,random match
-amazon_id_27454,dbpedia_id_11249,FALSE,random non-match
-amazon_id_24215,dbpedia_id_19840,FALSE,random non-match
-amazon_id_15408,dbpedia_id_58490,TRUE,random match
-amazon_id_27752,dbpedia_id_50442,FALSE,corner-case non-match
-amazon_id_3723,dbpedia_id_43723,FALSE,random non-match
-amazon_id_31429,dbpedia_id_24193,FALSE,random non-match
-amazon_id_16641,dbpedia_id_26944,FALSE,corner-case non-match
-amazon_id_15902,dbpedia_id_50375,FALSE,random non-match
-amazon_id_28834,dbpedia_id_31155,FALSE,corner-case non-match
-amazon_id_23202,dbpedia_id_23050,FALSE,random non-match
-amazon_id_24224,dbpedia_id_41141,TRUE,corner-case match
-amazon_id_1338,dbpedia_id_17534,FALSE,corner-case non-match
-amazon_id_7573,dbpedia_id_33469,FALSE,random non-match
-amazon_id_27465,dbpedia_id_16890,TRUE,corner-case match
-amazon_id_38444,dbpedia_id_3690,TRUE,random match
-amazon_id_33337,dbpedia_id_50545,TRUE,random match
-amazon_id_30859,dbpedia_id_13722,FALSE,random non-match
-amazon_id_11354,dbpedia_id_847,FALSE,random non-match
-amazon_id_5484,dbpedia_id_46913,FALSE,corner-case non-match
-amazon_id_14635,dbpedia_id_18701,FALSE,random non-match
-amazon_id_96,dbpedia_id_40703,FALSE,random non-match
-amazon_id_29242,dbpedia_id_54426,FALSE,corner-case non-match
-amazon_id_17499,dbpedia_id_36147,TRUE,corner-case match
-amazon_id_6141,dbpedia_id_10432,TRUE,random match
-amazon_id_7018,dbpedia_id_18859,FALSE,corner-case non-match
-amazon_id_36184,dbpedia_id_21539,FALSE,corner-case non-match
-amazon_id_18202,dbpedia_id_30874,FALSE,corner-case non-match
-amazon_id_39408,dbpedia_id_13424,FALSE,corner-case non-match
-amazon_id_34167,dbpedia_id_19093,TRUE,random match
-amazon_id_26326,dbpedia_id_49539,TRUE,random match
-amazon_id_13943,dbpedia_id_30014,TRUE,random match
-amazon_id_14771,dbpedia_id_52003,TRUE,random match
-amazon_id_15304,dbpedia_id_2384,FALSE,corner-case non-match
-amazon_id_34359,dbpedia_id_16298,FALSE,corner-case non-match
-amazon_id_25553,dbpedia_id_13769,TRUE,random match
-amazon_id_543,dbpedia_id_53355,FALSE,corner-case non-match
-amazon_id_10949,dbpedia_id_7044,FALSE,random non-match
-amazon_id_35496,dbpedia_id_37514,FALSE,random non-match
-amazon_id_25923,dbpedia_id_23687,FALSE,corner-case non-match
-amazon_id_17119,dbpedia_id_32398,FALSE,random non-match
-amazon_id_5372,dbpedia_id_51460,FALSE,random non-match
-amazon_id_13553,dbpedia_id_29114,FALSE,random non-match
-amazon_id_3727,dbpedia_id_13336,FALSE,corner-case non-match
-amazon_id_3597,dbpedia_id_34834,FALSE,corner-case non-match
-amazon_id_3906,dbpedia_id_2374,FALSE,random non-match
-amazon_id_34028,dbpedia_id_57052,FALSE,corner-case non-match
-amazon_id_22975,dbpedia_id_27701,FALSE,random non-match
-amazon_id_31163,dbpedia_id_49081,TRUE,random match
-amazon_id_24604,dbpedia_id_10856,FALSE,random non-match
-amazon_id_5126,dbpedia_id_37823,TRUE,random match
-amazon_id_36456,dbpedia_id_19215,FALSE,corner-case non-match
-amazon_id_39568,dbpedia_id_5870,TRUE,random match
-amazon_id_17207,dbpedia_id_16349,TRUE,random match
-amazon_id_17399,dbpedia_id_7317,TRUE,corner-case match
-amazon_id_31076,dbpedia_id_14143,FALSE,random non-match
-amazon_id_20419,dbpedia_id_52161,FALSE,corner-case non-match
-amazon_id_8828,dbpedia_id_21831,FALSE,corner-case non-match
-amazon_id_16220,dbpedia_id_56736,FALSE,corner-case non-match
-amazon_id_32719,dbpedia_id_36718,TRUE,random match
-amazon_id_34162,dbpedia_id_20255,FALSE,corner-case non-match
-amazon_id_8526,dbpedia_id_27018,TRUE,random match
-amazon_id_6621,dbpedia_id_56655,FALSE,random non-match
-amazon_id_12349,dbpedia_id_15974,FALSE,random non-match
-amazon_id_15740,dbpedia_id_39697,TRUE,corner-case match
-amazon_id_8924,dbpedia_id_11699,FALSE,random non-match
-amazon_id_13628,dbpedia_id_17795,FALSE,corner-case non-match
-amazon_id_30399,dbpedia_id_12585,FALSE,random non-match
-amazon_id_19279,dbpedia_id_4058,FALSE,corner-case non-match
-amazon_id_7996,dbpedia_id_27728,FALSE,corner-case non-match
-amazon_id_19383,dbpedia_id_2801,TRUE,corner-case match
-amazon_id_32264,dbpedia_id_58792,FALSE,random non-match
-amazon_id_9006,dbpedia_id_21293,FALSE,random non-match
-amazon_id_22943,dbpedia_id_8467,TRUE,random match
-amazon_id_7976,dbpedia_id_42289,TRUE,random match
-amazon_id_21489,dbpedia_id_36755,TRUE,random match
-amazon_id_576,dbpedia_id_17530,TRUE,corner-case match
-amazon_id_33138,dbpedia_id_50946,FALSE,random non-match
-amazon_id_12673,dbpedia_id_27818,TRUE,random match
-amazon_id_25638,dbpedia_id_11592,TRUE,corner-case match
-amazon_id_17695,dbpedia_id_30845,TRUE,random match
-amazon_id_14096,dbpedia_id_35461,FALSE,random non-match
-amazon_id_24991,dbpedia_id_32415,TRUE,random match
-amazon_id_4688,dbpedia_id_34197,FALSE,corner-case non-match
-amazon_id_7081,dbpedia_id_51139,TRUE,random match
-amazon_id_21212,dbpedia_id_8948,TRUE,random match
-amazon_id_21919,dbpedia_id_21805,FALSE,corner-case non-match
-amazon_id_5083,dbpedia_id_16771,FALSE,corner-case non-match
-amazon_id_1179,dbpedia_id_55882,FALSE,corner-case non-match
-amazon_id_4449,dbpedia_id_36065,TRUE,random match
-amazon_id_5365,dbpedia_id_5853,FALSE,corner-case non-match
-amazon_id_10188,dbpedia_id_11326,FALSE,random non-match
-amazon_id_3504,dbpedia_id_557,FALSE,corner-case non-match
-amazon_id_33907,dbpedia_id_25853,FALSE,random non-match
-amazon_id_21730,dbpedia_id_25558,FALSE,random non-match
-amazon_id_24321,dbpedia_id_41293,FALSE,random non-match
-amazon_id_39909,dbpedia_id_46196,FALSE,corner-case non-match
-amazon_id_38174,dbpedia_id_7402,FALSE,corner-case non-match
-amazon_id_92,dbpedia_id_12878,FALSE,corner-case non-match
-amazon_id_38929,dbpedia_id_5294,FALSE,random non-match
-amazon_id_39729,dbpedia_id_34886,TRUE,corner-case match
-amazon_id_26959,dbpedia_id_47818,FALSE,random non-match
-amazon_id_25339,dbpedia_id_5473,FALSE,random non-match
-amazon_id_34745,dbpedia_id_48513,TRUE,corner-case match
-amazon_id_32147,dbpedia_id_4119,FALSE,random non-match
-amazon_id_16956,dbpedia_id_19459,FALSE,random non-match
-amazon_id_7230,dbpedia_id_7150,FALSE,corner-case non-match
-amazon_id_3896,dbpedia_id_43558,FALSE,corner-case non-match
-amazon_id_30484,dbpedia_id_28478,FALSE,random non-match
-amazon_id_16579,dbpedia_id_18575,FALSE,corner-case non-match
-amazon_id_964,dbpedia_id_17538,FALSE,corner-case non-match
-amazon_id_39708,dbpedia_id_11702,TRUE,random match
-amazon_id_324,dbpedia_id_33361,FALSE,corner-case non-match
-amazon_id_18686,dbpedia_id_44971,TRUE,random match
-amazon_id_19065,dbpedia_id_49477,FALSE,random non-match
-amazon_id_4720,dbpedia_id_661,FALSE,corner-case non-match
-amazon_id_2458,dbpedia_id_18381,FALSE,random non-match
-amazon_id_1366,dbpedia_id_40941,TRUE,random match
-amazon_id_10562,dbpedia_id_53419,FALSE,corner-case non-match
-amazon_id_4166,dbpedia_id_136,FALSE,corner-case non-match
-amazon_id_24014,dbpedia_id_24115,TRUE,corner-case match
-amazon_id_31558,dbpedia_id_391,FALSE,corner-case non-match
-amazon_id_38393,dbpedia_id_34550,FALSE,corner-case non-match
-amazon_id_1711,dbpedia_id_34525,FALSE,random non-match
-amazon_id_1150,dbpedia_id_17533,FALSE,corner-case non-match
-amazon_id_35473,dbpedia_id_54055,FALSE,corner-case non-match
-amazon_id_10465,dbpedia_id_10695,FALSE,random non-match
-amazon_id_19298,dbpedia_id_643,TRUE,random match
-amazon_id_26442,dbpedia_id_2054,FALSE,random non-match
-amazon_id_9684,dbpedia_id_15193,FALSE,random non-match
-amazon_id_408,dbpedia_id_926,TRUE,random match
-amazon_id_19994,dbpedia_id_1276,TRUE,corner-case match
-amazon_id_13755,dbpedia_id_29315,TRUE,random match
-amazon_id_5016,dbpedia_id_40974,FALSE,corner-case non-match
-amazon_id_5918,dbpedia_id_6152,FALSE,random non-match
-amazon_id_15094,dbpedia_id_36203,FALSE,corner-case non-match
-amazon_id_30498,dbpedia_id_28072,TRUE,random match
-amazon_id_1671,dbpedia_id_54159,FALSE,random non-match
-amazon_id_32762,dbpedia_id_48817,TRUE,random match
-amazon_id_31218,dbpedia_id_32410,FALSE,random non-match
-amazon_id_12982,dbpedia_id_21364,FALSE,corner-case non-match
-amazon_id_25693,dbpedia_id_18408,TRUE,corner-case match
-amazon_id_19389,dbpedia_id_16319,FALSE,corner-case non-match
-amazon_id_14600,dbpedia_id_40986,FALSE,random non-match
-amazon_id_39543,dbpedia_id_24794,FALSE,corner-case non-match
-amazon_id_38136,dbpedia_id_41156,TRUE,random match
-amazon_id_39037,dbpedia_id_33110,TRUE,random match
-amazon_id_6682,dbpedia_id_14995,FALSE,random non-match
-amazon_id_9840,dbpedia_id_11590,FALSE,corner-case non-match
-amazon_id_17800,dbpedia_id_44605,FALSE,corner-case non-match
-amazon_id_7654,dbpedia_id_7173,TRUE,random match
-amazon_id_5384,dbpedia_id_47777,FALSE,corner-case non-match
-amazon_id_13472,dbpedia_id_940,FALSE,random non-match
-amazon_id_13159,dbpedia_id_6299,FALSE,random non-match
-amazon_id_32258,dbpedia_id_24140,TRUE,random match
-amazon_id_9893,dbpedia_id_49617,FALSE,corner-case non-match
-amazon_id_23605,dbpedia_id_16243,TRUE,random match
-amazon_id_18786,dbpedia_id_21656,TRUE,random match
-amazon_id_28392,dbpedia_id_38081,TRUE,corner-case match
-amazon_id_11390,dbpedia_id_20431,FALSE,random non-match
-amazon_id_28181,dbpedia_id_55246,FALSE,corner-case non-match
-amazon_id_6687,dbpedia_id_49900,TRUE,corner-case match
-amazon_id_38983,dbpedia_id_25121,TRUE,random match
-amazon_id_25755,dbpedia_id_53459,FALSE,random non-match
-amazon_id_25333,dbpedia_id_23020,TRUE,random match
-amazon_id_24678,dbpedia_id_37745,FALSE,random non-match
-amazon_id_31589,dbpedia_id_37440,FALSE,random non-match
-amazon_id_23436,dbpedia_id_47461,FALSE,random non-match
-amazon_id_7114,dbpedia_id_19421,FALSE,corner-case non-match
-amazon_id_3202,dbpedia_id_49752,FALSE,corner-case non-match
-amazon_id_1148,dbpedia_id_17533,FALSE,corner-case non-match
-amazon_id_14481,dbpedia_id_11162,FALSE,random non-match
-amazon_id_14974,dbpedia_id_24042,FALSE,random non-match
-amazon_id_29586,dbpedia_id_30659,FALSE,corner-case non-match
-amazon_id_38354,dbpedia_id_34550,TRUE,random match
-amazon_id_5815,dbpedia_id_11600,FALSE,corner-case non-match
-amazon_id_36189,dbpedia_id_16415,FALSE,corner-case non-match
-amazon_id_27904,dbpedia_id_43521,FALSE,corner-case non-match
-amazon_id_36591,dbpedia_id_19243,FALSE,random non-match
-amazon_id_37734,dbpedia_id_42045,FALSE,random non-match
-amazon_id_5517,dbpedia_id_9957,TRUE,corner-case match
-amazon_id_26948,dbpedia_id_6150,TRUE,random match
-amazon_id_26258,dbpedia_id_40261,FALSE,random non-match
-amazon_id_24531,dbpedia_id_30655,FALSE,random non-match
-amazon_id_10136,dbpedia_id_11605,TRUE,corner-case match
-amazon_id_2089,dbpedia_id_48331,FALSE,corner-case non-match
-amazon_id_27828,dbpedia_id_9955,TRUE,random match
-amazon_id_8574,dbpedia_id_53530,FALSE,corner-case non-match
-amazon_id_8866,dbpedia_id_25829,TRUE,corner-case match
-amazon_id_10952,dbpedia_id_58937,TRUE,random match
-amazon_id_15154,dbpedia_id_49572,FALSE,random non-match
-amazon_id_14471,dbpedia_id_23671,FALSE,corner-case non-match
-amazon_id_10239,dbpedia_id_163,FALSE,corner-case non-match
-amazon_id_5817,dbpedia_id_36256,FALSE,random non-match
-amazon_id_16248,dbpedia_id_25947,FALSE,random non-match
-amazon_id_1176,dbpedia_id_374,FALSE,random non-match
-amazon_id_23519,dbpedia_id_3103,FALSE,random non-match
-amazon_id_5510,dbpedia_id_27945,FALSE,random non-match
-amazon_id_20254,dbpedia_id_1031,TRUE,random match
-amazon_id_18533,dbpedia_id_12245,FALSE,random non-match
-amazon_id_36068,dbpedia_id_32636,FALSE,corner-case non-match
-amazon_id_799,dbpedia_id_51148,TRUE,random match
-amazon_id_4723,dbpedia_id_42775,TRUE,random match
-amazon_id_29277,dbpedia_id_5977,FALSE,corner-case non-match
-amazon_id_1601,dbpedia_id_55475,TRUE,random match
-amazon_id_11642,dbpedia_id_51593,FALSE,random non-match
-amazon_id_6200,dbpedia_id_28566,FALSE,corner-case non-match
-amazon_id_21000,dbpedia_id_42075,FALSE,corner-case non-match
-amazon_id_16333,dbpedia_id_58947,FALSE,random non-match
-amazon_id_22309,dbpedia_id_2177,FALSE,corner-case non-match
-amazon_id_25451,dbpedia_id_3837,FALSE,random non-match
-amazon_id_2581,dbpedia_id_57822,TRUE,random match
-amazon_id_12316,dbpedia_id_13852,TRUE,random match
-amazon_id_3002,dbpedia_id_5699,FALSE,corner-case non-match
-amazon_id_22775,dbpedia_id_58313,TRUE,random match
-amazon_id_25295,dbpedia_id_47916,FALSE,corner-case non-match
-amazon_id_4262,dbpedia_id_18401,FALSE,corner-case non-match
-amazon_id_14496,dbpedia_id_42960,FALSE,corner-case non-match
-amazon_id_15348,dbpedia_id_50645,FALSE,corner-case non-match
-amazon_id_21691,dbpedia_id_30115,FALSE,random non-match
-amazon_id_30395,dbpedia_id_16034,FALSE,corner-case non-match
-amazon_id_32090,dbpedia_id_9442,FALSE,random non-match
-amazon_id_4872,dbpedia_id_44215,FALSE,corner-case non-match
-amazon_id_5422,dbpedia_id_2065,FALSE,corner-case non-match
-amazon_id_7143,dbpedia_id_19050,TRUE,random match
-amazon_id_38796,dbpedia_id_6733,FALSE,random non-match
-amazon_id_11644,dbpedia_id_48397,FALSE,corner-case non-match
-amazon_id_34168,dbpedia_id_39412,TRUE,random match
-amazon_id_21282,dbpedia_id_25527,TRUE,random match
-amazon_id_17698,dbpedia_id_14729,FALSE,random non-match
-amazon_id_11712,dbpedia_id_48485,TRUE,random match
-amazon_id_14354,dbpedia_id_11161,TRUE,random match
-amazon_id_7511,dbpedia_id_49719,TRUE,random match
-amazon_id_38937,dbpedia_id_48426,FALSE,random non-match
-amazon_id_26117,dbpedia_id_20290,TRUE,corner-case match
-amazon_id_11920,dbpedia_id_245,TRUE,random match
-amazon_id_14511,dbpedia_id_24130,FALSE,random non-match
-amazon_id_27033,dbpedia_id_52236,TRUE,random match
-amazon_id_6545,dbpedia_id_18643,FALSE,random non-match
-amazon_id_4420,dbpedia_id_48336,TRUE,random match
-amazon_id_13045,dbpedia_id_51395,FALSE,corner-case non-match
-amazon_id_2005,dbpedia_id_26041,FALSE,random non-match
-amazon_id_15792,dbpedia_id_50775,TRUE,corner-case match
-amazon_id_6968,dbpedia_id_54205,FALSE,random non-match
-amazon_id_22463,dbpedia_id_44263,FALSE,random non-match
-amazon_id_17013,dbpedia_id_28877,FALSE,corner-case non-match
-amazon_id_9390,dbpedia_id_34284,FALSE,random non-match
-amazon_id_13118,dbpedia_id_48343,TRUE,random match
-amazon_id_6668,dbpedia_id_11597,FALSE,corner-case non-match
-amazon_id_9908,dbpedia_id_10311,FALSE,random non-match
-amazon_id_18112,dbpedia_id_33201,FALSE,corner-case non-match
-amazon_id_10253,dbpedia_id_39385,TRUE,random match
-amazon_id_6640,dbpedia_id_35810,FALSE,random non-match
-amazon_id_13711,dbpedia_id_30060,FALSE,corner-case non-match
-amazon_id_2093,dbpedia_id_48331,FALSE,corner-case non-match
-amazon_id_9695,dbpedia_id_27830,FALSE,random non-match
-amazon_id_31246,dbpedia_id_49813,TRUE,random match
-amazon_id_38339,dbpedia_id_7402,FALSE,corner-case non-match
-amazon_id_17606,dbpedia_id_40283,FALSE,random non-match
-amazon_id_36091,dbpedia_id_33467,TRUE,corner-case match
-amazon_id_13569,dbpedia_id_692,TRUE,corner-case match
-amazon_id_18479,dbpedia_id_14070,FALSE,corner-case non-match
-amazon_id_17055,dbpedia_id_18559,FALSE,random non-match
-amazon_id_26365,dbpedia_id_24367,TRUE,random match
-amazon_id_19566,dbpedia_id_11594,FALSE,random non-match
-amazon_id_21709,dbpedia_id_8328,FALSE,random non-match
-amazon_id_7886,dbpedia_id_48752,FALSE,random non-match
-amazon_id_17466,dbpedia_id_26247,FALSE,corner-case non-match
-amazon_id_16956,dbpedia_id_9687,FALSE,random non-match
-amazon_id_14110,dbpedia_id_42859,FALSE,corner-case non-match
-amazon_id_15522,dbpedia_id_31634,FALSE,random non-match
-amazon_id_25284,dbpedia_id_52037,FALSE,random non-match
-amazon_id_6439,dbpedia_id_24497,FALSE,random non-match
-amazon_id_5706,dbpedia_id_42009,FALSE,random non-match
-amazon_id_26696,dbpedia_id_15631,FALSE,corner-case non-match
-amazon_id_2121,dbpedia_id_50002,FALSE,corner-case non-match
-amazon_id_26271,dbpedia_id_43312,FALSE,random non-match
-amazon_id_7112,dbpedia_id_1372,TRUE,random match
-amazon_id_35128,dbpedia_id_38740,FALSE,random non-match
-amazon_id_16816,dbpedia_id_47364,TRUE,random match
-amazon_id_2744,dbpedia_id_12508,TRUE,random match
-amazon_id_32420,dbpedia_id_30750,TRUE,random match
-amazon_id_29167,dbpedia_id_205,FALSE,corner-case non-match
-amazon_id_10235,dbpedia_id_19636,FALSE,corner-case non-match
-amazon_id_7733,dbpedia_id_17567,FALSE,corner-case non-match
-amazon_id_12238,dbpedia_id_14800,TRUE,random match
-amazon_id_13023,dbpedia_id_21245,FALSE,random non-match
-amazon_id_25238,dbpedia_id_51678,FALSE,corner-case non-match
-amazon_id_36116,dbpedia_id_15424,FALSE,corner-case non-match
-amazon_id_19821,dbpedia_id_7716,FALSE,corner-case non-match
-amazon_id_20260,dbpedia_id_18718,FALSE,random non-match
-amazon_id_5044,dbpedia_id_44350,FALSE,corner-case non-match
-amazon_id_16272,dbpedia_id_38500,FALSE,random non-match
-amazon_id_14824,dbpedia_id_35971,TRUE,corner-case match
-amazon_id_4189,dbpedia_id_18401,TRUE,random match
-amazon_id_12074,dbpedia_id_52342,TRUE,corner-case match
-amazon_id_4918,dbpedia_id_9958,FALSE,random non-match
-amazon_id_28232,dbpedia_id_43994,FALSE,corner-case non-match
-amazon_id_12321,dbpedia_id_47927,FALSE,random non-match
-amazon_id_10776,dbpedia_id_48799,FALSE,random non-match
-amazon_id_3256,dbpedia_id_14040,TRUE,random match
-amazon_id_1873,dbpedia_id_3642,FALSE,corner-case non-match
-amazon_id_20015,dbpedia_id_10435,TRUE,random match
-amazon_id_6329,dbpedia_id_34600,FALSE,corner-case non-match
-amazon_id_7782,dbpedia_id_46044,FALSE,corner-case non-match
-amazon_id_28479,dbpedia_id_26022,TRUE,random match
-amazon_id_6800,dbpedia_id_45028,FALSE,random non-match
-amazon_id_28604,dbpedia_id_46394,TRUE,random match
-amazon_id_6867,dbpedia_id_7971,FALSE,random non-match
-amazon_id_3789,dbpedia_id_54362,FALSE,corner-case non-match
-amazon_id_26308,dbpedia_id_32202,TRUE,random match
-amazon_id_31659,dbpedia_id_10897,TRUE,random match
-amazon_id_16335,dbpedia_id_48915,TRUE,random match
-amazon_id_15250,dbpedia_id_23458,FALSE,random non-match
-amazon_id_19200,dbpedia_id_50699,TRUE,corner-case match
-amazon_id_8033,dbpedia_id_4689,FALSE,random non-match
-amazon_id_10635,dbpedia_id_14127,FALSE,corner-case non-match
-amazon_id_24426,dbpedia_id_37079,FALSE,random non-match
-amazon_id_3233,dbpedia_id_51670,FALSE,random non-match
-amazon_id_22647,dbpedia_id_57101,FALSE,corner-case non-match
-amazon_id_26647,dbpedia_id_12888,FALSE,random non-match
-amazon_id_39146,dbpedia_id_26008,TRUE,random match
-amazon_id_10415,dbpedia_id_2104,TRUE,random match
-amazon_id_28552,dbpedia_id_58112,FALSE,corner-case non-match
-amazon_id_33026,dbpedia_id_25032,TRUE,random match
-amazon_id_11078,dbpedia_id_13186,FALSE,random non-match
-amazon_id_37633,dbpedia_id_53833,FALSE,random non-match
-amazon_id_18425,dbpedia_id_6987,TRUE,random match
-amazon_id_9716,dbpedia_id_10702,FALSE,random non-match
-amazon_id_29911,dbpedia_id_41214,TRUE,random match
-amazon_id_2044,dbpedia_id_7762,FALSE,corner-case non-match
-amazon_id_23623,dbpedia_id_21156,FALSE,random non-match
-amazon_id_37441,dbpedia_id_56246,FALSE,random non-match
-amazon_id_23823,dbpedia_id_39679,FALSE,corner-case non-match
-amazon_id_21565,dbpedia_id_31857,TRUE,random match
-amazon_id_29305,dbpedia_id_34237,FALSE,random non-match
-amazon_id_31101,dbpedia_id_4858,FALSE,corner-case non-match
-amazon_id_4184,dbpedia_id_48967,TRUE,random match
-amazon_id_32856,dbpedia_id_31631,TRUE,random match
-amazon_id_812,dbpedia_id_57107,FALSE,random non-match
-amazon_id_12270,dbpedia_id_29778,FALSE,random non-match
-amazon_id_2345,dbpedia_id_36172,FALSE,corner-case non-match
-amazon_id_25019,dbpedia_id_57568,FALSE,random non-match
-amazon_id_37155,dbpedia_id_44571,TRUE,random match
-amazon_id_16553,dbpedia_id_8785,TRUE,random match
-amazon_id_28704,dbpedia_id_11399,TRUE,random match
-amazon_id_18055,dbpedia_id_43601,FALSE,random non-match
-amazon_id_67,dbpedia_id_22819,FALSE,corner-case non-match
-amazon_id_27319,dbpedia_id_48237,FALSE,random non-match
-amazon_id_29925,dbpedia_id_29409,FALSE,random non-match
-amazon_id_635,dbpedia_id_14836,FALSE,random non-match
-amazon_id_25281,dbpedia_id_53681,FALSE,corner-case non-match
-amazon_id_2564,dbpedia_id_51367,FALSE,corner-case non-match
-amazon_id_32739,dbpedia_id_55397,TRUE,random match
-amazon_id_31976,dbpedia_id_25329,FALSE,corner-case non-match
-amazon_id_5771,dbpedia_id_54272,FALSE,random non-match
-amazon_id_10680,dbpedia_id_23017,FALSE,random non-match
-amazon_id_29904,dbpedia_id_36803,FALSE,random non-match
-amazon_id_15332,dbpedia_id_11593,TRUE,corner-case match
-amazon_id_17389,dbpedia_id_30503,FALSE,random non-match
-amazon_id_37797,dbpedia_id_24000,FALSE,random non-match
-amazon_id_29095,dbpedia_id_38875,TRUE,corner-case match
-amazon_id_2658,dbpedia_id_48063,FALSE,corner-case non-match
-amazon_id_5228,dbpedia_id_26892,TRUE,random match
-amazon_id_11199,dbpedia_id_31648,FALSE,random non-match
-amazon_id_28029,dbpedia_id_9397,FALSE,random non-match
-amazon_id_7476,dbpedia_id_46422,FALSE,corner-case non-match
-amazon_id_10392,dbpedia_id_11603,FALSE,corner-case non-match
-amazon_id_3804,dbpedia_id_424,FALSE,random non-match
-amazon_id_38411,dbpedia_id_48598,TRUE,random match
-amazon_id_3469,dbpedia_id_7709,TRUE,random match
-amazon_id_32059,dbpedia_id_28673,FALSE,random non-match
-amazon_id_15602,dbpedia_id_37556,FALSE,random non-match
-amazon_id_16502,dbpedia_id_25320,FALSE,corner-case non-match
-amazon_id_6084,dbpedia_id_26712,TRUE,random match
-amazon_id_24934,dbpedia_id_56262,TRUE,random match
-amazon_id_419,dbpedia_id_44346,FALSE,random non-match
-amazon_id_22279,dbpedia_id_53405,TRUE,random match
-amazon_id_29116,dbpedia_id_48638,FALSE,random non-match
-amazon_id_14239,dbpedia_id_2384,FALSE,corner-case non-match
-amazon_id_21148,dbpedia_id_14659,FALSE,random non-match
-amazon_id_16112,dbpedia_id_31987,FALSE,random non-match
-amazon_id_19259,dbpedia_id_10405,FALSE,random non-match
-amazon_id_27166,dbpedia_id_15946,FALSE,random non-match
-amazon_id_11884,dbpedia_id_41123,FALSE,random non-match
-amazon_id_365,dbpedia_id_53645,FALSE,corner-case non-match
-amazon_id_20850,dbpedia_id_49115,FALSE,random non-match
-amazon_id_6031,dbpedia_id_58033,FALSE,corner-case non-match
-amazon_id_22406,dbpedia_id_18112,FALSE,random non-match
-amazon_id_7648,dbpedia_id_57927,FALSE,corner-case non-match
-amazon_id_1609,dbpedia_id_10488,FALSE,corner-case non-match
-amazon_id_23258,dbpedia_id_18546,FALSE,random non-match
-amazon_id_26828,dbpedia_id_58597,FALSE,random non-match
-amazon_id_4542,dbpedia_id_52555,TRUE,corner-case match
-amazon_id_31526,dbpedia_id_17524,FALSE,corner-case non-match
-amazon_id_4408,dbpedia_id_58375,TRUE,random match
-amazon_id_39653,dbpedia_id_9562,FALSE,random non-match
-amazon_id_19333,dbpedia_id_2169,FALSE,random non-match
-amazon_id_37587,dbpedia_id_17945,FALSE,corner-case non-match
-amazon_id_22566,dbpedia_id_17448,FALSE,random non-match
-amazon_id_8339,dbpedia_id_678,FALSE,corner-case non-match
-amazon_id_5885,dbpedia_id_32438,TRUE,random match
-amazon_id_18304,dbpedia_id_18021,FALSE,corner-case non-match
-amazon_id_6948,dbpedia_id_202,FALSE,corner-case non-match
-amazon_id_16934,dbpedia_id_13481,FALSE,corner-case non-match
-amazon_id_7429,dbpedia_id_5420,TRUE,random match
-amazon_id_6030,dbpedia_id_35863,FALSE,random non-match
-amazon_id_13339,dbpedia_id_51349,FALSE,corner-case non-match
-amazon_id_20211,dbpedia_id_50314,FALSE,random non-match
-amazon_id_20950,dbpedia_id_15007,FALSE,random non-match
-amazon_id_20893,dbpedia_id_28197,FALSE,random non-match
-amazon_id_23270,dbpedia_id_58308,TRUE,random match
-amazon_id_4310,dbpedia_id_14661,FALSE,corner-case non-match
-amazon_id_38215,dbpedia_id_20148,FALSE,random non-match
-amazon_id_1946,dbpedia_id_115,FALSE,corner-case non-match
-amazon_id_2150,dbpedia_id_39699,TRUE,random match
-amazon_id_251,dbpedia_id_45827,TRUE,random match
-amazon_id_17457,dbpedia_id_25748,FALSE,corner-case non-match
-amazon_id_74,dbpedia_id_3217,FALSE,corner-case non-match
-amazon_id_6231,dbpedia_id_52322,TRUE,random match
-amazon_id_31960,dbpedia_id_35961,FALSE,random non-match
-amazon_id_12279,dbpedia_id_52342,FALSE,corner-case non-match
-amazon_id_11470,dbpedia_id_35038,FALSE,corner-case non-match
-amazon_id_28188,dbpedia_id_8486,FALSE,corner-case non-match
-amazon_id_39874,dbpedia_id_33117,FALSE,random non-match
-amazon_id_29852,dbpedia_id_43600,FALSE,corner-case non-match
-amazon_id_5799,dbpedia_id_27416,FALSE,corner-case non-match
-amazon_id_32701,dbpedia_id_44591,FALSE,random non-match
-amazon_id_8273,dbpedia_id_4686,FALSE,random non-match
-amazon_id_28373,dbpedia_id_26813,FALSE,random non-match
-amazon_id_2475,dbpedia_id_57947,FALSE,random non-match
-amazon_id_10542,dbpedia_id_20263,TRUE,random match
-amazon_id_7287,dbpedia_id_7150,TRUE,corner-case match
-amazon_id_34187,dbpedia_id_27615,TRUE,random match
-amazon_id_22495,dbpedia_id_23841,FALSE,random non-match
-amazon_id_28347,dbpedia_id_55953,FALSE,corner-case non-match
-amazon_id_32523,dbpedia_id_15088,FALSE,random non-match
-amazon_id_1327,dbpedia_id_36494,FALSE,random non-match
-amazon_id_9757,dbpedia_id_35802,TRUE,random match
-amazon_id_39434,dbpedia_id_13424,TRUE,random match
-amazon_id_35473,dbpedia_id_54060,TRUE,random match
-amazon_id_8624,dbpedia_id_55097,FALSE,corner-case non-match
-amazon_id_16187,dbpedia_id_14607,FALSE,corner-case non-match
-amazon_id_6315,dbpedia_id_18783,TRUE,random match
-amazon_id_19928,dbpedia_id_7716,TRUE,corner-case match
-amazon_id_38473,dbpedia_id_44734,FALSE,corner-case non-match
-amazon_id_524,dbpedia_id_39894,FALSE,random non-match
-amazon_id_9744,dbpedia_id_3762,FALSE,random non-match
-amazon_id_20845,dbpedia_id_57090,FALSE,corner-case non-match
-amazon_id_3015,dbpedia_id_6834,FALSE,random non-match
-amazon_id_13205,dbpedia_id_48343,FALSE,corner-case non-match
-amazon_id_13073,dbpedia_id_40357,FALSE,random non-match
-amazon_id_37409,dbpedia_id_50758,TRUE,random match
-amazon_id_31542,dbpedia_id_54426,TRUE,random match
-amazon_id_22573,dbpedia_id_33831,FALSE,random non-match
-amazon_id_6228,dbpedia_id_5045,FALSE,random non-match
-amazon_id_37602,dbpedia_id_35035,TRUE,random match
-amazon_id_13891,dbpedia_id_20428,FALSE,random non-match
-amazon_id_19177,dbpedia_id_643,TRUE,random match
-amazon_id_22044,dbpedia_id_29923,FALSE,random non-match
-amazon_id_26581,dbpedia_id_53472,TRUE,random match
-amazon_id_15975,dbpedia_id_8769,FALSE,corner-case non-match
-amazon_id_6183,dbpedia_id_47246,TRUE,random match
-amazon_id_12910,dbpedia_id_49708,FALSE,corner-case non-match
-amazon_id_17385,dbpedia_id_22469,FALSE,random non-match
-amazon_id_7590,dbpedia_id_16997,TRUE,random match
-amazon_id_39200,dbpedia_id_30333,TRUE,random match
-amazon_id_31995,dbpedia_id_12126,FALSE,random non-match
-amazon_id_739,dbpedia_id_17532,FALSE,corner-case non-match
-amazon_id_14565,dbpedia_id_7738,FALSE,corner-case non-match
-amazon_id_38447,dbpedia_id_3000,FALSE,corner-case non-match
-amazon_id_23152,dbpedia_id_40023,TRUE,random match
-amazon_id_13093,dbpedia_id_28001,TRUE,random match
-amazon_id_29180,dbpedia_id_205,TRUE,random match
-amazon_id_17968,dbpedia_id_48514,FALSE,corner-case non-match
-amazon_id_6642,dbpedia_id_27605,FALSE,random non-match
-amazon_id_35343,dbpedia_id_54059,FALSE,corner-case non-match
-amazon_id_25652,dbpedia_id_47916,TRUE,random match
-amazon_id_12351,dbpedia_id_34695,FALSE,corner-case non-match
-amazon_id_9724,dbpedia_id_9785,FALSE,random non-match
-amazon_id_22555,dbpedia_id_317,FALSE,corner-case non-match
-amazon_id_39630,dbpedia_id_36064,FALSE,corner-case non-match
-amazon_id_37895,dbpedia_id_55647,FALSE,corner-case non-match
-amazon_id_13090,dbpedia_id_10341,FALSE,random non-match
-amazon_id_30031,dbpedia_id_1313,FALSE,random non-match
-amazon_id_31577,dbpedia_id_6884,FALSE,random non-match
-amazon_id_10115,dbpedia_id_39945,TRUE,random match
-amazon_id_11544,dbpedia_id_25456,FALSE,random non-match
-amazon_id_14897,dbpedia_id_33143,TRUE,random match
-amazon_id_3308,dbpedia_id_3530,FALSE,corner-case non-match
-amazon_id_898,dbpedia_id_57376,FALSE,corner-case non-match
-amazon_id_29641,dbpedia_id_26940,FALSE,random non-match
-amazon_id_28820,dbpedia_id_48860,TRUE,random match
-amazon_id_19765,dbpedia_id_8437,FALSE,corner-case non-match
-amazon_id_11333,dbpedia_id_17825,FALSE,random non-match
-amazon_id_27437,dbpedia_id_43773,FALSE,random non-match
-amazon_id_3140,dbpedia_id_51942,FALSE,corner-case non-match
-amazon_id_22541,dbpedia_id_44435,FALSE,random non-match
-amazon_id_37322,dbpedia_id_49664,FALSE,random non-match
-amazon_id_5357,dbpedia_id_46913,TRUE,random match
-amazon_id_4839,dbpedia_id_27972,FALSE,corner-case non-match
-amazon_id_13780,dbpedia_id_49495,TRUE,corner-case match
-amazon_id_35375,dbpedia_id_17851,TRUE,random match
-amazon_id_20232,dbpedia_id_1031,FALSE,corner-case non-match
-amazon_id_13475,dbpedia_id_20154,FALSE,random non-match
-amazon_id_13616,dbpedia_id_52299,FALSE,random non-match
-amazon_id_9851,dbpedia_id_27063,TRUE,random match
-amazon_id_8804,dbpedia_id_27728,TRUE,corner-case match
-amazon_id_10326,dbpedia_id_47369,FALSE,random non-match
-amazon_id_2137,dbpedia_id_56778,TRUE,random match
-amazon_id_36288,dbpedia_id_986,TRUE,random match
-amazon_id_486,dbpedia_id_18873,TRUE,random match
-amazon_id_19709,dbpedia_id_5277,FALSE,corner-case non-match
-amazon_id_5033,dbpedia_id_40974,FALSE,corner-case non-match
-amazon_id_6447,dbpedia_id_39503,TRUE,random match
-amazon_id_38029,dbpedia_id_16662,TRUE,random match
-amazon_id_37292,dbpedia_id_47512,FALSE,random non-match
-amazon_id_8101,dbpedia_id_8772,FALSE,corner-case non-match
-amazon_id_27441,dbpedia_id_58109,FALSE,random non-match
-amazon_id_11013,dbpedia_id_46960,FALSE,random non-match
-amazon_id_14832,dbpedia_id_29061,FALSE,random non-match
-amazon_id_25758,dbpedia_id_35300,FALSE,random non-match
-amazon_id_39045,dbpedia_id_11702,FALSE,corner-case non-match
-amazon_id_28810,dbpedia_id_38875,TRUE,corner-case match
-amazon_id_10756,dbpedia_id_33626,TRUE,corner-case match
-amazon_id_19559,dbpedia_id_44728,FALSE,random non-match
-amazon_id_18492,dbpedia_id_35619,TRUE,random match
-amazon_id_3526,dbpedia_id_38604,TRUE,random match
-amazon_id_33541,dbpedia_id_8058,FALSE,random non-match
-amazon_id_17887,dbpedia_id_46491,FALSE,corner-case non-match
-amazon_id_5877,dbpedia_id_18616,FALSE,corner-case non-match
-amazon_id_22738,dbpedia_id_40310,FALSE,corner-case non-match
-amazon_id_21846,dbpedia_id_35950,TRUE,random match
-amazon_id_31244,dbpedia_id_45457,FALSE,corner-case non-match
-amazon_id_11937,dbpedia_id_34457,FALSE,random non-match
-amazon_id_14614,dbpedia_id_49324,FALSE,random non-match
-amazon_id_5949,dbpedia_id_11601,TRUE,corner-case match
-amazon_id_6288,dbpedia_id_5472,FALSE,random non-match
-amazon_id_33604,dbpedia_id_51908,TRUE,random match
-amazon_id_20323,dbpedia_id_41143,FALSE,corner-case non-match
-amazon_id_3607,dbpedia_id_54233,FALSE,corner-case non-match
-amazon_id_15577,dbpedia_id_11017,FALSE,corner-case non-match
-amazon_id_22153,dbpedia_id_52537,FALSE,random non-match
-amazon_id_2351,dbpedia_id_14,FALSE,random non-match
-amazon_id_11474,dbpedia_id_11607,TRUE,corner-case match
-amazon_id_39346,dbpedia_id_22973,TRUE,random match
-amazon_id_5908,dbpedia_id_11601,FALSE,corner-case non-match
-amazon_id_39515,dbpedia_id_41398,TRUE,random match
-amazon_id_13858,dbpedia_id_44059,FALSE,random non-match
-amazon_id_31072,dbpedia_id_50880,FALSE,corner-case non-match
-amazon_id_14305,dbpedia_id_50665,FALSE,random non-match
-amazon_id_35050,dbpedia_id_5364,FALSE,random non-match
-amazon_id_13774,dbpedia_id_30014,FALSE,corner-case non-match
-amazon_id_13452,dbpedia_id_57566,FALSE,random non-match
-amazon_id_17315,dbpedia_id_41479,FALSE,random non-match
-amazon_id_3382,dbpedia_id_58310,FALSE,corner-case non-match
-amazon_id_30592,dbpedia_id_18590,FALSE,corner-case non-match
-amazon_id_34807,dbpedia_id_20218,FALSE,random non-match
-amazon_id_21746,dbpedia_id_21453,FALSE,random non-match
-amazon_id_2074,dbpedia_id_34482,TRUE,random match
-amazon_id_6411,dbpedia_id_27393,TRUE,random match
-amazon_id_13032,dbpedia_id_51395,TRUE,random match
-amazon_id_1308,dbpedia_id_57254,FALSE,random non-match
-amazon_id_36597,dbpedia_id_5977,FALSE,random non-match
-amazon_id_26445,dbpedia_id_44631,FALSE,random non-match
-amazon_id_11178,dbpedia_id_35549,FALSE,random non-match
-amazon_id_8893,dbpedia_id_57051,FALSE,random non-match
-amazon_id_5942,dbpedia_id_18616,FALSE,corner-case non-match
-amazon_id_3131,dbpedia_id_20287,TRUE,random match
-amazon_id_17672,dbpedia_id_4449,FALSE,corner-case non-match
-amazon_id_7663,dbpedia_id_45680,FALSE,corner-case non-match
-amazon_id_16355,dbpedia_id_3579,FALSE,random non-match
-amazon_id_29884,dbpedia_id_22965,TRUE,random match
-amazon_id_21486,dbpedia_id_44088,FALSE,corner-case non-match
-amazon_id_4228,dbpedia_id_20990,FALSE,random non-match
-amazon_id_14409,dbpedia_id_49089,FALSE,corner-case non-match
-amazon_id_30051,dbpedia_id_9095,FALSE,random non-match
-amazon_id_19943,dbpedia_id_4409,FALSE,random non-match
-amazon_id_2331,dbpedia_id_14090,FALSE,corner-case non-match
-amazon_id_5835,dbpedia_id_11845,FALSE,random non-match
-amazon_id_15324,dbpedia_id_47483,FALSE,corner-case non-match
-amazon_id_11634,dbpedia_id_35024,FALSE,random non-match
-amazon_id_35194,dbpedia_id_38542,TRUE,random match
-amazon_id_23526,dbpedia_id_21072,TRUE,random match
-amazon_id_29427,dbpedia_id_23755,TRUE,corner-case match
-amazon_id_28083,dbpedia_id_12301,TRUE,random match
-amazon_id_25229,dbpedia_id_15846,FALSE,random non-match
-amazon_id_8555,dbpedia_id_36795,FALSE,random non-match
-amazon_id_14734,dbpedia_id_108,TRUE,random match
-amazon_id_31803,dbpedia_id_38629,TRUE,random match
-amazon_id_7963,dbpedia_id_1266,FALSE,random non-match
-amazon_id_21672,dbpedia_id_25220,FALSE,random non-match
-amazon_id_17267,dbpedia_id_28923,FALSE,corner-case non-match
-amazon_id_243,dbpedia_id_31892,TRUE,random match
-amazon_id_647,dbpedia_id_29361,FALSE,corner-case non-match
-amazon_id_9895,dbpedia_id_11591,TRUE,corner-case match
-amazon_id_3158,dbpedia_id_41799,FALSE,random non-match
-amazon_id_28513,dbpedia_id_13978,FALSE,random non-match
-amazon_id_14824,dbpedia_id_54426,FALSE,corner-case non-match
-amazon_id_36286,dbpedia_id_6620,FALSE,random non-match
-amazon_id_26020,dbpedia_id_13262,FALSE,random non-match
-amazon_id_30317,dbpedia_id_15393,FALSE,corner-case non-match
-amazon_id_16052,dbpedia_id_8769,TRUE,random match
-amazon_id_16201,dbpedia_id_43066,FALSE,corner-case non-match
-amazon_id_3310,dbpedia_id_3530,TRUE,random match
-amazon_id_32130,dbpedia_id_38831,FALSE,random non-match
-amazon_id_37010,dbpedia_id_4264,TRUE,random match
-amazon_id_30267,dbpedia_id_25113,TRUE,random match
-amazon_id_39864,dbpedia_id_19863,FALSE,corner-case non-match
-amazon_id_4319,dbpedia_id_33820,TRUE,random match
-amazon_id_26258,dbpedia_id_8949,TRUE,random match
-amazon_id_202,dbpedia_id_6099,FALSE,corner-case non-match
-amazon_id_16877,dbpedia_id_46113,FALSE,corner-case non-match
-amazon_id_27924,dbpedia_id_12406,FALSE,random non-match
-amazon_id_33219,dbpedia_id_43639,FALSE,random non-match
-amazon_id_1438,dbpedia_id_54942,FALSE,random non-match
-amazon_id_35928,dbpedia_id_54053,FALSE,random non-match
-amazon_id_34875,dbpedia_id_46516,FALSE,corner-case non-match
-amazon_id_483,dbpedia_id_55661,FALSE,random non-match
-amazon_id_2821,dbpedia_id_34547,TRUE,random match
-amazon_id_31096,dbpedia_id_16317,FALSE,random non-match
-amazon_id_11823,dbpedia_id_8651,FALSE,random non-match
-amazon_id_24926,dbpedia_id_13223,FALSE,random non-match
-amazon_id_9505,dbpedia_id_51043,TRUE,random match
-amazon_id_27755,dbpedia_id_21292,TRUE,random match
-amazon_id_6866,dbpedia_id_31994,TRUE,random match
-amazon_id_6099,dbpedia_id_4831,FALSE,random non-match
-amazon_id_18885,dbpedia_id_34051,FALSE,corner-case non-match
-amazon_id_7273,dbpedia_id_57242,FALSE,random non-match
-amazon_id_2813,dbpedia_id_2047,TRUE,random match
-amazon_id_17886,dbpedia_id_17311,TRUE,random match
-amazon_id_5655,dbpedia_id_43525,FALSE,corner-case non-match
-amazon_id_2207,dbpedia_id_47907,FALSE,corner-case non-match
-amazon_id_8566,dbpedia_id_52576,FALSE,random non-match
-amazon_id_20658,dbpedia_id_51537,TRUE,corner-case match
-amazon_id_21618,dbpedia_id_31765,FALSE,corner-case non-match
-amazon_id_18341,dbpedia_id_41469,FALSE,random non-match
-amazon_id_30549,dbpedia_id_34043,FALSE,random non-match
-amazon_id_8570,dbpedia_id_21037,FALSE,random non-match
-amazon_id_35694,dbpedia_id_23039,FALSE,corner-case non-match
-amazon_id_25797,dbpedia_id_46117,TRUE,random match
-amazon_id_22352,dbpedia_id_33373,FALSE,corner-case non-match
-amazon_id_31755,dbpedia_id_56215,FALSE,random non-match
-amazon_id_5349,dbpedia_id_23723,TRUE,random match
-amazon_id_38278,dbpedia_id_25057,FALSE,random non-match
-amazon_id_38654,dbpedia_id_24450,FALSE,random non-match
-amazon_id_25850,dbpedia_id_8029,FALSE,random non-match
-amazon_id_5108,dbpedia_id_19429,FALSE,corner-case non-match
-amazon_id_20961,dbpedia_id_7192,FALSE,random non-match
-amazon_id_34288,dbpedia_id_10164,FALSE,random non-match
-amazon_id_8772,dbpedia_id_37080,FALSE,random non-match
-amazon_id_36955,dbpedia_id_32947,FALSE,random non-match
-amazon_id_11989,dbpedia_id_12220,FALSE,random non-match
-amazon_id_5311,dbpedia_id_2998,FALSE,corner-case non-match
+amazon_id_8047,dbpedia_id_28535,FALSE,corner-case non-match
 amazon_id_13859,dbpedia_id_17795,TRUE,random match
-amazon_id_37420,dbpedia_id_20439,FALSE,corner-case non-match
-amazon_id_24030,dbpedia_id_4057,FALSE,random non-match
-amazon_id_4897,dbpedia_id_21604,FALSE,random non-match
-amazon_id_1853,dbpedia_id_1256,TRUE,random match
-amazon_id_13612,dbpedia_id_49029,FALSE,random non-match
-amazon_id_28850,dbpedia_id_16849,FALSE,corner-case non-match
-amazon_id_30086,dbpedia_id_27190,FALSE,random non-match
-amazon_id_17961,dbpedia_id_39836,FALSE,random non-match
-amazon_id_19378,dbpedia_id_28007,FALSE,random non-match
-amazon_id_20945,dbpedia_id_17897,FALSE,random non-match
-amazon_id_9778,dbpedia_id_9654,FALSE,random non-match
-amazon_id_12869,dbpedia_id_40469,TRUE,random match
-amazon_id_3842,dbpedia_id_51210,FALSE,random non-match
-amazon_id_2999,dbpedia_id_32339,FALSE,random non-match
-amazon_id_4235,dbpedia_id_30045,FALSE,corner-case non-match
-amazon_id_13133,dbpedia_id_55494,TRUE,random match
-amazon_id_4650,dbpedia_id_13330,TRUE,random match
-amazon_id_29045,dbpedia_id_34749,FALSE,random non-match
-amazon_id_16311,dbpedia_id_24279,FALSE,random non-match
-amazon_id_17746,dbpedia_id_25559,TRUE,random match
-amazon_id_18763,dbpedia_id_37668,FALSE,corner-case non-match
-amazon_id_6104,dbpedia_id_46448,FALSE,corner-case non-match
-amazon_id_24594,dbpedia_id_27590,FALSE,random non-match
-amazon_id_10746,dbpedia_id_58429,FALSE,corner-case non-match
-amazon_id_3814,dbpedia_id_43558,FALSE,corner-case non-match
-amazon_id_33320,dbpedia_id_22091,FALSE,random non-match
-amazon_id_21314,dbpedia_id_29968,FALSE,random non-match
-amazon_id_20825,dbpedia_id_41140,FALSE,corner-case non-match
-amazon_id_2791,dbpedia_id_48063,TRUE,random match
-amazon_id_33054,dbpedia_id_49104,TRUE,random match
-amazon_id_32160,dbpedia_id_53616,TRUE,random match
-amazon_id_5660,dbpedia_id_44804,FALSE,corner-case non-match
-amazon_id_924,dbpedia_id_34894,FALSE,random non-match
-amazon_id_38557,dbpedia_id_44734,TRUE,random match
-amazon_id_5169,dbpedia_id_49836,FALSE,random non-match
-amazon_id_16648,dbpedia_id_58400,FALSE,corner-case non-match
-amazon_id_37547,dbpedia_id_42376,FALSE,random non-match
-amazon_id_13091,dbpedia_id_21364,TRUE,random match
-amazon_id_33097,dbpedia_id_26922,TRUE,random match
-amazon_id_27967,dbpedia_id_18445,FALSE,random non-match
-amazon_id_26943,dbpedia_id_21284,TRUE,random match
-amazon_id_12428,dbpedia_id_35071,TRUE,random match
-amazon_id_36331,dbpedia_id_32351,FALSE,corner-case non-match
-amazon_id_5940,dbpedia_id_41136,FALSE,corner-case non-match
-amazon_id_37530,dbpedia_id_18058,TRUE,random match
-amazon_id_417,dbpedia_id_43728,TRUE,corner-case match
-amazon_id_19406,dbpedia_id_28561,FALSE,random non-match
-amazon_id_32251,dbpedia_id_6526,FALSE,random non-match
-amazon_id_181,dbpedia_id_1364,FALSE,random non-match
-amazon_id_4917,dbpedia_id_2356,FALSE,random non-match
-amazon_id_31407,dbpedia_id_31357,FALSE,corner-case non-match
-amazon_id_11700,dbpedia_id_48054,TRUE,corner-case match
-amazon_id_31124,dbpedia_id_25368,FALSE,random non-match
-amazon_id_1015,dbpedia_id_45111,TRUE,random match
-amazon_id_17467,dbpedia_id_43162,TRUE,random match
-amazon_id_6897,dbpedia_id_11596,FALSE,corner-case non-match
-amazon_id_18137,dbpedia_id_13840,FALSE,corner-case non-match
-amazon_id_9334,dbpedia_id_30307,FALSE,random non-match
-amazon_id_4833,dbpedia_id_3611,FALSE,random non-match
-amazon_id_22728,dbpedia_id_49169,FALSE,corner-case non-match
-amazon_id_22062,dbpedia_id_32713,FALSE,random non-match
-amazon_id_7044,dbpedia_id_28127,FALSE,corner-case non-match
-amazon_id_36253,dbpedia_id_49572,FALSE,random non-match
-amazon_id_4776,dbpedia_id_34197,TRUE,random match
-amazon_id_4861,dbpedia_id_25827,FALSE,corner-case non-match
-amazon_id_23818,dbpedia_id_5946,FALSE,random non-match
-amazon_id_4044,dbpedia_id_23835,FALSE,random non-match
-amazon_id_5139,dbpedia_id_5165,FALSE,corner-case non-match
-amazon_id_28469,dbpedia_id_37679,FALSE,corner-case non-match
-amazon_id_19550,dbpedia_id_17487,TRUE,random match
-amazon_id_5826,dbpedia_id_11603,FALSE,corner-case non-match
-amazon_id_24966,dbpedia_id_53681,TRUE,random match
-amazon_id_39353,dbpedia_id_30333,FALSE,corner-case non-match
-amazon_id_25402,dbpedia_id_19667,FALSE,random non-match
-amazon_id_31948,dbpedia_id_19161,TRUE,random match
-amazon_id_18346,dbpedia_id_48417,FALSE,random non-match
-amazon_id_36411,dbpedia_id_8410,TRUE,random match
-amazon_id_37603,dbpedia_id_4925,TRUE,random match
-amazon_id_36984,dbpedia_id_6677,FALSE,random non-match
-amazon_id_11595,dbpedia_id_25386,FALSE,corner-case non-match
-amazon_id_20532,dbpedia_id_27667,TRUE,random match
-amazon_id_8261,dbpedia_id_678,TRUE,random match
-amazon_id_14641,dbpedia_id_33319,FALSE,random non-match
-amazon_id_34866,dbpedia_id_54225,TRUE,random match
-amazon_id_5619,dbpedia_id_37192,FALSE,random non-match
-amazon_id_15471,dbpedia_id_25649,TRUE,corner-case match
-amazon_id_16358,dbpedia_id_7272,FALSE,random non-match
-amazon_id_1818,dbpedia_id_34325,TRUE,random match
-amazon_id_3816,dbpedia_id_5936,FALSE,corner-case non-match
-amazon_id_24286,dbpedia_id_13548,TRUE,random match
-amazon_id_1752,dbpedia_id_17023,TRUE,random match
-amazon_id_39602,dbpedia_id_31,FALSE,corner-case non-match
-amazon_id_23613,dbpedia_id_33902,FALSE,random non-match
-amazon_id_36095,dbpedia_id_52123,FALSE,random non-match
-amazon_id_28110,dbpedia_id_12301,FALSE,corner-case non-match
-amazon_id_37812,dbpedia_id_33656,FALSE,corner-case non-match
-amazon_id_37458,dbpedia_id_15743,FALSE,random non-match
-amazon_id_30932,dbpedia_id_5070,TRUE,corner-case match
-amazon_id_13792,dbpedia_id_49127,FALSE,corner-case non-match
-amazon_id_3261,dbpedia_id_50766,FALSE,corner-case non-match
-amazon_id_24803,dbpedia_id_33278,FALSE,random non-match
-amazon_id_15806,dbpedia_id_52586,FALSE,corner-case non-match
-amazon_id_6625,dbpedia_id_21736,FALSE,corner-case non-match
-amazon_id_7783,dbpedia_id_54159,FALSE,random non-match
-amazon_id_38381,dbpedia_id_31895,FALSE,random non-match
-amazon_id_1166,dbpedia_id_10979,FALSE,random non-match
-amazon_id_6834,dbpedia_id_23045,FALSE,corner-case non-match
-amazon_id_27752,dbpedia_id_8381,FALSE,random non-match
-amazon_id_38254,dbpedia_id_26008,FALSE,corner-case non-match
-amazon_id_8830,dbpedia_id_33694,FALSE,corner-case non-match
-amazon_id_29409,dbpedia_id_48140,FALSE,corner-case non-match
-amazon_id_37776,dbpedia_id_17456,FALSE,corner-case non-match
-amazon_id_31935,dbpedia_id_34357,FALSE,random non-match
-amazon_id_4694,dbpedia_id_25832,FALSE,corner-case non-match
-amazon_id_5221,dbpedia_id_34949,FALSE,corner-case non-match
-amazon_id_3846,dbpedia_id_16958,FALSE,random non-match
-amazon_id_36437,dbpedia_id_16355,FALSE,corner-case non-match
-amazon_id_4842,dbpedia_id_45493,TRUE,random match
-amazon_id_28539,dbpedia_id_21520,FALSE,random non-match
-amazon_id_7181,dbpedia_id_58725,FALSE,corner-case non-match
-amazon_id_31260,dbpedia_id_49813,FALSE,corner-case non-match
-amazon_id_17150,dbpedia_id_34070,FALSE,random non-match
-amazon_id_19307,dbpedia_id_13674,FALSE,random non-match
-amazon_id_30217,dbpedia_id_5575,FALSE,random non-match
-amazon_id_21897,dbpedia_id_12779,TRUE,random match
-amazon_id_11650,dbpedia_id_160,FALSE,random non-match
-amazon_id_17472,dbpedia_id_57936,FALSE,random non-match
-amazon_id_4368,dbpedia_id_48336,FALSE,corner-case non-match
-amazon_id_45,dbpedia_id_50867,FALSE,corner-case non-match
-amazon_id_37773,dbpedia_id_16868,FALSE,random non-match
-amazon_id_29631,dbpedia_id_29605,FALSE,random non-match
-amazon_id_31081,dbpedia_id_32999,FALSE,corner-case non-match
-amazon_id_31673,dbpedia_id_55064,FALSE,corner-case non-match
-amazon_id_24364,dbpedia_id_28122,FALSE,random non-match
-amazon_id_39876,dbpedia_id_30791,FALSE,corner-case non-match
-amazon_id_16908,dbpedia_id_9047,FALSE,corner-case non-match
-amazon_id_6495,dbpedia_id_44887,TRUE,random match
-amazon_id_12353,dbpedia_id_17581,FALSE,random non-match
-amazon_id_4097,dbpedia_id_50951,FALSE,corner-case non-match
-amazon_id_11140,dbpedia_id_45756,FALSE,corner-case non-match
-amazon_id_32501,dbpedia_id_17636,FALSE,random non-match
-amazon_id_3164,dbpedia_id_12399,FALSE,random non-match
-amazon_id_22146,dbpedia_id_47021,FALSE,random non-match
-amazon_id_10817,dbpedia_id_47068,FALSE,random non-match
-amazon_id_25605,dbpedia_id_9982,TRUE,random match
-amazon_id_7085,dbpedia_id_43534,TRUE,random match
-amazon_id_31331,dbpedia_id_66,FALSE,random non-match
-amazon_id_7553,dbpedia_id_13946,TRUE,random match
-amazon_id_28147,dbpedia_id_43639,FALSE,random non-match
-amazon_id_3830,dbpedia_id_32489,TRUE,random match
-amazon_id_16452,dbpedia_id_42334,TRUE,random match
-amazon_id_20287,dbpedia_id_33211,FALSE,corner-case non-match
-amazon_id_10672,dbpedia_id_7001,TRUE,corner-case match
-amazon_id_5896,dbpedia_id_11597,FALSE,corner-case non-match
-amazon_id_34702,dbpedia_id_38679,FALSE,random non-match
-amazon_id_24015,dbpedia_id_7219,FALSE,corner-case non-match
-amazon_id_245,dbpedia_id_31892,FALSE,corner-case non-match
-amazon_id_6170,dbpedia_id_47377,TRUE,random match
-amazon_id_24596,dbpedia_id_31471,TRUE,random match
-amazon_id_3211,dbpedia_id_32409,FALSE,random non-match
-amazon_id_16567,dbpedia_id_28923,FALSE,corner-case non-match
-amazon_id_11401,dbpedia_id_11606,TRUE,corner-case match
-amazon_id_4065,dbpedia_id_48635,TRUE,random match
-amazon_id_36129,dbpedia_id_16120,FALSE,corner-case non-match
-amazon_id_102,dbpedia_id_5566,TRUE,random match
-amazon_id_11592,dbpedia_id_33970,FALSE,random non-match
-amazon_id_33129,dbpedia_id_14271,FALSE,random non-match
-amazon_id_18053,dbpedia_id_45846,FALSE,random non-match
-amazon_id_22120,dbpedia_id_54058,FALSE,corner-case non-match
-amazon_id_22017,dbpedia_id_21805,TRUE,random match
-amazon_id_28122,dbpedia_id_51941,FALSE,random non-match
-amazon_id_6085,dbpedia_id_40908,FALSE,corner-case non-match
-amazon_id_13221,dbpedia_id_38711,FALSE,random non-match
-amazon_id_12064,dbpedia_id_34355,TRUE,random match
-amazon_id_26435,dbpedia_id_25294,FALSE,random non-match
-amazon_id_31835,dbpedia_id_45672,TRUE,random match
-amazon_id_24477,dbpedia_id_27770,TRUE,random match
-amazon_id_10189,dbpedia_id_39945,FALSE,corner-case non-match
-amazon_id_10172,dbpedia_id_11603,FALSE,corner-case non-match
-amazon_id_32788,dbpedia_id_20450,FALSE,corner-case non-match
-amazon_id_38467,dbpedia_id_37867,FALSE,random non-match
-amazon_id_14693,dbpedia_id_52003,FALSE,corner-case non-match
-amazon_id_28725,dbpedia_id_45419,FALSE,random non-match
-amazon_id_29220,dbpedia_id_4918,FALSE,random non-match
-amazon_id_3667,dbpedia_id_23526,FALSE,random non-match
-amazon_id_11975,dbpedia_id_18748,TRUE,random match
-amazon_id_12308,dbpedia_id_23008,TRUE,random match
-amazon_id_10514,dbpedia_id_4299,FALSE,random non-match
-amazon_id_11375,dbpedia_id_11593,FALSE,corner-case non-match
-amazon_id_8811,dbpedia_id_32577,FALSE,random non-match
-amazon_id_9513,dbpedia_id_28814,TRUE,random match
-amazon_id_19496,dbpedia_id_25554,FALSE,random non-match
-amazon_id_2632,dbpedia_id_755,FALSE,corner-case non-match
-amazon_id_10663,dbpedia_id_48966,FALSE,random non-match
-amazon_id_12322,dbpedia_id_44834,TRUE,random match
-amazon_id_673,dbpedia_id_2667,TRUE,random match
-amazon_id_20060,dbpedia_id_10000,TRUE,corner-case match
-amazon_id_38010,dbpedia_id_30476,FALSE,corner-case non-match
-amazon_id_23565,dbpedia_id_7981,TRUE,random match
-amazon_id_15174,dbpedia_id_56597,FALSE,random non-match
-amazon_id_27450,dbpedia_id_47487,TRUE,random match
-amazon_id_7758,dbpedia_id_46044,FALSE,corner-case non-match
-amazon_id_5177,dbpedia_id_42725,FALSE,random non-match
-amazon_id_14570,dbpedia_id_38449,FALSE,random non-match
-amazon_id_11496,dbpedia_id_11600,FALSE,corner-case non-match
-amazon_id_765,dbpedia_id_16707,FALSE,random non-match
-amazon_id_18027,dbpedia_id_19910,FALSE,corner-case non-match
-amazon_id_24141,dbpedia_id_53742,FALSE,random non-match
+amazon_id_30343,dbpedia_id_40994,FALSE,random non-match (same author)
+amazon_id_5972,dbpedia_id_11603,FALSE,corner-case non-match
+amazon_id_35494,dbpedia_id_50955,FALSE,corner-case non-match
+amazon_id_1003,dbpedia_id_45111,FALSE,corner-case non-match
+amazon_id_11910,dbpedia_id_44892,TRUE,random match
+amazon_id_31347,dbpedia_id_391,TRUE,random match
+amazon_id_3825,dbpedia_id_54358,FALSE,random non-match (same author)
+amazon_id_8777,dbpedia_id_40463,FALSE,corner-case non-match
+amazon_id_26202,dbpedia_id_16370,FALSE,corner-case non-match
+amazon_id_16323,dbpedia_id_50694,FALSE,corner-case non-match
+amazon_id_16828,dbpedia_id_455,FALSE,corner-case non-match
+amazon_id_18211,dbpedia_id_37672,FALSE,corner-case non-match
+amazon_id_13276,dbpedia_id_51551,FALSE,random non-match (same author)
+amazon_id_27752,dbpedia_id_50442,FALSE,corner-case non-match
+amazon_id_4835,dbpedia_id_27972,FALSE,corner-case non-match
+amazon_id_5181,dbpedia_id_55572,FALSE,corner-case non-match
+amazon_id_25638,dbpedia_id_11592,TRUE,corner-case match
+amazon_id_27093,dbpedia_id_3192,FALSE,random non-match (same author)
+amazon_id_4891,dbpedia_id_57827,FALSE,random non-match (same author)
+amazon_id_24224,dbpedia_id_41141,TRUE,corner-case match
+amazon_id_38140,dbpedia_id_30115,TRUE,random match
+amazon_id_3222,dbpedia_id_26402,FALSE,random non-match (same author)
+amazon_id_20941,dbpedia_id_52153,FALSE,corner-case non-match
+amazon_id_28783,dbpedia_id_48432,FALSE,random non-match (same author)
+amazon_id_27051,dbpedia_id_25833,TRUE,corner-case match
+amazon_id_9497,dbpedia_id_22666,FALSE,random non-match (same author)
+amazon_id_13445,dbpedia_id_17795,FALSE,corner-case non-match
+amazon_id_7068,dbpedia_id_197,TRUE,random match
+amazon_id_12305,dbpedia_id_41122,TRUE,corner-case match
+amazon_id_19394,dbpedia_id_32259,FALSE,corner-case non-match
+amazon_id_22146,dbpedia_id_52679,FALSE,random non-match (same author)
+amazon_id_39589,dbpedia_id_1433,TRUE,random match
+amazon_id_3995,dbpedia_id_46356,FALSE,random non-match (same author)
+amazon_id_11979,dbpedia_id_40420,FALSE,corner-case non-match
+amazon_id_14897,dbpedia_id_33143,TRUE,random match
+amazon_id_10119,dbpedia_id_34325,FALSE,random non-match (same author)
+amazon_id_14771,dbpedia_id_52003,TRUE,random match
+amazon_id_30596,dbpedia_id_34938,FALSE,corner-case non-match
+amazon_id_2744,dbpedia_id_16533,FALSE,random non-match (same author)
 amazon_id_7872,dbpedia_id_21267,TRUE,random match
-amazon_id_25127,dbpedia_id_418,FALSE,random non-match
-amazon_id_1005,dbpedia_id_10279,FALSE,corner-case non-match
-amazon_id_22511,dbpedia_id_5714,FALSE,corner-case non-match
-amazon_id_33774,dbpedia_id_16922,FALSE,random non-match
-amazon_id_23545,dbpedia_id_12431,FALSE,corner-case non-match
-amazon_id_1689,dbpedia_id_22108,FALSE,random non-match
-amazon_id_7323,dbpedia_id_58725,FALSE,corner-case non-match
-amazon_id_28771,dbpedia_id_38423,TRUE,random match
-amazon_id_39644,dbpedia_id_39693,TRUE,random match
-amazon_id_5193,dbpedia_id_35745,FALSE,corner-case non-match
-amazon_id_7084,dbpedia_id_119,FALSE,random non-match
-amazon_id_7641,dbpedia_id_45680,TRUE,random match
-amazon_id_23919,dbpedia_id_7760,FALSE,random non-match
-amazon_id_29578,dbpedia_id_4991,TRUE,corner-case match
-amazon_id_1281,dbpedia_id_41405,FALSE,random non-match
+amazon_id_27991,dbpedia_id_38127,FALSE,corner-case non-match
+amazon_id_29354,dbpedia_id_803,TRUE,random match
+amazon_id_17517,dbpedia_id_8085,FALSE,corner-case non-match
+amazon_id_36614,dbpedia_id_56831,FALSE,random non-match (same author)
+amazon_id_36715,dbpedia_id_4972,FALSE,random non-match (same author)
+amazon_id_35713,dbpedia_id_3240,FALSE,random non-match (same author)
+amazon_id_5267,dbpedia_id_50395,FALSE,corner-case non-match
+amazon_id_27003,dbpedia_id_32881,TRUE,random match
+amazon_id_35455,dbpedia_id_24262,FALSE,corner-case non-match
+amazon_id_11647,dbpedia_id_43305,FALSE,random non-match (same author)
+amazon_id_20210,dbpedia_id_53355,FALSE,random non-match (same author)
+amazon_id_1785,dbpedia_id_32768,TRUE,random match
+amazon_id_17751,dbpedia_id_46280,FALSE,random non-match (same author)
+amazon_id_5538,dbpedia_id_8702,FALSE,corner-case non-match
+amazon_id_18584,dbpedia_id_15995,TRUE,random match
+amazon_id_5852,dbpedia_id_28712,FALSE,random non-match (same author)
+amazon_id_24213,dbpedia_id_48426,FALSE,corner-case non-match
+amazon_id_11976,dbpedia_id_15158,TRUE,random match
+amazon_id_14824,dbpedia_id_35971,TRUE,corner-case match
+amazon_id_4314,dbpedia_id_3508,FALSE,corner-case non-match
+amazon_id_30046,dbpedia_id_57137,FALSE,corner-case non-match
+amazon_id_22147,dbpedia_id_34722,FALSE,random non-match (same author)
+amazon_id_8950,dbpedia_id_31122,FALSE,random non-match (same author)
+amazon_id_24203,dbpedia_id_14675,FALSE,random non-match (same author)
+amazon_id_28775,dbpedia_id_32545,FALSE,random non-match (same author)
+amazon_id_15332,dbpedia_id_11593,TRUE,corner-case match
 amazon_id_5841,dbpedia_id_41135,TRUE,corner-case match
-amazon_id_22081,dbpedia_id_35950,FALSE,corner-case non-match
-amazon_id_11861,dbpedia_id_21702,TRUE,random match
-amazon_id_17588,dbpedia_id_9947,FALSE,random non-match
-amazon_id_38251,dbpedia_id_7628,FALSE,random non-match
+amazon_id_23093,dbpedia_id_52246,TRUE,random match
+amazon_id_22519,dbpedia_id_12508,FALSE,random non-match (same author)
+amazon_id_32323,dbpedia_id_29946,TRUE,random match
+amazon_id_18673,dbpedia_id_17184,FALSE,corner-case non-match
+amazon_id_3541,dbpedia_id_557,FALSE,corner-case non-match
+amazon_id_38971,dbpedia_id_9712,FALSE,random non-match (same author)
+amazon_id_38059,dbpedia_id_17289,FALSE,random non-match (same author)
+amazon_id_7287,dbpedia_id_7150,TRUE,corner-case match
+amazon_id_582,dbpedia_id_8120,FALSE,random non-match (same author)
+amazon_id_26635,dbpedia_id_47921,TRUE,random match
+amazon_id_15674,dbpedia_id_36203,TRUE,random match
+amazon_id_27214,dbpedia_id_22615,FALSE,random non-match (same author)
+amazon_id_15009,dbpedia_id_36203,FALSE,corner-case non-match
+amazon_id_19770,dbpedia_id_5516,TRUE,random match
+amazon_id_9207,dbpedia_id_58725,FALSE,corner-case non-match
+amazon_id_25577,dbpedia_id_41534,FALSE,random non-match (same author)
+amazon_id_21871,dbpedia_id_45500,FALSE,random non-match (same author)
+amazon_id_19559,dbpedia_id_36131,TRUE,random match
+amazon_id_14769,dbpedia_id_36006,FALSE,corner-case non-match
+amazon_id_31519,dbpedia_id_44148,FALSE,random non-match (same author)
+amazon_id_2226,dbpedia_id_9833,FALSE,corner-case non-match
+amazon_id_29079,dbpedia_id_1515,FALSE,corner-case non-match
+amazon_id_612,dbpedia_id_40453,FALSE,random non-match (same author)
+amazon_id_17711,dbpedia_id_9077,TRUE,random match
+amazon_id_30341,dbpedia_id_44124,FALSE,corner-case non-match
+amazon_id_9851,dbpedia_id_27063,TRUE,random match
+amazon_id_25213,dbpedia_id_7502,TRUE,random match
+amazon_id_22978,dbpedia_id_7291,FALSE,random non-match (same author)
+amazon_id_13465,dbpedia_id_36038,FALSE,corner-case non-match
+amazon_id_16841,dbpedia_id_13481,FALSE,corner-case non-match
+amazon_id_23878,dbpedia_id_55494,FALSE,random non-match (same author)
+amazon_id_16999,dbpedia_id_48251,TRUE,random match
+amazon_id_7357,dbpedia_id_577,FALSE,random non-match (same author)
+amazon_id_27817,dbpedia_id_198,FALSE,corner-case non-match
+amazon_id_8123,dbpedia_id_11590,TRUE,random match
+amazon_id_19730,dbpedia_id_15099,FALSE,random non-match (same author)
+amazon_id_22648,dbpedia_id_9088,FALSE,random non-match (same author)
+amazon_id_39636,dbpedia_id_11786,FALSE,random non-match (same author)
+amazon_id_17672,dbpedia_id_4449,FALSE,corner-case non-match
+amazon_id_12351,dbpedia_id_34695,FALSE,corner-case non-match
+amazon_id_7523,dbpedia_id_30022,FALSE,corner-case non-match
+amazon_id_17807,dbpedia_id_33494,FALSE,corner-case non-match
+amazon_id_28347,dbpedia_id_12920,FALSE,random non-match (same author)
+amazon_id_21070,dbpedia_id_14776,FALSE,random non-match (same author)
+amazon_id_6910,dbpedia_id_11591,FALSE,corner-case non-match
+amazon_id_39569,dbpedia_id_1338,FALSE,random non-match (same author)
+amazon_id_31358,dbpedia_id_41632,FALSE,random non-match (same author)
+amazon_id_10882,dbpedia_id_47704,FALSE,corner-case non-match
+amazon_id_4697,dbpedia_id_661,FALSE,corner-case non-match
+amazon_id_20938,dbpedia_id_212,FALSE,corner-case non-match
+amazon_id_20232,dbpedia_id_1031,FALSE,corner-case non-match
+amazon_id_19046,dbpedia_id_50073,FALSE,random non-match (same author)
+amazon_id_10829,dbpedia_id_37440,FALSE,random non-match (same author)
+amazon_id_27660,dbpedia_id_49885,TRUE,corner-case match
+amazon_id_21285,dbpedia_id_14551,FALSE,random non-match (same author)
+amazon_id_19106,dbpedia_id_43772,FALSE,random non-match (same author)
+amazon_id_294,dbpedia_id_44797,TRUE,random match
+amazon_id_5972,dbpedia_id_11596,FALSE,corner-case non-match
+amazon_id_13420,dbpedia_id_7575,FALSE,random non-match (same author)
+amazon_id_33207,dbpedia_id_22608,FALSE,random non-match (same author)
+amazon_id_4260,dbpedia_id_48346,FALSE,corner-case non-match
+amazon_id_21808,dbpedia_id_6721,FALSE,random non-match (same author)
+amazon_id_16264,dbpedia_id_9233,FALSE,random non-match (same author)
+amazon_id_2915,dbpedia_id_1222,FALSE,random non-match (same author)
+amazon_id_3040,dbpedia_id_30991,FALSE,random non-match (same author)
+amazon_id_558,dbpedia_id_6972,FALSE,corner-case non-match
+amazon_id_12236,dbpedia_id_45215,TRUE,random match
+amazon_id_29506,dbpedia_id_27609,TRUE,random match
+amazon_id_23424,dbpedia_id_27924,TRUE,random match
+amazon_id_37307,dbpedia_id_58611,FALSE,random non-match (same author)
+amazon_id_2547,dbpedia_id_27615,FALSE,random non-match (same author)
+amazon_id_28188,dbpedia_id_8486,FALSE,corner-case non-match
+amazon_id_15702,dbpedia_id_58264,FALSE,corner-case non-match
+amazon_id_39875,dbpedia_id_39234,FALSE,corner-case non-match
+amazon_id_2607,dbpedia_id_658,FALSE,corner-case non-match
+amazon_id_2472,dbpedia_id_39329,FALSE,corner-case non-match
+amazon_id_7477,dbpedia_id_16035,FALSE,random non-match (same author)
+amazon_id_25347,dbpedia_id_23708,TRUE,corner-case match
+amazon_id_18921,dbpedia_id_39061,FALSE,random non-match (same author)
+amazon_id_10007,dbpedia_id_12818,FALSE,random non-match (same author)
+amazon_id_20375,dbpedia_id_59121,TRUE,random match
+amazon_id_36288,dbpedia_id_986,TRUE,random match
+amazon_id_37289,dbpedia_id_57039,FALSE,random non-match (same author)
+amazon_id_32542,dbpedia_id_16301,TRUE,random match
+amazon_id_35279,dbpedia_id_17851,TRUE,random match
+amazon_id_13870,dbpedia_id_9957,FALSE,corner-case non-match
+amazon_id_10675,dbpedia_id_7001,FALSE,corner-case non-match
+amazon_id_9989,dbpedia_id_19636,FALSE,corner-case non-match
+amazon_id_9074,dbpedia_id_42939,TRUE,random match
+amazon_id_15887,dbpedia_id_12629,TRUE,random match
+amazon_id_21731,dbpedia_id_54057,FALSE,corner-case non-match
+amazon_id_28960,dbpedia_id_12797,FALSE,random non-match (same author)
+amazon_id_6890,dbpedia_id_11593,FALSE,corner-case non-match
+amazon_id_4689,dbpedia_id_44783,FALSE,random non-match (same author)
+amazon_id_38245,dbpedia_id_26008,TRUE,random match
+amazon_id_13569,dbpedia_id_692,TRUE,corner-case match
+amazon_id_8517,dbpedia_id_27812,FALSE,random non-match (same author)
+amazon_id_3735,dbpedia_id_43544,FALSE,random non-match (same author)
+amazon_id_30291,dbpedia_id_45246,FALSE,random non-match (same author)
+amazon_id_4434,dbpedia_id_23020,FALSE,random non-match (same author)
+amazon_id_19383,dbpedia_id_2801,TRUE,corner-case match
+amazon_id_4496,dbpedia_id_29604,TRUE,random match
+amazon_id_28442,dbpedia_id_32545,FALSE,random non-match (same author)
+amazon_id_12535,dbpedia_id_31832,FALSE,random non-match (same author)
+amazon_id_12673,dbpedia_id_27818,TRUE,random match
+amazon_id_28127,dbpedia_id_46159,FALSE,corner-case non-match
+amazon_id_27164,dbpedia_id_10352,FALSE,random non-match (same author)
+amazon_id_15470,dbpedia_id_46635,TRUE,random match
+amazon_id_8233,dbpedia_id_45021,FALSE,random non-match (same author)
+amazon_id_12188,dbpedia_id_39624,TRUE,random match
+amazon_id_18072,dbpedia_id_9082,TRUE,random match
+amazon_id_29596,dbpedia_id_25295,FALSE,random non-match (same author)
+amazon_id_16589,dbpedia_id_6117,FALSE,corner-case non-match
+amazon_id_13755,dbpedia_id_29315,TRUE,random match
+amazon_id_22543,dbpedia_id_29303,TRUE,random match
+amazon_id_20903,dbpedia_id_41140,TRUE,corner-case match
+amazon_id_25062,dbpedia_id_42567,FALSE,random non-match (same author)
+amazon_id_2987,dbpedia_id_5699,FALSE,corner-case non-match
+amazon_id_18341,dbpedia_id_18021,FALSE,corner-case non-match
+amazon_id_16970,dbpedia_id_20132,FALSE,corner-case non-match
+amazon_id_2724,dbpedia_id_28960,TRUE,random match
+amazon_id_5809,dbpedia_id_41136,FALSE,corner-case non-match
+amazon_id_288,dbpedia_id_53988,FALSE,random non-match (same author)
+amazon_id_28294,dbpedia_id_8123,FALSE,random non-match (same author)
+amazon_id_17728,dbpedia_id_6601,FALSE,corner-case non-match
+amazon_id_20302,dbpedia_id_41370,FALSE,corner-case non-match
+amazon_id_21703,dbpedia_id_8974,TRUE,random match
+amazon_id_38739,dbpedia_id_36283,FALSE,corner-case non-match
+amazon_id_16373,dbpedia_id_41152,FALSE,random non-match (same author)
+amazon_id_19097,dbpedia_id_59192,TRUE,random match
+amazon_id_31659,dbpedia_id_10897,TRUE,random match
+amazon_id_15259,dbpedia_id_47451,FALSE,random non-match (same author)
+amazon_id_1998,dbpedia_id_7385,FALSE,random non-match (same author)
+amazon_id_22970,dbpedia_id_41904,FALSE,random non-match (same author)
+amazon_id_730,dbpedia_id_19163,FALSE,corner-case non-match
+amazon_id_19539,dbpedia_id_39551,TRUE,corner-case match
+amazon_id_8275,dbpedia_id_22846,FALSE,random non-match (same author)
+amazon_id_36307,dbpedia_id_9954,FALSE,corner-case non-match
+amazon_id_7085,dbpedia_id_43534,TRUE,random match
+amazon_id_29779,dbpedia_id_38536,FALSE,random non-match (same author)
+amazon_id_17399,dbpedia_id_7317,TRUE,corner-case match
+amazon_id_39730,dbpedia_id_23107,FALSE,random non-match (same author)
+amazon_id_34847,dbpedia_id_9023,FALSE,random non-match (same author)
+amazon_id_17628,dbpedia_id_7972,FALSE,corner-case non-match
+amazon_id_10677,dbpedia_id_57076,FALSE,corner-case non-match
+amazon_id_144,dbpedia_id_31188,FALSE,random non-match (same author)
+amazon_id_27143,dbpedia_id_15631,FALSE,corner-case non-match
+amazon_id_4683,dbpedia_id_25831,FALSE,corner-case non-match
+amazon_id_33868,dbpedia_id_32007,FALSE,random non-match (same author)
+amazon_id_21777,dbpedia_id_48053,FALSE,corner-case non-match
+amazon_id_27432,dbpedia_id_15388,FALSE,corner-case non-match
+amazon_id_23592,dbpedia_id_28433,FALSE,random non-match (same author)
+amazon_id_21175,dbpedia_id_33744,FALSE,corner-case non-match
+amazon_id_37099,dbpedia_id_26128,FALSE,random non-match (same author)
+amazon_id_24989,dbpedia_id_34711,FALSE,random non-match (same author)
+amazon_id_17765,dbpedia_id_14070,TRUE,random match
+amazon_id_33698,dbpedia_id_43295,TRUE,random match
+amazon_id_36270,dbpedia_id_6132,FALSE,random non-match (same author)
+amazon_id_38724,dbpedia_id_30110,TRUE,random match
+amazon_id_7658,dbpedia_id_15128,FALSE,random non-match (same author)
+amazon_id_18316,dbpedia_id_32061,TRUE,random match
+amazon_id_30588,dbpedia_id_14491,FALSE,corner-case non-match
+amazon_id_12228,dbpedia_id_50685,FALSE,corner-case non-match
+amazon_id_1260,dbpedia_id_8721,FALSE,corner-case non-match
+amazon_id_6292,dbpedia_id_24070,FALSE,random non-match (same author)
+amazon_id_7906,dbpedia_id_25834,TRUE,corner-case match
+amazon_id_31000,dbpedia_id_28684,TRUE,random match
+amazon_id_13507,dbpedia_id_4554,FALSE,random non-match (same author)
+amazon_id_74,dbpedia_id_3217,FALSE,corner-case non-match
+amazon_id_5948,dbpedia_id_11600,FALSE,corner-case non-match
+amazon_id_5354,dbpedia_id_2998,TRUE,random match
+amazon_id_2995,dbpedia_id_43456,FALSE,random non-match (same author)
+amazon_id_12919,dbpedia_id_55494,FALSE,corner-case non-match
+amazon_id_30239,dbpedia_id_54002,TRUE,random match
+amazon_id_5995,dbpedia_id_11601,FALSE,corner-case non-match
+amazon_id_39729,dbpedia_id_34886,TRUE,corner-case match
+amazon_id_31910,dbpedia_id_7532,TRUE,random match
+amazon_id_25618,dbpedia_id_50974,TRUE,random match
+amazon_id_38362,dbpedia_id_11,FALSE,random non-match (same author)
+amazon_id_9667,dbpedia_id_5662,FALSE,corner-case non-match
+amazon_id_37715,dbpedia_id_19394,FALSE,random non-match (same author)
+amazon_id_25085,dbpedia_id_50259,FALSE,random non-match (same author)
+amazon_id_30493,dbpedia_id_52280,FALSE,corner-case non-match
+amazon_id_2596,dbpedia_id_45236,FALSE,random non-match (same author)
+amazon_id_2237,dbpedia_id_42779,FALSE,random non-match (same author)
+amazon_id_37626,dbpedia_id_57781,FALSE,random non-match (same author)
+amazon_id_30647,dbpedia_id_41777,TRUE,random match
+amazon_id_26135,dbpedia_id_43456,FALSE,random non-match (same author)
+amazon_id_4660,dbpedia_id_13330,FALSE,corner-case non-match
+amazon_id_16160,dbpedia_id_56921,FALSE,random non-match (same author)
+amazon_id_12580,dbpedia_id_20594,TRUE,random match
+amazon_id_1457,dbpedia_id_39257,FALSE,corner-case non-match
+amazon_id_17861,dbpedia_id_43146,FALSE,random non-match (same author)
+amazon_id_17027,dbpedia_id_20132,TRUE,random match
+amazon_id_23893,dbpedia_id_1588,FALSE,corner-case non-match
+amazon_id_27883,dbpedia_id_10944,TRUE,random match
+amazon_id_32342,dbpedia_id_55565,TRUE,corner-case match
+amazon_id_20478,dbpedia_id_31259,FALSE,random non-match (same author)
+amazon_id_3614,dbpedia_id_12798,FALSE,corner-case non-match
+amazon_id_5389,dbpedia_id_23723,FALSE,corner-case non-match
+amazon_id_14238,dbpedia_id_15842,FALSE,corner-case non-match
+amazon_id_20724,dbpedia_id_44088,FALSE,random non-match (same author)
+amazon_id_4618,dbpedia_id_55681,FALSE,corner-case non-match
+amazon_id_33149,dbpedia_id_22608,FALSE,random non-match (same author)
+amazon_id_28077,dbpedia_id_36581,FALSE,corner-case non-match
+amazon_id_32769,dbpedia_id_15258,FALSE,corner-case non-match
+amazon_id_20658,dbpedia_id_51537,TRUE,corner-case match
+amazon_id_12618,dbpedia_id_28226,FALSE,corner-case non-match
+amazon_id_36196,dbpedia_id_58944,FALSE,random non-match (same author)
+amazon_id_6672,dbpedia_id_39553,FALSE,random non-match (same author)
+amazon_id_24472,dbpedia_id_4458,FALSE,random non-match (same author)
+amazon_id_18469,dbpedia_id_13028,FALSE,random non-match (same author)
+amazon_id_23074,dbpedia_id_50297,FALSE,corner-case non-match
+amazon_id_7081,dbpedia_id_51139,TRUE,random match
+amazon_id_28975,dbpedia_id_35612,TRUE,random match
+amazon_id_18545,dbpedia_id_40650,TRUE,random match
+amazon_id_5826,dbpedia_id_11595,FALSE,corner-case non-match
+amazon_id_19207,dbpedia_id_42865,TRUE,random match
+amazon_id_30275,dbpedia_id_23889,FALSE,random non-match (same author)
+amazon_id_26743,dbpedia_id_31115,FALSE,random non-match (same author)
+amazon_id_323,dbpedia_id_33361,TRUE,random match
+amazon_id_19183,dbpedia_id_16319,FALSE,corner-case non-match
+amazon_id_38325,dbpedia_id_24070,FALSE,random non-match (same author)
+amazon_id_34236,dbpedia_id_15612,FALSE,random non-match (same author)
+amazon_id_5687,dbpedia_id_43525,FALSE,corner-case non-match
+amazon_id_1634,dbpedia_id_37823,FALSE,random non-match (same author)
+amazon_id_30871,dbpedia_id_10897,FALSE,corner-case non-match
+amazon_id_25097,dbpedia_id_1221,FALSE,random non-match (same author)
+amazon_id_16354,dbpedia_id_44165,TRUE,corner-case match
+amazon_id_6887,dbpedia_id_58725,FALSE,corner-case non-match
+amazon_id_7671,dbpedia_id_4065,FALSE,random non-match (same author)
+amazon_id_7469,dbpedia_id_46422,TRUE,random match
+amazon_id_33570,dbpedia_id_18590,FALSE,random non-match (same author)
+amazon_id_11504,dbpedia_id_29451,FALSE,random non-match (same author)
+amazon_id_6421,dbpedia_id_11590,FALSE,corner-case non-match
+amazon_id_1511,dbpedia_id_58668,FALSE,random non-match (same author)
+amazon_id_9560,dbpedia_id_21088,FALSE,random non-match (same author)
+amazon_id_15792,dbpedia_id_50775,TRUE,corner-case match
+amazon_id_28820,dbpedia_id_48860,TRUE,random match
+amazon_id_21330,dbpedia_id_43923,FALSE,corner-case non-match
+amazon_id_6883,dbpedia_id_41531,FALSE,corner-case non-match
+amazon_id_33314,dbpedia_id_44441,FALSE,corner-case non-match
+amazon_id_36260,dbpedia_id_32636,FALSE,corner-case non-match
+amazon_id_23250,dbpedia_id_31702,TRUE,random match
+amazon_id_19662,dbpedia_id_34203,TRUE,random match
+amazon_id_18318,dbpedia_id_33256,TRUE,random match
+amazon_id_11316,dbpedia_id_11593,FALSE,corner-case non-match
+amazon_id_9329,dbpedia_id_58725,FALSE,corner-case non-match
+amazon_id_7975,dbpedia_id_40463,TRUE,random match
+amazon_id_10867,dbpedia_id_16835,FALSE,random non-match (same author)
+amazon_id_37347,dbpedia_id_26722,FALSE,random non-match (same author)
+amazon_id_4631,dbpedia_id_55681,FALSE,corner-case non-match
+amazon_id_17452,dbpedia_id_5870,FALSE,random non-match (same author)
+amazon_id_5197,dbpedia_id_30481,FALSE,random non-match (same author)
+amazon_id_14060,dbpedia_id_5872,FALSE,random non-match (same author)
+amazon_id_9665,dbpedia_id_21684,FALSE,corner-case non-match
+amazon_id_967,dbpedia_id_44768,FALSE,corner-case non-match
+amazon_id_39945,dbpedia_id_23008,FALSE,random non-match (same author)
+amazon_id_399,dbpedia_id_1649,FALSE,corner-case non-match
+amazon_id_25021,dbpedia_id_45712,FALSE,random non-match (same author)
+amazon_id_4122,dbpedia_id_22812,TRUE,random match
+amazon_id_27400,dbpedia_id_21026,FALSE,random non-match (same author)
+amazon_id_15785,dbpedia_id_43426,TRUE,random match
+amazon_id_5488,dbpedia_id_32846,FALSE,corner-case non-match
+amazon_id_24334,dbpedia_id_49788,TRUE,random match
+amazon_id_920,dbpedia_id_25547,TRUE,random match
+amazon_id_30932,dbpedia_id_5070,TRUE,corner-case match
+amazon_id_3393,dbpedia_id_34600,FALSE,random non-match (same author)
+amazon_id_29196,dbpedia_id_46534,FALSE,corner-case non-match
+amazon_id_26711,dbpedia_id_564,FALSE,corner-case non-match
+amazon_id_35984,dbpedia_id_31387,FALSE,corner-case non-match
+amazon_id_13827,dbpedia_id_14675,TRUE,random match
+amazon_id_36787,dbpedia_id_19841,FALSE,corner-case non-match
+amazon_id_34917,dbpedia_id_28852,TRUE,random match
+amazon_id_6981,dbpedia_id_10154,FALSE,random non-match (same author)
+amazon_id_12378,dbpedia_id_56692,FALSE,random non-match (same author)
+amazon_id_895,dbpedia_id_40057,FALSE,random non-match (same author)
+amazon_id_14605,dbpedia_id_49089,FALSE,corner-case non-match
+amazon_id_33025,dbpedia_id_11470,FALSE,random non-match (same author)
+amazon_id_30946,dbpedia_id_34371,FALSE,corner-case non-match
+amazon_id_14907,dbpedia_id_43051,FALSE,corner-case non-match
+amazon_id_17365,dbpedia_id_52542,TRUE,corner-case match
+amazon_id_35640,dbpedia_id_28345,FALSE,random non-match (same author)
+amazon_id_8954,dbpedia_id_37670,FALSE,random non-match (same author)
+amazon_id_28481,dbpedia_id_55953,TRUE,random match
+amazon_id_3361,dbpedia_id_50766,TRUE,random match
+amazon_id_20473,dbpedia_id_41143,TRUE,random match
+amazon_id_25693,dbpedia_id_18408,TRUE,corner-case match
+amazon_id_36407,dbpedia_id_17006,FALSE,random non-match (same author)
+amazon_id_31562,dbpedia_id_18499,TRUE,random match
+amazon_id_30715,dbpedia_id_1515,TRUE,random match
+amazon_id_14663,dbpedia_id_33513,FALSE,random non-match (same author)
+amazon_id_9838,dbpedia_id_23091,FALSE,corner-case non-match
+amazon_id_33060,dbpedia_id_23681,TRUE,random match
+amazon_id_27354,dbpedia_id_53472,FALSE,corner-case non-match
+amazon_id_21113,dbpedia_id_34683,FALSE,corner-case non-match
+amazon_id_31633,dbpedia_id_18499,FALSE,corner-case non-match
+amazon_id_649,dbpedia_id_29361,FALSE,corner-case non-match
+amazon_id_10078,dbpedia_id_46429,FALSE,random non-match (same author)
+amazon_id_11199,dbpedia_id_43561,FALSE,corner-case non-match
+amazon_id_36705,dbpedia_id_7214,FALSE,random non-match (same author)
+amazon_id_23715,dbpedia_id_6392,FALSE,random non-match (same author)
+amazon_id_26934,dbpedia_id_32053,FALSE,random non-match (same author)
+amazon_id_2058,dbpedia_id_12322,FALSE,corner-case non-match
+amazon_id_1326,dbpedia_id_8721,FALSE,corner-case non-match
+amazon_id_114,dbpedia_id_1313,FALSE,corner-case non-match
+amazon_id_3983,dbpedia_id_33143,FALSE,random non-match (same author)
+amazon_id_29939,dbpedia_id_18657,FALSE,random non-match (same author)
+amazon_id_28345,dbpedia_id_29781,FALSE,random non-match (same author)
+amazon_id_20060,dbpedia_id_10000,TRUE,corner-case match
+amazon_id_3545,dbpedia_id_25383,FALSE,random non-match (same author)
+amazon_id_17008,dbpedia_id_59103,FALSE,random non-match (same author)
+amazon_id_15440,dbpedia_id_46635,FALSE,corner-case non-match
+amazon_id_11631,dbpedia_id_49917,FALSE,corner-case non-match
+amazon_id_33401,dbpedia_id_31832,FALSE,random non-match (same author)
+amazon_id_27587,dbpedia_id_19085,FALSE,corner-case non-match
+amazon_id_29188,dbpedia_id_31114,FALSE,corner-case non-match
+amazon_id_8261,dbpedia_id_678,TRUE,random match
+amazon_id_39298,dbpedia_id_22973,FALSE,corner-case non-match
+amazon_id_29005,dbpedia_id_14790,TRUE,random match
+amazon_id_20480,dbpedia_id_19213,FALSE,random non-match (same author)
+amazon_id_17384,dbpedia_id_10693,FALSE,corner-case non-match
+amazon_id_6687,dbpedia_id_49900,TRUE,corner-case match
+amazon_id_27321,dbpedia_id_30841,FALSE,random non-match (same author)
+amazon_id_28623,dbpedia_id_26272,TRUE,random match
+amazon_id_20692,dbpedia_id_52161,FALSE,corner-case non-match
+amazon_id_22834,dbpedia_id_46521,FALSE,corner-case non-match
+amazon_id_9103,dbpedia_id_25828,TRUE,corner-case match
+amazon_id_16689,dbpedia_id_58400,FALSE,corner-case non-match
+amazon_id_14612,dbpedia_id_11712,FALSE,corner-case non-match
+amazon_id_17419,dbpedia_id_5733,FALSE,random non-match (same author)
+amazon_id_33862,dbpedia_id_57052,FALSE,corner-case non-match
+amazon_id_9005,dbpedia_id_2175,FALSE,corner-case non-match
+amazon_id_10197,dbpedia_id_39192,FALSE,random non-match (same author)
+amazon_id_7319,dbpedia_id_6206,TRUE,random match
+amazon_id_29341,dbpedia_id_33268,FALSE,random non-match (same author)
+amazon_id_9650,dbpedia_id_1675,FALSE,random non-match (same author)
+amazon_id_104,dbpedia_id_22819,TRUE,random match
+amazon_id_5308,dbpedia_id_15254,FALSE,corner-case non-match
+amazon_id_5771,dbpedia_id_43286,FALSE,random non-match (same author)
+amazon_id_24882,dbpedia_id_53681,FALSE,corner-case non-match
+amazon_id_4184,dbpedia_id_48967,TRUE,random match
+amazon_id_16899,dbpedia_id_12919,FALSE,random non-match (same author)
+amazon_id_8557,dbpedia_id_40486,TRUE,random match
+amazon_id_3422,dbpedia_id_56516,FALSE,random non-match (same author)
+amazon_id_13792,dbpedia_id_49127,FALSE,corner-case non-match
+amazon_id_11401,dbpedia_id_11606,TRUE,corner-case match
+amazon_id_5317,dbpedia_id_15254,FALSE,corner-case non-match
+amazon_id_14930,dbpedia_id_36669,FALSE,random non-match (same author)
+amazon_id_2625,dbpedia_id_755,FALSE,corner-case non-match
+amazon_id_7026,dbpedia_id_43852,TRUE,random match
+amazon_id_27594,dbpedia_id_50898,TRUE,random match
+amazon_id_7171,dbpedia_id_2254,FALSE,random non-match (same author)
+amazon_id_9497,dbpedia_id_36163,FALSE,corner-case non-match
+amazon_id_29592,dbpedia_id_31115,FALSE,corner-case non-match
+amazon_id_17281,dbpedia_id_25408,TRUE,random match
+amazon_id_4861,dbpedia_id_25829,FALSE,corner-case non-match
+amazon_id_13900,dbpedia_id_21284,FALSE,random non-match (same author)
+amazon_id_13491,dbpedia_id_24193,FALSE,random non-match (same author)
+amazon_id_13232,dbpedia_id_8799,TRUE,random match
+amazon_id_15977,dbpedia_id_31125,FALSE,corner-case non-match
+amazon_id_1350,dbpedia_id_17534,TRUE,random match
+amazon_id_11216,dbpedia_id_11606,TRUE,corner-case match
+amazon_id_11590,dbpedia_id_28047,FALSE,random non-match (same author)
+amazon_id_38715,dbpedia_id_23694,FALSE,corner-case non-match
+amazon_id_10756,dbpedia_id_33626,TRUE,corner-case match
+amazon_id_28610,dbpedia_id_6721,FALSE,random non-match (same author)
+amazon_id_34278,dbpedia_id_36773,TRUE,random match
+amazon_id_27651,dbpedia_id_14790,FALSE,random non-match (same author)
+amazon_id_34659,dbpedia_id_48796,FALSE,random non-match (same author)
+amazon_id_25165,dbpedia_id_24517,FALSE,random non-match (same author)
+amazon_id_17062,dbpedia_id_9047,FALSE,corner-case non-match
+amazon_id_1770,dbpedia_id_38443,FALSE,corner-case non-match
+amazon_id_10871,dbpedia_id_29052,FALSE,corner-case non-match
+amazon_id_14742,dbpedia_id_56415,FALSE,random non-match (same author)
+amazon_id_15268,dbpedia_id_37676,FALSE,random non-match (same author)
+amazon_id_33041,dbpedia_id_25032,FALSE,corner-case non-match
+amazon_id_18591,dbpedia_id_6546,TRUE,random match
+amazon_id_33790,dbpedia_id_30373,FALSE,corner-case non-match
+amazon_id_26749,dbpedia_id_22691,FALSE,corner-case non-match
+amazon_id_4075,dbpedia_id_48116,FALSE,corner-case non-match
+amazon_id_3784,dbpedia_id_55013,FALSE,random non-match (same author)
+amazon_id_38808,dbpedia_id_4833,FALSE,random non-match (same author)
+amazon_id_417,dbpedia_id_43728,TRUE,corner-case match
+amazon_id_17753,dbpedia_id_35,TRUE,random match
+amazon_id_29166,dbpedia_id_37483,FALSE,random non-match (same author)
+amazon_id_27270,dbpedia_id_11150,FALSE,random non-match (same author)
+amazon_id_19656,dbpedia_id_39683,FALSE,corner-case non-match
+amazon_id_3985,dbpedia_id_21289,TRUE,random match
+amazon_id_16838,dbpedia_id_48859,FALSE,corner-case non-match
+amazon_id_9895,dbpedia_id_11591,TRUE,corner-case match
+amazon_id_8332,dbpedia_id_58916,TRUE,random match
+amazon_id_1546,dbpedia_id_7490,FALSE,random non-match (same author)
+amazon_id_22312,dbpedia_id_40310,FALSE,corner-case non-match
+amazon_id_16910,dbpedia_id_28923,FALSE,corner-case non-match
+amazon_id_19994,dbpedia_id_1276,TRUE,corner-case match
+amazon_id_5507,dbpedia_id_46915,FALSE,random non-match (same author)
+amazon_id_16499,dbpedia_id_46820,FALSE,random non-match (same author)
+amazon_id_11934,dbpedia_id_1273,FALSE,random non-match (same author)
+amazon_id_25795,dbpedia_id_37992,FALSE,random non-match (same author)
+amazon_id_5234,dbpedia_id_30332,FALSE,random non-match (same author)
+amazon_id_3516,dbpedia_id_54358,TRUE,random match
+amazon_id_20057,dbpedia_id_3305,FALSE,random non-match (same author)
+amazon_id_21157,dbpedia_id_21805,FALSE,corner-case non-match
+amazon_id_21055,dbpedia_id_56188,TRUE,random match
+amazon_id_25364,dbpedia_id_47269,TRUE,random match
+amazon_id_1323,dbpedia_id_54227,FALSE,corner-case non-match
+amazon_id_12338,dbpedia_id_46141,TRUE,random match
+amazon_id_11778,dbpedia_id_32365,FALSE,random non-match (same author)
+amazon_id_4731,dbpedia_id_59144,FALSE,corner-case non-match
+amazon_id_962,dbpedia_id_17538,FALSE,corner-case non-match
+amazon_id_16598,dbpedia_id_49104,FALSE,random non-match (same author)
+amazon_id_38337,dbpedia_id_16662,FALSE,corner-case non-match
+amazon_id_28504,dbpedia_id_6721,FALSE,random non-match (same author)
+amazon_id_31152,dbpedia_id_4858,TRUE,random match
+amazon_id_26797,dbpedia_id_51134,TRUE,random match
+amazon_id_33216,dbpedia_id_34161,FALSE,corner-case non-match
+amazon_id_8380,dbpedia_id_8772,TRUE,random match
+amazon_id_3669,dbpedia_id_34194,FALSE,corner-case non-match
+amazon_id_6142,dbpedia_id_37666,FALSE,corner-case non-match
+amazon_id_17884,dbpedia_id_46491,FALSE,corner-case non-match
+amazon_id_4333,dbpedia_id_30045,FALSE,corner-case non-match
+amazon_id_23649,dbpedia_id_12804,FALSE,random non-match (same author)
+amazon_id_39920,dbpedia_id_1241,FALSE,corner-case non-match
+amazon_id_35190,dbpedia_id_16035,FALSE,random non-match (same author)
+amazon_id_7763,dbpedia_id_46044,FALSE,corner-case non-match
+amazon_id_1444,dbpedia_id_52061,FALSE,corner-case non-match
+amazon_id_2534,dbpedia_id_22952,TRUE,random match
+amazon_id_39642,dbpedia_id_197,FALSE,random non-match (same author)
+amazon_id_32496,dbpedia_id_24949,FALSE,corner-case non-match
+amazon_id_16127,dbpedia_id_698,TRUE,random match
+amazon_id_18985,dbpedia_id_490,FALSE,random non-match (same author)
+amazon_id_20317,dbpedia_id_9510,TRUE,random match
+amazon_id_18984,dbpedia_id_41227,TRUE,random match
+amazon_id_39932,dbpedia_id_50233,FALSE,random non-match (same author)
+amazon_id_15471,dbpedia_id_25649,TRUE,corner-case match
+amazon_id_10952,dbpedia_id_58937,TRUE,random match
+amazon_id_14821,dbpedia_id_22412,FALSE,random non-match (same author)
+amazon_id_35393,dbpedia_id_6149,TRUE,random match
+amazon_id_6898,dbpedia_id_13158,FALSE,random non-match (same author)
+amazon_id_16811,dbpedia_id_10187,TRUE,random match
+amazon_id_4652,dbpedia_id_3688,FALSE,corner-case non-match
+amazon_id_22325,dbpedia_id_6692,FALSE,random non-match (same author)
+amazon_id_7381,dbpedia_id_25740,FALSE,random non-match (same author)
+amazon_id_24224,dbpedia_id_41136,FALSE,random non-match (same author)
+amazon_id_12362,dbpedia_id_40644,FALSE,corner-case non-match
+amazon_id_9390,dbpedia_id_6374,FALSE,random non-match (same author)
+amazon_id_11975,dbpedia_id_18748,TRUE,random match
+amazon_id_1790,dbpedia_id_1256,FALSE,corner-case non-match
+amazon_id_9992,dbpedia_id_50019,FALSE,random non-match (same author)
+amazon_id_6768,dbpedia_id_32077,FALSE,corner-case non-match
+amazon_id_21063,dbpedia_id_3882,TRUE,random match
+amazon_id_7041,dbpedia_id_22731,FALSE,random non-match (same author)
+amazon_id_4410,dbpedia_id_29367,FALSE,corner-case non-match
+amazon_id_3002,dbpedia_id_5699,FALSE,corner-case non-match
+amazon_id_9677,dbpedia_id_11005,FALSE,random non-match (same author)
+amazon_id_5246,dbpedia_id_50395,TRUE,random match
+amazon_id_3166,dbpedia_id_50436,FALSE,corner-case non-match
+amazon_id_18748,dbpedia_id_30948,FALSE,random non-match (same author)
+amazon_id_29095,dbpedia_id_38875,TRUE,corner-case match
+amazon_id_34625,dbpedia_id_35030,FALSE,corner-case non-match
+amazon_id_17125,dbpedia_id_44162,FALSE,random non-match (same author)
+amazon_id_15211,dbpedia_id_44083,TRUE,random match
+amazon_id_21632,dbpedia_id_52864,FALSE,random non-match (same author)
+amazon_id_23688,dbpedia_id_20366,FALSE,random non-match (same author)
+amazon_id_7822,dbpedia_id_2,FALSE,random non-match (same author)
+amazon_id_36732,dbpedia_id_36643,FALSE,corner-case non-match
+amazon_id_17054,dbpedia_id_26798,FALSE,random non-match (same author)
+amazon_id_2596,dbpedia_id_755,FALSE,corner-case non-match
+amazon_id_16014,dbpedia_id_1442,FALSE,random non-match (same author)
+amazon_id_28307,dbpedia_id_19600,FALSE,random non-match (same author)
+amazon_id_6872,dbpedia_id_2211,FALSE,random non-match (same author)
+amazon_id_5390,dbpedia_id_3570,FALSE,random non-match (same author)
+amazon_id_25944,dbpedia_id_36370,FALSE,corner-case non-match
+amazon_id_36979,dbpedia_id_34896,FALSE,corner-case non-match
+amazon_id_29258,dbpedia_id_37922,FALSE,random non-match (same author)
+amazon_id_33751,dbpedia_id_36093,TRUE,random match
+amazon_id_37269,dbpedia_id_56188,FALSE,random non-match (same author)
+amazon_id_9757,dbpedia_id_35802,TRUE,random match
+amazon_id_12295,dbpedia_id_37668,TRUE,random match
+amazon_id_4611,dbpedia_id_4740,TRUE,random match
+amazon_id_16858,dbpedia_id_44193,FALSE,corner-case non-match
+amazon_id_6324,dbpedia_id_13012,FALSE,corner-case non-match
+amazon_id_39651,dbpedia_id_54913,FALSE,corner-case non-match
+amazon_id_14354,dbpedia_id_11161,TRUE,random match
+amazon_id_12801,dbpedia_id_33975,FALSE,random non-match (same author)
+amazon_id_37297,dbpedia_id_48265,FALSE,corner-case non-match
+amazon_id_4802,dbpedia_id_3688,FALSE,corner-case non-match
+amazon_id_20439,dbpedia_id_39232,FALSE,corner-case non-match
+amazon_id_22493,dbpedia_id_52850,FALSE,random non-match (same author)
+amazon_id_9205,dbpedia_id_9649,FALSE,corner-case non-match
+amazon_id_16525,dbpedia_id_42602,FALSE,random non-match (same author)
+amazon_id_7864,dbpedia_id_25832,TRUE,corner-case match
+amazon_id_2653,dbpedia_id_11600,TRUE,corner-case match
+amazon_id_1669,dbpedia_id_53226,TRUE,random match
+amazon_id_13886,dbpedia_id_55523,TRUE,corner-case match
+amazon_id_5046,dbpedia_id_58375,FALSE,random non-match (same author)
+amazon_id_1254,dbpedia_id_17534,FALSE,corner-case non-match
+amazon_id_12307,dbpedia_id_31114,FALSE,random non-match (same author)
+amazon_id_10488,dbpedia_id_27812,FALSE,random non-match (same author)
+amazon_id_9662,dbpedia_id_51076,TRUE,random match
+amazon_id_16636,dbpedia_id_13481,FALSE,corner-case non-match
+amazon_id_10278,dbpedia_id_3305,TRUE,random match
+amazon_id_35050,dbpedia_id_50572,FALSE,corner-case non-match
+amazon_id_14727,dbpedia_id_54426,FALSE,corner-case non-match
+amazon_id_23485,dbpedia_id_57956,TRUE,random match
+amazon_id_7261,dbpedia_id_59009,FALSE,random non-match (same author)
+amazon_id_15670,dbpedia_id_15154,TRUE,random match
+amazon_id_7285,dbpedia_id_39835,FALSE,random non-match (same author)
+amazon_id_2601,dbpedia_id_755,FALSE,corner-case non-match
+amazon_id_8796,dbpedia_id_21831,TRUE,random match
+amazon_id_5228,dbpedia_id_26892,TRUE,random match
+amazon_id_5431,dbpedia_id_8702,TRUE,random match
+amazon_id_19063,dbpedia_id_41139,TRUE,corner-case match
+amazon_id_15763,dbpedia_id_37391,FALSE,random non-match (same author)
+amazon_id_10672,dbpedia_id_7001,TRUE,corner-case match
+amazon_id_7956,dbpedia_id_57101,FALSE,random non-match (same author)
+amazon_id_7229,dbpedia_id_28893,FALSE,corner-case non-match
+amazon_id_27119,dbpedia_id_9179,FALSE,random non-match (same author)
+amazon_id_35754,dbpedia_id_48662,FALSE,random non-match (same author)
+amazon_id_1727,dbpedia_id_4291,FALSE,corner-case non-match
+amazon_id_29476,dbpedia_id_44627,FALSE,random non-match (same author)
+amazon_id_28103,dbpedia_id_9048,TRUE,random match
+amazon_id_37428,dbpedia_id_17456,TRUE,random match
+amazon_id_18036,dbpedia_id_51066,FALSE,corner-case non-match
+amazon_id_14973,dbpedia_id_43734,TRUE,random match
+amazon_id_10951,dbpedia_id_39237,FALSE,random non-match (same author)
+amazon_id_38723,dbpedia_id_52343,FALSE,random non-match (same author)
+amazon_id_2291,dbpedia_id_41904,TRUE,random match
+amazon_id_9728,dbpedia_id_19552,FALSE,random non-match (same author)
+amazon_id_5906,dbpedia_id_41278,TRUE,random match
+amazon_id_9561,dbpedia_id_8791,FALSE,corner-case non-match
+amazon_id_26060,dbpedia_id_19945,FALSE,random non-match (same author)
+amazon_id_38442,dbpedia_id_42553,FALSE,random non-match (same author)
+amazon_id_27061,dbpedia_id_10214,FALSE,corner-case non-match
+amazon_id_13290,dbpedia_id_14978,TRUE,random match
+amazon_id_31526,dbpedia_id_27938,FALSE,random non-match (same author)
+amazon_id_13307,dbpedia_id_36038,FALSE,corner-case non-match
+amazon_id_14286,dbpedia_id_22639,TRUE,random match
+amazon_id_16108,dbpedia_id_43066,TRUE,random match
+amazon_id_8167,dbpedia_id_11697,FALSE,random non-match (same author)
+amazon_id_22501,dbpedia_id_50576,TRUE,random match
+amazon_id_12204,dbpedia_id_39699,FALSE,random non-match (same author)
+amazon_id_11377,dbpedia_id_37355,FALSE,corner-case non-match
+amazon_id_28118,dbpedia_id_52846,FALSE,random non-match (same author)
+amazon_id_14601,dbpedia_id_7092,TRUE,random match
+amazon_id_34857,dbpedia_id_27293,TRUE,random match
+amazon_id_7143,dbpedia_id_19050,TRUE,random match
+amazon_id_19515,dbpedia_id_54056,FALSE,random non-match (same author)
+amazon_id_35934,dbpedia_id_50955,FALSE,corner-case non-match
+amazon_id_30121,dbpedia_id_39237,FALSE,random non-match (same author)
+amazon_id_32227,dbpedia_id_6438,FALSE,random non-match (same author)
+amazon_id_6822,dbpedia_id_57571,FALSE,random non-match (same author)
+amazon_id_28499,dbpedia_id_10876,FALSE,corner-case non-match
+amazon_id_26773,dbpedia_id_14363,FALSE,corner-case non-match
+amazon_id_12743,dbpedia_id_17294,TRUE,random match
+amazon_id_31884,dbpedia_id_7532,FALSE,corner-case non-match
+amazon_id_5464,dbpedia_id_49239,FALSE,random non-match (same author)
+amazon_id_10391,dbpedia_id_56193,FALSE,random non-match (same author)
+amazon_id_32074,dbpedia_id_27360,FALSE,random non-match (same author)
+amazon_id_5949,dbpedia_id_11601,TRUE,corner-case match
+amazon_id_18514,dbpedia_id_11712,FALSE,random non-match (same author)
+amazon_id_38902,dbpedia_id_15157,FALSE,random non-match (same author)
+amazon_id_28810,dbpedia_id_38875,TRUE,corner-case match
+amazon_id_39776,dbpedia_id_12361,FALSE,corner-case non-match
+amazon_id_11956,dbpedia_id_27716,TRUE,random match
+amazon_id_11302,dbpedia_id_7845,FALSE,random non-match (same author)
+amazon_id_30771,dbpedia_id_23889,FALSE,random non-match (same author)
+amazon_id_11015,dbpedia_id_58625,FALSE,corner-case non-match
+amazon_id_38693,dbpedia_id_715,FALSE,corner-case non-match
+amazon_id_38948,dbpedia_id_3000,FALSE,random non-match (same author)
+amazon_id_28846,dbpedia_id_50854,TRUE,random match
+amazon_id_1122,dbpedia_id_47689,TRUE,random match
+amazon_id_35178,dbpedia_id_56643,FALSE,random non-match (same author)
+amazon_id_16144,dbpedia_id_27996,FALSE,random non-match (same author)
+amazon_id_11128,dbpedia_id_23866,FALSE,corner-case non-match
+amazon_id_5024,dbpedia_id_44350,TRUE,random match
+amazon_id_2591,dbpedia_id_658,TRUE,random match
+amazon_id_455,dbpedia_id_50084,FALSE,random non-match (same author)
+amazon_id_17521,dbpedia_id_25748,TRUE,random match
+amazon_id_31405,dbpedia_id_32940,FALSE,random non-match (same author)
+amazon_id_3728,dbpedia_id_43061,FALSE,corner-case non-match
+amazon_id_23053,dbpedia_id_18469,FALSE,random non-match (same author)
+amazon_id_16450,dbpedia_id_57482,FALSE,random non-match (same author)
+amazon_id_20751,dbpedia_id_38831,FALSE,random non-match (same author)
+amazon_id_30038,dbpedia_id_24450,FALSE,random non-match (same author)
+amazon_id_12,dbpedia_id_20287,FALSE,random non-match (same author)
+amazon_id_22766,dbpedia_id_54876,FALSE,corner-case non-match
+amazon_id_22705,dbpedia_id_48802,FALSE,random non-match (same author)
+amazon_id_35705,dbpedia_id_1280,FALSE,corner-case non-match
+amazon_id_24219,dbpedia_id_21111,FALSE,random non-match (same author)
+amazon_id_17959,dbpedia_id_53661,FALSE,corner-case non-match
+amazon_id_31627,dbpedia_id_54426,FALSE,corner-case non-match
+amazon_id_25117,dbpedia_id_22924,FALSE,random non-match (same author)
+amazon_id_29488,dbpedia_id_33144,FALSE,random non-match (same author)
+amazon_id_18132,dbpedia_id_33201,FALSE,corner-case non-match
+amazon_id_347,dbpedia_id_52209,TRUE,random match
+amazon_id_4059,dbpedia_id_16395,FALSE,random non-match (same author)
+amazon_id_2116,dbpedia_id_22422,FALSE,random non-match (same author)
+amazon_id_25892,dbpedia_id_8334,FALSE,corner-case non-match
+amazon_id_2458,dbpedia_id_58283,FALSE,random non-match (same author)
+amazon_id_14389,dbpedia_id_8454,FALSE,corner-case non-match
+amazon_id_19579,dbpedia_id_1281,TRUE,random match
+amazon_id_11050,dbpedia_id_47925,FALSE,corner-case non-match
+amazon_id_1726,dbpedia_id_41110,FALSE,corner-case non-match
+amazon_id_26709,dbpedia_id_16370,FALSE,corner-case non-match
+amazon_id_6174,dbpedia_id_47075,FALSE,random non-match (same author)
+amazon_id_36456,dbpedia_id_19215,FALSE,corner-case non-match
+amazon_id_22472,dbpedia_id_37056,FALSE,random non-match (same author)
+amazon_id_22853,dbpedia_id_45411,FALSE,random non-match (same author)
+amazon_id_22711,dbpedia_id_15128,FALSE,random non-match (same author)
+amazon_id_15176,dbpedia_id_27015,TRUE,random match
+amazon_id_21760,dbpedia_id_21805,FALSE,corner-case non-match
+amazon_id_38981,dbpedia_id_37391,FALSE,random non-match (same author)
+amazon_id_10051,dbpedia_id_23091,FALSE,corner-case non-match
+amazon_id_39644,dbpedia_id_39693,TRUE,random match
+amazon_id_19138,dbpedia_id_40400,TRUE,random match
+amazon_id_20215,dbpedia_id_3522,FALSE,corner-case non-match
+amazon_id_11261,dbpedia_id_45756,FALSE,corner-case non-match
+amazon_id_16840,dbpedia_id_58400,TRUE,random match
+amazon_id_35109,dbpedia_id_23667,FALSE,random non-match (same author)
+amazon_id_14568,dbpedia_id_49089,FALSE,corner-case non-match
+amazon_id_13494,dbpedia_id_36038,FALSE,corner-case non-match
+amazon_id_2701,dbpedia_id_11681,FALSE,corner-case non-match
+amazon_id_4139,dbpedia_id_23414,FALSE,random non-match (same author)
+amazon_id_39726,dbpedia_id_5517,FALSE,corner-case non-match
+amazon_id_24939,dbpedia_id_53681,FALSE,corner-case non-match
+amazon_id_36169,dbpedia_id_46379,FALSE,random non-match (same author)
+amazon_id_8189,dbpedia_id_30578,FALSE,random non-match (same author)
+amazon_id_31069,dbpedia_id_33888,FALSE,random non-match (same author)
+amazon_id_27906,dbpedia_id_52723,FALSE,random non-match (same author)
+amazon_id_12074,dbpedia_id_52342,TRUE,corner-case match
+amazon_id_5813,dbpedia_id_24379,TRUE,random match
+amazon_id_24297,dbpedia_id_38226,FALSE,random non-match (same author)
+amazon_id_11940,dbpedia_id_25830,TRUE,corner-case match
+amazon_id_3129,dbpedia_id_5485,FALSE,corner-case non-match
+amazon_id_3580,dbpedia_id_47044,FALSE,random non-match (same author)
+amazon_id_13796,dbpedia_id_8025,FALSE,random non-match (same author)
+amazon_id_22035,dbpedia_id_8474,TRUE,random match
+amazon_id_13133,dbpedia_id_55494,TRUE,random match
+amazon_id_22385,dbpedia_id_44084,TRUE,random match
+amazon_id_17845,dbpedia_id_43286,FALSE,corner-case non-match
+amazon_id_4727,dbpedia_id_57745,FALSE,corner-case non-match
+amazon_id_21064,dbpedia_id_58378,TRUE,random match
+amazon_id_11474,dbpedia_id_11607,TRUE,corner-case match
+amazon_id_31956,dbpedia_id_50880,FALSE,corner-case non-match
+amazon_id_5158,dbpedia_id_42925,FALSE,random non-match (same author)
+amazon_id_9765,dbpedia_id_55572,FALSE,random non-match (same author)
+amazon_id_2278,dbpedia_id_6167,FALSE,corner-case non-match
+amazon_id_3271,dbpedia_id_41752,FALSE,random non-match (same author)
+amazon_id_39198,dbpedia_id_22973,FALSE,corner-case non-match
+amazon_id_13079,dbpedia_id_7291,FALSE,random non-match (same author)
+amazon_id_24786,dbpedia_id_43009,TRUE,random match
+amazon_id_24965,dbpedia_id_8519,FALSE,random non-match (same author)
+amazon_id_6385,dbpedia_id_11433,FALSE,random non-match (same author)
+amazon_id_14500,dbpedia_id_33528,FALSE,random non-match (same author)
+amazon_id_27431,dbpedia_id_22691,TRUE,random match
+amazon_id_23986,dbpedia_id_59170,FALSE,random non-match (same author)
+amazon_id_37024,dbpedia_id_34896,TRUE,random match
+amazon_id_38178,dbpedia_id_30476,FALSE,corner-case non-match
+amazon_id_4959,dbpedia_id_40974,FALSE,corner-case non-match
+amazon_id_18496,dbpedia_id_54520,FALSE,random non-match (same author)
+amazon_id_3506,dbpedia_id_50670,TRUE,random match
+amazon_id_25537,dbpedia_id_10732,TRUE,random match
+amazon_id_35150,dbpedia_id_55352,FALSE,random non-match (same author)
+amazon_id_22546,dbpedia_id_8055,FALSE,corner-case non-match
+amazon_id_950,dbpedia_id_13747,FALSE,corner-case non-match
+amazon_id_17860,dbpedia_id_40427,FALSE,corner-case non-match
+amazon_id_26555,dbpedia_id_4272,TRUE,random match
+amazon_id_7803,dbpedia_id_46344,TRUE,random match
+amazon_id_7765,dbpedia_id_40632,FALSE,corner-case non-match
+amazon_id_7042,dbpedia_id_57604,FALSE,random non-match (same author)
+amazon_id_3196,dbpedia_id_27390,FALSE,corner-case non-match
+amazon_id_6849,dbpedia_id_28895,FALSE,corner-case non-match
+amazon_id_9758,dbpedia_id_20177,FALSE,random non-match (same author)
+amazon_id_29700,dbpedia_id_19600,FALSE,corner-case non-match
+amazon_id_25355,dbpedia_id_39228,FALSE,corner-case non-match
+amazon_id_14452,dbpedia_id_1046,FALSE,corner-case non-match
+amazon_id_13361,dbpedia_id_27812,FALSE,random non-match (same author)
+amazon_id_3234,dbpedia_id_15157,FALSE,random non-match (same author)
+amazon_id_34414,dbpedia_id_2377,FALSE,random non-match (same author)
+amazon_id_1170,dbpedia_id_39945,FALSE,random non-match (same author)
+amazon_id_10172,dbpedia_id_11605,TRUE,random match
+amazon_id_1803,dbpedia_id_49499,FALSE,corner-case non-match
+amazon_id_5139,dbpedia_id_5165,FALSE,corner-case non-match
+amazon_id_31846,dbpedia_id_51006,FALSE,random non-match (same author)
+amazon_id_17233,dbpedia_id_7972,TRUE,random match
+amazon_id_14610,dbpedia_id_1891,FALSE,corner-case non-match
+amazon_id_11468,dbpedia_id_34194,FALSE,random non-match (same author)
+amazon_id_3019,dbpedia_id_14878,FALSE,random non-match (same author)
+amazon_id_18400,dbpedia_id_18021,FALSE,corner-case non-match
+amazon_id_24324,dbpedia_id_52281,FALSE,random non-match (same author)
+amazon_id_38442,dbpedia_id_1025,FALSE,random non-match (same author)
+amazon_id_35588,dbpedia_id_20255,TRUE,random match
+amazon_id_19466,dbpedia_id_54486,FALSE,corner-case non-match
+amazon_id_28094,dbpedia_id_27162,TRUE,random match
+amazon_id_28751,dbpedia_id_38869,FALSE,corner-case non-match
+amazon_id_14009,dbpedia_id_14717,FALSE,random non-match (same author)
+amazon_id_14358,dbpedia_id_44827,FALSE,random non-match (same author)
+amazon_id_6119,dbpedia_id_16402,TRUE,random match
+amazon_id_19200,dbpedia_id_50699,TRUE,corner-case match
+amazon_id_10190,dbpedia_id_11590,FALSE,random non-match (same author)
+amazon_id_19403,dbpedia_id_54486,TRUE,random match
+amazon_id_31980,dbpedia_id_36559,TRUE,random match
+amazon_id_4823,dbpedia_id_661,FALSE,corner-case non-match
+amazon_id_8943,dbpedia_id_4711,FALSE,corner-case non-match
+amazon_id_12070,dbpedia_id_40420,TRUE,random match
+amazon_id_1503,dbpedia_id_53552,TRUE,random match
+amazon_id_3837,dbpedia_id_24855,FALSE,random non-match (same author)
+amazon_id_5458,dbpedia_id_43527,FALSE,corner-case non-match
+amazon_id_30259,dbpedia_id_33144,FALSE,random non-match (same author)
+amazon_id_10921,dbpedia_id_36785,FALSE,random non-match (same author)
+amazon_id_15263,dbpedia_id_41479,FALSE,random non-match (same author)
+amazon_id_28621,dbpedia_id_43712,FALSE,random non-match (same author)
+amazon_id_30427,dbpedia_id_16034,FALSE,corner-case non-match
+amazon_id_4542,dbpedia_id_52555,TRUE,corner-case match
+amazon_id_21550,dbpedia_id_54169,FALSE,random non-match (same author)
+amazon_id_29578,dbpedia_id_4991,TRUE,corner-case match
+amazon_id_25529,dbpedia_id_47694,TRUE,random match
+amazon_id_36636,dbpedia_id_1588,FALSE,random non-match (same author)
+amazon_id_34217,dbpedia_id_43077,FALSE,corner-case non-match
+amazon_id_4809,dbpedia_id_27972,FALSE,corner-case non-match
+amazon_id_22950,dbpedia_id_1927,FALSE,corner-case non-match
+amazon_id_10405,dbpedia_id_11599,TRUE,random match
+amazon_id_23498,dbpedia_id_27993,FALSE,corner-case non-match
+amazon_id_12148,dbpedia_id_22422,FALSE,random non-match (same author)
+amazon_id_15052,dbpedia_id_55922,FALSE,random non-match (same author)
+amazon_id_6386,dbpedia_id_14944,FALSE,random non-match (same author)
+amazon_id_21221,dbpedia_id_33744,TRUE,random match
+amazon_id_19162,dbpedia_id_7190,FALSE,corner-case non-match
+amazon_id_28914,dbpedia_id_31155,FALSE,corner-case non-match
+amazon_id_10662,dbpedia_id_13662,FALSE,corner-case non-match
+amazon_id_24175,dbpedia_id_54084,FALSE,random non-match (same author)
+amazon_id_25579,dbpedia_id_58530,FALSE,random non-match (same author)
+amazon_id_26117,dbpedia_id_20290,TRUE,corner-case match
+amazon_id_23838,dbpedia_id_52294,TRUE,random match
+amazon_id_894,dbpedia_id_24561,FALSE,corner-case non-match
+amazon_id_34488,dbpedia_id_1204,TRUE,random match
+amazon_id_14497,dbpedia_id_27682,FALSE,random non-match (same author)
+amazon_id_6010,dbpedia_id_11601,FALSE,corner-case non-match
+amazon_id_14698,dbpedia_id_25302,FALSE,random non-match (same author)
+amazon_id_37172,dbpedia_id_20735,FALSE,random non-match (same author)
+amazon_id_4683,dbpedia_id_25833,FALSE,corner-case non-match
+amazon_id_13837,dbpedia_id_25218,FALSE,random non-match (same author)
+amazon_id_18317,dbpedia_id_31832,FALSE,random non-match (same author)
+amazon_id_26054,dbpedia_id_49188,FALSE,corner-case non-match
+amazon_id_23440,dbpedia_id_32118,FALSE,corner-case non-match
+amazon_id_37074,dbpedia_id_15631,FALSE,random non-match (same author)
+amazon_id_23855,dbpedia_id_30991,FALSE,random non-match (same author)
+amazon_id_20015,dbpedia_id_10435,TRUE,random match
+amazon_id_23016,dbpedia_id_26173,TRUE,random match
+amazon_id_26776,dbpedia_id_46188,TRUE,random match
+amazon_id_13304,dbpedia_id_59044,FALSE,random non-match (same author)
+amazon_id_37884,dbpedia_id_37262,FALSE,random non-match (same author)
+amazon_id_29407,dbpedia_id_3035,FALSE,random non-match (same author)
+amazon_id_11212,dbpedia_id_44312,FALSE,random non-match (same author)
+amazon_id_894,dbpedia_id_24138,FALSE,random non-match (same author)
+amazon_id_5243,dbpedia_id_50395,FALSE,corner-case non-match
+amazon_id_13933,dbpedia_id_8814,TRUE,random match
+amazon_id_2457,dbpedia_id_14029,FALSE,corner-case non-match
+amazon_id_2266,dbpedia_id_6167,FALSE,corner-case non-match
+amazon_id_16844,dbpedia_id_35493,FALSE,random non-match (same author)
+amazon_id_38354,dbpedia_id_34550,TRUE,random match
+amazon_id_10134,dbpedia_id_15559,FALSE,corner-case non-match
+amazon_id_4569,dbpedia_id_57673,FALSE,random non-match (same author)
+amazon_id_35633,dbpedia_id_23039,FALSE,corner-case non-match
+amazon_id_324,dbpedia_id_222,FALSE,random non-match (same author)
+amazon_id_22292,dbpedia_id_46721,FALSE,random non-match (same author)
+amazon_id_5017,dbpedia_id_50182,FALSE,corner-case non-match
+amazon_id_5561,dbpedia_id_25910,FALSE,random non-match (same author)
+amazon_id_15067,dbpedia_id_33672,FALSE,corner-case non-match
+amazon_id_11776,dbpedia_id_35071,FALSE,random non-match (same author)
+amazon_id_7034,dbpedia_id_202,TRUE,random match
+amazon_id_6673,dbpedia_id_15077,TRUE,random match
+amazon_id_8866,dbpedia_id_25829,TRUE,corner-case match
+amazon_id_38275,dbpedia_id_30476,TRUE,random match
+amazon_id_28295,dbpedia_id_34325,FALSE,random non-match (same author)
+amazon_id_8282,dbpedia_id_40400,FALSE,random non-match (same author)
+amazon_id_29622,dbpedia_id_1994,TRUE,random match
+amazon_id_16184,dbpedia_id_43426,TRUE,random match
+amazon_id_7843,dbpedia_id_1052,FALSE,random non-match (same author)
+amazon_id_23595,dbpedia_id_39966,FALSE,random non-match (same author)
+amazon_id_18516,dbpedia_id_50853,FALSE,corner-case non-match
 amazon_id_17946,dbpedia_id_24450,TRUE,random match
+amazon_id_34745,dbpedia_id_48513,TRUE,corner-case match
+amazon_id_3314,dbpedia_id_47024,FALSE,corner-case non-match
+amazon_id_34623,dbpedia_id_29477,FALSE,random non-match (same author)
+amazon_id_31107,dbpedia_id_47938,FALSE,random non-match (same author)
+amazon_id_14603,dbpedia_id_11712,FALSE,corner-case non-match
+amazon_id_37680,dbpedia_id_30766,FALSE,random non-match (same author)
+amazon_id_28872,dbpedia_id_23909,FALSE,random non-match (same author)
+amazon_id_10072,dbpedia_id_11590,FALSE,corner-case non-match
+amazon_id_24014,dbpedia_id_24115,TRUE,corner-case match
+amazon_id_10731,dbpedia_id_57076,FALSE,corner-case non-match
+amazon_id_37750,dbpedia_id_4510,TRUE,random match
+amazon_id_35319,dbpedia_id_30509,FALSE,random non-match (same author)
+amazon_id_26484,dbpedia_id_18469,TRUE,random match
+amazon_id_14875,dbpedia_id_21743,TRUE,random match
+amazon_id_29402,dbpedia_id_27609,FALSE,corner-case non-match
+amazon_id_22906,dbpedia_id_28034,TRUE,random match
+amazon_id_10392,dbpedia_id_11608,FALSE,corner-case non-match
+amazon_id_15776,dbpedia_id_58264,FALSE,corner-case non-match
+amazon_id_30769,dbpedia_id_40317,FALSE,random non-match (same author)
+amazon_id_36489,dbpedia_id_10557,FALSE,random non-match (same author)
+amazon_id_14719,dbpedia_id_46622,FALSE,random non-match (same author)
+amazon_id_37613,dbpedia_id_6751,FALSE,random non-match (same author)
+amazon_id_16621,dbpedia_id_58400,FALSE,corner-case non-match
+amazon_id_4703,dbpedia_id_33143,FALSE,random non-match (same author)
+amazon_id_36812,dbpedia_id_41259,TRUE,random match
+amazon_id_33985,dbpedia_id_37904,FALSE,random non-match (same author)
+amazon_id_11982,dbpedia_id_50887,FALSE,random non-match (same author)
+amazon_id_28038,dbpedia_id_32473,FALSE,random non-match (same author)
+amazon_id_11270,dbpedia_id_10042,TRUE,random match
+amazon_id_4937,dbpedia_id_22468,TRUE,random match
+amazon_id_11393,dbpedia_id_34979,TRUE,random match
+amazon_id_6248,dbpedia_id_18384,FALSE,random non-match (same author)
+amazon_id_17992,dbpedia_id_55960,FALSE,corner-case non-match
+amazon_id_7548,dbpedia_id_49637,FALSE,random non-match (same author)
+amazon_id_16516,dbpedia_id_50694,TRUE,random match
+amazon_id_7945,dbpedia_id_17567,FALSE,corner-case non-match
+amazon_id_22706,dbpedia_id_26123,FALSE,corner-case non-match
+amazon_id_8362,dbpedia_id_8948,FALSE,random non-match (same author)
+amazon_id_6012,dbpedia_id_34085,FALSE,corner-case non-match
+amazon_id_1989,dbpedia_id_14492,FALSE,random non-match (same author)
+amazon_id_335,dbpedia_id_17167,FALSE,random non-match (same author)
+amazon_id_8372,dbpedia_id_26272,FALSE,random non-match (same author)
+amazon_id_21056,dbpedia_id_38409,FALSE,corner-case non-match
+amazon_id_25074,dbpedia_id_28900,TRUE,random match
+amazon_id_13626,dbpedia_id_51559,FALSE,corner-case non-match
+amazon_id_34775,dbpedia_id_1672,FALSE,random non-match (same author)
+amazon_id_39041,dbpedia_id_36419,FALSE,random non-match (same author)
+amazon_id_39615,dbpedia_id_40744,FALSE,random non-match (same author)
+amazon_id_28673,dbpedia_id_22712,FALSE,random non-match (same author)
+amazon_id_4581,dbpedia_id_57673,FALSE,corner-case non-match
+amazon_id_2293,dbpedia_id_48343,FALSE,random non-match (same author)
+amazon_id_36838,dbpedia_id_53066,FALSE,random non-match (same author)
+amazon_id_8567,dbpedia_id_13091,FALSE,random non-match (same author)
+amazon_id_3817,dbpedia_id_39697,FALSE,random non-match (same author)
+amazon_id_12164,dbpedia_id_56987,FALSE,random non-match (same author)
+amazon_id_260,dbpedia_id_45827,FALSE,corner-case non-match
+amazon_id_29955,dbpedia_id_45390,FALSE,corner-case non-match
+amazon_id_26456,dbpedia_id_8943,FALSE,random non-match (same author)
+amazon_id_4833,dbpedia_id_34062,FALSE,random non-match (same author)
+amazon_id_3452,dbpedia_id_3168,TRUE,random match
+amazon_id_14229,dbpedia_id_15430,FALSE,random non-match (same author)
+amazon_id_19794,dbpedia_id_3522,FALSE,corner-case non-match
+amazon_id_3267,dbpedia_id_2635,FALSE,random non-match (same author)
+amazon_id_19264,dbpedia_id_6742,FALSE,random non-match (same author)
+amazon_id_21424,dbpedia_id_2565,FALSE,random non-match (same author)
+amazon_id_22789,dbpedia_id_44829,FALSE,random non-match (same author)
+amazon_id_9885,dbpedia_id_42516,FALSE,random non-match (same author)
+amazon_id_1352,dbpedia_id_46752,TRUE,random match
+amazon_id_39219,dbpedia_id_35495,FALSE,random non-match (same author)
+amazon_id_3229,dbpedia_id_2635,FALSE,random non-match (same author)
+amazon_id_5363,dbpedia_id_55572,FALSE,corner-case non-match
+amazon_id_26948,dbpedia_id_6150,TRUE,random match
+amazon_id_31275,dbpedia_id_25408,FALSE,random non-match (same author)
+amazon_id_16576,dbpedia_id_28877,FALSE,random non-match (same author)
+amazon_id_29513,dbpedia_id_21685,TRUE,random match
+amazon_id_38939,dbpedia_id_33110,FALSE,corner-case non-match
+amazon_id_12468,dbpedia_id_26094,FALSE,corner-case non-match
+amazon_id_27366,dbpedia_id_42602,FALSE,random non-match (same author)
+amazon_id_28298,dbpedia_id_24994,FALSE,corner-case non-match
+amazon_id_17450,dbpedia_id_56166,FALSE,corner-case non-match
+amazon_id_36562,dbpedia_id_22608,FALSE,random non-match (same author)
+amazon_id_23159,dbpedia_id_39702,FALSE,random non-match (same author)
+amazon_id_7965,dbpedia_id_46344,FALSE,corner-case non-match
+amazon_id_19012,dbpedia_id_25219,TRUE,random match
+amazon_id_29833,dbpedia_id_31254,TRUE,random match
+amazon_id_6315,dbpedia_id_18783,TRUE,random match
+amazon_id_35954,dbpedia_id_986,FALSE,corner-case non-match
+amazon_id_8981,dbpedia_id_28072,FALSE,random non-match (same author)
+amazon_id_4723,dbpedia_id_42775,TRUE,random match
+amazon_id_505,dbpedia_id_49936,FALSE,random non-match (same author)
+amazon_id_11713,dbpedia_id_49917,FALSE,corner-case non-match
+amazon_id_38554,dbpedia_id_1442,FALSE,random non-match (same author)
+amazon_id_13898,dbpedia_id_36042,TRUE,random match
+amazon_id_20288,dbpedia_id_43530,TRUE,random match
+amazon_id_30769,dbpedia_id_4260,FALSE,random non-match (same author)
+amazon_id_26541,dbpedia_id_14179,TRUE,random match
+amazon_id_25333,dbpedia_id_23020,TRUE,random match
+amazon_id_1845,dbpedia_id_44101,FALSE,corner-case non-match
+amazon_id_2999,dbpedia_id_3547,FALSE,corner-case non-match
+amazon_id_12783,dbpedia_id_50445,TRUE,random match
+amazon_id_9099,dbpedia_id_44384,TRUE,corner-case match
+amazon_id_21429,dbpedia_id_43447,FALSE,random non-match (same author)
+amazon_id_3561,dbpedia_id_18713,FALSE,random non-match (same author)
+amazon_id_19637,dbpedia_id_52723,FALSE,random non-match (same author)
+amazon_id_5002,dbpedia_id_7458,FALSE,random non-match (same author)
+amazon_id_12283,dbpedia_id_5688,FALSE,corner-case non-match
+amazon_id_34090,dbpedia_id_45911,FALSE,random non-match (same author)
+amazon_id_23605,dbpedia_id_16243,TRUE,random match
+amazon_id_27300,dbpedia_id_52786,FALSE,corner-case non-match
+amazon_id_35539,dbpedia_id_24262,FALSE,corner-case non-match
+amazon_id_9348,dbpedia_id_5388,FALSE,random non-match (same author)
+amazon_id_4717,dbpedia_id_23020,FALSE,random non-match (same author)
+amazon_id_9183,dbpedia_id_4711,FALSE,corner-case non-match
+amazon_id_23992,dbpedia_id_16035,FALSE,random non-match (same author)
+amazon_id_30482,dbpedia_id_1515,FALSE,corner-case non-match
+amazon_id_37644,dbpedia_id_1442,FALSE,random non-match (same author)
+amazon_id_32142,dbpedia_id_12936,TRUE,random match
+amazon_id_28206,dbpedia_id_55246,FALSE,corner-case non-match
+amazon_id_26172,dbpedia_id_34269,FALSE,random non-match (same author)
+amazon_id_4498,dbpedia_id_20701,FALSE,random non-match (same author)
+amazon_id_20186,dbpedia_id_59121,FALSE,corner-case non-match
+amazon_id_16402,dbpedia_id_33520,TRUE,random match
+amazon_id_9350,dbpedia_id_47707,FALSE,corner-case non-match
+amazon_id_13876,dbpedia_id_12200,TRUE,random match
+amazon_id_745,dbpedia_id_17532,FALSE,corner-case non-match
+amazon_id_28411,dbpedia_id_7717,FALSE,random non-match (same author)
+amazon_id_28816,dbpedia_id_7633,TRUE,random match
+amazon_id_19949,dbpedia_id_35604,FALSE,random non-match (same author)
+amazon_id_21101,dbpedia_id_44654,TRUE,random match
+amazon_id_12628,dbpedia_id_11853,TRUE,random match
+amazon_id_3817,dbpedia_id_52662,FALSE,random non-match (same author)
+amazon_id_29664,dbpedia_id_20471,FALSE,corner-case non-match
+amazon_id_3772,dbpedia_id_13106,TRUE,random match
+amazon_id_13820,dbpedia_id_55419,TRUE,random match
+amazon_id_15163,dbpedia_id_803,FALSE,random non-match (same author)
+amazon_id_37530,dbpedia_id_18058,TRUE,random match
+amazon_id_5349,dbpedia_id_35661,FALSE,random non-match (same author)
+amazon_id_28392,dbpedia_id_38081,TRUE,corner-case match
+amazon_id_16867,dbpedia_id_19669,FALSE,random non-match (same author)
+amazon_id_31788,dbpedia_id_57724,TRUE,random match
+amazon_id_15212,dbpedia_id_44083,FALSE,corner-case non-match
+amazon_id_30898,dbpedia_id_10827,TRUE,random match
+amazon_id_6699,dbpedia_id_34878,TRUE,random match
+amazon_id_8452,dbpedia_id_8772,FALSE,corner-case non-match
+amazon_id_26021,dbpedia_id_8283,FALSE,random non-match (same author)
+amazon_id_37616,dbpedia_id_55589,FALSE,random non-match (same author)
+amazon_id_9361,dbpedia_id_58725,FALSE,corner-case non-match
+amazon_id_20626,dbpedia_id_45016,FALSE,corner-case non-match
+amazon_id_38527,dbpedia_id_54488,FALSE,random non-match (same author)
+amazon_id_14144,dbpedia_id_2384,FALSE,corner-case non-match
+amazon_id_32208,dbpedia_id_24949,FALSE,corner-case non-match
+amazon_id_27952,dbpedia_id_56501,FALSE,random non-match (same author)
+amazon_id_13905,dbpedia_id_46610,FALSE,corner-case non-match
+amazon_id_19031,dbpedia_id_25219,FALSE,corner-case non-match
+amazon_id_7788,dbpedia_id_4065,FALSE,random non-match (same author)
+amazon_id_39175,dbpedia_id_52804,FALSE,random non-match (same author)
+amazon_id_11797,dbpedia_id_37072,FALSE,random non-match (same author)
+amazon_id_36615,dbpedia_id_986,FALSE,corner-case non-match
+amazon_id_30564,dbpedia_id_25735,FALSE,random non-match (same author)
+amazon_id_11855,dbpedia_id_14800,FALSE,corner-case non-match
+amazon_id_38473,dbpedia_id_44734,FALSE,corner-case non-match
+amazon_id_2474,dbpedia_id_14029,FALSE,corner-case non-match
+amazon_id_5828,dbpedia_id_32438,FALSE,corner-case non-match
+amazon_id_35055,dbpedia_id_53002,FALSE,random non-match (same author)
+amazon_id_13972,dbpedia_id_5974,FALSE,corner-case non-match
+amazon_id_39506,dbpedia_id_55511,FALSE,random non-match (same author)
+amazon_id_1317,dbpedia_id_17534,FALSE,corner-case non-match
+amazon_id_17892,dbpedia_id_46491,TRUE,random match
+amazon_id_31233,dbpedia_id_24193,FALSE,random non-match (same author)
+amazon_id_29420,dbpedia_id_31114,FALSE,corner-case non-match
+amazon_id_14796,dbpedia_id_35972,FALSE,corner-case non-match
+amazon_id_17658,dbpedia_id_24193,FALSE,random non-match (same author)
+amazon_id_21033,dbpedia_id_43937,FALSE,random non-match (same author)
+amazon_id_32785,dbpedia_id_30991,FALSE,random non-match (same author)
+amazon_id_936,dbpedia_id_45304,TRUE,random match
+amazon_id_11789,dbpedia_id_21743,FALSE,random non-match (same author)
+amazon_id_18645,dbpedia_id_12404,FALSE,random non-match (same author)
+amazon_id_6647,dbpedia_id_11608,FALSE,corner-case non-match
+amazon_id_1146,dbpedia_id_17533,FALSE,corner-case non-match
+amazon_id_38860,dbpedia_id_1442,FALSE,random non-match (same author)
+amazon_id_31784,dbpedia_id_41020,FALSE,random non-match (same author)
+amazon_id_25424,dbpedia_id_50297,FALSE,corner-case non-match
+amazon_id_772,dbpedia_id_17529,FALSE,corner-case non-match
+amazon_id_26943,dbpedia_id_30415,FALSE,random non-match (same author)
+amazon_id_26454,dbpedia_id_53497,FALSE,corner-case non-match
+amazon_id_39289,dbpedia_id_30333,FALSE,corner-case non-match
+amazon_id_7517,dbpedia_id_40632,TRUE,random match
+amazon_id_12489,dbpedia_id_53127,FALSE,random non-match (same author)
+amazon_id_27432,dbpedia_id_15392,FALSE,corner-case non-match
+amazon_id_9776,dbpedia_id_32656,FALSE,corner-case non-match
+amazon_id_35757,dbpedia_id_9619,FALSE,random non-match (same author)
+amazon_id_34770,dbpedia_id_13528,FALSE,random non-match (same author)
+amazon_id_24123,dbpedia_id_28566,FALSE,random non-match (same author)
+amazon_id_10695,dbpedia_id_9562,FALSE,random non-match (same author)
+amazon_id_20557,dbpedia_id_23772,TRUE,random match
+amazon_id_17998,dbpedia_id_51710,TRUE,random match
+amazon_id_3423,dbpedia_id_5941,FALSE,random non-match (same author)
+amazon_id_14317,dbpedia_id_57759,TRUE,random match
+amazon_id_30902,dbpedia_id_29422,FALSE,random non-match (same author)
+amazon_id_33604,dbpedia_id_51908,TRUE,random match
+amazon_id_21846,dbpedia_id_35950,TRUE,random match
+amazon_id_23854,dbpedia_id_37676,FALSE,corner-case non-match
+amazon_id_6010,dbpedia_id_11599,FALSE,corner-case non-match
+amazon_id_36963,dbpedia_id_27199,FALSE,random non-match (same author)
+amazon_id_22759,dbpedia_id_57202,FALSE,corner-case non-match
+amazon_id_30249,dbpedia_id_14994,FALSE,corner-case non-match
+amazon_id_27589,dbpedia_id_43521,TRUE,random match
+amazon_id_2083,dbpedia_id_48331,TRUE,random match
+amazon_id_35309,dbpedia_id_24030,FALSE,random non-match (same author)
+amazon_id_25106,dbpedia_id_47269,FALSE,corner-case non-match
+amazon_id_27465,dbpedia_id_16890,TRUE,corner-case match
+amazon_id_14408,dbpedia_id_51474,TRUE,random match
+amazon_id_8630,dbpedia_id_27728,FALSE,corner-case non-match
+amazon_id_4861,dbpedia_id_25831,TRUE,random match
+amazon_id_11733,dbpedia_id_8019,FALSE,random non-match (same author)
+amazon_id_36345,dbpedia_id_35511,FALSE,random non-match (same author)
+amazon_id_19335,dbpedia_id_45823,FALSE,random non-match (same author)
+amazon_id_36091,dbpedia_id_33467,TRUE,corner-case match
+amazon_id_12900,dbpedia_id_18883,FALSE,corner-case non-match
+amazon_id_21217,dbpedia_id_43463,TRUE,random match
+amazon_id_30860,dbpedia_id_56516,FALSE,random non-match (same author)
+amazon_id_25455,dbpedia_id_47916,FALSE,corner-case non-match
+amazon_id_13567,dbpedia_id_37440,FALSE,random non-match (same author)
+amazon_id_9113,dbpedia_id_171,TRUE,random match
+amazon_id_29323,dbpedia_id_14263,FALSE,random non-match (same author)
+amazon_id_14903,dbpedia_id_11712,TRUE,random match
+amazon_id_35621,dbpedia_id_1280,TRUE,random match
+amazon_id_10401,dbpedia_id_11607,FALSE,corner-case non-match
+amazon_id_9947,dbpedia_id_27451,FALSE,corner-case non-match
+amazon_id_34014,dbpedia_id_27615,FALSE,corner-case non-match
+amazon_id_3955,dbpedia_id_27691,FALSE,random non-match (same author)
+amazon_id_4017,dbpedia_id_9606,FALSE,corner-case non-match
+amazon_id_31256,dbpedia_id_17850,FALSE,random non-match (same author)
+amazon_id_31498,dbpedia_id_28432,FALSE,random non-match (same author)
+amazon_id_3804,dbpedia_id_17006,FALSE,random non-match (same author)
+amazon_id_22392,dbpedia_id_11517,TRUE,random match
+amazon_id_3102,dbpedia_id_5485,TRUE,random match
+amazon_id_10224,dbpedia_id_39553,FALSE,random non-match (same author)
+amazon_id_7877,dbpedia_id_16035,FALSE,corner-case non-match
+amazon_id_8568,dbpedia_id_50494,FALSE,random non-match (same author)
+amazon_id_13590,dbpedia_id_51559,TRUE,random match
+amazon_id_21499,dbpedia_id_48432,FALSE,random non-match (same author)
+amazon_id_27795,dbpedia_id_37290,FALSE,corner-case non-match
+amazon_id_10298,dbpedia_id_1552,FALSE,random non-match (same author)
+amazon_id_9568,dbpedia_id_8791,TRUE,random match
+amazon_id_7429,dbpedia_id_5420,TRUE,random match
 amazon_id_26435,dbpedia_id_41142,TRUE,corner-case match
-amazon_id_1775,dbpedia_id_46475,FALSE,corner-case non-match
-amazon_id_33786,dbpedia_id_57052,TRUE,random match
-amazon_id_30843,dbpedia_id_5884,FALSE,random non-match
-amazon_id_35872,dbpedia_id_27245,FALSE,random non-match
-amazon_id_38513,dbpedia_id_56890,FALSE,random non-match
-amazon_id_17109,dbpedia_id_34145,FALSE,random non-match
-amazon_id_38411,dbpedia_id_10824,FALSE,random non-match
+amazon_id_3297,dbpedia_id_52987,FALSE,corner-case non-match
+amazon_id_15334,dbpedia_id_960,TRUE,random match
+amazon_id_15748,dbpedia_id_48141,FALSE,random non-match (same author)
+amazon_id_8472,dbpedia_id_55097,TRUE,random match
+amazon_id_7730,dbpedia_id_49719,FALSE,corner-case non-match
+amazon_id_5098,dbpedia_id_48559,FALSE,random non-match (same author)
+amazon_id_14878,dbpedia_id_45809,FALSE,random non-match (same author)
+amazon_id_36833,dbpedia_id_20198,FALSE,corner-case non-match
+amazon_id_7787,dbpedia_id_41660,FALSE,random non-match (same author)
+amazon_id_4861,dbpedia_id_25827,FALSE,corner-case non-match
+amazon_id_26482,dbpedia_id_26133,FALSE,random non-match (same author)
+amazon_id_28705,dbpedia_id_22301,TRUE,random match
+amazon_id_2812,dbpedia_id_3995,FALSE,random non-match (same author)
+amazon_id_6236,dbpedia_id_47377,FALSE,corner-case non-match
+amazon_id_17945,dbpedia_id_54428,FALSE,corner-case non-match
+amazon_id_36665,dbpedia_id_34337,FALSE,random non-match (same author)
+amazon_id_26297,dbpedia_id_53392,FALSE,corner-case non-match
+amazon_id_1697,dbpedia_id_53000,FALSE,random non-match (same author)
+amazon_id_27432,dbpedia_id_15389,FALSE,corner-case non-match
+amazon_id_2794,dbpedia_id_36513,TRUE,random match
+amazon_id_14082,dbpedia_id_39233,FALSE,corner-case non-match
+amazon_id_7463,dbpedia_id_35738,FALSE,random non-match (same author)
+amazon_id_26191,dbpedia_id_48802,FALSE,random non-match (same author)
+amazon_id_15740,dbpedia_id_39697,TRUE,corner-case match
+amazon_id_12531,dbpedia_id_52153,FALSE,random non-match (same author)
+amazon_id_10136,dbpedia_id_11605,TRUE,corner-case match
+amazon_id_9078,dbpedia_id_49762,FALSE,corner-case non-match
+amazon_id_5986,dbpedia_id_42089,TRUE,random match
+amazon_id_18705,dbpedia_id_46620,FALSE,random non-match (same author)
+amazon_id_39005,dbpedia_id_6852,FALSE,random non-match (same author)
+amazon_id_21369,dbpedia_id_19082,TRUE,random match
+amazon_id_35838,dbpedia_id_47256,FALSE,corner-case non-match
+amazon_id_24308,dbpedia_id_16700,TRUE,random match
+amazon_id_33532,dbpedia_id_30991,FALSE,random non-match (same author)
+amazon_id_37428,dbpedia_id_54899,FALSE,random non-match (same author)
+amazon_id_39554,dbpedia_id_43467,FALSE,random non-match (same author)
+amazon_id_17417,dbpedia_id_4212,FALSE,random non-match (same author)
+amazon_id_39207,dbpedia_id_3877,FALSE,random non-match (same author)
