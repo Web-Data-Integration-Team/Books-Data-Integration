@@ -17,14 +17,20 @@ authors_author,prefer_higher_trust,amazon > goodreads > dbpedia,0.55172413793103
 authors_author,prefer_higher_trust,amazon > dbpedia > goodreads,0.8275862068965517,0.8275862068965517
 authors_author,prefer_higher_trust,dbpedia > goodreads > amazon,0.5862068965517241,0.6206896551724138
 authors_author,prefer_higher_trust,dbpedia > amazon > goodreads,0.7931034482758621,0.8275862068965517
-publisher,longest_string,-,0.41379310344827586,0.4482758620689655
-publisher,voting,-,0.5862068965517241,0.5862068965517241
-publisher,prefer_higher_trust,goodreads > amazon > dbpedia,0.5862068965517241,0.5862068965517241
-publisher,prefer_higher_trust,goodreads > dbpedia > amazon,0.5862068965517241,0.5862068965517241
-publisher,prefer_higher_trust,amazon > goodreads > dbpedia,0.5862068965517241,0.5862068965517241
-publisher,prefer_higher_trust,amazon > dbpedia > goodreads,0.3793103448275862,0.41379310344827586
-publisher,prefer_higher_trust,dbpedia > goodreads > amazon,0.3793103448275862,0.41379310344827586
-publisher,prefer_higher_trust,dbpedia > amazon > goodreads,0.3793103448275862,0.41379310344827586
+publisher,longest_string,-,0.41379310344827586,0.6896551724137931
+publisher,voting,-,0.5862068965517241,0.7586206896551724
+publisher,prefer_higher_trust,goodreads > amazon > dbpedia,0.5862068965517241,0.7586206896551724
+publisher,prefer_higher_trust,goodreads > dbpedia > amazon,0.5862068965517241,0.7586206896551724
+publisher,prefer_higher_trust,amazon > goodreads > dbpedia,0.5862068965517241,0.7931034482758621
+publisher,prefer_higher_trust,amazon > dbpedia > goodreads,0.3793103448275862,0.6206896551724138
+publisher,prefer_higher_trust,dbpedia > goodreads > amazon,0.3793103448275862,0.5862068965517241
+publisher,prefer_higher_trust,dbpedia > amazon > goodreads,0.3793103448275862,0.6206896551724138
+publisher,publisher_vote,goodreads > amazon > dbpedia,0.4827586206896552,0.7586206896551724
+publisher,publisher_vote,goodreads > dbpedia > amazon,0.4827586206896552,0.7586206896551724
+publisher,publisher_vote,amazon > goodreads > dbpedia,0.5172413793103449,0.7931034482758621
+publisher,publisher_vote,amazon > dbpedia > goodreads,0.3793103448275862,0.6206896551724138
+publisher,publisher_vote,dbpedia > goodreads > amazon,0.3448275862068966,0.5862068965517241
+publisher,publisher_vote,dbpedia > amazon > goodreads,0.3793103448275862,0.6206896551724138
 publication_date,voting,-,0.7241379310344828,0.7241379310344828
 publication_date,earliest,-,0.6206896551724138,0.6206896551724138
 publication_date,most_recent,-,0.7241379310344828,0.7241379310344828
