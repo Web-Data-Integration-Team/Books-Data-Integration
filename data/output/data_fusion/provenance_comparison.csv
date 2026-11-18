@@ -1,0 +1,8 @@
+,no provenance,no provenance,no provenance,provenance,provenance,provenance,difference
+,function,dev,test,function,dev,test,test
+attribute,,,,,,,
+title,voting,0.9655172413793104,0.9333333333333333,prefer_higher_trust (goodreads > amazon > dbpedia),0.9655172413793104,0.9,-0.033333333333333326
+authors_author,union,0.8275862068965517,0.9333333333333333,prefer_higher_trust (goodreads > dbpedia > amazon),0.896551724137931,0.9333333333333333,0.0
+publisher,voting,0.7586206896551724,0.6333333333333333,prefer_higher_trust (amazon > goodreads > dbpedia),0.7931034482758621,0.6333333333333333,0.0
+publication_date,voting,0.7241379310344828,0.7333333333333333,prefer_higher_trust (goodreads > amazon > dbpedia),0.7241379310344828,0.7333333333333333,0.0
+page_count,minimum,0.5384615384615384,0.6206896551724138,prefer_higher_trust (goodreads > dbpedia > amazon),0.5769230769230769,0.5862068965517241,-0.034482758620689724
