@@ -8,15 +8,15 @@ title,prefer_higher_trust,amazon > goodreads > dbpedia,0.896551724137931,0.93103
 title,prefer_higher_trust,amazon > dbpedia > goodreads,0.7586206896551724,0.8275862068965517
 title,prefer_higher_trust,dbpedia > goodreads > amazon,0.7586206896551724,0.8275862068965517
 title,prefer_higher_trust,dbpedia > amazon > goodreads,0.7241379310344828,0.7931034482758621
-authors_author,union,-,0.27586206896551724,0.3103448275862069
-authors_author,intersection,-,0.3103448275862069,0.3103448275862069
-authors_author,intersection_k_sources,-,0.3103448275862069,0.3103448275862069
-authors_author,prefer_higher_trust,goodreads > amazon > dbpedia,0.3448275862068966,0.3448275862068966
-authors_author,prefer_higher_trust,goodreads > dbpedia > amazon,0.3103448275862069,0.3448275862068966
-authors_author,prefer_higher_trust,amazon > goodreads > dbpedia,0.5517241379310345,0.5517241379310345
+authors_author,union,-,0.7931034482758621,0.8275862068965517
+authors_author,intersection,-,0.7586206896551724,0.7586206896551724
+authors_author,intersection_k_sources,-,0.7586206896551724,0.7586206896551724
+authors_author,prefer_higher_trust,goodreads > amazon > dbpedia,0.7931034482758621,0.8620689655172413
+authors_author,prefer_higher_trust,goodreads > dbpedia > amazon,0.8275862068965517,0.896551724137931
+authors_author,prefer_higher_trust,amazon > goodreads > dbpedia,0.8620689655172413,0.896551724137931
 authors_author,prefer_higher_trust,amazon > dbpedia > goodreads,0.8275862068965517,0.8275862068965517
-authors_author,prefer_higher_trust,dbpedia > goodreads > amazon,0.5862068965517241,0.6206896551724138
-authors_author,prefer_higher_trust,dbpedia > amazon > goodreads,0.7931034482758621,0.8275862068965517
+authors_author,prefer_higher_trust,dbpedia > goodreads > amazon,0.7931034482758621,0.8275862068965517
+authors_author,prefer_higher_trust,dbpedia > amazon > goodreads,0.8620689655172413,0.8620689655172413
 publisher,longest_string,-,0.41379310344827586,0.6896551724137931
 publisher,voting,-,0.5862068965517241,0.7586206896551724
 publisher,prefer_higher_trust,goodreads > amazon > dbpedia,0.5862068965517241,0.7586206896551724
