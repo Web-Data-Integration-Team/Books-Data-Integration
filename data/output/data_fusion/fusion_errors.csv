@@ -1,0 +1,68 @@
+entity,attribute,cause,true,fused,goodreads,amazon,dbpedia,split
+amazon_id_12559,page_count,true value in no source,320.0,352.0,352.0,352.0,,test
+dbpedia_id_3299,authors_author,suspected identity-resolution error,['David French'],['August Strindberg'],"['August Strindberg', 'David French (Adapted by)']",,['August Strindberg'],dev
+dbpedia_id_14095,publisher,wrong value chosen,Dell,Evernight Secrets Publishing,Evernight Secrets Publishing,,Dell Publishing,test
+dbpedia_id_14095,publication_date,wrong value chosen,2004,2013-11-24,2013-11-24,,2004-01-01,test
+dbpedia_id_14095,page_count,wrong value chosen,387.0,372.0,372.0,,387.0,test
+dbpedia_id_28903,publisher,wrong value chosen,HarperCollins,HarperCollinsChildren’sBooks,HarperCollinsChildren’sBooks,,HarperCollins,test
+dbpedia_id_28903,page_count,wrong value chosen,616.0,400.0,400.0,,616.0,test
+amazon_id_32034,page_count,true value in no source,261.0,246.0,246.0,344.0,,dev
+amazon_id_29139,publisher,true value in no source,Harper,HarperTorch,HarperTorch,HarperTorch,,test
+amazon_id_29139,publication_date,true value in no source,2008,2004-07-27,2004-07-27,2004-07-27,,test
+amazon_id_29139,page_count,true value in no source,438.0,422.0,422.0,448.0,,test
+dbpedia_id_41263,authors_author,true value in no source,"['J. D. Robb', 'Mary Blayney', 'Ruth Ryan Langan', 'Mary Kay McComas']",['John Marsden (writer)'],"['J.D. Robb (Goodreads Author)', 'Nora Roberts (Goodreads Author)', 'Mary Blayney', 'Ruth Ryan Langan', 'Mary Kay McComas']",,['John Marsden (writer)'],dev
+dbpedia_id_14965,title,wrong value chosen,Flat Stanley,Flat Stanley His Original Adventure,Flat Stanley His Original Adventure,,Flat Stanley,dev
+dbpedia_id_14965,publisher,true value in no source,Harper,Egmont Group,,,Egmont Group,dev
+dbpedia_id_14965,publication_date,true value in no source,2009,1964-01-01,,,1964-01-01,dev
+dbpedia_id_14965,page_count,true value in no source,76.0,80.0,80.0,,,dev
+amazon_id_11992,authors_author,suspected identity-resolution error,"['Vince Mills', 'Kyle Flynn']",['Vince Flynn'],,['Vince Flynn'],['Errol Flynn'],dev
+amazon_id_11992,publisher,suspected identity-resolution error,Simon & Schuster,,,,,dev
+amazon_id_11992,publication_date,suspected identity-resolution error,2020,1937-01-01,,,1937-01-01,dev
+dbpedia_id_33572,title,wrong value chosen,Schuyler's Monster,Schuyler's Monster: A Father's Journey with His Wordless Daughter,Schuyler's Monster: A Father's Journey with His Wordless Daughter,,Schuyler's Monster,test
+dbpedia_id_29386,publication_date,suspected identity-resolution error,2013,2000-12-01,2000-12-01,,,test
+dbpedia_id_29386,page_count,suspected identity-resolution error,334.0,274.0,274.0,,252.0,test
+dbpedia_id_36560,page_count,wrong value chosen,107.0,110.0,110.0,,107.0,test
+dbpedia_id_26827,publication_date,true value in no source,2019,2014-03-01,2014-03-01,,2014-03-01,test
+dbpedia_id_26827,page_count,true value in no source,400.0,368.0,368.0,,358.0,test
+amazon_id_18522,publisher,wrong value chosen,Gallery Books,Touchstone Books,Gallery Books,Touchstone Books,,test
+amazon_id_18522,publication_date,true value in no source,2019,2013-10-29,2013-10-29,2013-01-01,,test
+amazon_id_21101,page_count,true value in no source,321.0,336.0,,336.0,336.0,dev
+dbpedia_id_48916,publisher,true value in no source,Amulet Books,Harry N. Abrams,Harry N. Abrams,,Abrams Books,dev
+dbpedia_id_43574,authors_author,wrong value chosen,"['John Hulme', 'Michael Wexler']","['John Hulme (author)', 'John Hulme and Michael Wexler']","['John Hulme', 'Michael Wexler']",,"['John Hulme (author)', 'John Hulme and Michael Wexler']",test
+dbpedia_id_52098,page_count,suspected identity-resolution error,250.0,256.0,256.0,,259.0,test
+amazon_id_33612,publication_date,true value in no source,2008,2007-09-06,2007-09-06,2007-09-06,,test
+amazon_id_39987,publication_date,true value in no source,2024,2017-04-11,2017-04-11,2017-04-11,,dev
+amazon_id_39987,page_count,true value in no source,358.0,368.0,368.0,368.0,,dev
+amazon_id_15673,authors_author,wrong value chosen,"['Thomas J. Stanley', 'William D. Danko']",['Thomas J. Stanley'],"['Thomas J. Stanley', 'William D. Danko']",['Thomas J. Stanley'],"['Thomas J. Stanley', 'Thomas J. Stanley and William D. Danko']",test
+amazon_id_15673,publisher,true value in no source,Pocket Books,Gallery Books,Gallery Books,Gallery Books,Gallery Books,test
+dbpedia_id_31382,page_count,true value in no source,241.0,255.0,255.0,,,test
+amazon_id_408,publisher,true value in no source,Windmill Books,Viking,,Viking,Viking Press,dev
+amazon_id_408,publication_date,true value in no source,2021,2016-09-06,,2016-09-06,2016-09-06,dev
+dbpedia_id_19007,publisher,true value in no source,Simon Pulse,Atheneum Books for Young Readers,Atheneum Books for Young Readers,,Atheneum,test
+dbpedia_id_19007,page_count,true value in no source,340.0,309.0,309.0,,308.0,test
+dbpedia_id_14486,authors_author,wrong value chosen,['Mira Grant'],['Seanan McGuire'],['Mira Grant'],,['Seanan McGuire'],dev
+amazon_id_28794,publication_date,true value in no source,2010,2006-08-29,2006-08-29,2006-08-29,,dev
+dbpedia_id_47159,publication_date,suspected identity-resolution error,2016,2009-02-20,2009-02-20,,2009-01-01,dev
+dbpedia_id_47159,page_count,suspected identity-resolution error,272.0,264.0,264.0,,263.0,dev
+dbpedia_id_55988,publication_date,true value in no source,1999,1997-09-02,1997-09-02,,1996-09-01,dev
+dbpedia_id_55988,page_count,true value in no source,337.0,304.0,304.0,,299.0,dev
+amazon_id_4065,publisher,true value in no source,Pocket Books,MTV Books,MTV Books/Pocket Books,MTV Books,Gallery Publishing Group,dev
+amazon_id_7012,authors_author,wrong value chosen,"['James Patterson', 'David Ellis']",['James Patterson'],,['James Patterson'],"['James Patterson', 'James Patterson and David Ellis']",dev
+amazon_id_7012,page_count,true value in no source,431.0,448.0,,448.0,448.0,dev
+dbpedia_id_3499,page_count,true value in no source,422.0,432.0,432.0,,432.0,dev
+amazon_id_31645,page_count,true value in no source,439.0,391.0,391.0,448.0,,test
+amazon_id_32719,page_count,true value in no source,324.0,336.0,,336.0,336.0,test
+dbpedia_id_34457,publisher,wrong value chosen,"Little, Brown and Company","Little, Brown Books for Young Readers","Little, Brown Books for Young Readers",,"Little, Brown and Company",test
+dbpedia_id_2714,page_count,true value in no source,316.0,336.0,336.0,,,dev
+amazon_id_3589,page_count,true value in no source,420.0,432.0,432.0,432.0,,dev
+dbpedia_id_27788,title,wrong value chosen,No Future,Doctor Who: No Future,Doctor Who: No Future,,No Future,test
+dbpedia_id_27788,authors_author,true value in no source,['Paul Cornell'],"['Love and War (Cornell novel)', 'Paul Cornell']",['Paul Cornell (Goodreads Author)'],,"['Love and War (Cornell novel)', 'Paul Cornell']",test
+dbpedia_id_27788,publisher,true value in no source,Doctor Who Books,Virgin Publishing,Virgin Publishing,,Virgin Books,test
+dbpedia_id_27788,publication_date,no value in any source,1994,,,,,test
+amazon_id_19576,publisher,wrong value chosen,Penguin Books,Penguin Classics,Penguin Books,Penguin Classics,,test
+amazon_id_1766,publisher,wrong value chosen,William Morrow,William Morrow Paperbacks,William Morrow Paperbacks,William Morrow Paperbacks,William Morrow and Company,test
+amazon_id_7026,publisher,wrong value chosen,Jove Books,Berkley,,Berkley,Jove Books,dev
+dbpedia_id_29362,publication_date,true value in no source,2014,2009-07-15,2009-07-15,,2009-07-10,dev
+dbpedia_id_29362,page_count,true value in no source,400.0,365.0,365.0,,384.0,dev
+dbpedia_id_45704,publisher,true value in no source,Random House Children's Books,Dell Yearling Random House,Dell Yearling Random House,,Random House,test
+dbpedia_id_45704,publication_date,true value in no source,2009,2003-02-11,,,2003-02-11,test
