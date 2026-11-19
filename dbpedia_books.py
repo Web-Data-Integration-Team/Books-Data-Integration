@@ -24,7 +24,9 @@ Data cleaning:
      because they are near-empty duplicates of the real book.
   6. For authors, genres and ISBNs only the highest-priority source is used
      (dbo: before dbp:), so free-text infobox noise like "Pen name" is not mixed in.
-  7. Wikipedia disambiguation suffixes like "(novel)" or "(2010 novel)" are removed from titles.
+  7. Wikipedia disambiguation suffixes in brackets at the end, like "(novel)", "(memoir)",
+     "(publisher)" or "(genre)", are removed from titles, publishers and genres.
+     Genres are deduplicated afterwards ("Thriller (genre)" and "Thriller" -> "Thriller").
   8. Authors: "A and B" is split, suffixes like "(writer)" are removed, book titles are dropped.
 
 Usage (needs internet, takes ~10-20 minutes):
@@ -54,8 +56,8 @@ RES = "http://dbpedia.org/resource/"
 # Skip secondary infobox resources ("__" in URI) and redirects (near-empty duplicates).
 CLEAN = 'FILTER(!CONTAINS(STR(?book), "__")) FILTER NOT EXISTS { ?book dbo:wikiPageRedirects ?r }'
 
-# Wikipedia disambiguation suffix at the end of a title, e.g. "(novel)", "(2010 novel)", "(Franzen novel)", "(book)".
-TITLE_SUFFIX = re.compile(r"\s*\((\d{4}\s+)?(novel|novella|book|short story|novel series|[\w\s]+ novel)\)$", re.I)
+# Any bracket at the end of a value, e.g. "(novel)", "(memoir)", "(publisher)", "(imprint)", "(genre)".
+TITLE_SUFFIX = re.compile(r"\s*\([^)]*\)$")
 
 PREFIXES = """
 PREFIX dbo:  <http://dbpedia.org/ontology/>
@@ -268,6 +270,16 @@ def clean_title(t: str) -> str:
     return TITLE_SUFFIX.sub("", t).strip()
 
 
+def clean_list(vals: list[str]) -> list[str]:
+    """Remove a trailing bracket from every value and drop duplicates (keeps the order)."""
+    out = []
+    for v in vals:
+        v = clean_title(v)
+        if v and v not in out:
+            out.append(v)
+    return out
+
+
 def clean_authors(vals: list[str]) -> list[str]:
     """Split "A and B", drop disambiguation like "(writer)" and drop non-person values like book titles."""
     out = []
@@ -289,14 +301,19 @@ def write_xml(books, data):
         title = (d.get("title") or [uri[len(RES):].replace("_", " ")])[0]
         ET.SubElement(b, "uri").text = uri
         ET.SubElement(b, "title").text = clean_title(title)
-        ET.SubElement(b, "publisher").text = (d.get("publisher") or [""])[0]
+        ET.SubElement(b, "publisher").text = clean_title((d.get("publisher") or [""])[0])
         ET.SubElement(b, "release_date").text = (d.get("date") or [""])[0]   # raw value, for reference
         ET.SubElement(b, "year").text = year_of(d.get("date", []))
         ET.SubElement(b, "pages").text = pages_of(d.get("pages", []))
         ET.SubElement(b, "language").text = clean_language((d.get("language") or [""])[0])
         for attr, child in [("isbns", "isbn"), ("authors", "author"), ("genres", "genre")]:
             el = ET.SubElement(b, attr)
-            vals = clean_authors(d.get(attr, [])) if attr == "authors" else d.get(attr, [])
+            if attr == "authors":
+                vals = clean_authors(d.get(attr, []))
+            elif attr == "genres":
+                vals = clean_list(d.get(attr, []))
+            else:
+                vals = d.get(attr, [])
             for v in vals:
                 ET.SubElement(el, child).text = v
 
