@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+  <book id="example_1000">
+    <title>Where the Crawdads Sing</title>
+    <authors>
+      <author>Delia Owens</author>
+      <author>Second Author</author>
+    </authors>
+    <genres>
+      <genre>Fiction</genre>
+      <genre>Mystery</genre>
+    </genres>
+    <publication_date>2018-08-14</publication_date>
+    <publisher>Putnam</publisher>
+    <page_count>384</page_count>
+    <language>English</language>
+    <format>Hardcover</format>
+    <edition>First Edition</edition>
+    <rating>4.4</rating>
+    <ratings_count>1000</ratings_count>
+    <price>12.99</price>
+    <series>Series Name</series>
+    <awards>
+      <award>Award One</award>
+      <award>Award Two</award>
+    </awards>
+    <isbn>978-0735219090</isbn>
+  </book>
+  <book id="example_1001">
+    <title>Second Example Book</title>
+    <authors>
+      <author>Author A</author>
+      <author>Author B</author>
+    </authors>
+    <genres>
+      <genre>Fantasy</genre>
+      <genre>Adventure</genre>
+    </genres>
+    <publication_date>2001-06-01</publication_date>
+    <publisher>Publisher Name</publisher>
+    <page_count>320</page_count>
+    <language>English</language>
+    <format>Paperback</format>
+    <edition>Second Edition</edition>
+    <rating>4.1</rating>
+    <ratings_count>500</ratings_count>
+    <price>9.99</price>
+    <series>Another Series</series>
+    <awards>
+      <award>Award One</award>
+      <award>Award Two</award>
+    </awards>
+    <isbn>080442957X</isbn>
+  </book>
+</books>
