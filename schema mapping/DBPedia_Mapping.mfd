@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Edited with Altova MapForce 2026r2 -->
+<!-- Edited with Altova MapForce 2027 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<resources/>
 	<component name="defaultmap" uid="1" editable="1" blackbox="0">
@@ -10,7 +10,7 @@
 					<targets>
 						<datapoint pos="0" key="3"/>
 					</targets>
-					<view ltx="284" lty="414" rbx="418" rby="431"/>
+					<view ltx="284" lty="414" rbx="423" rby="431"/>
 					<data>
 						<constant value="[Y0001]-[M01]-[D01]" datatype="string"/>
 					</data>
@@ -19,7 +19,7 @@
 					<targets>
 						<datapoint pos="0" key="12"/>
 					</targets>
-					<view ltx="52" lty="425" rbx="172" rby="442"/>
+					<view ltx="52" lty="425" rbx="183" rby="442"/>
 					<data>
 						<constant value="^\d{4}-\d\d-\d\d$" datatype="string"/>
 					</data>
@@ -32,7 +32,7 @@
 					<targets>
 						<datapoint pos="0" key="15"/>
 					</targets>
-					<view ltx="227" lty="339" rbx="317" rby="391"/>
+					<view ltx="227" lty="339" rbx="327" rby="393"/>
 				</component>
 				<component name="parse-date" library="core" uid="111" kind="5">
 					<sources>
@@ -42,7 +42,7 @@
 					<targets>
 						<datapoint pos="0" key="18"/>
 					</targets>
-					<view ltx="500" lty="349" rbx="573" rby="401"/>
+					<view ltx="500" lty="349" rbx="583" rby="403"/>
 				</component>
 				<component name="if-else" library="core" uid="112" kind="4">
 					<sources>
@@ -53,12 +53,12 @@
 					<targets>
 						<datapoint pos="0" key="32"/>
 					</targets>
-					<view ltx="681" lty="152" rbx="770" rby="223"/>
+					<view ltx="681" lty="152" rbx="785" rby="225"/>
 				</component>
 				<component name="Parse_Date" library="user" uid="150" kind="19" visible="0" blackbox="0">
-					<view ltx="360" lty="153" rbx="542" rby="169"/>
+					<view ltx="360" lty="153" rbx="554" rby="170"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -66,7 +66,7 @@
 							</header>
 							<entry name="publishDate" inpkey="19" componentid="100"/>
 						</root>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -84,12 +84,12 @@
 					<targets>
 						<datapoint pos="0" key="33"/>
 					</targets>
-					<view ltx="641" lty="-245" rbx="712" rby="-191"/>
+					<view ltx="641" lty="-245" rbx="723" rby="-189"/>
 				</component>
 				<component name="Page_Count" library="user" uid="155" kind="19" visible="0" blackbox="0">
-					<view ltx="254" lty="214" rbx="360" rby="230"/>
+					<view ltx="254" lty="214" rbx="367" rby="231"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -97,7 +97,7 @@
 							</header>
 							<entry name="value" inpkey="39" componentid="100"/>
 						</root>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -107,11 +107,32 @@
 						</root>
 					</data>
 				</component>
+				<component name="auto-number" library="core" uid="151" kind="5">
+					<sources>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="36"/>
+					</targets>
+					<view ltx="243" lty="-261" rbx="385" rby="-175"/>
+				</component>
+				<component name="constant" library="core" uid="153" kind="2">
+					<targets>
+						<datapoint pos="0" key="34"/>
+					</targets>
+					<view ltx="472" lty="-225" rbx="577" rby="-208"/>
+					<data>
+						<constant value="dbpedia_id_" datatype="string"/>
+					</data>
+				</component>
 				<component name="dbpedia_book_data" library="xml" uid="3" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="-146" lty="-159" rbx="89" rby="41"/>
 					<data>
-						<root scrollposition="32">
+						<root scrollposition="18">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -138,26 +159,14 @@
 								</entry>
 							</entry>
 						</root>
-						<document schema="Project\dbpedia_book_data.xsd" instanceroot="{}books" inputinstance="..\..\..\..\Downloads\dbpedia_book_data.xml" outputinstance="..\..\..\..\Downloads\dbpedia_book_data.xml"/>
+						<document schema="dbpedia_book_data.xsd" instanceroot="{}books" inputinstance="..\data\dbpedia_book_data.xml" outputinstance="..\data\dbpedia_book_data.xml"/>
 					</data>
-				</component>
-				<component name="auto-number" library="core" uid="151" kind="5">
-					<sources>
-						<datapoint/>
-						<datapoint/>
-						<datapoint/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="36"/>
-					</targets>
-					<view ltx="243" lty="-261" rbx="367" rby="-176"/>
 				</component>
 				<component name="target" library="xml" uid="2" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
 					<view ltx="818" lty="-139" rbx="984" rby="61"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -185,16 +194,7 @@
 								</entry>
 							</entry>
 						</root>
-						<document schema="..\..\..\..\Downloads\target_neu(1).xsd" instanceroot="{}books" inputinstance="..\..\..\..\Downloads\target_neu(1).xml" outputinstance="..\..\..\..\Downloads\target_neu(1).xml"/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="153" kind="2">
-					<targets>
-						<datapoint pos="0" key="34"/>
-					</targets>
-					<view ltx="472" lty="-225" rbx="563" rby="-208"/>
-					<data>
-						<constant value="dbpedia_id_" datatype="string"/>
+						<document schema="target_neu(1).xsd" instanceroot="{}books" inputinstance="target_neu(1).xml" outputinstance="target_neu(1).xml"/>
 					</data>
 				</component>
 			</children>
