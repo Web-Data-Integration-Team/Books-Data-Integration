@@ -1314,9 +1314,7 @@
     <isbns>
       <isbn>1-931933-84-7</isbn>
     </isbns>
-    <authors>
-      <author>Life</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -2244,9 +2242,7 @@
     <pages/>
     <language>Russian</language>
     <isbns/>
-    <authors>
-      <author>Vladimir Mayakovsky</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Verse</genre>
     </genres>
@@ -2292,9 +2288,7 @@
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -2384,7 +2378,6 @@
     </isbns>
     <authors>
       <author>Eric Flint</author>
-      <author>Ring of Fire</author>
     </authors>
     <genres>
       <genre>Alternate history</genre>
@@ -2419,7 +2412,6 @@
     </isbns>
     <authors>
       <author>Eric Flint</author>
-      <author>Ring of Fire</author>
     </authors>
     <genres>
       <genre>Alternate history</genre>
@@ -2566,9 +2558,7 @@
     <isbns>
       <isbn>978-1-4516-3776-2</isbn>
     </isbns>
-    <authors>
-      <author>The Grantville Gazettes</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Alternate history</genre>
     </genres>
@@ -4216,9 +4206,7 @@
     <isbns>
       <isbn>978-1-78558-551-7</isbn>
     </isbns>
-    <authors>
-      <author>Björk</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Sheet music</genre>
     </genres>
@@ -4634,9 +4622,7 @@
     <isbns>
       <isbn>978-0451612328</isbn>
     </isbns>
-    <authors>
-      <author>4 Days, 40 Hours</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -5267,9 +5253,7 @@
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -5298,7 +5282,6 @@
     <language/>
     <isbns/>
     <authors>
-      <author>90 Minutes in Heaven</author>
       <author>Cecil Murphey</author>
     </authors>
     <genres>
@@ -5706,8 +5689,6 @@
       <isbn>978-0399178733</isbn>
     </isbns>
     <authors>
-      <author>Delivered from Distraction</author>
-      <author>Driven to Distraction</author>
       <author>Edward Hallowell</author>
       <author>John Ratey</author>
     </authors>
@@ -8805,9 +8786,7 @@
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -9218,9 +9197,7 @@
     <pages/>
     <language>Russian</language>
     <isbns/>
-    <authors>
-      <author>Vladimir Mayakovsky</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Verse</genre>
     </genres>
@@ -9765,9 +9742,7 @@
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Alternate history</genre>
       <genre>Fantasy</genre>
@@ -11726,9 +11701,7 @@
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>John Adams</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Constitutional history, United States</genre>
     </genres>
@@ -12483,9 +12456,7 @@
     <pages>55</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -12599,9 +12570,7 @@
     <pages>179</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -12936,9 +12905,7 @@
     <pages/>
     <language>French</language>
     <isbns/>
-    <authors>
-      <author>Frantz Fanon</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -14532,9 +14499,7 @@
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -15196,9 +15161,7 @@
     <pages/>
     <language>Russian</language>
     <isbns/>
-    <authors>
-      <author>A Gift to Young Housewives</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Cookbook</genre>
     </genres>
@@ -15785,9 +15748,7 @@
     <isbns>
       <isbn>0-440-03246-6</isbn>
     </isbns>
-    <authors>
-      <author>Richard Yates</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Novel</genre>
     </genres>
@@ -15953,9 +15914,7 @@
     <isbns>
       <isbn>0-394-57877-5</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Mystery fiction</genre>
     </genres>
@@ -18396,9 +18355,7 @@
     <pages>153</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -22180,9 +22137,7 @@
     <isbns>
       <isbn>0-440-15559-2</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Mystery fiction</genre>
     </genres>
@@ -23280,9 +23235,7 @@
     <isbns>
       <isbn>0393043762</isbn>
     </isbns>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -25829,9 +25782,7 @@
     <isbns>
       <isbn>1596062908</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science Fiction</genre>
     </genres>
@@ -26042,9 +25993,7 @@
     <pages>299</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>James Joyce</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Künstlerroman</genre>
       <genre>Literary modernism</genre>
@@ -30014,9 +29963,7 @@
     <isbns>
       <isbn>0-8369-9062-5</isbn>
     </isbns>
-    <authors>
-      <author>A Son of the Carolinas</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Historical fiction</genre>
       <genre>Historical novel</genre>
@@ -30526,9 +30473,7 @@
     <isbns>
       <isbn>0-312-42040-4</isbn>
     </isbns>
-    <authors>
-      <author>Richard Yates</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -33594,9 +33539,7 @@
     <pages>649</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Travel literature</genre>
     </genres>
@@ -38080,9 +38023,7 @@
     <pages/>
     <language>Russian</language>
     <isbns/>
-    <authors>
-      <author>Vladimir Mayakovsky</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Verse</genre>
     </genres>
@@ -39444,9 +39385,7 @@
     <isbns>
       <isbn>978-1-78108-060-3</isbn>
     </isbns>
-    <authors>
-      <author>Gareth L. Powell</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
     </genres>
@@ -41579,9 +41518,7 @@
     <pages>362</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Children's literature</genre>
       <genre>Picaresque novel</genre>
@@ -47436,9 +47373,7 @@
     <pages/>
     <language>Persian</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>History</genre>
     </genres>
@@ -47811,9 +47746,7 @@
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>Albert Kalthoff</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -50722,9 +50655,7 @@
     <pages/>
     <language>Russian</language>
     <isbns/>
-    <authors>
-      <author>Vladimir Mayakovsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -56443,9 +56374,7 @@
     <isbns>
       <isbn>1-56584-775-X</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -56727,7 +56656,6 @@
       <isbn>0-06-039407-2</isbn>
     </isbns>
     <authors>
-      <author>American Terrorist</author>
       <author>Dan Herbeck</author>
     </authors>
     <genres/>
@@ -59642,8 +59570,6 @@
     <isbns/>
     <authors>
       <author>Thomas Young</author>
-      <author>Thomas Young (writer</author>
-      <author>theologian)</author>
     </authors>
     <genres>
       <genre>Essay</genre>
@@ -68672,9 +68598,7 @@ travelogue</genre>
     <isbns>
       <isbn>978-0-86547-811-4</isbn>
     </isbns>
-    <authors>
-      <author>Ants Among Elephants</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Non-fiction</genre>
       <genre>Nonfiction literature</genre>
@@ -72715,9 +72639,7 @@ travelogue</genre>
     <pages>307</pages>
     <language/>
     <isbns/>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Autobiography</genre>
     </genres>
@@ -75412,9 +75334,7 @@ travelogue</genre>
     <pages>261</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -81138,9 +81058,7 @@ travelogue</genre>
     <isbns>
       <isbn>9780008262907</isbn>
     </isbns>
-    <authors>
-      <author>BOSH!</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -82104,9 +82022,7 @@ travelogue</genre>
     <pages/>
     <language>Russian</language>
     <isbns/>
-    <authors>
-      <author>Vladimir Mayakovsky</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Verse</genre>
     </genres>
@@ -83951,9 +83867,7 @@ travelogue</genre>
     <pages/>
     <language>Catalan</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Drama</genre>
     </genres>
@@ -84715,8 +84629,7 @@ travelogue</genre>
       <isbn>978-81-7252-297-1</isbn>
     </isbns>
     <authors>
-      <author>Discourses on Tantra (Volumes 1</author>
-      <author>2)</author>
+      <author>Discourses on Tantra</author>
       <author>Neohumanism</author>
       <author>Prabhat Ranjan Sarkar</author>
     </authors>
@@ -86798,9 +86711,7 @@ travelogue</genre>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>American poetry</genre>
     </genres>
@@ -92061,9 +91972,7 @@ travelogue</genre>
     <pages>238</pages>
     <language/>
     <isbns/>
-    <authors>
-      <author>Belle Kendrick Abbott</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -98862,9 +98771,7 @@ travelogue</genre>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Adventure fiction</genre>
       <genre>Adventure novel</genre>
@@ -100761,9 +100668,7 @@ travelogue</genre>
     <isbns>
       <isbn>1-582-34226-1</isbn>
     </isbns>
-    <authors>
-      <author>Björk</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Biography</genre>
       <genre>Photo book</genre>
@@ -103039,9 +102944,7 @@ travelogue</genre>
     <pages>222</pages>
     <language>French</language>
     <isbns/>
-    <authors>
-      <author>Frantz Fanon</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -104285,7 +104188,6 @@ travelogue</genre>
       <isbn>0-912652-46-2</isbn>
     </isbns>
     <authors>
-      <author>The Bladerunner</author>
       <author>William S. Burroughs</author>
     </authors>
     <genres>
@@ -111310,9 +111212,7 @@ Sumach-Red Books</publisher>
     <pages/>
     <language>Valencian</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Compendium of laws</genre>
     </genres>
@@ -113976,9 +113876,7 @@ Sumach-Red Books</publisher>
     <isbns>
       <isbn>0-06-054242-X</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Horror fiction</genre>
@@ -125715,7 +125613,7 @@ Sumach-Red Books</publisher>
       <isbn>978-1-56512-421-9</isbn>
     </isbns>
     <authors>
-      <author>(Not That You Asked) Rants, Exploits</author>
+      <author>Rants, Exploits</author>
       <author>Obsessions</author>
       <author>Steve Almond</author>
     </authors>
@@ -126385,9 +126283,7 @@ Sumach-Red Books</publisher>
     <isbns>
       <isbn>1-86842-270-4</isbn>
     </isbns>
-    <authors>
-      <author>Capitalist Nigger</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Status of Africans</genre>
     </genres>
@@ -131306,9 +131202,7 @@ Paperback - April 2001</release_date>
     <pages>237</pages>
     <language>Chinese</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Chinese crime fiction</genre>
       <genre>Detective fiction</genre>
@@ -132438,9 +132332,7 @@ Paperback - April 2001</release_date>
     <isbns>
       <isbn>0-224-00606-1</isbn>
     </isbns>
-    <authors>
-      <author>James Joyce</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>poetry</genre>
     </genres>
@@ -133589,7 +133481,6 @@ Paperback - April 2001</release_date>
     <language>English</language>
     <isbns/>
     <authors>
-      <author>John</author>
       <author>Patricia Beatty</author>
     </authors>
     <genres>
@@ -142659,9 +142550,7 @@ Paperback - April 2001</release_date>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Epic poetry</genre>
     </genres>
@@ -142971,9 +142860,7 @@ Paperback - April 2001</release_date>
     <isbns>
       <isbn>1-56751-092-2</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -143003,9 +142890,7 @@ Paperback - April 2001</release_date>
     <isbns>
       <isbn>0-553-28637-4</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Horror fiction</genre>
@@ -143024,9 +142909,7 @@ Paperback - April 2001</release_date>
     <isbns>
       <isbn>0-553-28638-2</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Horror fiction</genre>
@@ -145243,9 +145126,7 @@ Paperback - April 2001</release_date>
     <pages>46</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Short story</genre>
     </genres>
@@ -145865,9 +145746,7 @@ Paperback - April 2001</release_date>
     <pages>72</pages>
     <language>Italian</language>
     <isbns/>
-    <authors>
-      <author>Leonardo da Vinci</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Handwriting</genre>
     </genres>
@@ -149169,9 +149048,7 @@ Paperback - April 2001</release_date>
     <isbns>
       <isbn>0-9512662-5-X</isbn>
     </isbns>
-    <authors>
-      <author>Construction Project Information Committee</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -151719,9 +151596,7 @@ Paperback - April 2001</release_date>
     <pages>9</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Non-fiction</genre>
       <genre>Nonfiction literature</genre>
@@ -153871,9 +153746,7 @@ Paperback - April 2001</release_date>
     <pages/>
     <language>Ancient Greek</language>
     <isbns/>
-    <authors>
-      <author>Aristotle</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -155729,9 +155602,7 @@ Paperback - April 2001</release_date>
     <isbns>
       <isbn>978-1-7396-0567-4</isbn>
     </isbns>
-    <authors>
-      <author>Björk</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Photo book</genre>
     </genres>
@@ -155863,8 +155734,7 @@ Paperback - April 2001</release_date>
     <language>English</language>
     <isbns/>
     <authors>
-      <author>Captain (Canadian army</author>
-      <author>air force)</author>
+      <author>Captain</author>
       <author>Lieutenant-colonel</author>
     </authors>
     <genres>
@@ -156292,9 +156162,7 @@ Paperback - April 2001</release_date>
     <isbns>
       <isbn>978-1-55245-267-7</isbn>
     </isbns>
-    <authors>
-      <author>Cruise Missile Liberals</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Short story collection</genre>
     </genres>
@@ -160920,7 +160788,6 @@ Paperback - April 2001</release_date>
       <isbn>1-59102-083-2</isbn>
     </isbns>
     <authors>
-      <author>Crossroads to Islam</author>
       <author>Yehuda D. Nevo</author>
     </authors>
     <genres>
@@ -162732,9 +162599,7 @@ Paperback - April 2001</release_date>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Science Made Stupid</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Satire</genre>
     </genres>
@@ -163197,9 +163062,7 @@ Paperback - April 2001</release_date>
     <isbns>
       <isbn>978-9027907004</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -165674,9 +165537,7 @@ Paperback - April 2001</release_date>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -166536,9 +166397,7 @@ Paperback - April 2001</release_date>
     <isbns>
       <isbn>0-553-27753-7</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -167992,9 +167851,7 @@ Paperback - April 2001</release_date>
     <pages>313</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Horror fiction</genre>
@@ -170123,9 +169980,7 @@ Paperback - April 2001</release_date>
     <pages>254</pages>
     <language>German/Englishref|After having been translated into English in 1940, the German manuscript, which had not been published, was lost until 2015; the first published version of the novel was the 1940 English translation. Until the original German manuscript was found in 2015 and translated into English in 2019, all published translations, including the 1944 German version, which was translated by Koestler himself, were translated from the English translation and thus were "translations of a translation".|group="nb"</language>
     <isbns/>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -170934,7 +170789,6 @@ Paperback - April 2001</release_date>
     <language/>
     <isbns/>
     <authors>
-      <author>Mary</author>
       <author>Conrad Buff</author>
     </authors>
     <genres/>
@@ -173001,9 +172855,7 @@ Paperback - April 2001</release_date>
     <pages/>
     <language>Classical Latin</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -173015,9 +172867,7 @@ Paperback - April 2001</release_date>
     <pages/>
     <language>Classical Latin</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -173029,9 +172879,7 @@ Paperback - April 2001</release_date>
     <pages/>
     <language>Classical Latin</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -176749,9 +176597,7 @@ Paperback - April 2001</release_date>
     <isbns>
       <isbn>0-394-54702-0</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Mystery fiction</genre>
     </genres>
@@ -184409,9 +184255,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>978-0465089963</isbn>
     </isbns>
-    <authors>
-      <author>Destruction Was My Beatrice</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>History</genre>
     </genres>
@@ -184461,7 +184305,6 @@ Ballantine Books</publisher>
     </isbns>
     <authors>
       <author>Laura Trenter</author>
-      <author>Pappa polis</author>
     </authors>
     <genres/>
   </book>
@@ -184596,9 +184439,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>9798888901427</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -184854,7 +184695,6 @@ Ballantine Books</publisher>
     <authors>
       <author>Jez Humble</author>
       <author>Nicole Forsgren</author>
-      <author>Tripwire</author>
     </authors>
     <genres/>
   </book>
@@ -186012,9 +185852,7 @@ Ballantine Books</publisher>
     <pages>215</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Autobiography</genre>
     </genres>
@@ -188961,9 +188799,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>0-553-01484-6</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
     </genres>
@@ -189688,9 +189524,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>0-394-49942-5</isbn>
     </isbns>
-    <authors>
-      <author>Michel Foucault</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -190658,9 +190492,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>1-4990-9692-5</isbn>
     </isbns>
-    <authors>
-      <author>Richard Yates</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Novel</genre>
     </genres>
@@ -190803,9 +190635,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>Middle English</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Middle-English Literature</genre>
     </genres>
@@ -191486,9 +191316,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>9781784743086</isbn>
     </isbns>
-    <authors>
-      <author>Deepa Anappara</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -195152,9 +194980,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>0</isbn>
     </isbns>
-    <authors>
-      <author>Dorothy Rabinowitz</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -197908,8 +197734,6 @@ Ballantine Books</publisher>
       <isbn>89-8273-052-4</isbn>
     </isbns>
     <authors>
-      <author>Chimera</author>
-      <author>Golem</author>
       <author>Lee Yeongdo</author>
       <author>Lee Youngdo</author>
     </authors>
@@ -200944,9 +200768,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>0-380-97381-2</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Science fiction</genre>
@@ -201825,9 +201647,7 @@ Ballantine Books</publisher>
     <pages>152</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>James Joyce</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Short story collection</genre>
     </genres>
@@ -210081,9 +209901,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Richard Yates</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -211913,9 +211731,7 @@ Ballantine Books</publisher>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>Emotions in the History of Witchcraft</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -214196,7 +214012,6 @@ Ballantine Books</publisher>
     <language>French</language>
     <isbns/>
     <authors>
-      <author>14</author>
       <author>17</author>
     </authors>
     <genres>
@@ -215516,9 +215331,7 @@ Ballantine Books</publisher>
     <pages>50</pages>
     <language>French</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Apocalyptic</genre>
     </genres>
@@ -215929,9 +215742,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>William Godwin</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -216426,9 +216237,7 @@ Ballantine Books</publisher>
     <pages>152</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>James Joyce</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Short story</genre>
     </genres>
@@ -218644,9 +218453,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>978-1-349-45676-5</isbn>
     </isbns>
-    <authors>
-      <author>Alam Saleh</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -219433,9 +219240,7 @@ Ballantine Books</publisher>
     <pages>109</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Humour</genre>
     </genres>
@@ -219996,9 +219801,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>0-87054-185-4</isbn>
     </isbns>
-    <authors>
-      <author>James Robert Smith</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Horror fiction</genre>
       <genre>Horror literature</genre>
@@ -222505,9 +222308,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>978-1-85459-952-0</isbn>
     </isbns>
-    <authors>
-      <author>James Joyce</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -223799,9 +223600,7 @@ Ballantine Books</publisher>
     <pages>89</pages>
     <language/>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Humor</genre>
     </genres>
@@ -224628,9 +224427,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>Classical Chinese</language>
     <isbns/>
-    <authors>
-      <author>unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Ballad</genre>
       <genre>Caizi jiaren</genre>
@@ -225627,9 +225424,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>978-0-7432-4722-1</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Utopian and dystopian fiction</genre>
     </genres>
@@ -225664,9 +225459,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>9798888901434</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -228559,9 +228352,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>0-06-113154-7</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Autobiographical novel</genre>
     </genres>
@@ -231134,7 +230925,6 @@ Ballantine Books</publisher>
     <language>English</language>
     <isbns/>
     <authors>
-      <author>Cox</author>
       <author>William T. Cox</author>
     </authors>
     <genres>
@@ -231430,9 +231220,7 @@ Ballantine Books</publisher>
     <pages>114</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231458,9 +231246,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231472,9 +231258,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231486,9 +231270,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231514,9 +231296,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231528,9 +231308,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231542,9 +231320,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231612,9 +231388,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231626,9 +231400,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231640,9 +231412,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231654,9 +231424,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231668,9 +231436,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231682,9 +231448,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231696,9 +231460,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231710,9 +231472,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231724,9 +231484,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231752,9 +231510,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231766,9 +231522,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231780,9 +231534,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231794,9 +231546,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231808,9 +231558,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231822,9 +231570,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -231836,9 +231582,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232061,7 +231805,6 @@ Ballantine Books</publisher>
     <language>English</language>
     <isbns/>
     <authors>
-      <author>Alexander Hamilton</author>
       <author>James Madison</author>
     </authors>
     <genres/>
@@ -232076,7 +231819,6 @@ Ballantine Books</publisher>
     <language>English</language>
     <isbns/>
     <authors>
-      <author>Alexander Hamilton</author>
       <author>James Madison</author>
     </authors>
     <genres/>
@@ -232188,9 +231930,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232202,9 +231942,7 @@ Ballantine Books</publisher>
     <pages>164</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232216,9 +231954,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232230,9 +231966,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232286,9 +232020,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232300,9 +232032,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232314,9 +232044,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232328,9 +232056,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232342,9 +232068,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232356,9 +232080,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232370,9 +232092,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232384,9 +232104,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232398,9 +232116,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232412,9 +232128,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232426,9 +232140,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232440,9 +232152,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232454,9 +232164,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232468,9 +232176,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232482,9 +232188,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232496,9 +232200,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232510,9 +232212,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232524,9 +232224,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232538,9 +232236,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232552,9 +232248,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232566,9 +232260,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232580,9 +232272,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232594,9 +232284,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232608,9 +232296,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -232625,7 +232311,6 @@ Ballantine Books</publisher>
       <isbn>0671894226</isbn>
     </isbns>
     <authors>
-      <author>Judith</author>
       <author>Garfield Reeves-Stevens</author>
     </authors>
     <genres>
@@ -233530,9 +233215,7 @@ Ballantine Books</publisher>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -236268,9 +235951,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>James Joyce</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -243327,9 +243008,7 @@ Ballantine Books</publisher>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -243508,9 +243187,7 @@ Ballantine Books</publisher>
     <pages>718</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Travel literature</genre>
     </genres>
@@ -244616,9 +244293,7 @@ Ballantine Books</publisher>
     <pages>330</pages>
     <language/>
     <isbns/>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -246032,9 +245707,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>978-0-06-311262-9</isbn>
     </isbns>
-    <authors>
-      <author>Forged by Blood</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
     </genres>
@@ -247111,9 +246784,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>French</language>
     <isbns/>
-    <authors>
-      <author>Michel Foucault</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -248286,9 +247957,7 @@ Ballantine Books</publisher>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -253175,9 +252844,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>0-380-97382-0</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
     </genres>
@@ -257478,9 +257145,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>978-0-9553181-7-7</isbn>
     </isbns>
-    <authors>
-      <author>Gareth L. Powell</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
     </genres>
@@ -260333,7 +259998,6 @@ Ballantine Books</publisher>
     <language/>
     <isbns/>
     <authors>
-      <author>George Washington</author>
       <author>James Madison</author>
     </authors>
     <genres/>
@@ -262389,9 +262053,7 @@ Ballantine Books</publisher>
     <pages>16</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>James Joyce</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -262407,9 +262069,7 @@ Ballantine Books</publisher>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -267001,7 +266661,6 @@ Ballantine Books</publisher>
     </isbns>
     <authors>
       <author>Gods</author>
-      <author>Ends</author>
       <author>Lindsay Pereira</author>
     </authors>
     <genres/>
@@ -273208,9 +272867,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>0-394-57878-3</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy literature</genre>
       <genre>Soft science fiction</genre>
@@ -276146,9 +275803,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>9789386850577</isbn>
     </isbns>
-    <authors>
-      <author>Bhanumathi Narasimhan</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Non-fiction</genre>
     </genres>
@@ -278837,9 +278492,7 @@ Ballantine Books</publisher>
     <pages>223</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>John Adams</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Children's fiction</genre>
     </genres>
@@ -285339,9 +284992,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>9798888901458</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -286298,9 +285949,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -293617,9 +293266,7 @@ Ballantine Books</publisher>
     <isbns>
       <isbn>978-1507569078</isbn>
     </isbns>
-    <authors>
-      <author>Daniel D.W.</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction and dystopian</genre>
     </genres>
@@ -297753,9 +297400,7 @@ Ballantine Books</publisher>
     <pages/>
     <language>Georgian</language>
     <isbns/>
-    <authors>
-      <author>Vazha-Pshavela</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Epic poetry</genre>
     </genres>
@@ -301297,9 +300942,7 @@ Kurdish and Farsi: Avaye Buf</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -309809,9 +309452,7 @@ Kurdish and Farsi: Avaye Buf</publisher>
     <isbns>
       <isbn>0-394-42985-0</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
     </genres>
@@ -310736,9 +310377,7 @@ Kurdish and Farsi: Avaye Buf</publisher>
     <pages/>
     <language>Tagalog</language>
     <isbns/>
-    <authors>
-      <author>unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Folklore</genre>
     </genres>
@@ -311101,7 +310740,6 @@ Kurdish and Farsi: Avaye Buf</publisher>
       <isbn>0-671-01402-1</isbn>
     </isbns>
     <authors>
-      <author>Judith</author>
       <author>Garfield Reeves-Stevens</author>
     </authors>
     <genres/>
@@ -314520,9 +314158,7 @@ Night Shade Books</publisher>
     <isbns>
       <isbn>978-0-241-14333-9</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -325394,9 +325030,7 @@ Noontide Press</release_date>
     <isbns>
       <isbn>0-87286-483-9</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -326273,9 +325907,7 @@ Noontide Press</release_date>
     <isbns>
       <isbn>978-1-58435-054-5</isbn>
     </isbns>
-    <authors>
-      <author>Michel Foucault</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -328723,9 +328355,7 @@ Noontide Press</release_date>
     <pages>149</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Non-fiction</genre>
     </genres>
@@ -328739,9 +328369,7 @@ Noontide Press</release_date>
     <pages>7</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Short story</genre>
     </genres>
@@ -330365,9 +329993,7 @@ Noontide Press</release_date>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Adventure fiction</genre>
       <genre>Adventure novel</genre>
@@ -332975,9 +332601,7 @@ Noontide Press</release_date>
     <pages/>
     <language>Indonesian</language>
     <isbns/>
-    <authors>
-      <author>Jakarta Charter</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -333322,9 +332946,7 @@ Noontide Press</release_date>
     <isbns>
       <isbn>0765328011</isbn>
     </isbns>
-    <authors>
-      <author>James Robert Smith</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Thriller</genre>
     </genres>
@@ -333784,9 +333406,7 @@ Noontide Press</release_date>
     <isbns>
       <isbn>0-330-25842-7</isbn>
     </isbns>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -337904,9 +337524,7 @@ Noontide Press</release_date>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Poetry</genre>
     </genres>
@@ -345384,7 +345002,6 @@ Noontide Press</release_date>
     <isbns/>
     <authors>
       <author>Frances K. Judd</author>
-      <author>yes</author>
     </authors>
     <genres>
       <genre>Mystery</genre>
@@ -346992,9 +346609,7 @@ Noontide Press</release_date>
     <pages>1085</pages>
     <language>Thai</language>
     <isbns/>
-    <authors>
-      <author>unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Epic poetry</genre>
     </genres>
@@ -348891,9 +348506,7 @@ Noontide Press</release_date>
     <pages>49</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Pamphlet</genre>
     </genres>
@@ -351639,9 +351252,7 @@ Noontide Press</release_date>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Non-fiction</genre>
     </genres>
@@ -357504,9 +357115,7 @@ Noontide Press</release_date>
     <pages/>
     <language>Sanskrit</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Hindu astrology</genre>
     </genres>
@@ -358755,9 +358364,7 @@ Noontide Press</release_date>
     <pages>88</pages>
     <language/>
     <isbns/>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -363380,9 +362987,7 @@ Noontide Press</release_date>
     <pages>371</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -364605,9 +364210,7 @@ Noontide Press</release_date>
     <isbns>
       <isbn>1-58322-896-9</isbn>
     </isbns>
-    <authors>
-      <author>Leonard T. Miller</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -366003,9 +365606,7 @@ Noontide Press</release_date>
     <isbns>
       <isbn>0-06-051584-8</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Detective literature</genre>
     </genres>
@@ -366626,9 +366227,7 @@ Noontide Press</release_date>
     <isbns>
       <isbn>9781328466488</isbn>
     </isbns>
-    <authors>
-      <author>Let the Children March</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Children's literature</genre>
     </genres>
@@ -367036,9 +366635,7 @@ Noontide Press</release_date>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -367050,9 +366647,7 @@ Noontide Press</release_date>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -367211,9 +366806,7 @@ Noontide Press</release_date>
     <pages>303</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -368364,9 +367957,7 @@ Noontide Press</release_date>
     <isbns>
       <isbn>0-440-04669-6</isbn>
     </isbns>
-    <authors>
-      <author>Richard Yates</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -368416,9 +368007,7 @@ Noontide Press</release_date>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -370386,9 +369975,7 @@ Noontide Press</release_date>
     <pages>624</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Biography</genre>
     </genres>
@@ -375024,9 +374611,7 @@ Noontide Press</release_date>
     <isbns>
       <isbn>1153638215</isbn>
     </isbns>
-    <authors>
-      <author>William Godwin</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -377223,9 +376808,7 @@ Noontide Press</release_date>
     <isbns>
       <isbn>0-394-47942-4</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
     </genres>
@@ -380802,9 +380385,7 @@ Noontide Press</release_date>
     <isbns>
       <isbn>978-0-670-05888-4</isbn>
     </isbns>
-    <authors>
-      <author>Madonna</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Children's literature</genre>
     </genres>
@@ -382967,9 +382548,7 @@ Realistic fiction</genre>
     <isbns>
       <isbn>0-9714686-0-5</isbn>
     </isbns>
-    <authors>
-      <author>Andrew Calimach</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -387033,9 +386612,7 @@ Realistic fiction</genre>
     <isbns>
       <isbn>0-679-72110-X</isbn>
     </isbns>
-    <authors>
-      <author>Michel Foucault</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -388129,9 +387706,7 @@ Realistic fiction</genre>
     <pages/>
     <language>Medieval Greek</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Grimoire</genre>
     </genres>
@@ -390596,9 +390171,7 @@ Realistic fiction</genre>
     <isbns>
       <isbn>9780872865372</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -393244,9 +392817,7 @@ Realistic fiction</genre>
     <pages>138</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mary Baker Eddy</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -394318,9 +393889,7 @@ Realistic fiction</genre>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Romance novel</genre>
     </genres>
@@ -395000,9 +394569,7 @@ Realistic fiction</genre>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fiction</genre>
     </genres>
@@ -395714,8 +395281,7 @@ Realistic fiction</genre>
     <language>Geordie dialect words</language>
     <isbns/>
     <authors>
-      <author>John Marshall (Newcastle publisher</author>
-      <author>printer)</author>
+      <author>John Marshall</author>
     </authors>
     <genres>
       <genre>Chapbook</genre>
@@ -396047,9 +395613,7 @@ Realistic fiction</genre>
     <isbns>
       <isbn>0981675212</isbn>
     </isbns>
-    <authors>
-      <author>Martin Walls</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Poetry</genre>
     </genres>
@@ -399946,7 +399510,6 @@ Realistic fiction</genre>
     <language>Judaeo-Spanish</language>
     <isbns/>
     <authors>
-      <author>Me'am Lo'ez</author>
       <author>Raphael Chiyya Pontremoli</author>
       <author>Yaakov Culi</author>
       <author>Yitzhak Bechor Agruiti</author>
@@ -403981,9 +403544,7 @@ Realistic fiction</genre>
     <pages/>
     <language>Classical Chinese</language>
     <isbns/>
-    <authors>
-      <author>Mencius</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -404523,9 +404084,7 @@ Realistic fiction</genre>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>George Mills</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>School story</genre>
     </genres>
@@ -404910,9 +404469,7 @@ Realistic fiction</genre>
     <pages>209</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Sketch story</genre>
     </genres>
@@ -406001,8 +405558,7 @@ Realistic fiction</genre>
       <isbn>1849382611</isbn>
     </isbns>
     <authors>
-      <author>Adrian Grant (writer</author>
-      <author>producer)</author>
+      <author>Adrian Grant</author>
     </authors>
     <genres>
       <genre>Biography</genre>
@@ -411672,9 +411228,7 @@ Realistic fiction</genre>
     <isbns>
       <isbn>978-1-4165-6735-6</isbn>
     </isbns>
-    <authors>
-      <author>Mistaken Identity: Two Families, One Survivor, Unwavering Hope</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -412661,9 +412215,7 @@ Realistic fiction</genre>
     <pages>635</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Adventure fiction</genre>
       <genre>Adventure novel</genre>
@@ -413729,9 +413281,7 @@ Realistic fiction</genre>
     <pages/>
     <language>Lithuanian</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Lithuanian language educational book</genre>
     </genres>
@@ -414498,9 +414048,7 @@ Realistic fiction</genre>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>John Law</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Economics</genre>
       <genre>Philosophy</genre>
@@ -418292,9 +417840,7 @@ Realistic fiction</genre>
     <pages/>
     <language>Marathi</language>
     <isbns/>
-    <authors>
-      <author>Morobhatt Dandekar</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>non-fiction</genre>
     </genres>
@@ -420275,9 +419821,7 @@ Realistic fiction</genre>
     <pages/>
     <language>Classical Chinese</language>
     <isbns/>
-    <authors>
-      <author>Mozi</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Philosophy</genre>
     </genres>
@@ -421292,9 +420836,7 @@ Realistic fiction</genre>
     <isbns>
       <isbn>978-0-670-05883-9</isbn>
     </isbns>
-    <authors>
-      <author>Madonna</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Children's literature</genre>
     </genres>
@@ -422234,9 +421776,7 @@ Realistic fiction</genre>
     <isbns>
       <isbn>9780670866748</isbn>
     </isbns>
-    <authors>
-      <author>Charlotte Gray</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Non-fiction</genre>
       <genre>Nonfiction literature</genre>
@@ -426072,9 +425612,7 @@ Realistic fiction</genre>
     <isbns>
       <isbn>0-02-792526-9</isbn>
     </isbns>
-    <authors>
-      <author>So Far from the Bamboo Grove</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Autobiographical novel</genre>
       <genre>War novel</genre>
@@ -428628,9 +428166,7 @@ English: 2017</release_date>
     <pages>7</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fiction</genre>
     </genres>
@@ -435180,9 +434716,7 @@ English: 2017</release_date>
     <isbns>
       <isbn>0-89608-366-7</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -444400,9 +443934,7 @@ English: 2017</release_date>
     <pages>239</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>No Picnic on Mount Kenya</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Narrative history</genre>
     </genres>
@@ -447524,7 +447056,6 @@ English: 2017</release_date>
       <isbn>978-3-938047-11-8</isbn>
     </isbns>
     <authors>
-      <author>Justine Harun-Mahdavi</author>
       <author>Not Without My Husband</author>
     </authors>
     <genres>
@@ -450517,7 +450048,6 @@ English: 2017</release_date>
     <isbns/>
     <authors>
       <author>Thomas Callan Hodson</author>
-      <author>Unknown</author>
     </authors>
     <genres>
       <genre>Epic poetry</genre>
@@ -451917,9 +451447,7 @@ English: 2017</release_date>
     <isbns>
       <isbn>978-0-93486-833-4</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -452073,9 +451601,7 @@ English: 2017</release_date>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Benjamin Franklin</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Essay</genre>
     </genres>
@@ -452354,9 +451880,7 @@ English: 2017</release_date>
     <isbns>
       <isbn>978-0-241-96401-9</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -455639,9 +455163,7 @@ English: 2017</release_date>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Memoir</genre>
     </genres>
@@ -455734,9 +455256,7 @@ English: 2017</release_date>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -456357,9 +455877,7 @@ English: 2017</release_date>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Travel literature</genre>
     </genres>
@@ -461117,9 +460635,7 @@ English: 2017</release_date>
     <isbns>
       <isbn>0-06-621106-9</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
     </genres>
@@ -472820,7 +472336,6 @@ Volume II</release_date>
     <isbns/>
     <authors>
       <author>Laura Trenter</author>
-      <author>Pappa polis</author>
     </authors>
     <genres>
       <genre>Children's literature</genre>
@@ -479687,9 +479202,7 @@ Volume II</release_date>
     <pages>584</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ulysses S. Grant</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Memoir</genre>
     </genres>
@@ -479703,9 +479216,7 @@ Volume II</release_date>
     <pages>260</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Historical fiction</genre>
     </genres>
@@ -480258,9 +479769,7 @@ Volume II</release_date>
     <isbns>
       <isbn>1841954993</isbn>
     </isbns>
-    <authors>
-      <author>Peter Hill</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Memoir</genre>
     </genres>
@@ -480372,9 +479881,7 @@ Volume II</release_date>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -480728,9 +480235,7 @@ Volume II</release_date>
     <pages/>
     <language>Sanskrit</language>
     <isbns/>
-    <authors>
-      <author>Mantreswara</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -482131,9 +481636,7 @@ Volume II</release_date>
     <pages/>
     <language>Meitei</language>
     <isbns/>
-    <authors>
-      <author>unknown</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -483097,9 +482600,7 @@ Volume II</release_date>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Gothic fiction</genre>
       <genre>Gothic literature</genre>
@@ -483618,9 +483119,7 @@ Volume II</release_date>
     <pages>113</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy literature</genre>
       <genre>Supernatural fiction</genre>
@@ -483877,9 +483376,7 @@ Volume II</release_date>
     <isbns>
       <isbn>9780810992597</isbn>
     </isbns>
-    <authors>
-      <author>Pink Box: Inside Japan's Sex Clubs</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -489326,9 +488823,7 @@ Volume II</release_date>
     <isbns>
       <isbn>978-1-112-86350-9</isbn>
     </isbns>
-    <authors>
-      <author>James Joyce</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Poetry</genre>
     </genres>
@@ -497595,9 +497090,7 @@ Volume II</release_date>
     <isbns>
       <isbn>1-888363-82-7</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -499640,9 +499133,7 @@ Volume II</release_date>
     <pages>337</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Humour</genre>
       <genre>Satire</genre>
@@ -502371,8 +501862,7 @@ Volume II</release_date>
     <language>English</language>
     <isbns/>
     <authors>
-      <author>Joseph Strutt (engraver</author>
-      <author>antiquary)</author>
+      <author>Joseph Strutt</author>
       <author>Walter Scott</author>
     </authors>
     <genres>
@@ -503067,9 +502557,7 @@ Volume II</release_date>
     <isbns>
       <isbn>0-380-97380-4</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Science fiction</genre>
@@ -503663,9 +503151,7 @@ Volume II</release_date>
     <pages>233</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
     </genres>
@@ -508182,9 +507668,7 @@ Volume II</release_date>
     <isbns>
       <isbn>0-245-52746-X</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Horror fiction</genre>
@@ -508203,9 +507687,7 @@ Volume II</release_date>
     <isbns>
       <isbn>0-9709033-2-4</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Science fiction</genre>
@@ -509130,9 +508612,7 @@ Volume II</release_date>
     <isbns>
       <isbn>9780822385998</isbn>
     </isbns>
-    <authors>
-      <author>Aaron Fox</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Music</genre>
     </genres>
@@ -511253,9 +510733,7 @@ Volume II</release_date>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -511294,9 +510772,7 @@ Volume II</release_date>
     <isbns>
       <isbn>9788129119872</isbn>
     </isbns>
-    <authors>
-      <author>Red Jihad</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Conspiracy fiction</genre>
       <genre>Thriller</genre>
@@ -511406,9 +510882,7 @@ Volume II</release_date>
     <isbns>
       <isbn>9780691182315</isbn>
     </isbns>
-    <authors>
-      <author>Red Meat Republic</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -512258,9 +511732,7 @@ Volume II</release_date>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Travel literature</genre>
     </genres>
@@ -512356,9 +511828,7 @@ Volume II</release_date>
     <isbns>
       <isbn>0-9790743-0-4</isbn>
     </isbns>
-    <authors>
-      <author>Nathan Winograd</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Nonfiction</genre>
     </genres>
@@ -513006,9 +512476,7 @@ Volume II</release_date>
     <pages>269</pages>
     <language/>
     <isbns/>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -513585,9 +513053,7 @@ Volume II</release_date>
     <isbns>
       <isbn>978-9-353-02322-5</isbn>
     </isbns>
-    <authors>
-      <author>Reham Khan</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -513965,9 +513431,7 @@ Volume II</release_date>
     <isbns>
       <isbn>978-0-915957-72-9</isbn>
     </isbns>
-    <authors>
-      <author>Reliance of the Traveller</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -515746,9 +515210,7 @@ Volume II</release_date>
     <isbns>
       <isbn>978-1-60980-736-8</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -524845,9 +524307,7 @@ Volume II</release_date>
     <pages>608</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Travel literature</genre>
     </genres>
@@ -527589,7 +527049,6 @@ Volume II</release_date>
     <isbns/>
     <authors>
       <author>Albert Camus</author>
-      <author>Arthur Koestler</author>
     </authors>
     <genres/>
   </book>
@@ -528003,9 +527462,7 @@ Volume II</release_date>
     <pages>239</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
     </genres>
@@ -528312,9 +527769,7 @@ Volume II</release_date>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Saci Lloyd</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
     </genres>
@@ -534006,9 +533461,7 @@ Volume II</release_date>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>Dannion Brinkley</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Biography</genre>
     </genres>
@@ -536005,9 +535458,7 @@ Second edition: 1618</release_date>
     <isbns>
       <isbn>978-0395366462</isbn>
     </isbns>
-    <authors>
-      <author>Science Made Stupid</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -536066,9 +535517,7 @@ Second edition: 1618</release_date>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mary Baker Eddy</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -536711,9 +536160,7 @@ Second edition: 1618</release_date>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -537115,9 +536562,7 @@ Second edition: 1618</release_date>
     <pages>250</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Autobiography</genre>
     </genres>
@@ -539315,9 +538760,7 @@ Second edition: 1618</release_date>
     <pages/>
     <language>French</language>
     <isbns/>
-    <authors>
-      <author>Michel Foucault</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -541099,9 +540542,7 @@ Second edition: 1618</release_date>
     <isbns>
       <isbn>0-929631-24-2</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Short story</genre>
     </genres>
@@ -544106,9 +543547,7 @@ Second edition: 1618</release_date>
     <isbns>
       <isbn>978-84-406-3117-6</isbn>
     </isbns>
-    <authors>
-      <author>Madonna</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Erotic photography</genre>
       <genre>Fantasy</genre>
@@ -553305,9 +552744,7 @@ Second edition: 1618</release_date>
     <isbns>
       <isbn>978-1906864064</isbn>
     </isbns>
-    <authors>
-      <author>Gareth L. Powell</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
     </genres>
@@ -554468,9 +553905,7 @@ Random House</publisher>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -557740,9 +557175,7 @@ Random House</publisher>
     <isbns>
       <isbn>978-0-00-725775-1</isbn>
     </isbns>
-    <authors>
-      <author>Slash</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Autobiography</genre>
     </genres>
@@ -557809,9 +557242,7 @@ Random House</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Slave Labor in Nazi Concentration Camps</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>History</genre>
     </genres>
@@ -557825,9 +557256,7 @@ Random House</publisher>
     <pages/>
     <language>en</language>
     <isbns/>
-    <authors>
-      <author>John Brown</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -558321,7 +557750,6 @@ Random House</publisher>
     <language>English</language>
     <isbns/>
     <authors>
-      <author>J. Christopher Kovats-Bernat</author>
       <author>Sleeping Rough in Port-au-Prince</author>
     </authors>
     <genres>
@@ -564116,9 +563544,7 @@ Random House</publisher>
     <isbns>
       <isbn>0-671-67960-0</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -564396,7 +563822,6 @@ Random House</publisher>
     <language>Arabic</language>
     <isbns/>
     <authors>
-      <author>Unknown</author>
       <author>various.</author>
     </authors>
     <genres>
@@ -571336,7 +570761,6 @@ Random House</publisher>
     </isbns>
     <authors>
       <author>Nadine Akkerman</author>
-      <author>Pete Langman</author>
     </authors>
     <genres/>
   </book>
@@ -574791,9 +574215,7 @@ Random House</publisher>
     <isbns>
       <isbn>978-1-78909-428-2</isbn>
     </isbns>
-    <authors>
-      <author>Gareth L. Powell</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -576459,9 +575881,7 @@ Random House</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>James Joyce</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Autobiography</genre>
       <genre>Modernism</genre>
@@ -583067,9 +582487,7 @@ Random House</publisher>
     <pages/>
     <language>French</language>
     <isbns/>
-    <authors>
-      <author>Émile Durkheim</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -583647,9 +583065,7 @@ Random House</publisher>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -584219,9 +583635,7 @@ Random House</publisher>
     <pages/>
     <language>Arabic</language>
     <isbns/>
-    <authors>
-      <author>Sa'id ibn Mansur</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Hadith</genre>
     </genres>
@@ -584950,9 +584364,7 @@ Random House</publisher>
     <isbns>
       <isbn>9780393652253</isbn>
     </isbns>
-    <authors>
-      <author>Mike Isaac</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -588168,9 +587580,7 @@ Random House</publisher>
     <pages/>
     <language>Malay</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Syair</genre>
     </genres>
@@ -588620,9 +588030,7 @@ Random House</publisher>
     <pages>117</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -589139,9 +588547,7 @@ Random House</publisher>
     <isbns>
       <isbn>978-0-385-60968-5</isbn>
     </isbns>
-    <authors>
-      <author>Sam Enthoven</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
       <genre>Young adult literature</genre>
@@ -592503,9 +591909,7 @@ Random House</publisher>
     <isbns>
       <isbn>978-1638460688</isbn>
     </isbns>
-    <authors>
-      <author>Tallahassee Symphony Orchestra</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Coffee table book</genre>
     </genres>
@@ -595154,7 +594558,7 @@ Random House</publisher>
       <isbn>978-1400042197</isbn>
     </isbns>
     <authors>
-      <author>Mick Brown (journalist)  Mick Brown</author>
+      <author>Mick Brown  Mick Brown</author>
     </authors>
     <genres/>
   </book>
@@ -599632,9 +599036,7 @@ Random House</publisher>
     <pages>523</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Comic novel</genre>
       <genre>Short story</genre>
@@ -602155,9 +601557,7 @@ Random House</publisher>
     <pages>751</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -602593,9 +601993,7 @@ Random House</publisher>
     <isbns>
       <isbn>978-0-670-05889-1</isbn>
     </isbns>
-    <authors>
-      <author>Madonna</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Children's literature</genre>
     </genres>
@@ -603200,9 +602598,7 @@ Random House</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Bildungsroman</genre>
       <genre>Children's literature</genre>
@@ -605859,9 +605255,7 @@ Random House</publisher>
     <pages>291</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Alternate history</genre>
       <genre>Fantasy</genre>
@@ -608757,9 +608151,7 @@ Random House</publisher>
     <isbns>
       <isbn>2-07-026999-X</isbn>
     </isbns>
-    <authors>
-      <author>Michel Foucault</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>History of ideas</genre>
       <genre>Intellectual history</genre>
@@ -612046,8 +611438,6 @@ Random House</publisher>
       <isbn>9781607720096</isbn>
     </isbns>
     <authors>
-      <author>(with an introduction written by Norman Davies</author>
-      <author>a foreword by Michael Schudrich)</author>
       <author>Witold Pilecki</author>
     </authors>
     <genres/>
@@ -612269,9 +611659,7 @@ Random House</publisher>
     <pages/>
     <language>American English</language>
     <isbns/>
-    <authors>
-      <author>Benjamin Franklin</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Autobiography</genre>
     </genres>
@@ -614418,9 +613806,7 @@ Random House</publisher>
     <pages/>
     <language>Russian</language>
     <isbns/>
-    <authors>
-      <author>Vladimir Mayakovsky</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Play</genre>
     </genres>
@@ -615900,9 +615286,7 @@ Random House</publisher>
     <pages/>
     <language>Russian</language>
     <isbns/>
-    <authors>
-      <author>Vladimir Mayakovsky</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Satire</genre>
     </genres>
@@ -616214,9 +615598,7 @@ Random House</publisher>
     <isbns>
       <isbn>0-7221-5712-6</isbn>
     </isbns>
-    <authors>
-      <author>Oscar Kiss Maerth</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Pseudoscience</genre>
     </genres>
@@ -621472,8 +620854,6 @@ Random House</publisher>
       <isbn>89-8273-931-9</isbn>
     </isbns>
     <authors>
-      <author>Chimera</author>
-      <author>Golem</author>
       <author>Lee Yeongdo</author>
       <author>Lee Youngdo</author>
     </authors>
@@ -621493,8 +620873,6 @@ Random House</publisher>
       <isbn>89-8273-573-9</isbn>
     </isbns>
     <authors>
-      <author>Chimera</author>
-      <author>Golem</author>
       <author>Lee Yeongdo</author>
       <author>Lee Youngdo</author>
     </authors>
@@ -621724,9 +621102,7 @@ Random House</publisher>
     <pages/>
     <language>French</language>
     <isbns/>
-    <authors>
-      <author>Michel Foucault</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -621819,9 +621195,7 @@ Random House</publisher>
     <pages/>
     <language>French</language>
     <isbns/>
-    <authors>
-      <author>Michel Foucault</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -623382,7 +622756,6 @@ Random House</publisher>
       <isbn>978-0-385-60965-4</isbn>
     </isbns>
     <authors>
-      <author>Sam Enthoven</author>
       <author>The Black Tattoo</author>
     </authors>
     <genres>
@@ -634553,7 +633926,6 @@ Random House</publisher>
     </isbns>
     <authors>
       <author>Sita Ram Goel</author>
-      <author>The Calcutta Quran Petition</author>
     </authors>
     <genres/>
   </book>
@@ -634652,9 +634024,7 @@ Random House</publisher>
     <isbns>
       <isbn>0-09-112550-2</isbn>
     </isbns>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -637649,9 +637019,7 @@ Random House</publisher>
     <isbns>
       <isbn>0-06-058565-X</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Short story</genre>
     </genres>
@@ -638507,9 +637875,7 @@ Random House</publisher>
     <isbns>
       <isbn>978-0-9570684-1-4</isbn>
     </isbns>
-    <authors>
-      <author>James Joyce</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Children's fiction</genre>
     </genres>
@@ -642491,9 +641857,7 @@ Random House</publisher>
     <pages>210</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
     </genres>
@@ -643873,7 +643237,6 @@ Random House</publisher>
       <isbn>978-1-934781-71-5</isbn>
     </isbns>
     <authors>
-      <author>Homecoming</author>
       <author>Mac Barnett</author>
     </authors>
     <genres>
@@ -648875,9 +648238,7 @@ Random House</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Philosophical fiction</genre>
       <genre>Satire</genre>
@@ -652515,7 +651876,6 @@ Random House</publisher>
     <isbns/>
     <authors>
       <author>David Wilkerson</author>
-      <author>John</author>
       <author>Elizabeth Sherrill</author>
     </authors>
     <genres>
@@ -660673,9 +660033,7 @@ Random House</publisher>
     <isbns>
       <isbn>978-0-19-829544-0</isbn>
     </isbns>
-    <authors>
-      <author>The Demands of Liberal Education</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -663029,9 +662387,7 @@ Random House</publisher>
     <isbns>
       <isbn>0-86171-497-0</isbn>
     </isbns>
-    <authors>
-      <author>The Dharma of Star Wars</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Religious studies</genre>
       <genre>Science fiction</genre>
@@ -663635,7 +662991,6 @@ Random House</publisher>
       <isbn>978-0-593-53640-7</isbn>
     </isbns>
     <authors>
-      <author>Sarah Ogilvie</author>
       <author>The Dictionary People</author>
     </authors>
     <genres/>
@@ -665195,9 +664550,7 @@ Random House</publisher>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>Émile Durkheim</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -667122,9 +666475,7 @@ Random House</publisher>
     <isbns>
       <isbn>1-887368-91-4</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Horror fiction</genre>
@@ -669875,9 +669226,7 @@ Random House</publisher>
     <isbns>
       <isbn>0-385-28236-2</isbn>
     </isbns>
-    <authors>
-      <author>Richard Yates</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Novel</genre>
     </genres>
@@ -671268,9 +670617,7 @@ Random House</publisher>
     <pages/>
     <language>French</language>
     <isbns/>
-    <authors>
-      <author>Émile Durkheim</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Non-fiction</genre>
     </genres>
@@ -672855,9 +672202,7 @@ Plume</publisher>
     <isbns>
       <isbn>9780861545186</isbn>
     </isbns>
-    <authors>
-      <author>Lucy Ward</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>History</genre>
     </genres>
@@ -674916,9 +674261,7 @@ Plume</publisher>
     <isbns>
       <isbn>978-0-670-03678-3</isbn>
     </isbns>
-    <authors>
-      <author>Madonna</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Children's literature</genre>
     </genres>
@@ -679769,9 +679112,7 @@ Plume</publisher>
     <isbns>
       <isbn>0-7596-0933-0</isbn>
     </isbns>
-    <authors>
-      <author>Robert S. Griffin</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -680830,9 +680171,7 @@ Plume</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Alexander Hamilton</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -681278,9 +680617,7 @@ Plume</publisher>
     <isbns>
       <isbn>9781608463992</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -691746,9 +691083,7 @@ Plume</publisher>
     <isbns>
       <isbn>0-670-03135-6</isbn>
     </isbns>
-    <authors>
-      <author>Jacques Steinberg</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Journalism</genre>
       <genre>Non-fiction</genre>
@@ -692387,9 +691722,7 @@ Plume</publisher>
     <pages/>
     <language>French</language>
     <isbns/>
-    <authors>
-      <author>Pierre-Joseph Proudhon</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -693358,9 +692691,7 @@ Plume</publisher>
     <pages>381</pages>
     <language/>
     <isbns/>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -693910,7 +693241,6 @@ Plume</publisher>
     <isbns/>
     <authors>
       <author>Charles Dudley Warner</author>
-      <author>Mark Twain</author>
     </authors>
     <genres>
       <genre>Political fiction</genre>
@@ -694258,8 +693588,7 @@ Plume</publisher>
       <isbn>978-0-689-71696-6</isbn>
     </isbns>
     <authors>
-      <author>Paul Goble (writer</author>
-      <author>illustrator)</author>
+      <author>Paul Goble</author>
     </authors>
     <genres>
       <genre>Children's literature</genre>
@@ -695755,7 +695084,6 @@ Plume</publisher>
       <isbn>978-0-670-34259-4</isbn>
     </isbns>
     <authors>
-      <author>Alice</author>
       <author>Martin Provensen</author>
     </authors>
     <genres>
@@ -697061,9 +696389,7 @@ Plume</publisher>
     <isbns>
       <isbn>0-435-12360-2</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Science fiction</genre>
@@ -704974,9 +704300,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>0-375-80301-7</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy literature</genre>
     </genres>
@@ -707672,9 +706996,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>0-091-19400-8</isbn>
     </isbns>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -709964,9 +709286,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>978-1-906566-21-0</isbn>
     </isbns>
-    <authors>
-      <author>The History of Orkney Literature</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Non-fiction</genre>
       <genre>Nonfiction literature</genre>
@@ -710030,9 +709350,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>0</isbn>
     </isbns>
-    <authors>
-      <author>Michel Foucault</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -716359,9 +715677,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>0-553-23096-4</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
     </genres>
@@ -718839,9 +718155,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages>685</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Travel literature</genre>
     </genres>
@@ -720351,9 +719665,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -722295,7 +721607,6 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     </isbns>
     <authors>
       <author>Timothy Freke</author>
-      <author>Peter Gandy</author>
     </authors>
     <genres/>
   </book>
@@ -729452,9 +728763,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>0-935716-03-3</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Short story</genre>
     </genres>
@@ -731497,9 +730806,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>978-0-9553181-7-7</isbn>
     </isbns>
-    <authors>
-      <author>Gareth L. Powell</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
     </genres>
@@ -739135,9 +738442,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>9780306307607</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -742194,9 +741499,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -743568,9 +742871,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages>255</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
     </genres>
@@ -745087,9 +744388,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>978-93-84030-59-9</isbn>
     </isbns>
-    <authors>
-      <author>The Mahabharata Secret</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fiction</genre>
     </genres>
@@ -746333,9 +745632,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages/>
     <language>Russian</language>
     <isbns/>
-    <authors>
-      <author>Vladimir Mayakovsky</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Verse</genre>
     </genres>
@@ -746447,9 +745744,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Novella</genre>
       <genre>Satire</genre>
@@ -747620,9 +746915,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>978-0-943742-14-4</isbn>
     </isbns>
-    <authors>
-      <author>John Lauritsen</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -749730,9 +749023,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages>222</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Apocalyptic and post-apocalyptic fiction</genre>
       <genre>Dystopian fiction</genre>
@@ -753971,9 +753262,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages>4</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Short story</genre>
     </genres>
@@ -758792,9 +758081,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>0-8109-1325-9</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Horror fiction</genre>
       <genre>Horror literature</genre>
@@ -759831,9 +759118,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages>176</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -760779,7 +760064,6 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     </isbns>
     <authors>
       <author>Nathan J. Robinson</author>
-      <author>Noam Chomsky</author>
     </authors>
     <genres/>
   </book>
@@ -762063,9 +761347,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>The Natural History of Revolution</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Sociology</genre>
     </genres>
@@ -764660,8 +763942,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <language>Geordie dialect words</language>
     <isbns/>
     <authors>
-      <author>John Marshall (Newcastle publisher</author>
-      <author>printer)</author>
+      <author>John Marshall</author>
     </authors>
     <genres>
       <genre>Chapbook</genre>
@@ -767568,9 +766849,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>978-1-4780-1098-2</isbn>
     </isbns>
-    <authors>
-      <author>The Occupied Clinic</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -767693,9 +766972,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>0-345-40785-7</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Horror fiction</genre>
@@ -769952,9 +769229,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>2-07-022484-8</isbn>
     </isbns>
-    <authors>
-      <author>Michel Foucault</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -771433,9 +770708,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>978-1-4169-1837-0</isbn>
     </isbns>
-    <authors>
-      <author>The Other Side of the Sky: A Memoir</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -773098,9 +772371,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>9781982177775</isbn>
     </isbns>
-    <authors>
-      <author>Anushay Hossain</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -774185,9 +773456,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages>20</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -776771,9 +776040,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>0-7103-0644-X</isbn>
     </isbns>
-    <authors>
-      <author>The Perfumed Garden</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Erotic literature</genre>
     </genres>
@@ -777766,9 +777033,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages>342</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>The Philosophy of Eating</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -778253,9 +777518,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Literary fiction</genre>
       <genre>Short story</genre>
@@ -781059,9 +780322,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <isbns>
       <isbn>1-895431-79-4</isbn>
     </isbns>
-    <authors>
-      <author>L. Susan Brown</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -784151,9 +783412,7 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fiction</genre>
     </genres>
@@ -786388,7 +785647,6 @@ Books 3 &amp; 4: Jaroslav Hašek's Estate</publisher>
     <language>Russian</language>
     <isbns/>
     <authors>
-      <author>Unknown</author>
       <author>plagiarised from various European authors</author>
     </authors>
     <genres>
@@ -790708,9 +789966,7 @@ Night Shade Books</publisher>
     <isbns>
       <isbn>978-0-812-99486-5</isbn>
     </isbns>
-    <authors>
-      <author>Naoki Higashida</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -791385,9 +790641,7 @@ Night Shade Books</publisher>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -799079,9 +798333,7 @@ January 1981</release_date>
     <isbns>
       <isbn>0091102804</isbn>
     </isbns>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -799995,7 +799247,6 @@ January 1981</release_date>
       <isbn>0-446-51813-1</isbn>
     </isbns>
     <authors>
-      <author>Ellen Fein</author>
       <author>Sherrie Schneider</author>
     </authors>
     <genres>
@@ -800048,9 +799299,7 @@ January 1981</release_date>
     <pages/>
     <language>French</language>
     <isbns/>
-    <authors>
-      <author>Émile Durkheim</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -802604,9 +801853,7 @@ January 1981</release_date>
     <isbns>
       <isbn>978-0-593-06122-0</isbn>
     </isbns>
-    <authors>
-      <author>The Saturdays</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Autobiography</genre>
     </genres>
@@ -814397,9 +813644,7 @@ January 1981</release_date>
     <isbns>
       <isbn>0-09-925744-0</isbn>
     </isbns>
-    <authors>
-      <author>Robert K. G. Temple</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -815812,9 +815057,7 @@ January 1981</release_date>
     <pages>144</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Horror fiction</genre>
@@ -818470,7 +817713,6 @@ January 1981</release_date>
       <isbn>978-1565126060</isbn>
     </isbns>
     <authors>
-      <author>Elisabeth Tova Bailey</author>
       <author>The Sound of a Wild Snail Eating</author>
     </authors>
     <genres/>
@@ -818581,9 +817823,7 @@ January 1981</release_date>
     <isbns>
       <isbn>978-0-9425-9731-8</isbn>
     </isbns>
-    <authors>
-      <author>The South's Finest</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Non-fiction</genre>
     </genres>
@@ -820185,9 +819425,7 @@ January 1981</release_date>
     <isbns>
       <isbn>9781668008478</isbn>
     </isbns>
-    <authors>
-      <author>The Splinter in the Sky</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Science fiction</genre>
     </genres>
@@ -822751,9 +821989,7 @@ January 1981</release_date>
     <isbns>
       <isbn>0-394-51335-5</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Horror fiction</genre>
@@ -823061,9 +822297,7 @@ January 1981</release_date>
     <isbns>
       <isbn>978-0-141-32037-3</isbn>
     </isbns>
-    <authors>
-      <author>Endymion Spring</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -825788,9 +825022,7 @@ January 1981</release_date>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>Abraham Lincoln</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -827661,9 +826893,7 @@ January 1981</release_date>
     <isbns>
       <isbn>978-0-316-46127-6</isbn>
     </isbns>
-    <authors>
-      <author>Nathan Harris</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -828321,7 +827551,6 @@ January 1981</release_date>
       <isbn>3-89930-088-2</isbn>
     </isbns>
     <authors>
-      <author>Christoph Luxenberg</author>
       <author>The Syro-Aramaic Reading of the Koran</author>
     </authors>
     <genres>
@@ -833190,9 +832419,7 @@ January 1981</release_date>
     <isbns>
       <isbn>0-394-40284-7</isbn>
     </isbns>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -833885,9 +833112,7 @@ January 1981</release_date>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -836449,9 +835674,7 @@ January 1981</release_date>
     <isbns>
       <isbn>0-394-54703-9</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Horror fiction</genre>
@@ -839700,7 +838923,6 @@ Sword and Soul Media</publisher>
       <author>Jack Copeland</author>
       <author>Jonathan Bowen</author>
       <author>Robin Wilson</author>
-      <author>The Turing Guide</author>
     </authors>
     <genres>
       <genre>History of science</genre>
@@ -846145,9 +845367,7 @@ Signet 2016</publisher>
     <isbns>
       <isbn>0-394-70294-8</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Horror fiction</genre>
@@ -848698,9 +847918,7 @@ Signet 2016</publisher>
     <pages/>
     <language>Russian</language>
     <isbns/>
-    <authors>
-      <author>Vladimir Mayakovsky</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Verse</genre>
     </genres>
@@ -850572,9 +849790,7 @@ Signet 2016</publisher>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>Benjamin Franklin</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -851452,9 +850668,7 @@ Signet 2016</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Jerome Doraisamy</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Self-help book</genre>
     </genres>
@@ -851623,9 +850837,7 @@ Signet 2016</publisher>
     <pages/>
     <language>Russian</language>
     <isbns/>
-    <authors>
-      <author>Vladimir Mayakovsky</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Poetry</genre>
     </genres>
@@ -855976,7 +855188,6 @@ Signet 2016</publisher>
       <isbn>9781620977606</isbn>
     </isbns>
     <authors>
-      <author>Noam Chomsky</author>
       <author>Vijay Prashad</author>
     </authors>
     <genres/>
@@ -857387,9 +856598,7 @@ Signet 2016</publisher>
     <pages>161</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy literature</genre>
       <genre>Horror fiction</genre>
@@ -859951,9 +859160,7 @@ Signet 2016</publisher>
     <isbns>
       <isbn>0-8021-5083-7</isbn>
     </isbns>
-    <authors>
-      <author>Frantz Fanon</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -862209,9 +861416,7 @@ Signet 2016</publisher>
     <pages>2476</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Arthur Koestler</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -862763,9 +861968,7 @@ Signet 2016</publisher>
     <pages>368</pages>
     <language/>
     <isbns/>
-    <authors>
-      <author>Arik Kershenbaum</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Popular science</genre>
     </genres>
@@ -862994,9 +862197,7 @@ Signet 2016</publisher>
     <pages>311</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -863697,7 +862898,6 @@ Signet 2016</publisher>
       <isbn>978-1-59102-643-3</isbn>
     </isbns>
     <authors>
-      <author>Fitzpatrick's War</author>
       <author>The Martian General's Daughter</author>
       <author>Theodore Judson</author>
     </authors>
@@ -865197,9 +864397,7 @@ Signet 2016</publisher>
     <isbns>
       <isbn>0-8173-0587-4</isbn>
     </isbns>
-    <authors>
-      <author>They Live on the Land</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -865427,9 +864625,7 @@ Signet 2016</publisher>
     <pages/>
     <language/>
     <isbns/>
-    <authors>
-      <author>James Horwitz</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -866136,9 +865332,7 @@ Signet 2016</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>William Godwin</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Novel</genre>
       <genre>Political philosophy</genre>
@@ -866816,9 +866010,7 @@ Signet 2016</publisher>
     <pages/>
     <language>Chinese</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -874422,9 +873614,7 @@ Signet 2016</publisher>
     <isbns>
       <isbn>9781800751118</isbn>
     </isbns>
-    <authors>
-      <author>Hannah Barnes</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -874507,9 +873697,7 @@ Signet 2016</publisher>
     <pages>306</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Fantasy</genre>
       <genre>Horror fiction</genre>
@@ -874847,9 +874035,7 @@ Signet 2016</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Poetry</genre>
     </genres>
@@ -875178,8 +874364,7 @@ Signet 2016</publisher>
       <isbn>1-933316-39-X</isbn>
     </isbns>
     <authors>
-      <author>Paul Goble (writer</author>
-      <author>illustrator)</author>
+      <author>Paul Goble</author>
     </authors>
     <genres>
       <genre>Children's literature</genre>
@@ -877274,7 +876459,6 @@ Signet 2016</publisher>
       <isbn>0-8078-1671-X</isbn>
     </isbns>
     <authors>
-      <author>Tobacco</author>
       <author>Slaves</author>
     </authors>
     <genres/>
@@ -878150,9 +877334,7 @@ Signet 2016</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Detective fiction</genre>
     </genres>
@@ -878166,9 +877348,7 @@ Signet 2016</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Mark Twain</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Novel</genre>
     </genres>
@@ -880103,9 +879283,7 @@ Signet 2016</publisher>
     <pages/>
     <language>Japanese</language>
     <isbns/>
-    <authors>
-      <author>unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Monogatari</genre>
     </genres>
@@ -880291,9 +879469,7 @@ Signet 2016</publisher>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -881088,9 +880264,7 @@ Signet 2016</publisher>
     <isbns>
       <isbn>0-8021-3090-9</isbn>
     </isbns>
-    <authors>
-      <author>Frantz Fanon</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -886094,9 +885268,7 @@ Signet 2016</publisher>
     <isbns>
       <isbn>978-1-41-971465-8</isbn>
     </isbns>
-    <authors>
-      <author>Trombone Shorty</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Picture book</genre>
     </genres>
@@ -889761,9 +888933,7 @@ Signet 2016</publisher>
     <pages>406</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Soft science fiction</genre>
     </genres>
@@ -891074,9 +890244,7 @@ Signet 2016</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>John Law</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Economics</genre>
       <genre>Philosophy</genre>
@@ -891603,9 +890771,7 @@ Signet 2016</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Travel literature</genre>
     </genres>
@@ -891906,7 +891072,6 @@ Signet 2016</publisher>
       <author>Adam Clayton</author>
       <author>Bono</author>
       <author>Larry Mullen Jr.</author>
-      <author>The Edge</author>
     </authors>
     <genres/>
   </book>
@@ -892502,9 +891667,7 @@ Signet 2016</publisher>
     <pages>732</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>James Joyce</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Modernism</genre>
     </genres>
@@ -895396,9 +894559,7 @@ Signet 2016</publisher>
     <isbns>
       <isbn>978-1-56584-703-3</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -897108,9 +896269,7 @@ Signet 2016</publisher>
     <pages/>
     <language>Latin</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Lithuanian language educational book</genre>
     </genres>
@@ -899793,9 +898952,7 @@ Signet 2016</publisher>
     <pages/>
     <language>Arabic</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Hanafi literature</genre>
     </genres>
@@ -900359,9 +899516,7 @@ Signet 2016</publisher>
     <pages>304</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Vagabonds!</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Literary fiction</genre>
     </genres>
@@ -900681,7 +899836,6 @@ Signet 2016</publisher>
     </isbns>
     <authors>
       <author>McKinsey</author>
-      <author>Company</author>
     </authors>
     <genres/>
   </book>
@@ -903689,9 +902843,7 @@ Signet 2016</publisher>
     <pages/>
     <language>Early Modern English</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Conduct book</genre>
       <genre>Romance novel</genre>
@@ -905311,9 +904463,7 @@ Signet 2016</publisher>
     <pages>148</pages>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Virgil Finlay</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -906127,9 +905277,7 @@ Signet 2016</publisher>
     <pages/>
     <language>Russian</language>
     <isbns/>
-    <authors>
-      <author>Vladimir Mayakovsky</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Verse</genre>
     </genres>
@@ -906143,9 +905291,7 @@ Signet 2016</publisher>
     <pages/>
     <language>Russian</language>
     <isbns/>
-    <authors>
-      <author>Vladimir Mayakovsky</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Avant-garde</genre>
     </genres>
@@ -922511,7 +921657,6 @@ Signet 2016</publisher>
       <isbn>9077174494</isbn>
     </isbns>
     <authors>
-      <author>Paul Barbera</author>
       <author>Alexandra Onderwater</author>
     </authors>
     <genres>
@@ -923816,9 +922961,7 @@ Signet 2016</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Herman Melville</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Adventure fiction</genre>
       <genre>Adventure novel</genre>
@@ -934788,9 +933931,7 @@ Blackie and Son Ltd., London</publisher>
     <isbns>
       <isbn>9783319432601</isbn>
     </isbns>
-    <authors>
-      <author>Cherilyn Elston</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -937034,9 +936175,7 @@ Blackie and Son Ltd., London</publisher>
     <isbns>
       <isbn>0-231-10157-0</isbn>
     </isbns>
-    <authors>
-      <author>Noam Chomsky</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -938689,9 +937828,7 @@ Blackie and Son Ltd., London</publisher>
     <isbns>
       <isbn>9780226708904</isbn>
     </isbns>
-    <authors>
-      <author>Michel Foucault</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -939428,9 +938565,7 @@ Blackie and Son Ltd., London</publisher>
     <pages/>
     <language>Chinese</language>
     <isbns/>
-    <authors>
-      <author>Unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Buddhism</genre>
       <genre>Neidan</genre>
@@ -939554,9 +938689,7 @@ Blackie and Son Ltd., London</publisher>
     <pages/>
     <language>Classical Chinese</language>
     <isbns/>
-    <authors>
-      <author>Xunzi</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Philosophy</genre>
     </genres>
@@ -939800,9 +938933,7 @@ Blackie and Son Ltd., London</publisher>
     <isbns>
       <isbn>978-0-670-05887-7</isbn>
     </isbns>
-    <authors>
-      <author>Madonna</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Children's literature</genre>
     </genres>
@@ -943282,9 +942413,7 @@ Blackie and Son Ltd., London</publisher>
       <author>A Book of Heroes</author>
       <author>Heroines</author>
       <author>A Book of Kings</author>
-      <author>Queens</author>
       <author>A Book of Sorcerers</author>
-      <author>Spells</author>
       <author>A Book of Spooks</author>
       <author>Spectres</author>
       <author>Ruth Manning-Sanders</author>
@@ -943302,9 +942431,7 @@ Blackie and Son Ltd., London</publisher>
     <pages/>
     <language>English</language>
     <isbns/>
-    <authors>
-      <author>Richard Yates</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -944228,9 +943355,7 @@ Blackie and Son Ltd., London</publisher>
     <pages/>
     <language>Thai</language>
     <isbns/>
-    <authors>
-      <author>unknown</author>
-    </authors>
+    <authors/>
     <genres>
       <genre>Epic poetry</genre>
     </genres>
@@ -945117,9 +944242,7 @@ Blackie and Son Ltd., London</publisher>
     <isbns>
       <isbn>9780733640506</isbn>
     </isbns>
-    <authors>
-      <author>Zealot: A Book About Cults</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>
@@ -945361,9 +944484,7 @@ Blackie and Son Ltd., London</publisher>
     <isbns>
       <isbn>9781877741029</isbn>
     </isbns>
-    <authors>
-      <author>Ray Bradbury</author>
-    </authors>
+    <authors/>
     <genres/>
   </book>
   <book>

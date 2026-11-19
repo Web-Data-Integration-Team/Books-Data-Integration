@@ -27,7 +27,9 @@ Data cleaning:
   7. Wikipedia disambiguation suffixes in brackets at the end, like "(novel)", "(memoir)",
      "(publisher)" or "(genre)", are removed from titles, publishers and genres.
      Genres are deduplicated afterwards ("Thriller (genre)" and "Thriller" -> "Thriller").
-  8. Authors: "A and B" is split, suffixes like "(writer)" are removed, book titles are dropped.
+  8. Authors: all brackets like "(writer and producer)" are removed first, then "A and B" is
+     split. Values that are book titles are dropped, including values that equal the title
+     of any book in the dataset (e.g. "Neohumanism" listed as an author).
 
 Usage (needs internet, takes ~10-20 minutes):
     pip install requests
@@ -280,21 +282,26 @@ def clean_list(vals: list[str]) -> list[str]:
     return out
 
 
-def clean_authors(vals: list[str]) -> list[str]:
-    """Split "A and B", drop disambiguation like "(writer)" and drop non-person values like book titles."""
+def clean_authors(vals: list[str], titles: set[str] = frozenset()) -> list[str]:
+    """Remove brackets, split "A and B" and drop non-person values like book titles.
+    titles = lower-case cleaned titles of all books; an "author" equal to one of them is dropped."""
     out = []
     for v in vals:
         if re.search(r"\((?:[^)]*\s)?(novel|novella|book)\)|pen name", v, re.I):
             continue   # a book title or free-text note, not an author
+        v = re.sub(r"\s*\([^)]*\)", "", v)   # remove all brackets before splitting at "and"
         for name in re.split(r"\s+(?:and|&)\s+|\s*;\s*", v):
             name = re.sub(r"\s*\([^)]*\)$", "", name).strip()
-            if name and name not in out:
+            if name and name not in out and name.lower() not in titles:
                 out.append(name)
     return out
 
 
 def write_xml(books, data):
     root = ET.Element("books")
+    # cleaned titles of all books, to drop "authors" that are really book titles
+    titles = {clean_title((data.get(u, {}).get("title") or [u[len(RES):].replace("_", " ")])[0]).lower()
+              for u in books}
     for uri in sorted(books):
         d = data.get(uri, {})
         b = ET.SubElement(root, "book")
@@ -309,7 +316,7 @@ def write_xml(books, data):
         for attr, child in [("isbns", "isbn"), ("authors", "author"), ("genres", "genre")]:
             el = ET.SubElement(b, attr)
             if attr == "authors":
-                vals = clean_authors(d.get(attr, []))
+                vals = clean_authors(d.get(attr, []), titles)
             elif attr == "genres":
                 vals = clean_list(d.get(attr, []))
             else:
