@@ -19,11 +19,21 @@ How this script avoids that:
      and dbp:language in addition to the dbo: ones, as suggested in the feedback.
   4. At the end the number of downloaded books is compared with COUNT(dbo:Book).
 
+Data cleaning:
+  5. Secondary infobox resources (URI contains "__") and redirect resources are skipped,
+     because they are near-empty duplicates of the real book.
+  6. For authors, genres and ISBNs only the highest-priority source is used
+     (dbo: before dbp:), so free-text infobox noise like "Pen name" is not mixed in.
+  7. Wikipedia disambiguation suffixes like "(novel)" or "(2010 novel)" are removed from titles.
+  8. Authors: "A and B" is split, suffixes like "(writer)" are removed, book titles are dropped.
+
 Usage (needs internet, takes ~10-20 minutes):
     pip install requests
     python dbpedia_books.py
 """
 
+import json
+import zlib
 import re
 import string
 import sys
@@ -40,6 +50,12 @@ OUT = Path("data/dbpedia_book_data.xml")
 PAGE = 10_000
 MAX_OFFSET = 40_000
 RES = "http://dbpedia.org/resource/"
+
+# Skip secondary infobox resources ("__" in URI) and redirects (near-empty duplicates).
+CLEAN = 'FILTER(!CONTAINS(STR(?book), "__")) FILTER NOT EXISTS { ?book dbo:wikiPageRedirects ?r }'
+
+# Wikipedia disambiguation suffix at the end of a title, e.g. "(novel)", "(2010 novel)", "(Franzen novel)", "(book)".
+TITLE_SUFFIX = re.compile(r"\s*\((\d{4}\s+)?(novel|novella|book|short story|novel series|[\w\s]+ novel)\)$", re.I)
 
 PREFIXES = """
 PREFIX dbo:  <http://dbpedia.org/ontology/>
@@ -69,6 +85,10 @@ session = requests.Session()
 session.headers["User-Agent"] = "UniMannheim-WDI-student-project (books)"
 
 
+class GiveUp(Exception):
+    """The endpoint kept failing for one query."""
+
+
 class Partial(Exception):
     """HTTP 206: the endpoint hit its time limit and returned only part of the rows."""
 
@@ -93,7 +113,7 @@ def sparql(query: str, tries: int = 6) -> list[dict]:
             wait = 5 * attempt
             print(f"    request failed ({type(e).__name__}: {str(e)[:80]}), retry {attempt}/{tries} in {wait}s")
             time.sleep(wait)
-    sys.exit("Endpoint keeps failing - try again later.")
+    raise GiveUp()
 
 
 def paged(query_body: str, label: str, order: str = "?book ?v") -> list[dict]:
@@ -106,6 +126,8 @@ def paged(query_body: str, label: str, order: str = "?book ?v") -> list[dict]:
             try:
                 page = sparql(f"{query_body}\nORDER BY {order}\nLIMIT {PAGE} OFFSET {offset}")
                 break
+            except GiveUp:
+                sys.exit("Endpoint keeps failing - try again later (finished blocks are cached).")
             except Partial:
                 print(f"    partial result for {label}, retrying in 10s")
                 time.sleep(10)
@@ -130,7 +152,8 @@ def value_of(b: dict) -> str | None:
     return v["value"]
 
 
-BLOCK = 150
+BLOCK = 50
+CACHE = Path("data/.dbpedia_cache")   # finished blocks are saved here, so a re-run continues where it stopped
 PRED_ORDER = [(attr, pred) for attr, preds in ATTRIBUTES.items() for pred in preds]
 
 
@@ -152,11 +175,11 @@ def fetch_block(block: list[str]) -> list[dict]:
         OPTIONAL {{ ?v rdfs:label ?label . FILTER(lang(?label) = "en") }}
     }}"""
     try:
-        rows = sparql(q)
+        rows = sparql(q, tries=3)
         if len(rows) < PAGE:
             return rows
-    except Partial:
-        pass
+    except (Partial, GiveUp):
+        pass   # too big or server error -> split the block and try the halves
     if len(block) == 1:
         print(f"    could not get all values for {block[0]} (kept what the endpoint returned)")
         return []
@@ -165,13 +188,16 @@ def fetch_block(block: list[str]) -> list[dict]:
 
 
 def main():
-    total = int(sparql("SELECT (COUNT(DISTINCT ?book) AS ?n) WHERE { ?book a dbo:Book }")[0]["n"]["value"])
+    try:
+        total = int(sparql(f"SELECT (COUNT(DISTINCT ?book) AS ?n) WHERE {{ ?book a dbo:Book . {CLEAN} }}")[0]["n"]["value"])
+    except GiveUp:
+        sys.exit("Endpoint keeps failing - try again later.")
     print(f"dbo:Book resources on the endpoint: {total:,}\n")
 
     # 1) list of all book URIs, partition by partition
     books = []
     for part, filt in PARTITIONS:
-        ids = paged(f"SELECT DISTINCT ?book WHERE {{ ?book a dbo:Book . FILTER({filt}) }}", part, order="?book")
+        ids = paged(f"SELECT DISTINCT ?book WHERE {{ ?book a dbo:Book . FILTER({filt}) {CLEAN} }}", part, order="?book")
         books += [b["book"]["value"] for b in ids]
         print(f"  partition {part:>5}: {len(ids):>6,} books (total so far {len(books):,})")
     books = sorted(set(books))
@@ -179,8 +205,16 @@ def main():
 
     # 2) attributes, BLOCK books per query
     found = defaultdict(lambda: defaultdict(list))   # book -> attribute -> [(priority, value)]
+    CACHE.mkdir(parents=True, exist_ok=True)
     for start in range(0, len(books), BLOCK):
-        for b in fetch_block(books[start:start + BLOCK]):
+        block = books[start:start + BLOCK]
+        cache_file = CACHE / f"{start}_{len(block)}_{zlib.crc32(block[0].encode())}.json"
+        if cache_file.exists():
+            rows = json.loads(cache_file.read_text(encoding="utf-8"))
+        else:
+            rows = fetch_block(block)
+            cache_file.write_text(json.dumps(rows), encoding="utf-8")
+        for b in rows:
             val = value_of(b)
             if val and val.strip():
                 i = int(b["i"]["value"])
@@ -192,6 +226,15 @@ def main():
         if done % 3000 < BLOCK or done == len(books):
             print(f"  attributes fetched for {done:,} / {len(books):,} books")
         time.sleep(0.2)
+
+    # For list attributes keep only the highest-priority source (dbo: before dbp:),
+    # so free-text infobox noise is not mixed with clean values.
+    for attrs in found.values():
+        for attr in LIST_ATTRS:
+            vals = attrs.get(attr, [])
+            if vals:
+                best = min(i for i, _ in vals)
+                attrs[attr] = [(i, v) for i, v in vals if i == best]
 
     data = {bk: {attr: [v for _, v in sorted(vals)] for attr, vals in attrs.items()} for bk, attrs in found.items()}
     print(f"\nDownloaded {len(books):,} of {total:,} books")
@@ -221,13 +264,31 @@ def clean_language(v: str) -> str:
     return re.sub(r"\s+language$", "", v, flags=re.I).strip()
 
 
+def clean_title(t: str) -> str:
+    return TITLE_SUFFIX.sub("", t).strip()
+
+
+def clean_authors(vals: list[str]) -> list[str]:
+    """Split "A and B", drop disambiguation like "(writer)" and drop non-person values like book titles."""
+    out = []
+    for v in vals:
+        if re.search(r"\((?:[^)]*\s)?(novel|novella|book)\)|pen name", v, re.I):
+            continue   # a book title or free-text note, not an author
+        for name in re.split(r"\s+(?:and|&)\s+|\s*;\s*", v):
+            name = re.sub(r"\s*\([^)]*\)$", "", name).strip()
+            if name and name not in out:
+                out.append(name)
+    return out
+
+
 def write_xml(books, data):
     root = ET.Element("books")
     for uri in sorted(books):
         d = data.get(uri, {})
         b = ET.SubElement(root, "book")
+        title = (d.get("title") or [uri[len(RES):].replace("_", " ")])[0]
         ET.SubElement(b, "uri").text = uri
-        ET.SubElement(b, "title").text = (d.get("title") or [uri[len(RES):].replace("_", " ")])[0]
+        ET.SubElement(b, "title").text = clean_title(title)
         ET.SubElement(b, "publisher").text = (d.get("publisher") or [""])[0]
         ET.SubElement(b, "release_date").text = (d.get("date") or [""])[0]   # raw value, for reference
         ET.SubElement(b, "year").text = year_of(d.get("date", []))
@@ -235,14 +296,15 @@ def write_xml(books, data):
         ET.SubElement(b, "language").text = clean_language((d.get("language") or [""])[0])
         for attr, child in [("isbns", "isbn"), ("authors", "author"), ("genres", "genre")]:
             el = ET.SubElement(b, attr)
-            for v in d.get(attr, []):
+            vals = clean_authors(d.get(attr, [])) if attr == "authors" else d.get(attr, [])
+            for v in vals:
                 ET.SubElement(el, child).text = v
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_bytes(minidom.parseString(ET.tostring(root, encoding="utf-8")).toprettyxml(indent="  ", encoding="utf-8"))
 
     # profile for Table 1
-    n = len(books)
+    n = len(root)
     print(f"\nWrote {OUT} ({OUT.stat().st_size / 1e6:.1f} MB)\n\nMissing values (mark >30% as MV):")
     for attr in ["title", "authors", "publisher", "year", "pages", "language", "genres", "isbns"]:
         filled = sum(1 for e in root.iter("book") if (e.find(attr).text or "").strip() or len(e.find(attr)))
