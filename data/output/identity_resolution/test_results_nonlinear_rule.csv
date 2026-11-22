@@ -1,7 +1,7 @@
 pair,model,variant,split,correspondences,precision,recall,f1
 goodreads_amazon,NonLinearRule (gate only),"threshold 0.7, with 1:1 (selected)",validation,3414,0.9583333333333334,0.6865671641791045,0.8
 goodreads_amazon,NonLinearRule (gate only),"threshold 0.7, with 1:1 (selected)",test,3414,0.9402985074626866,0.6494845360824743,0.7682926829268293
-goodreads_dbpedia,NonLinearRule (without missing-data),"threshold 0.7, with 1:1 (selected)",validation,5545,0.64,0.6857142857142857,0.6620689655172415
-goodreads_dbpedia,NonLinearRule (without missing-data),"threshold 0.7, with 1:1 (selected)",test,5545,0.6495726495726496,0.7037037037037037,0.6755555555555557
-amazon_dbpedia,NonLinearRule (gate only),"threshold 0.0, with 1:1 (selected)",validation,2703,0.7105263157894737,0.47368421052631576,0.5684210526315789
-amazon_dbpedia,NonLinearRule (gate only),"threshold 0.0, with 1:1 (selected)",test,2703,0.7692307692307693,0.449438202247191,0.5673758865248226
+goodreads_dbpedia,NonLinearRule (gate only),"threshold 0.7, with 1:1 (selected)",validation,6578,0.5955056179775281,0.7571428571428571,0.6666666666666667
+goodreads_dbpedia,NonLinearRule (gate only),"threshold 0.7, with 1:1 (selected)",test,6578,0.5942028985507246,0.7592592592592593,0.6666666666666666
+amazon_dbpedia,NonLinearRule (gate only),"threshold 0.65, with 1:1 (selected)",validation,2509,0.7105263157894737,0.47368421052631576,0.5684210526315789
+amazon_dbpedia,NonLinearRule (gate only),"threshold 0.65, with 1:1 (selected)",test,2509,0.78,0.43820224719101125,0.5611510791366907

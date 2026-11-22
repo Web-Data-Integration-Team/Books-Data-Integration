@@ -1,7 +1,7 @@
 pair,model,variant,split,correspondences,precision,recall,f1
 goodreads_amazon,LinearRule (grid 0-3),"threshold 0.8, with 1:1 (selected)",validation,5107,0.9787234042553192,0.6865671641791045,0.807017543859649
 goodreads_amazon,LinearRule (grid 0-3),"threshold 0.8, with 1:1 (selected)",test,5107,0.9365079365079365,0.6082474226804123,0.7375
-goodreads_dbpedia,LinearRule (grid 0-5),"threshold 0.7, with 1:1 (selected)",validation,11572,0.6785714285714286,0.8142857142857143,0.7402597402597403
-goodreads_dbpedia,LinearRule (grid 0-5),"threshold 0.7, with 1:1 (selected)",test,11572,0.6370370370370371,0.7962962962962963,0.7078189300411523
-amazon_dbpedia,LinearRule (grid 0-4),"threshold 0.5, with 1:1 (selected)",validation,9645,0.7045454545454546,0.543859649122807,0.613861386138614
-amazon_dbpedia,LinearRule (grid 0-4),"threshold 0.5, with 1:1 (selected)",test,9645,0.7407407407407407,0.449438202247191,0.5594405594405595
+goodreads_dbpedia,LinearRule (grid 0-3),"threshold 0.7, with 1:1 (selected)",validation,9689,0.6593406593406593,0.8571428571428571,0.7453416149068323
+goodreads_dbpedia,LinearRule (grid 0-3),"threshold 0.7, with 1:1 (selected)",test,9689,0.6041666666666666,0.8055555555555556,0.6904761904761905
+amazon_dbpedia,LinearRule (grid 0-3),"threshold 0.7, with 1:1 (selected)",validation,4237,0.725,0.5087719298245614,0.5979381443298969
+amazon_dbpedia,LinearRule (grid 0-3),"threshold 0.7, with 1:1 (selected)",test,4237,0.75,0.47191011235955055,0.5793103448275861
