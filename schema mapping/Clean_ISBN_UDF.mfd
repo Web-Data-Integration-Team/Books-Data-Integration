@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2019r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+<resources/>
+<component name="defaultmap" uid="1" editable="1" blackbox="0">
+<properties SelectedLanguage="builtin"/>
+<structure>
+<children>
+<component name="Clean_ISBN" library="user" uid="51" kind="19" visible="0" blackbox="0">
+	<view ltx="300" lty="100" rbx="480" rby="160"/>
+	<data>
+		<root>
+<header>
+<namespaces>
+<namespace/>
+</namespaces>
+</header>
+<entry name="value" inpkey="1" componentid="100"/>
+		</root>
+		<root>
+<header>
+<namespaces>
+<namespace/>
+</namespaces>
+</header>
+<entry name="isbn" outkey="2" componentid="107"/>
+		</root>
+	</data>
+</component>
+<component name="Clean_ISBN_Amazon" library="user" uid="61" kind="19" visible="0" blackbox="0">
+	<view ltx="300" lty="100" rbx="480" rby="160"/>
+	<data>
+		<root>
+<header>
+<namespaces>
+<namespace/>
+</namespaces>
+</header>
+<entry name="isbn13" inpkey="3" componentid="200"/>
+<entry name="isbn10" inpkey="4" componentid="201"/>
+		</root>
+		<root>
+<header>
+<namespaces>
+<namespace/>
+</namespaces>
+</header>
+<entry name="isbn" outkey="5" componentid="212"/>
+		</root>
+	</data>
+</component>
+<component name="Clean_ISBN_DBpedia" library="user" uid="71" kind="19" visible="0" blackbox="0">
+	<view ltx="300" lty="100" rbx="480" rby="160"/>
+	<data>
+		<root>
+<header>
+<namespaces>
+<namespace/>
+</namespaces>
+</header>
+<entry name="value" inpkey="6" componentid="300"/>
+		</root>
+		<root>
+<header>
+<namespaces>
+<namespace/>
+</namespaces>
+</header>
+<entry name="isbn" outkey="7" componentid="305"/>
+		</root>
+	</data>
+</component>
+</children>
+<graph directed="1">
+<edges/>
+<vertices/>
+</graph>
+</structure>
+</component>
+<component name="Clean_ISBN" library="user" uid="50" inline="1" editable="1" blackbox="0">
+<properties/>
+<structure>
+<children>
+<component name="value" library="core" uid="100" kind="6">
+	<properties/>
+	<sources><datapoint/></sources>
+	<targets><datapoint pos="0" key="1"/></targets>
+	<view ltx="0" lty="100" rbx="90" rby="138"/>
+	<data><input datatype="string"/><parameter usageKind="input" name="value"/></data>
+</component>
+<component name="constant" library="core" uid="101" kind="2">
+	<properties/>
+	<targets><datapoint pos="0" key="2"/></targets>
+	<view ltx="120" lty="200" rbx="250" rby="218"/>
+	<data><constant value="^(\d{9}[\dX]|\d{13})$" datatype="string"/></data>
+</component>
+<component name="constant" library="core" uid="102" kind="2">
+	<properties/>
+	<targets><datapoint pos="0" key="3"/></targets>
+	<view ltx="120" lty="260" rbx="250" rby="278"/>
+	<data><constant value="9999999999999" datatype="string"/></data>
+</component>
+<component name="match-pattern" library="lang" uid="103" kind="5">
+	<properties/>
+	<sources><datapoint pos="0" key="4"/><datapoint pos="1" key="5"/></sources>
+	<targets><datapoint pos="0" key="6"/></targets>
+	<view ltx="300" lty="150" rbx="410" rby="200"/>
+</component>
+<component name="not-equal" library="core" uid="104" kind="5">
+	<properties/>
+	<sources><datapoint pos="0" key="7"/><datapoint pos="1" key="8"/></sources>
+	<targets><datapoint pos="0" key="9"/></targets>
+	<view ltx="300" lty="240" rbx="410" rby="290"/>
+</component>
+<component name="logical-and" library="core" uid="105" kind="5" growable="1" growablebasename="value">
+	<properties/>
+	<sources><datapoint pos="0" key="10"/><datapoint pos="1" key="11"/></sources>
+	<targets><datapoint pos="0" key="12"/></targets>
+	<view ltx="450" lty="190" rbx="560" rby="240"/>
+</component>
+<component name="filter" library="core" uid="106" kind="3">
+	<properties/>
+	<sources><datapoint pos="0" key="13"/><datapoint pos="1" key="14"/></sources>
+	<targets><datapoint pos="0" key="15"/><datapoint/></targets>
+	<view ltx="600" lty="100" rbx="710" rby="150"/>
+</component>
+<component name="isbn" library="core" uid="107" kind="7">
+	<properties/>
+	<sources><datapoint pos="0" key="16"/></sources>
+	<view ltx="760" lty="100" rbx="860" rby="138"/>
+	<data><output datatype="string"/><parameter usageKind="output" name="isbn"/></data>
+</component>
+</children>
+<graph directed="1">
+<edges/>
+<vertices>
+<vertex vertexkey="1">
+	<edges><edge vertexkey="4"/><edge vertexkey="7"/><edge vertexkey="13"/></edges>
+</vertex>
+<vertex vertexkey="2">
+	<edges><edge vertexkey="5"/></edges>
+</vertex>
+<vertex vertexkey="3">
+	<edges><edge vertexkey="8"/></edges>
+</vertex>
+<vertex vertexkey="6">
+	<edges><edge vertexkey="10"/></edges>
+</vertex>
+<vertex vertexkey="9">
+	<edges><edge vertexkey="11"/></edges>
+</vertex>
+<vertex vertexkey="12">
+	<edges><edge vertexkey="14"/></edges>
+</vertex>
+<vertex vertexkey="15">
+	<edges><edge vertexkey="16"/></edges>
+</vertex>
+</vertices>
+</graph>
+</structure>
+</component>
+<component name="Clean_ISBN_Amazon" library="user" uid="60" inline="1" editable="1" blackbox="0">
+<properties/>
+<structure>
+<children>
+<component name="isbn13" library="core" uid="200" kind="6">
+	<properties/>
+	<sources><datapoint/></sources>
+	<targets><datapoint pos="0" key="1"/></targets>
+	<view ltx="0" lty="60" rbx="90" rby="98"/>
+	<data><input datatype="string"/><parameter usageKind="input" name="isbn13"/></data>
+</component>
+<component name="isbn10" library="core" uid="201" kind="6">
+	<properties/>
+	<sources><datapoint/></sources>
+	<targets><datapoint pos="0" key="2"/></targets>
+	<view ltx="0" lty="140" rbx="90" rby="178"/>
+	<data><input datatype="string"/><parameter usageKind="input" name="isbn10"/></data>
+</component>
+<component name="constant" library="core" uid="202" kind="2">
+	<properties/>
+	<targets><datapoint pos="0" key="3"/></targets>
+	<view ltx="0" lty="220" rbx="130" rby="238"/>
+	<data><constant value="0" datatype="decimal"/></data>
+</component>
+<component name="string-length" library="core" uid="203" kind="5">
+	<properties/>
+	<sources><datapoint pos="0" key="4"/></sources>
+	<targets><datapoint pos="0" key="5"/></targets>
+	<view ltx="120" lty="40" rbx="230" rby="90"/>
+</component>
+<component name="greater" library="core" uid="204" kind="5">
+	<properties/>
+	<sources><datapoint pos="0" key="6"/><datapoint pos="1" key="7"/></sources>
+	<targets><datapoint pos="0" key="8"/></targets>
+	<view ltx="250" lty="40" rbx="360" rby="90"/>
+</component>
+<component name="if-else" library="core" uid="205" kind="4">
+	<properties/>
+	<sources><datapoint pos="0" key="9"/><datapoint pos="1" key="10"/><datapoint pos="2" key="11"/></sources>
+	<targets><datapoint pos="0" key="12"/></targets>
+	<view ltx="380" lty="60" rbx="490" rby="110"/>
+</component>
+<component name="constant" library="core" uid="206" kind="2">
+	<properties/>
+	<targets><datapoint pos="0" key="13"/></targets>
+	<view ltx="520" lty="200" rbx="650" rby="218"/>
+	<data><constant value="^(\d{9}[\dX]|\d{13})$" datatype="string"/></data>
+</component>
+<component name="constant" library="core" uid="207" kind="2">
+	<properties/>
+	<targets><datapoint pos="0" key="14"/></targets>
+	<view ltx="520" lty="260" rbx="650" rby="278"/>
+	<data><constant value="9999999999999" datatype="string"/></data>
+</component>
+<component name="match-pattern" library="lang" uid="208" kind="5">
+	<properties/>
+	<sources><datapoint pos="0" key="15"/><datapoint pos="1" key="16"/></sources>
+	<targets><datapoint pos="0" key="17"/></targets>
+	<view ltx="700" lty="150" rbx="810" rby="200"/>
+</component>
+<component name="not-equal" library="core" uid="209" kind="5">
+	<properties/>
+	<sources><datapoint pos="0" key="18"/><datapoint pos="1" key="19"/></sources>
+	<targets><datapoint pos="0" key="20"/></targets>
+	<view ltx="700" lty="240" rbx="810" rby="290"/>
+</component>
+<component name="logical-and" library="core" uid="210" kind="5" growable="1" growablebasename="value">
+	<properties/>
+	<sources><datapoint pos="0" key="21"/><datapoint pos="1" key="22"/></sources>
+	<targets><datapoint pos="0" key="23"/></targets>
+	<view ltx="850" lty="190" rbx="960" rby="240"/>
+</component>
+<component name="filter" library="core" uid="211" kind="3">
+	<properties/>
+	<sources><datapoint pos="0" key="24"/><datapoint pos="1" key="25"/></sources>
+	<targets><datapoint pos="0" key="26"/><datapoint/></targets>
+	<view ltx="1000" lty="100" rbx="1110" rby="150"/>
+</component>
+<component name="isbn" library="core" uid="212" kind="7">
+	<properties/>
+	<sources><datapoint pos="0" key="27"/></sources>
+	<view ltx="1160" lty="60" rbx="1260" rby="98"/>
+	<data><output datatype="string"/><parameter usageKind="output" name="isbn"/></data>
+</component>
+</children>
+<graph directed="1">
+<edges/>
+<vertices>
+<vertex vertexkey="1">
+	<edges><edge vertexkey="4"/><edge vertexkey="10"/></edges>
+</vertex>
+<vertex vertexkey="5">
+	<edges><edge vertexkey="6"/></edges>
+</vertex>
+<vertex vertexkey="3">
+	<edges><edge vertexkey="7"/></edges>
+</vertex>
+<vertex vertexkey="8">
+	<edges><edge vertexkey="9"/></edges>
+</vertex>
+<vertex vertexkey="2">
+	<edges><edge vertexkey="11"/></edges>
+</vertex>
+<vertex vertexkey="12">
+	<edges><edge vertexkey="15"/><edge vertexkey="18"/><edge vertexkey="24"/></edges>
+</vertex>
+<vertex vertexkey="13">
+	<edges><edge vertexkey="16"/></edges>
+</vertex>
+<vertex vertexkey="14">
+	<edges><edge vertexkey="19"/></edges>
+</vertex>
+<vertex vertexkey="17">
+	<edges><edge vertexkey="21"/></edges>
+</vertex>
+<vertex vertexkey="20">
+	<edges><edge vertexkey="22"/></edges>
+</vertex>
+<vertex vertexkey="23">
+	<edges><edge vertexkey="25"/></edges>
+</vertex>
+<vertex vertexkey="26">
+	<edges><edge vertexkey="27"/></edges>
+</vertex>
+</vertices>
+</graph>
+</structure>
+</component>
+<component name="Clean_ISBN_DBpedia" library="user" uid="70" inline="1" editable="1" blackbox="0">
+<properties/>
+<structure>
+<children>
+<component name="value" library="core" uid="300" kind="6">
+	<properties/>
+	<sources><datapoint/></sources>
+	<targets><datapoint pos="0" key="1"/></targets>
+	<view ltx="0" lty="100" rbx="90" rby="138"/>
+	<data><input datatype="string"/><parameter usageKind="input" name="value"/></data>
+</component>
+<component name="constant" library="core" uid="301" kind="2">
+	<properties/>
+	<targets><datapoint pos="0" key="2"/></targets>
+	<view ltx="0" lty="200" rbx="130" rby="218"/>
+	<data><constant value="9" datatype="decimal"/></data>
+</component>
+<component name="string-length" library="core" uid="302" kind="5">
+	<properties/>
+	<sources><datapoint pos="0" key="3"/></sources>
+	<targets><datapoint pos="0" key="4"/></targets>
+	<view ltx="120" lty="150" rbx="230" rby="200"/>
+</component>
+<component name="greater" library="core" uid="303" kind="5">
+	<properties/>
+	<sources><datapoint pos="0" key="5"/><datapoint pos="1" key="6"/></sources>
+	<targets><datapoint pos="0" key="7"/></targets>
+	<view ltx="260" lty="150" rbx="370" rby="200"/>
+</component>
+<component name="filter" library="core" uid="304" kind="3">
+	<properties/>
+	<sources><datapoint pos="0" key="8"/><datapoint pos="1" key="9"/></sources>
+	<targets><datapoint pos="0" key="10"/><datapoint/></targets>
+	<view ltx="400" lty="100" rbx="510" rby="150"/>
+</component>
+<component name="isbn" library="core" uid="305" kind="7">
+	<properties/>
+	<sources><datapoint pos="0" key="11"/></sources>
+	<view ltx="560" lty="100" rbx="660" rby="138"/>
+	<data><output datatype="string"/><parameter usageKind="output" name="isbn"/></data>
+</component>
+</children>
+<graph directed="1">
+<edges/>
+<vertices>
+<vertex vertexkey="1">
+	<edges><edge vertexkey="3"/><edge vertexkey="8"/></edges>
+</vertex>
+<vertex vertexkey="4">
+	<edges><edge vertexkey="5"/></edges>
+</vertex>
+<vertex vertexkey="2">
+	<edges><edge vertexkey="6"/></edges>
+</vertex>
+<vertex vertexkey="7">
+	<edges><edge vertexkey="9"/></edges>
+</vertex>
+<vertex vertexkey="10">
+	<edges><edge vertexkey="11"/></edges>
+</vertex>
+</vertices>
+</graph>
+</structure>
+</component>
+</mapping>

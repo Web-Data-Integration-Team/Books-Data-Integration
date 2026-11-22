@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Edited with Altova MapForce 2026r2 -->
+<!-- Edited with Altova MapForce 2027 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<resources/>
 	<component name="defaultmap" uid="1" editable="1" blackbox="0">
@@ -10,7 +10,7 @@
 					<targets>
 						<datapoint pos="0" key="13"/>
 					</targets>
-					<view ltx="496" lty="293" rbx="534" rby="309"/>
+					<view ltx="496" lty="293" rbx="532" rby="309"/>
 					<data>
 						<constant value="2" datatype="decimal"/>
 					</data>
@@ -19,7 +19,7 @@
 					<targets>
 						<datapoint pos="0" key="11"/>
 					</targets>
-					<view ltx="481" lty="243" rbx="519" rby="259"/>
+					<view ltx="481" lty="243" rbx="517" rby="259"/>
 					<data>
 						<constant value="1" datatype="decimal"/>
 					</data>
@@ -28,7 +28,7 @@
 					<targets>
 						<datapoint pos="0" key="17"/>
 					</targets>
-					<view ltx="482" lty="391" rbx="520" rby="407"/>
+					<view ltx="482" lty="391" rbx="518" rby="407"/>
 					<data>
 						<constant value="4" datatype="decimal"/>
 					</data>
@@ -37,7 +37,7 @@
 					<targets>
 						<datapoint pos="0" key="29"/>
 					</targets>
-					<view ltx="483" lty="558" rbx="521" rby="574"/>
+					<view ltx="483" lty="558" rbx="519" rby="574"/>
 					<data>
 						<constant value="2" datatype="decimal"/>
 					</data>
@@ -46,7 +46,7 @@
 					<targets>
 						<datapoint pos="0" key="26"/>
 					</targets>
-					<view ltx="468" lty="508" rbx="506" rby="524"/>
+					<view ltx="468" lty="508" rbx="504" rby="524"/>
 					<data>
 						<constant value="7" datatype="decimal"/>
 					</data>
@@ -58,13 +58,13 @@
 					<targets>
 						<datapoint pos="0" key="39"/>
 					</targets>
-					<view ltx="692" lty="507" rbx="755" rby="543"/>
+					<view ltx="692" lty="507" rbx="752" rby="542"/>
 				</component>
 				<component name="constant" library="core" uid="31" kind="2">
 					<targets>
 						<datapoint pos="0" key="40"/>
 					</targets>
-					<view ltx="709" lty="557" rbx="752" rby="573"/>
+					<view ltx="709" lty="557" rbx="751" rby="573"/>
 					<data>
 						<constant value="26" datatype="decimal"/>
 					</data>
@@ -77,13 +77,13 @@
 					<targets>
 						<datapoint pos="0" key="43"/>
 					</targets>
-					<view ltx="789" lty="506" rbx="849" rby="557"/>
+					<view ltx="789" lty="506" rbx="847" rby="556"/>
 				</component>
 				<component name="constant" library="core" uid="18" kind="2">
 					<targets>
 						<datapoint pos="0" key="19"/>
 					</targets>
-					<view ltx="497" lty="441" rbx="535" rby="457"/>
+					<view ltx="497" lty="441" rbx="533" rby="457"/>
 					<data>
 						<constant value="2" datatype="decimal"/>
 					</data>
@@ -97,7 +97,7 @@
 					<targets>
 						<datapoint pos="0" key="44"/>
 					</targets>
-					<view ltx="564" lty="476" rbx="643" rby="542"/>
+					<view ltx="564" lty="476" rbx="633" rby="541"/>
 				</component>
 				<component name="constant" library="core" uid="41" kind="2">
 					<targets>
@@ -126,13 +126,13 @@
 					<targets>
 						<datapoint pos="0" key="54"/>
 					</targets>
-					<view ltx="564" lty="144" rbx="643" rby="210"/>
+					<view ltx="564" lty="144" rbx="633" rby="209"/>
 				</component>
 				<component name="constant" library="core" uid="47" kind="2">
 					<targets>
 						<datapoint pos="0" key="36"/>
 					</targets>
-					<view ltx="962" lty="457" rbx="1005" rby="473"/>
+					<view ltx="962" lty="457" rbx="1006" rby="473"/>
 					<data>
 						<constant value="-" datatype="string"/>
 					</data>
@@ -148,13 +148,13 @@
 					<targets>
 						<datapoint pos="0" key="60"/>
 					</targets>
-					<view ltx="1064" lty="391" rbx="1151" rby="492"/>
+					<view ltx="1064" lty="391" rbx="1142" rby="485"/>
 				</component>
 				<component name="constant" library="core" uid="46" kind="2">
 					<targets>
 						<datapoint pos="0" key="34"/>
 					</targets>
-					<view ltx="981" lty="391" rbx="1024" rby="407"/>
+					<view ltx="981" lty="391" rbx="1025" rby="407"/>
 					<data>
 						<constant value="-" datatype="string"/>
 					</data>
@@ -163,7 +163,7 @@
 					<targets>
 						<datapoint pos="0" key="37"/>
 					</targets>
-					<view ltx="1064" lty="557" rbx="1196" rby="573"/>
+					<view ltx="1064" lty="557" rbx="1201" rby="573"/>
 					<data>
 						<constant value="[Y0001]-[M01]-[D01]" datatype="string"/>
 					</data>
@@ -176,28 +176,10 @@
 					<targets>
 						<datapoint/>
 					</targets>
-					<view ltx="1214" lty="521" rbx="1293" rby="572"/>
-				</component>
-				<component name="constant" library="core" uid="206" kind="2">
-					<targets>
-						<datapoint pos="0" key="143"/>
-					</targets>
-					<view ltx="350" lty="-73" rbx="392" rby="-57"/>
-					<data>
-						<constant value="," datatype="string"/>
-					</data>
-				</component>
-				<component name="normalize-space" library="core" uid="208" kind="5">
-					<sources>
-						<datapoint pos="0" key="147"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="148"/>
-					</targets>
-					<view ltx="583" lty="-92" rbx="687" rby="-56"/>
+					<view ltx="1214" lty="521" rbx="1289" rby="571"/>
 				</component>
 				<component name="Clean_List" library="user" uid="222" kind="19" visible="0" blackbox="0">
-					<view ltx="284" lty="501" rbx="379" rby="517"/>
+					<view ltx="284" lty="501" rbx="378" rby="518"/>
 					<data>
 						<root>
 							<header>
@@ -217,16 +199,6 @@
 						</root>
 					</data>
 				</component>
-				<component name="tokenize" library="core" uid="205" kind="5">
-					<sources>
-						<datapoint pos="0" key="144"/>
-						<datapoint pos="1" key="145"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="146"/>
-					</targets>
-					<view ltx="429" lty="-109" rbx="518" rby="-58"/>
-				</component>
 				<component name="auto-number" library="core" uid="229" kind="5">
 					<sources>
 						<datapoint/>
@@ -237,7 +209,7 @@
 					<targets>
 						<datapoint pos="0" key="171"/>
 					</targets>
-					<view ltx="253" lty="-221" rbx="388" rby="-140"/>
+					<view ltx="253" lty="-221" rbx="377" rby="-141"/>
 				</component>
 				<component name="concat" library="core" uid="227" kind="5" growable="1" growablebasename="value">
 					<sources>
@@ -247,19 +219,19 @@
 					<targets>
 						<datapoint pos="0" key="174"/>
 					</targets>
-					<view ltx="611" lty="-253" rbx="689" rby="-200"/>
+					<view ltx="611" lty="-253" rbx="681" rby="-203"/>
 				</component>
 				<component name="constant" library="core" uid="230" kind="2">
 					<targets>
 						<datapoint pos="0" key="175"/>
 					</targets>
-					<view ltx="442" lty="-233" rbx="554" rby="-217"/>
+					<view ltx="442" lty="-233" rbx="547" rby="-217"/>
 					<data>
 						<constant value="goodreads_id_" datatype="string"/>
 					</data>
 				</component>
 				<component name="Safe_Number" library="user" uid="216" kind="19" visible="0" blackbox="0">
-					<view ltx="528" lty="-18" rbx="635" rby="-2"/>
+					<view ltx="528" lty="-18" rbx="633" rby="-1"/>
 					<data>
 						<root>
 							<header>
@@ -288,7 +260,7 @@
 					<targets>
 						<datapoint pos="0" key="55"/>
 					</targets>
-					<view ltx="584" lty="265" rbx="663" rby="331"/>
+					<view ltx="584" lty="265" rbx="653" rby="330"/>
 				</component>
 				<component name="concat" library="core" uid="38" kind="5" growable="1" growablebasename="value">
 					<sources>
@@ -298,7 +270,7 @@
 					<targets>
 						<datapoint pos="0" key="47"/>
 					</targets>
-					<view ltx="820" lty="332" rbx="898" rby="385"/>
+					<view ltx="820" lty="332" rbx="890" rby="382"/>
 				</component>
 				<component name="concat" library="core" uid="39" kind="5" growable="1" growablebasename="value">
 					<sources>
@@ -308,7 +280,7 @@
 					<targets>
 						<datapoint pos="0" key="49"/>
 					</targets>
-					<view ltx="820" lty="402" rbx="898" rby="455"/>
+					<view ltx="820" lty="402" rbx="890" rby="452"/>
 				</component>
 				<component name="if-else" library="core" uid="36" kind="4">
 					<sources>
@@ -319,10 +291,10 @@
 					<targets>
 						<datapoint pos="0" key="53"/>
 					</targets>
-					<view ltx="940" lty="501" rbx="1039" rby="570"/>
+					<view ltx="940" lty="501" rbx="1031" rby="566"/>
 				</component>
 				<component name="Clean_List" library="user" uid="220" kind="19" visible="0" blackbox="0">
-					<view ltx="640" lty="643" rbx="735" rby="659"/>
+					<view ltx="640" lty="643" rbx="734" rby="660"/>
 					<data>
 						<root>
 							<header>
@@ -343,7 +315,7 @@
 					</data>
 				</component>
 				<component name="Parse_Date" library="user" uid="210" kind="19" visible="0" blackbox="0">
-					<view ltx="664" lty="60" rbx="848" rby="76"/>
+					<view ltx="664" lty="60" rbx="850" rby="77"/>
 					<data>
 						<root>
 							<header>
@@ -363,74 +335,53 @@
 						</root>
 					</data>
 				</component>
-				<component name="Goodreads" library="text" uid="10" kind="16">
-					<properties/>
-					<view ltx="107" lty="-6" rbx="366" rby="410"/>
+				<component name="Page_Count" library="user" uid="232" kind="19" visible="0" blackbox="0">
+					<view ltx="829" lty="125" rbx="934" rby="142"/>
 					<data>
 						<root>
 							<header>
 								<namespaces>
 									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
 								</namespaces>
 							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1">
-									<entry name="Rows" outkey="7" expanded="1">
-										<entry name="title" outkey="8"/>
-										<entry name="series" outkey="73"/>
-										<entry name="author" outkey="141"/>
-										<entry name="rating" outkey="162"/>
-										<entry name="language" outkey="74"/>
-										<entry name="genres" outkey="142"/>
-										<entry name="bookFormat" outkey="163"/>
-										<entry name="edition" outkey="75"/>
-										<entry name="pages" outkey="164"/>
-										<entry name="publisher" outkey="76"/>
-										<entry name="publishDate" outkey="9"/>
-										<entry name="awards" outkey="77"/>
-										<entry name="numRatings" outkey="165"/>
-										<entry name="price" outkey="166"/>
-									</entry>
-								</entry>
-							</entry>
+							<entry name="value" inpkey="177" componentid="100"/>
 						</root>
-						<text type="csv" encoding="1000" byteorder="1" byteordermark="0" inputinstance="..\..\..\..\Downloads\books_1.Best_Books_Ever.csv">
-							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
-								<names root="books_1.Best_Books_Ever" block="Rows">
-									<field0 name="title" type="string"/>
-									<field1 name="series" type="string"/>
-									<field2 name="author" type="string"/>
-									<field3 name="rating" type="string"/>
-									<field4 name="description" type="string"/>
-									<field5 name="language" type="string"/>
-									<field6 name="isbn" type="string"/>
-									<field7 name="genres" type="string"/>
-									<field8 name="characters" type="string"/>
-									<field9 name="bookFormat" type="string"/>
-									<field10 name="edition" type="string"/>
-									<field11 name="pages" type="string"/>
-									<field12 name="publisher" type="string"/>
-									<field13 name="publishDate" type="string"/>
-									<field14 name="firstPublishDate" type="string"/>
-									<field15 name="awards" type="string"/>
-									<field16 name="numRatings" type="string"/>
-									<field17 name="ratingsByStars" type="string"/>
-									<field18 name="likedPercent" type="string"/>
-									<field19 name="setting" type="string"/>
-									<field20 name="bbeScore" type="string"/>
-									<field21 name="bbeVotes" type="string"/>
-									<field22 name="price" type="string"/>
-								</names>
-							</settings>
-						</text>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="number" outkey="178" componentid="101"/>
+						</root>
+					</data>
+				</component>
+				<component name="Clean_Authors" library="user" uid="234" kind="19" visible="0" blackbox="0">
+					<view ltx="432" lty="-102" rbx="544" rby="-85"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="authors" inpkey="179" componentid="100"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="author" outkey="180" componentid="101"/>
+						</root>
 					</data>
 				</component>
 				<component name="target" library="xml" uid="9" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
 					<view ltx="1364" lty="15" rbx="1531" rby="215"/>
 					<data>
-						<root scrollposition="53">
+						<root scrollposition="153">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -462,16 +413,83 @@
 											<entry name="awards" expanded="1">
 												<entry name="award" inpkey="98"/>
 											</entry>
+											<entry name="isbn" inpkey="181"/>
 										</entry>
 									</entry>
 								</entry>
 							</entry>
 						</root>
-						<document schema="..\..\..\..\Downloads\target_neu(1).xsd" instanceroot="{}books" inputinstance="..\..\..\..\Downloads\target_neu(1).xml" outputinstance="..\..\..\..\Downloads\target_neu(1).xml"/>
+						<document schema="target.xsd" instanceroot="{}books" inputinstance="target.xml" outputinstance="target.xml"/>
 					</data>
 				</component>
-				<component name="Page_Count" library="user" uid="232" kind="19" visible="0" blackbox="0">
-					<view ltx="829" lty="125" rbx="936" rby="141"/>
+				<component name="Goodreads" library="text" uid="10" kind="16">
+					<properties/>
+					<view ltx="107" lty="-6" rbx="366" rby="410"/>
+					<data>
+						<root scrollposition="17">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" outkey="7" expanded="1">
+										<entry name="title" outkey="8"/>
+										<entry name="series" outkey="73"/>
+										<entry name="author" outkey="141"/>
+										<entry name="rating" outkey="162"/>
+										<entry name="language" outkey="74"/>
+										<entry name="isbn" outkey="182"/>
+										<entry name="genres" outkey="142"/>
+										<entry name="bookFormat" outkey="163"/>
+										<entry name="edition" outkey="75"/>
+										<entry name="pages" outkey="164"/>
+										<entry name="publisher" outkey="76"/>
+										<entry name="publishDate" outkey="9"/>
+										<entry name="awards" outkey="77"/>
+										<entry name="numRatings" outkey="165"/>
+										<entry name="price" outkey="166"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" encoding="1000" byteorder="1" byteordermark="0" inputinstance="..\data\books_1.Best_Books_Ever.csv">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="books_1.Best_Books_Ever" block="Rows">
+									<field0 name="bookId" type="string"/>
+									<field1 name="title" type="string"/>
+									<field2 name="series" type="string"/>
+									<field3 name="author" type="string"/>
+									<field4 name="rating" type="string"/>
+									<field5 name="description" type="string"/>
+									<field6 name="language" type="string"/>
+									<field7 name="isbn" type="string"/>
+									<field8 name="genres" type="string"/>
+									<field9 name="characters" type="string"/>
+									<field10 name="bookFormat" type="string"/>
+									<field11 name="edition" type="string"/>
+									<field12 name="pages" type="string"/>
+									<field13 name="publisher" type="string"/>
+									<field14 name="publishDate" type="string"/>
+									<field15 name="firstPublishDate" type="string"/>
+									<field16 name="awards" type="string"/>
+									<field17 name="numRatings" type="string"/>
+									<field18 name="ratingsByStars" type="string"/>
+									<field19 name="likedPercent" type="string"/>
+									<field20 name="setting" type="string"/>
+									<field21 name="coverImg" type="string"/>
+									<field22 name="bbeScore" type="string"/>
+									<field23 name="bbeVotes" type="string"/>
+									<field24 name="price" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+				<component name="Clean_ISBN" library="user" uid="236" kind="19" visible="0" blackbox="0">
+					<view ltx="861" lty="253" rbx="949" rby="270"/>
 					<data>
 						<root>
 							<header>
@@ -479,7 +497,7 @@
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="value" inpkey="177" componentid="100"/>
+							<entry name="value" inpkey="183" componentid="100"/>
 						</root>
 						<root>
 							<header>
@@ -487,7 +505,7 @@
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="number" outkey="178" componentid="101"/>
+							<entry name="isbn" outkey="184" componentid="107"/>
 						</root>
 					</data>
 				</component>
@@ -650,22 +668,7 @@
 							<edge vertexkey="98"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="141">
-						<edges>
-							<edge vertexkey="144"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="143">
-						<edges>
-							<edge vertexkey="145"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="146">
-						<edges>
-							<edge vertexkey="147"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="148">
+					<vertex vertexkey="180">
 						<edges>
 							<edge vertexkey="149"/>
 						</edges>
@@ -733,6 +736,21 @@
 					<vertex vertexkey="164">
 						<edges>
 							<edge vertexkey="177"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="141">
+						<edges>
+							<edge vertexkey="179"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="184">
+						<edges>
+							<edge vertexkey="181"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="182">
+						<edges>
+							<edge vertexkey="183"/>
 						</edges>
 					</vertex>
 				</vertices>
