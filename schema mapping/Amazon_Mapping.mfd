@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Edited with Altova MapForce 2027 -->
+<!-- Edited with Altova MapForce 2026r2 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<resources/>
 	<component name="defaultmap" uid="1" editable="1" blackbox="0">
@@ -13,13 +13,13 @@
 					<targets>
 						<datapoint pos="0" key="26"/>
 					</targets>
-					<view ltx="324" lty="469" rbx="419" rby="507"/>
+					<view ltx="324" lty="469" rbx="405" rby="503"/>
 				</component>
 				<component name="constant" library="core" uid="129" kind="2">
 					<targets>
 						<datapoint pos="0" key="27"/>
 					</targets>
-					<view ltx="399" lty="537" rbx="439" rby="554"/>
+					<view ltx="399" lty="537" rbx="434" rby="552"/>
 					<data>
 						<constant value="4" datatype="decimal"/>
 					</data>
@@ -28,7 +28,7 @@
 					<targets>
 						<datapoint pos="0" key="28"/>
 					</targets>
-					<view ltx="523" lty="536" rbx="563" rby="553"/>
+					<view ltx="523" lty="536" rbx="558" rby="551"/>
 					<data>
 						<constant value="3" datatype="decimal"/>
 					</data>
@@ -41,7 +41,7 @@
 					<targets>
 						<datapoint pos="0" key="31"/>
 					</targets>
-					<view ltx="453" lty="468" rbx="535" rby="524"/>
+					<view ltx="453" lty="468" rbx="521" rby="516"/>
 				</component>
 				<component name="substring" library="core" uid="126" kind="5">
 					<sources>
@@ -52,13 +52,22 @@
 					<targets>
 						<datapoint pos="0" key="35"/>
 					</targets>
-					<view ltx="580" lty="452" rbx="663" rby="522"/>
+					<view ltx="580" lty="452" rbx="647" rby="515"/>
+				</component>
+				<component name="constant" library="core" uid="131" kind="2">
+					<targets>
+						<datapoint pos="0" key="36"/>
+					</targets>
+					<view ltx="629" lty="536" rbx="678" rby="551"/>
+					<data>
+						<constant value="&quot;,&quot;" datatype="string"/>
+					</data>
 				</component>
 				<component name="constant" library="core" uid="137" kind="2">
 					<targets>
 						<datapoint pos="0" key="40"/>
 					</targets>
-					<view ltx="89" lty="-145" rbx="235" rby="-128"/>
+					<view ltx="89" lty="-145" rbx="223" rby="-130"/>
 					<data>
 						<constant value="^[A-Z][a-z]+ \d{1,2}, \d{4}$" datatype="string"/>
 					</data>
@@ -67,7 +76,7 @@
 					<targets>
 						<datapoint pos="0" key="41"/>
 					</targets>
-					<view ltx="112" lty="-96" rbx="249" rby="-79"/>
+					<view ltx="112" lty="-96" rbx="239" rby="-81"/>
 					<data>
 						<constant value="[MNn] [D1], [Y0001]" datatype="string"/>
 					</data>
@@ -80,7 +89,7 @@
 					<targets>
 						<datapoint pos="0" key="44"/>
 					</targets>
-					<view ltx="319" lty="-191" rbx="419" rby="-137"/>
+					<view ltx="319" lty="-191" rbx="407" rby="-143"/>
 				</component>
 				<component name="parse-date" library="core" uid="135" kind="5">
 					<sources>
@@ -90,7 +99,7 @@
 					<targets>
 						<datapoint pos="0" key="47"/>
 					</targets>
-					<view ltx="452" lty="-190" rbx="535" rby="-136"/>
+					<view ltx="452" lty="-190" rbx="525" rby="-142"/>
 				</component>
 				<component name="if-else" library="core" uid="136" kind="4">
 					<sources>
@@ -101,7 +110,38 @@
 					<targets>
 						<datapoint pos="0" key="50"/>
 					</targets>
-					<view ltx="584" lty="-262" rbx="688" rby="-189"/>
+					<view ltx="584" lty="-262" rbx="672" rby="-199"/>
+				</component>
+				<component name="tokenize" library="core" uid="128" kind="5">
+					<sources>
+						<datapoint pos="0" key="37"/>
+						<datapoint pos="1" key="38"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="39"/>
+					</targets>
+					<view ltx="701" lty="468" rbx="779" rby="516"/>
+				</component>
+				<component name="Clean_List" library="user" uid="116" kind="19" visible="0" blackbox="0">
+					<view ltx="399" lty="393" rbx="491" rby="409"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="value" inpkey="12" componentid="100"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="items" outkey="13" componentid="101"/>
+						</root>
+					</data>
 				</component>
 				<component name="auto-number" library="core" uid="139" kind="5">
 					<sources>
@@ -113,7 +153,7 @@
 					<targets>
 						<datapoint pos="0" key="58"/>
 					</targets>
-					<view ltx="302" lty="-331" rbx="444" rby="-245"/>
+					<view ltx="302" lty="-331" rbx="423" rby="-254"/>
 				</component>
 				<component name="concat" library="core" uid="140" kind="5" growable="1" growablebasename="value">
 					<sources>
@@ -123,157 +163,20 @@
 					<targets>
 						<datapoint pos="0" key="55"/>
 					</targets>
-					<view ltx="660" lty="-363" rbx="742" rby="-307"/>
+					<view ltx="660" lty="-363" rbx="728" rby="-315"/>
 				</component>
 				<component name="constant" library="core" uid="141" kind="2">
 					<targets>
 						<datapoint pos="0" key="56"/>
 					</targets>
-					<view ltx="491" lty="-343" rbx="593" rby="-326"/>
+					<view ltx="491" lty="-343" rbx="582" rby="-328"/>
 					<data>
 						<constant value="amazon_id_" datatype="string"/>
 					</data>
 				</component>
-				<component name="Amazon dataset" library="text" uid="3" kind="16">
-					<properties/>
-					<view ltx="-44" lty="32" rbx="204" rby="332"/>
-					<data>
-						<root scrollposition="7">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1">
-									<entry name="Rows" outkey="14" expanded="1">
-										<entry name="title" outkey="15"/>
-										<entry name="authors" outkey="16"/>
-										<entry name="format" outkey="17"/>
-										<entry name="publisher" outkey="18"/>
-										<entry name="edition" outkey="19"/>
-										<entry name="publication_date" outkey="51"/>
-										<entry name="language" outkey="20"/>
-										<entry name="pages" outkey="21"/>
-										<entry name="genres" outkey="22"/>
-										<entry name="average_rating" outkey="52"/>
-										<entry name="ratings_count" outkey="23"/>
-										<entry name="price" outkey="24"/>
-										<entry name="isbn13" outkey="62"/>
-										<entry name="isbn10" outkey="63"/>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<text type="csv" encoding="1000" byteorder="1" byteordermark="0" inputinstance="..\data\amazon_books_subset.csv">
-							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
-								<names root="amazon_books_subset" block="Rows">
-									<field0 name="amazon_id" type="string"/>
-									<field1 name="asin" type="string"/>
-									<field2 name="title" type="string"/>
-									<field3 name="authors" type="string"/>
-									<field4 name="format" type="string"/>
-									<field5 name="publisher" type="string"/>
-									<field6 name="edition" type="string"/>
-									<field7 name="publication_date" type="string"/>
-									<field8 name="language" type="string"/>
-									<field9 name="pages" type="string"/>
-									<field10 name="genres" type="string"/>
-									<field11 name="average_rating" type="string"/>
-									<field12 name="ratings_count" type="string"/>
-									<field13 name="price" type="string"/>
-									<field14 name="isbn13" type="string"/>
-									<field15 name="isbn10" type="string"/>
-								</names>
-							</settings>
-						</text>
-					</data>
-				</component>
-				<component name="Clean_ISBN_Amazon" library="user" uid="216" kind="19" visible="0" blackbox="0">
-					<view ltx="411" lty="251" rbx="511" rby="285"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="isbn13" inpkey="68" componentid="200"/>
-							<entry name="isbn10" inpkey="69" componentid="201"/>
-						</root>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="isbn" outkey="70" componentid="212"/>
-						</root>
-					</data>
-				</component>
-				<component name="Clean_List" library="user" uid="116" kind="19" visible="0" blackbox="0">
-					<view ltx="399" lty="393" rbx="499" rby="410"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="value" inpkey="12" componentid="100"/>
-						</root>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="items" outkey="13" componentid="101"/>
-						</root>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="131" kind="2">
-					<targets>
-						<datapoint pos="0" key="36"/>
-					</targets>
-					<view ltx="629" lty="536" rbx="682" rby="553"/>
-					<data>
-						<constant value="&quot;,&quot;" datatype="string"/>
-					</data>
-				</component>
-				<component name="tokenize" library="core" uid="128" kind="5">
-					<sources>
-						<datapoint pos="0" key="37"/>
-						<datapoint pos="1" key="38"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="39"/>
-					</targets>
-					<view ltx="701" lty="468" rbx="795" rby="522"/>
-				</component>
-				<component name="not-equal" library="core" uid="218" kind="5">
-					<sources>
-						<datapoint pos="0" key="71"/>
-						<datapoint pos="1" key="72"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="73"/>
-					</targets>
-					<view ltx="840" lty="334" rbx="918" rby="388"/>
-				</component>
-				<component name="constant" library="core" uid="220" kind="2">
-					<targets>
-						<datapoint pos="0" key="67"/>
-					</targets>
-					<view ltx="700" lty="371" rbx="742" rby="388"/>
-					<data>
-						<constant datatype="string"/>
-					</data>
-				</component>
 				<component name="target" library="xml" uid="2" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="910" lty="-120" rbx="1080" rby="80"/>
+					<view ltx="824" lty="-115" rbx="994" rby="85"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -303,26 +206,67 @@
 											<entry name="rating" inpkey="54"/>
 											<entry name="ratings_count" inpkey="10"/>
 											<entry name="price" inpkey="11"/>
-											<entry name="awards" expanded="1"/>
-											<entry name="isbn" inpkey="61"/>
 										</entry>
 									</entry>
 								</entry>
 							</entry>
 						</root>
-						<document schema="target.xsd" instanceroot="{}books" inputinstance="target.xml" outputinstance="target.xml"/>
+						<document schema="..\..\..\..\Downloads\target_neu(1).xsd" instanceroot="{}books" inputinstance="..\..\..\..\Downloads\target_neu(1).xml" outputinstance="..\..\..\..\Downloads\target_neu(1).xml"/>
 					</data>
 				</component>
-				<component name="filter" library="core" uid="219" kind="3">
-					<sources>
-						<datapoint pos="0" key="74"/>
-						<datapoint pos="1" key="75"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="76"/>
-						<datapoint/>
-					</targets>
-					<view ltx="805" lty="253" rbx="918" rby="307"/>
+				<component name="Amazon dataset" library="text" uid="3" kind="16">
+					<properties/>
+					<view ltx="-44" lty="32" rbx="204" rby="332"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" outkey="14" expanded="1">
+										<entry name="title" outkey="15"/>
+										<entry name="authors" outkey="16"/>
+										<entry name="format" outkey="17"/>
+										<entry name="publisher" outkey="18"/>
+										<entry name="edition" outkey="19"/>
+										<entry name="publication_date" outkey="51"/>
+										<entry name="language" outkey="20"/>
+										<entry name="pages" outkey="21"/>
+										<entry name="genres" outkey="22"/>
+										<entry name="average_rating" outkey="52"/>
+										<entry name="ratings_count" outkey="23"/>
+										<entry name="price" outkey="24"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" encoding="1000" byteorder="1" byteordermark="0" inputinstance="..\..\..\..\Downloads\amazon_books_subset.csv">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="Amazon dataset" block="Rows">
+									<field0 name="amazon_id" type="string"/>
+									<field1 name="asin" type="string"/>
+									<field2 name="title" type="string"/>
+									<field3 name="authors" type="string"/>
+									<field4 name="format" type="string"/>
+									<field5 name="publisher" type="string"/>
+									<field6 name="edition" type="string"/>
+									<field7 name="publication_date" type="string"/>
+									<field8 name="language" type="string"/>
+									<field9 name="pages" type="string"/>
+									<field10 name="genres" type="string"/>
+									<field11 name="average_rating" type="string"/>
+									<field12 name="ratings_count" type="string"/>
+									<field13 name="price" type="string"/>
+									<field14 name="isbn13" type="string"/>
+									<field15 name="isbn10" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
 				</component>
 			</children>
 			<graph directed="1">
@@ -343,7 +287,7 @@
 							<edge vertexkey="3"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="76">
+					<vertex vertexkey="39">
 						<edges>
 							<edge vertexkey="4"/>
 						</edges>
@@ -473,37 +417,6 @@
 					<vertex vertexkey="55">
 						<edges>
 							<edge vertexkey="60"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="70">
-						<edges>
-							<edge vertexkey="61"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="62">
-						<edges>
-							<edge vertexkey="68"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="63">
-						<edges>
-							<edge vertexkey="69"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="39">
-						<edges>
-							<edge vertexkey="71"/>
-							<edge vertexkey="74"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="67">
-						<edges>
-							<edge vertexkey="72"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="73">
-						<edges>
-							<edge vertexkey="75"/>
 						</edges>
 					</vertex>
 				</vertices>
