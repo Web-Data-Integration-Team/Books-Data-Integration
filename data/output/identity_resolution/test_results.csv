@@ -1,25 +1,25 @@
 pair,model,variant,split,correspondences,precision,recall,f1,minutes
-goodreads_amazon,GradientBoosting,"threshold 0.5, without 1:1",validation,13269,0.9104477611940298,0.9104477611940298,0.9104477611940298,9.3
-goodreads_amazon,GradientBoosting,"threshold 0.5, without 1:1",test,13269,0.82,0.845360824742268,0.83248730964467,9.3
-goodreads_amazon,GradientBoosting,"threshold 0.5, with 1:1",validation,4421,0.9814814814814815,0.7910447761194029,0.8760330578512396,9.3
-goodreads_amazon,GradientBoosting,"threshold 0.6, with 1:1",validation,3810,0.9814814814814815,0.7910447761194029,0.8760330578512396,9.3
-goodreads_amazon,GradientBoosting,"threshold 0.7, with 1:1",validation,3357,0.9803921568627451,0.746268656716418,0.847457627118644,9.3
-goodreads_amazon,GradientBoosting,"threshold 0.8, with 1:1",validation,2823,0.9777777777777777,0.6567164179104478,0.7857142857142858,9.3
-goodreads_amazon,GradientBoosting,"threshold 0.9, with 1:1",validation,2204,0.9743589743589743,0.5671641791044776,0.7169811320754718,9.3
-goodreads_amazon,GradientBoosting,"threshold 0.6, with 1:1 (selected)",test,3810,0.972972972972973,0.7422680412371134,0.8421052631578948,9.3
-goodreads_dbpedia,RandomForest,"threshold 0.5, without 1:1",validation,18110,0.717948717948718,0.8,0.7567567567567569,7.6
-goodreads_dbpedia,RandomForest,"threshold 0.5, without 1:1",test,18110,0.7522123893805309,0.7870370370370371,0.7692307692307693,7.6
-goodreads_dbpedia,RandomForest,"threshold 0.5, with 1:1",validation,7330,0.7571428571428571,0.7571428571428571,0.7571428571428571,7.6
-goodreads_dbpedia,RandomForest,"threshold 0.6, with 1:1",validation,5485,0.7727272727272727,0.7285714285714285,0.75,7.6
-goodreads_dbpedia,RandomForest,"threshold 0.7, with 1:1",validation,3974,0.7735849056603774,0.5857142857142857,0.6666666666666666,7.6
-goodreads_dbpedia,RandomForest,"threshold 0.8, with 1:1",validation,2497,0.8421052631578947,0.45714285714285713,0.5925925925925926,7.6
-goodreads_dbpedia,RandomForest,"threshold 0.9, with 1:1",validation,1148,0.9,0.2571428571428571,0.39999999999999997,7.6
-goodreads_dbpedia,RandomForest,"threshold 0.5, with 1:1 (selected)",test,7330,0.77,0.7129629629629629,0.7403846153846153,7.6
-amazon_dbpedia,RandomForest,"threshold 0.5, without 1:1",validation,6691,0.851063829787234,0.7017543859649122,0.7692307692307693,8.3
-amazon_dbpedia,RandomForest,"threshold 0.5, without 1:1",test,6691,0.8,0.8089887640449438,0.8044692737430168,8.3
-amazon_dbpedia,RandomForest,"threshold 0.5, with 1:1",validation,2400,1.0,0.49122807017543857,0.6588235294117647,8.3
-amazon_dbpedia,RandomForest,"threshold 0.6, with 1:1",validation,1935,1.0,0.5263157894736842,0.6896551724137931,8.3
-amazon_dbpedia,RandomForest,"threshold 0.7, with 1:1",validation,1573,1.0,0.47368421052631576,0.6428571428571429,8.3
-amazon_dbpedia,RandomForest,"threshold 0.8, with 1:1",validation,1279,1.0,0.40350877192982454,0.575,8.3
-amazon_dbpedia,RandomForest,"threshold 0.9, with 1:1",validation,709,1.0,0.2631578947368421,0.4166666666666667,8.3
-amazon_dbpedia,RandomForest,"threshold 0.6, with 1:1 (selected)",test,1935,0.8636363636363636,0.6404494382022472,0.7354838709677419,8.3
+goodreads_amazon,GradientBoosting,"threshold 0.5, without 1:1",validation,13270,0.9104477611940298,0.9104477611940298,0.9104477611940298,2.5
+goodreads_amazon,GradientBoosting,"threshold 0.5, without 1:1",test,13270,0.82,0.845360824742268,0.83248730964467,2.5
+goodreads_amazon,GradientBoosting,"threshold 0.5, with 1:1",validation,4425,0.9814814814814815,0.7910447761194029,0.8760330578512396,2.5
+goodreads_amazon,GradientBoosting,"threshold 0.6, with 1:1",validation,3811,0.9814814814814815,0.7910447761194029,0.8760330578512396,2.5
+goodreads_amazon,GradientBoosting,"threshold 0.7, with 1:1",validation,3361,0.9803921568627451,0.746268656716418,0.847457627118644,2.5
+goodreads_amazon,GradientBoosting,"threshold 0.8, with 1:1",validation,2823,0.9777777777777777,0.6567164179104478,0.7857142857142858,2.5
+goodreads_amazon,GradientBoosting,"threshold 0.9, with 1:1",validation,2204,0.9743589743589743,0.5671641791044776,0.7169811320754718,2.5
+goodreads_amazon,GradientBoosting,"threshold 0.6, with 1:1 (selected)",test,3811,0.972972972972973,0.7422680412371134,0.8421052631578948,2.5
+goodreads_dbpedia,RandomForest,"threshold 0.5, without 1:1",validation,18867,0.7215189873417721,0.8142857142857143,0.7651006711409395,2.1
+goodreads_dbpedia,RandomForest,"threshold 0.5, without 1:1",test,18867,0.7567567567567568,0.7777777777777778,0.7671232876712328,2.1
+goodreads_dbpedia,RandomForest,"threshold 0.5, with 1:1",validation,7385,0.7464788732394366,0.7571428571428571,0.75177304964539,2.1
+goodreads_dbpedia,RandomForest,"threshold 0.6, with 1:1",validation,5500,0.746031746031746,0.6714285714285714,0.706766917293233,2.1
+goodreads_dbpedia,RandomForest,"threshold 0.7, with 1:1",validation,3963,0.7551020408163265,0.5285714285714286,0.6218487394957983,2.1
+goodreads_dbpedia,RandomForest,"threshold 0.8, with 1:1",validation,2438,0.8235294117647058,0.4,0.5384615384615384,2.1
+goodreads_dbpedia,RandomForest,"threshold 0.9, with 1:1",validation,1101,0.85,0.24285714285714285,0.3777777777777778,2.1
+goodreads_dbpedia,RandomForest,"threshold 0.5, with 1:1 (selected)",test,7385,0.7789473684210526,0.6851851851851852,0.7290640394088669,2.1
+amazon_dbpedia,RandomForest,"threshold 0.5, without 1:1",validation,6691,0.851063829787234,0.7017543859649122,0.7692307692307693,2.3
+amazon_dbpedia,RandomForest,"threshold 0.5, without 1:1",test,6691,0.8,0.8089887640449438,0.8044692737430168,2.3
+amazon_dbpedia,RandomForest,"threshold 0.5, with 1:1",validation,2400,0.96875,0.543859649122807,0.6966292134831461,2.3
+amazon_dbpedia,RandomForest,"threshold 0.6, with 1:1",validation,1935,1.0,0.47368421052631576,0.6428571428571429,2.3
+amazon_dbpedia,RandomForest,"threshold 0.7, with 1:1",validation,1573,1.0,0.47368421052631576,0.6428571428571429,2.3
+amazon_dbpedia,RandomForest,"threshold 0.8, with 1:1",validation,1279,1.0,0.42105263157894735,0.5925925925925926,2.3
+amazon_dbpedia,RandomForest,"threshold 0.9, with 1:1",validation,709,1.0,0.2631578947368421,0.4166666666666667,2.3
+amazon_dbpedia,RandomForest,"threshold 0.5, with 1:1 (selected)",test,2400,0.855072463768116,0.6629213483146067,0.7468354430379747,2.3
