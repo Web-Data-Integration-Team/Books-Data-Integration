@@ -218,4 +218,131 @@ In Phase II, the matchers will therefore compare title, authors, publisher, publ
 Title and authors first generate candidate pairs. The other attributes then decide whether two candidates are the same edition.
 We evaluate against the ISBN gold standard.
 
+
+\section{Phase 1: Schema Mapping and Data Translation}
+
+\subsection{Target Schema}
+The integrated schema is defined as an XML Schema (\texttt{target.xsd}) and
+serves as the common target for all three sources. Its root element
+\texttt{books} contains a sequence of \texttt{book} elements, each describing
+exactly one book edition, in line with our entity definition. Every book
+carries a required \texttt{id} attribute that is prefixed with the name of its
+source (e.g.\ \texttt{goodreads\_id\_1}). These IDs keep each record traceable
+to its origin and serve as keys in the correspondences produced during
+identity resolution.
+
+The schema contains 14 attributes. Only \texttt{title} is mandatory; all other
+elements are optional (\texttt{minOccurs="0"}). We chose this deliberately: no
+source covers all attributes, and a stricter schema would either reject valid
+records or force us to insert artificial default values that would later
+distort data fusion. Missing values are therefore simply omitted.
+
+We assigned explicit data types so that later steps can compare values without
+additional parsing: \texttt{page\_count} and \texttt{ratings\_count} are
+\texttt{xs:integer}, \texttt{rating} and \texttt{price} are
+\texttt{xs:decimal}, and \texttt{publication\_date} is \texttt{xs:date}.
+Multi-valued attributes are modelled as nested lists instead of delimited
+strings: \texttt{authors}, \texttt{genres} and \texttt{awards} contain one
+child element per value. This enables list-based comparators during identity
+resolution and union-based fusion of genres. Compared with our proposal,
+\texttt{format} and \texttt{edition} were added because they help to
+distinguish editions of the same work, and the full publication date is kept
+instead of only the year.
+
+\subsection{Mappings}
+We implemented one Altova MapForce mapping per source. Goodreads and Amazon
+are read as CSV files, DBpedia as the XML file produced by our SPARQL download
+script. Each mapping writes an XML file that is valid against
+\texttt{target.xsd}. Goodreads provides the richest attribute set, including
+series, awards, rating, ratings count and price, but stores several values in
+single strings. Amazon provides format and edition as separate fields and
+lists authors and genres as strings that need to be split. DBpedia
+contributes title, authors, publisher, release date, pages, language and
+genres. Each record receives a source-prefixed ID generated with
+\texttt{auto-number} and \texttt{concat}. Because these IDs depend on the
+order of the output, the XML files must not be regenerated without re-running
+identity resolution; otherwise the stored correspondences point to the wrong
+records.
+
+\subsection{User-Defined Functions}
+Many cleaning steps are needed in more than one mapping. Instead of rebuilding
+the same chains of built-in functions, we implemented reusable user-defined
+functions (UDFs), which keep the mappings readable and ensure that the same
+rule is applied everywhere (Table~\ref{tab:udf}).
+
+\begin{table}[htbp]
+\centering
+\caption{User-defined functions in the MapForce mappings.}
+\label{tab:udf}
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}l l >{\RaggedRight\arraybackslash}X@{}}
+\toprule
+\textbf{Function} & \textbf{Used for} & \textbf{Purpose} \\
+\midrule
+\texttt{Clean\_Authors} & GR author & splits the author string into individual author elements \\
+\texttt{Clean\_List} & GR genres, awards; AM authors & splits multi-valued strings and drops empty entries \\
+\texttt{Parse\_Date} & GR publishDate & detects four date formats and converts them to \texttt{xs:date} \\
+\texttt{Page\_Count} & pages & extracts the number from values such as ``1 page'' \\
+\texttt{Safe\_Number} & GR price & converts only valid numbers; other values stay empty \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Date Formats}
+The sources differ strongly in date representation and precision
+(Table~\ref{tab:dates}).
+
+\begin{table}[htbp]
+\centering
+\caption{Precision of the publication date per source.}
+\label{tab:dates}
+\footnotesize
+\begin{tabular}{lrrr}
+\toprule
+ & \textbf{Goodreads} & \textbf{DBpedia} & \textbf{Amazon} \\
+\midrule
+Full date               & 84.1\% & 22.2\% & 95.1\% \\
+Year only               &  8.3\% & 58.0\% &  0.0\% \\
+Other (e.g.\ month--year) & 5.9\% & 10.5\% & 0.0\% \\
+Empty                   &  1.7\% &  9.2\% &  4.9\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Goodreads uses four formats: US dates with a two-digit year (04/27/10), with a
+four-digit year (04/27/2010), written dates with an ordinal suffix (April 27th
+2010) and bare years (2003). Amazon uses written dates such as January 1,
+2019. DBpedia combines several infobox properties, so 58\% of its values
+contain only a year, followed by ISO dates (1982-04-15) and month--year values
+(July 1941).
+
+\texttt{Parse\_Date} first identifies the Goodreads format with regular
+expressions (\texttt{match-pattern}) and then applies a dedicated conversion
+in a cascade of \texttt{if-else} components. Two-digit years are completed
+with the century (above 26 $\rightarrow$ 19xx, otherwise 20xx), four-digit US
+dates are parsed with the pattern \texttt{[M01]/[D01]/[Y0001]}, ordinal
+suffixes are removed with \texttt{substring-before}, \texttt{substring-after}
+and \texttt{string-length} before parsing with \texttt{[MNn] [D1] [Y0001]},
+and bare years are completed to 1~January. Values matching none of the
+patterns are left empty, so no invalid dates are produced. For Amazon, the
+date is matched with a regular expression and converted with
+\texttt{parse-date}. % TODO: DBpedia
+
+Completing year-only values to 1~January makes these dates look more precise
+than they are. In Amazon, 17.6\% of the dates fall on 1~January, which
+suggests that the source itself fills unknown days with this default.
+
+\subsection{Numeric Values and Further Problems}
+A single invalid value in an \texttt{xs:integer} or \texttt{xs:decimal} field
+makes MapForce abort the transformation. We therefore read numeric fields as
+strings and convert them with UDFs. \texttt{Safe\_Number} converts the
+Goodreads price only if it is a valid number; malformed values such as
+1.189.88 (12 records) and 14,365 empty values are omitted, leaving 38,101
+valid prices. \texttt{Page\_Count} extracts the number from values such as
+``1 page'' (23 records), so that 50,131 Goodreads records carry a page count.
+Splitting Amazon genres produced empty tokens, which we removed with a
+filter. Finally, some Goodreads award strings contain escaped HTML entities
+(\texttt{\&amp;}) that already exist in the source CSV; since they do not
+affect matching, we left them unchanged.
+
 \end{document}
