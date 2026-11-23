@@ -249,6 +249,17 @@ resolution and union-based fusion of genres. Compared with our proposal,
 distinguish editions of the same work, and the full publication date is kept
 instead of only the year.
 
+The \texttt{series} attribute remains in the target schema but is filled
+only from Goodreads, the only source with a dedicated field (23,469
+records, 44.7\%). In Amazon, 38.4\% of the titles contain brackets, but only
+a small share (about 3\%) clearly looks like a numbered series; most
+brackets describe the edition instead, such as ``Spanish Edition'' or
+``Random House Large Print''. In DBpedia, 21.3\% of the titles contain
+brackets, almost exclusively Wikipedia disambiguations such as ``(novel)''
+(6,446) or ``(book)'' (1,857). Since the series cannot be extracted
+reliably for Amazon and DBpedia, we do not use it for identity resolution
+or data fusion.
+
 \subsection{Mappings}
 We implemented one Altova MapForce mapping per source. Goodreads and Amazon
 are read as CSV files, DBpedia as the XML file produced by our SPARQL download
