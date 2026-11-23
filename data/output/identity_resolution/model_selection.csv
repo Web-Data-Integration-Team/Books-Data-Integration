@@ -4,7 +4,7 @@ goodreads_amazon,RandomForest,0.8922119020220286,0.8970588235294118,0.9104477611
 goodreads_amazon,GradientBoosting,0.9022793377954977,0.9104477611940298,0.9104477611940298,0.9104477611940298,"{'learning_rate': 0.05, 'max_depth': 2, 'n_estimators': 200}"
 goodreads_amazon,Rule baseline,,0.7457627118644068,0.6567164179104478,0.6984126984126984,{'threshold': 0.99}
 goodreads_dbpedia,LogisticRegression,0.7488887516977405,0.6962025316455697,0.7857142857142857,0.738255033557047,"{'C': 1.0, 'class_weight': 'balanced'}"
-goodreads_dbpedia,RandomForest,0.8041674833424075,0.725,0.8285714285714286,0.7733333333333333,"{'class_weight': 'balanced', 'max_depth': 10, 'n_estimators': 300}"
+goodreads_dbpedia,RandomForest,0.8041259700063685,0.7283950617283951,0.8428571428571429,0.7814569536423841,"{'class_weight': 'balanced', 'max_depth': 10, 'n_estimators': 100}"
 goodreads_dbpedia,GradientBoosting,0.7978457275900709,0.7397260273972602,0.7714285714285715,0.7552447552447552,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}"
 goodreads_dbpedia,Rule baseline,,0.46616541353383456,0.8857142857142857,0.6108374384236454,{'threshold': 0.65}
 amazon_dbpedia,LogisticRegression,0.7476423562843919,0.7916666666666666,0.6666666666666666,0.7238095238095238,"{'C': 10.0, 'class_weight': None}"
