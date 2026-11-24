@@ -1,0 +1,21 @@
+entity,cluster size,attribute,true,found in cluster,found in,goodreads,amazon,dbpedia
+amazon_id_12559,2,page_count,320.0,False,,352.0,352.0,
+amazon_id_15673,2,publisher,Pocket Books,False,,Gallery Books,Gallery Books,
+amazon_id_21101,2,page_count,321.0,False,,,336.0,336.0
+amazon_id_29139,2,page_count,437.0,False,,422.0,448.0,
+amazon_id_31645,2,page_count,439.0,False,,391.0,448.0,
+amazon_id_32034,2,page_count,261.0,False,,246.0,344.0,
+amazon_id_32719,2,page_count,324.0,False,,,336.0,336.0
+amazon_id_3589,2,page_count,420.0,False,,432.0,432.0,
+amazon_id_39987,2,page_count,358.0,False,,368.0,368.0,
+amazon_id_4065,3,publisher,Pocket Books,False,,MTV Books/Pocket Books,MTV Books,Gallery Publishing Group
+amazon_id_7012,2,page_count,431.0,False,,,448.0,448.0
+dbpedia_id_19007,2,title,Hush,False,,Hush: An Irish Princess' Tale,,Hush: An Irish Princess' Tale
+dbpedia_id_2714,2,page_count,316.0,False,,336.0,,
+dbpedia_id_27788,2,publication_date,1994,False,,,,
+dbpedia_id_29362,2,page_count,373.0,False,,365.0,,384.0
+dbpedia_id_31382,2,page_count,241.0,False,,255.0,,
+dbpedia_id_3499,2,page_count,422.0,False,,432.0,,432.0
+dbpedia_id_47159,2,title,Corpus Delicti,False,,Corpus Delicti. Ein Prozess,,The Method
+dbpedia_id_48916,2,publisher,Amulet Books,False,,Harry N. Abrams,,Abrams Books
+dbpedia_id_55405,2,title,Trinity,False,,Trinity: A Graphic History of the First Atomic Bomb,,Trinity: A Graphic History of the First Atomic Bomb

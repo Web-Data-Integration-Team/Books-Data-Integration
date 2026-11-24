@@ -1,0 +1,25 @@
+entity,dataset,id,title_raw,authors_author,publisher,page_count,format,edition
+dbpedia_id_19007,goodreads,goodreads_id_16987,Hush: An Irish Princess' Tale,['Donna Jo Napoli'],Atheneum Books for Young Readers,309.0,Hardcover,
+dbpedia_id_19007,dbpedia,dbpedia_id_19007,Hush: An Irish Princess' Tale,['Donna Jo Napoli'],Atheneum,308.0,,
+dbpedia_id_14965,goodreads,goodreads_id_30702,Flat Stanley His Original Adventure,['Jeff Brown'],,80.0,,
+dbpedia_id_14965,dbpedia,dbpedia_id_14965,Flat Stanley,['Jeff Brown'],Egmont Group,,,
+dbpedia_id_47159,goodreads,goodreads_id_11744,Corpus Delicti. Ein Prozess,['Juli Zeh'],Schöffling,264.0,Hardcover,
+dbpedia_id_47159,dbpedia,dbpedia_id_47159,The Method (novel),['Juli Zeh'],Schöffling & Co.,263.0,,
+amazon_id_29139,goodreads,goodreads_id_7760,A Faint Cold Fear,['Karin Slaughter'],HarperTorch,422.0,Paperback,
+amazon_id_29139,amazon,amazon_id_29139,"A Faint Cold Fear (Grant County, No 3)",['Karin Slaughter'],HarperTorch,448.0,Mass Market Paperback,Reprint edition
+amazon_id_408,amazon,amazon_id_408,A Gentleman in Moscow: A Novel,['Amor Towles'],Viking,480.0,Hardcover,1st edition
+amazon_id_408,dbpedia,dbpedia_id_926,A Gentleman in Moscow,['Amor Towles'],Viking Press,462.0,,
+amazon_id_18522,goodreads,goodreads_id_2958,"Hyperbole and a Half: Unfortunate Situations, Flawed Coping Mechanisms, Mayhem, and Other Things That Happened",['Allie Brosh'],Gallery Books,371.0,Paperback,
+amazon_id_18522,amazon,amazon_id_18522,"Hyperbole and a Half: Unfortunate Situations, Flawed Coping Mechanisms, Mayhem, and Other Things That Happened",['Allie Brosh'],Touchstone Books,369.0,Paperback,
+dbpedia_id_45704,goodreads,goodreads_id_18741,The Last Dog on Earth,['Daniel Ehrenhaft'],Dell Yearling Random House,234.0,Paperback,
+dbpedia_id_45704,dbpedia,dbpedia_id_45704,The Last Dog on Earth,['Daniel Ehrenhaft'],Random House,240.0,,
+dbpedia_id_26827,goodreads,goodreads_id_10666,My Life with the Walter Boys,"['Ali Novak', 'Fallzswimmer']",Sourcebooks Fire,368.0,Kindle Edition,
+dbpedia_id_26827,dbpedia,dbpedia_id_26827,My Life with the Walter Boys (novel),['Ali Novak'],Sourcebooks (publisher),358.0,,
+dbpedia_id_29386,goodreads,goodreads_id_15632,Silver on the Tree,['Susan Cooper'],Margaret K. McElderry Books,274.0,Paperback,
+dbpedia_id_29386,dbpedia,dbpedia_id_29386,"Over Sea, Under Stone",['Susan Cooper'],,252.0,,
+dbpedia_id_29362,goodreads,goodreads_id_27826,Outlaw,['Angus Donald'],Sphere,365.0,Paperback,
+dbpedia_id_29362,dbpedia,dbpedia_id_29362,Outlaw (novel),['Angus Donald'],"Little, Brown and Company",384.0,,
+amazon_id_39987,goodreads,goodreads_id_4689,If We Were Villains,['M.L. Rio'],Flatiron Books,368.0,Hardcover,
+amazon_id_39987,amazon,amazon_id_39987,If We Were Villains: A Novel,['M. L. Rio'],Flatiron Books,368.0,Hardcover,First Edition
+dbpedia_id_27788,goodreads,goodreads_id_22060,Doctor Who: No Future,['Paul Cornell'],Virgin Publishing,272.0,Paperback,1st
+dbpedia_id_27788,dbpedia,dbpedia_id_27788,No Future (novel),['Paul Cornell'],Virgin Books,,,

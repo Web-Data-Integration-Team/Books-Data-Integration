@@ -1,53 +1,53 @@
 attribute,function,trust order,strict,tolerant
-title,longest_string,-,0.84,0.92
-title,shortest_string,-,0.92,0.92
-title,voting,-,0.92,0.96
-title,prefer_higher_trust,goodreads > amazon > dbpedia,0.92,0.96
-title,prefer_higher_trust,goodreads > dbpedia > amazon,0.92,0.96
-title,prefer_higher_trust,amazon > goodreads > dbpedia,0.88,0.92
-title,prefer_higher_trust,amazon > dbpedia > goodreads,0.88,0.92
-title,prefer_higher_trust,dbpedia > goodreads > amazon,0.88,0.92
-title,prefer_higher_trust,dbpedia > amazon > goodreads,0.84,0.88
-authors_author,union,-,0.88,0.92
-authors_author,intersection,-,0.84,0.84
-authors_author,intersection_k_sources,-,0.84,0.84
-authors_author,prefer_higher_trust,goodreads > amazon > dbpedia,0.88,0.92
-authors_author,prefer_higher_trust,goodreads > dbpedia > amazon,0.92,0.96
-authors_author,prefer_higher_trust,amazon > goodreads > dbpedia,0.96,0.96
-authors_author,prefer_higher_trust,amazon > dbpedia > goodreads,0.92,0.92
-authors_author,prefer_higher_trust,dbpedia > goodreads > amazon,0.88,0.92
-authors_author,prefer_higher_trust,dbpedia > amazon > goodreads,0.96,0.96
-publisher,longest_string,-,0.4,0.72
-publisher,voting,-,0.56,0.76
-publisher,prefer_higher_trust,goodreads > amazon > dbpedia,0.56,0.76
-publisher,prefer_higher_trust,goodreads > dbpedia > amazon,0.56,0.76
-publisher,prefer_higher_trust,amazon > goodreads > dbpedia,0.56,0.8
-publisher,prefer_higher_trust,amazon > dbpedia > goodreads,0.4,0.68
-publisher,prefer_higher_trust,dbpedia > goodreads > amazon,0.4,0.64
-publisher,prefer_higher_trust,dbpedia > amazon > goodreads,0.4,0.68
-publisher,publisher_vote,goodreads > amazon > dbpedia,0.44,0.76
-publisher,publisher_vote,goodreads > dbpedia > amazon,0.44,0.76
-publisher,publisher_vote,amazon > goodreads > dbpedia,0.48,0.8
-publisher,publisher_vote,amazon > dbpedia > goodreads,0.4,0.68
-publisher,publisher_vote,dbpedia > goodreads > amazon,0.36,0.64
-publisher,publisher_vote,dbpedia > amazon > goodreads,0.4,0.68
-publication_date,voting,-,0.76,0.76
-publication_date,earliest,-,0.68,0.68
-publication_date,most_recent,-,0.76,0.76
-publication_date,prefer_higher_trust,goodreads > amazon > dbpedia,0.76,0.76
-publication_date,prefer_higher_trust,goodreads > dbpedia > amazon,0.76,0.76
-publication_date,prefer_higher_trust,amazon > goodreads > dbpedia,0.76,0.76
-publication_date,prefer_higher_trust,amazon > dbpedia > goodreads,0.68,0.68
-publication_date,prefer_higher_trust,dbpedia > goodreads > amazon,0.68,0.68
-publication_date,prefer_higher_trust,dbpedia > amazon > goodreads,0.68,0.68
-page_count,median,-,0.17391304347826086,0.5217391304347826
-page_count,average,-,0.13043478260869565,0.5217391304347826
-page_count,maximum,-,0.17391304347826086,0.391304347826087
-page_count,minimum,-,0.30434782608695654,0.5652173913043478
-page_count,voting,-,0.21739130434782608,0.5217391304347826
-page_count,prefer_higher_trust,goodreads > amazon > dbpedia,0.21739130434782608,0.5217391304347826
-page_count,prefer_higher_trust,goodreads > dbpedia > amazon,0.2608695652173913,0.5652173913043478
-page_count,prefer_higher_trust,amazon > goodreads > dbpedia,0.17391304347826086,0.43478260869565216
-page_count,prefer_higher_trust,amazon > dbpedia > goodreads,0.2608695652173913,0.43478260869565216
-page_count,prefer_higher_trust,dbpedia > goodreads > amazon,0.30434782608695654,0.5217391304347826
-page_count,prefer_higher_trust,dbpedia > amazon > goodreads,0.2608695652173913,0.43478260869565216
+title,longest_string,-,0.625,0.7083333333333334
+title,shortest_string,-,0.875,0.875
+title,voting,-,0.75,0.75
+title,prefer_higher_trust,goodreads > amazon > dbpedia,0.75,0.75
+title,prefer_higher_trust,goodreads > dbpedia > amazon,0.75,0.75
+title,prefer_higher_trust,amazon > goodreads > dbpedia,0.75,0.75
+title,prefer_higher_trust,amazon > dbpedia > goodreads,0.7916666666666666,0.875
+title,prefer_higher_trust,dbpedia > goodreads > amazon,0.75,0.8333333333333334
+title,prefer_higher_trust,dbpedia > amazon > goodreads,0.75,0.8333333333333334
+authors_author,union,-,0.9166666666666666,0.9166666666666666
+authors_author,intersection,-,0.9166666666666666,0.9166666666666666
+authors_author,intersection_k_sources,-,0.9166666666666666,0.9166666666666666
+authors_author,prefer_higher_trust,goodreads > amazon > dbpedia,0.9583333333333334,0.9583333333333334
+authors_author,prefer_higher_trust,goodreads > dbpedia > amazon,0.9583333333333334,0.9583333333333334
+authors_author,prefer_higher_trust,amazon > goodreads > dbpedia,0.9166666666666666,0.9166666666666666
+authors_author,prefer_higher_trust,amazon > dbpedia > goodreads,0.9166666666666666,0.9166666666666666
+authors_author,prefer_higher_trust,dbpedia > goodreads > amazon,0.9583333333333334,0.9583333333333334
+authors_author,prefer_higher_trust,dbpedia > amazon > goodreads,0.9166666666666666,0.9166666666666666
+publisher,longest_string,-,0.3333333333333333,0.7916666666666666
+publisher,voting,-,0.5833333333333334,0.8333333333333334
+publisher,prefer_higher_trust,goodreads > amazon > dbpedia,0.5833333333333334,0.8333333333333334
+publisher,prefer_higher_trust,goodreads > dbpedia > amazon,0.5833333333333334,0.875
+publisher,prefer_higher_trust,amazon > goodreads > dbpedia,0.5833333333333334,0.8333333333333334
+publisher,prefer_higher_trust,amazon > dbpedia > goodreads,0.5,0.7916666666666666
+publisher,prefer_higher_trust,dbpedia > goodreads > amazon,0.4583333333333333,0.8333333333333334
+publisher,prefer_higher_trust,dbpedia > amazon > goodreads,0.4583333333333333,0.8333333333333334
+publisher,publisher_vote,goodreads > amazon > dbpedia,0.4166666666666667,0.8333333333333334
+publisher,publisher_vote,goodreads > dbpedia > amazon,0.4583333333333333,0.875
+publisher,publisher_vote,amazon > goodreads > dbpedia,0.4166666666666667,0.8333333333333334
+publisher,publisher_vote,amazon > dbpedia > goodreads,0.4166666666666667,0.7916666666666666
+publisher,publisher_vote,dbpedia > goodreads > amazon,0.4583333333333333,0.8333333333333334
+publisher,publisher_vote,dbpedia > amazon > goodreads,0.4583333333333333,0.8333333333333334
+publication_date,voting,-,0.9583333333333334,0.9583333333333334
+publication_date,earliest,-,0.875,0.875
+publication_date,most_recent,-,0.9583333333333334,0.9583333333333334
+publication_date,prefer_higher_trust,goodreads > amazon > dbpedia,0.9583333333333334,0.9583333333333334
+publication_date,prefer_higher_trust,goodreads > dbpedia > amazon,0.9583333333333334,0.9583333333333334
+publication_date,prefer_higher_trust,amazon > goodreads > dbpedia,0.9583333333333334,0.9583333333333334
+publication_date,prefer_higher_trust,amazon > dbpedia > goodreads,0.9166666666666666,0.9166666666666666
+publication_date,prefer_higher_trust,dbpedia > goodreads > amazon,0.875,0.875
+publication_date,prefer_higher_trust,dbpedia > amazon > goodreads,0.875,0.875
+page_count,median,-,0.2608695652173913,0.6521739130434783
+page_count,average,-,0.2608695652173913,0.6956521739130435
+page_count,maximum,-,0.34782608695652173,0.5217391304347826
+page_count,minimum,-,0.5652173913043478,0.782608695652174
+page_count,voting,-,0.391304347826087,0.6521739130434783
+page_count,prefer_higher_trust,goodreads > amazon > dbpedia,0.391304347826087,0.6956521739130435
+page_count,prefer_higher_trust,goodreads > dbpedia > amazon,0.43478260869565216,0.7391304347826086
+page_count,prefer_higher_trust,amazon > goodreads > dbpedia,0.30434782608695654,0.5217391304347826
+page_count,prefer_higher_trust,amazon > dbpedia > goodreads,0.4782608695652174,0.5652173913043478
+page_count,prefer_higher_trust,dbpedia > goodreads > amazon,0.6086956521739131,0.7391304347826086
+page_count,prefer_higher_trust,dbpedia > amazon > goodreads,0.5217391304347826,0.6521739130434783

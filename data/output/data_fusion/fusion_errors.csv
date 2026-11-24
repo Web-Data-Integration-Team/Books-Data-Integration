@@ -1,78 +1,35 @@
 entity,attribute,cause,true,fused,goodreads,amazon,dbpedia,split
+amazon_id_12559,publisher,wrong value chosen,Penguin Books,NAL,NAL,Penguin Books,,test
 amazon_id_12559,page_count,true value in no source,320.0,352.0,352.0,352.0,,test
-dbpedia_id_3299,title,true value in no source,Miss Julie,Alone,,,Alone,dev
-dbpedia_id_3299,authors_author,true value in no source,['David French'],['August Strindberg'],,,['August Strindberg'],dev
-dbpedia_id_3299,publisher,no value in any source,Talonbooks,,,,,dev
-dbpedia_id_3299,publication_date,no value in any source,2006,,,,,dev
-dbpedia_id_3299,page_count,no value in any source,96.0,,,,,dev
-dbpedia_id_14095,authors_author,suspected identity-resolution error,['Kathleen George'],['Karin Slaughter'],['Karin Slaughter'],['Karin Slaughter'],['Kathleen George'],test
-dbpedia_id_14095,publication_date,suspected identity-resolution error,2004,2012-07-03,2012-07-03,2012-01-31,2004-01-01,test
-dbpedia_id_28903,publisher,wrong value chosen,HarperCollins,HarperCollinsChildren’sBooks,HarperCollinsChildren’sBooks,,HarperCollins,test
-dbpedia_id_28903,page_count,wrong value chosen,616.0,400.0,400.0,,616.0,test
-amazon_id_32034,authors_author,wrong value chosen,['Kristen Proby'],['Kristen Pro'],['Kristen Pro'],['Kristen Proby'],,dev
-amazon_id_32034,page_count,true value in no source,261.0,246.0,246.0,344.0,,dev
-amazon_id_29139,publisher,true value in no source,Harper,HarperTorch,HarperTorch,HarperTorch,,test
-amazon_id_29139,publication_date,true value in no source,2008,2004-07-27,2004-07-27,2004-07-27,,test
-amazon_id_29139,page_count,true value in no source,438.0,422.0,422.0,448.0,,test
-dbpedia_id_41263,title,true value in no source,Dead of Night,The Dead of Night,,,The Dead of Night,dev
-dbpedia_id_41263,authors_author,true value in no source,"['J. D. Robb', 'Mary Blayney', 'Ruth Ryan Langan', 'Mary Kay McComas']",['John Marsden'],,,['John Marsden'],dev
-dbpedia_id_41263,publisher,true value in no source,Jove Books,Pan Books,,,Pan Books,dev
-dbpedia_id_41263,publication_date,true value in no source,2007,1994-01-01,,,1994-01-01,dev
-dbpedia_id_41263,page_count,true value in no source,394.0,271.0,,,271.0,dev
-dbpedia_id_14965,title,wrong value chosen,Flat Stanley,Flat Stanley His Original Adventure,Flat Stanley His Original Adventure,,Flat Stanley,dev
-dbpedia_id_14965,publisher,true value in no source,Harper,Egmont Group,,,Egmont Group,dev
-dbpedia_id_14965,publication_date,true value in no source,2009,1964-01-01,,,1964-01-01,dev
-dbpedia_id_14965,page_count,true value in no source,76.0,80.0,80.0,,,dev
-amazon_id_11992,authors_author,true value in no source,"['Vince Mills', 'Kyle Flynn']",['Vince Flynn'],,['Vince Flynn'],,dev
-amazon_id_11992,publisher,no value in any source,Simon & Schuster,,,,,dev
-amazon_id_11992,publication_date,no value in any source,2020,,,,,dev
-dbpedia_id_33572,title,wrong value chosen,Schuyler's Monster,Schuyler's Monster: A Father's Journey with His Wordless Daughter,Schuyler's Monster: A Father's Journey with His Wordless Daughter,,Schuyler's Monster,test
-dbpedia_id_29386,publication_date,suspected identity-resolution error,2013,2000-12-01,2000-12-01,,,test
-dbpedia_id_29386,page_count,suspected identity-resolution error,334.0,252.0,274.0,,252.0,test
-dbpedia_id_26827,authors_author,wrong value chosen,['Ali Novak'],"['Ali Novak', 'Fallzswimmer']","['Ali Novak', 'Fallzswimmer']",,['Ali Novak'],test
-dbpedia_id_26827,publication_date,true value in no source,2019,2014-03-01,2014-03-01,,2014-03-01,test
-dbpedia_id_26827,page_count,true value in no source,400.0,358.0,368.0,,358.0,test
-amazon_id_18522,publisher,wrong value chosen,Gallery Books,Touchstone Books,Gallery Books,Touchstone Books,,test
-amazon_id_18522,publication_date,true value in no source,2019,2013-10-29,2013-10-29,2013-01-01,,test
-amazon_id_21101,page_count,true value in no source,321.0,336.0,,336.0,336.0,dev
-dbpedia_id_48916,publisher,true value in no source,Amulet Books,Harry N. Abrams,Harry N. Abrams,,Abrams Books,dev
-dbpedia_id_43574,publisher,true value in no source,Bloomsbury Children's Books,Bloomsbury USA Childrens,Bloomsbury USA Childrens,,Bloomsbury Publishing,test
-dbpedia_id_52098,title,true value in no source,The Dain Curse,The Thin Man,,,The Thin Man,test
-dbpedia_id_52098,publisher,no value in any source,Orion Books,,,,,test
-dbpedia_id_52098,publication_date,true value in no source,2002,1934-01-01,,,1934-01-01,test
-dbpedia_id_52098,page_count,true value in no source,250.0,259.0,,,259.0,test
-dbpedia_id_14216,page_count,true value in no source,211.0,224.0,,,224.0,test
-amazon_id_33612,publication_date,true value in no source,2008,2007-09-06,2007-09-06,2007-09-06,2007-09-06,test
-amazon_id_39987,publication_date,true value in no source,2024,2017-04-11,2017-04-11,2017-04-11,,dev
-amazon_id_39987,page_count,true value in no source,358.0,368.0,368.0,368.0,,dev
-amazon_id_15673,title,wrong value chosen,The Millionaire Next Door,The Millionaire Next Door: The Surprising Secrets of America's Wealthy,The Millionaire Next Door: The Surprising Secrets of America's Wealthy,The Millionaire Next Door,,test
-amazon_id_15673,publisher,true value in no source,Pocket Books,Gallery Books,Gallery Books,Gallery Books,,test
-dbpedia_id_31382,page_count,true value in no source,241.0,255.0,255.0,,,test
-amazon_id_408,publisher,true value in no source,Windmill Books,Viking,,Viking,Viking Press,dev
-amazon_id_408,publication_date,true value in no source,2021,2016-09-06,,2016-09-06,2016-09-06,dev
-dbpedia_id_19007,publisher,true value in no source,Simon Pulse,Atheneum Books for Young Readers,Atheneum Books for Young Readers,,Atheneum,test
-dbpedia_id_19007,page_count,true value in no source,340.0,308.0,309.0,,308.0,test
-amazon_id_28794,publication_date,suspected identity-resolution error,2010,2006-08-29,2006-08-29,2006-08-29,2001-01-01,dev
-dbpedia_id_47159,publication_date,suspected identity-resolution error,2016,2009-02-20,2009-02-20,,2009-01-01,dev
-dbpedia_id_47159,page_count,suspected identity-resolution error,272.0,263.0,264.0,,263.0,dev
-dbpedia_id_55988,publisher,true value in no source,Broadway Books,Chronicle Books,,,Chronicle Books,dev
-dbpedia_id_55988,publication_date,true value in no source,1999,1996-09-01,,,1996-09-01,dev
-dbpedia_id_55988,page_count,true value in no source,337.0,299.0,,,299.0,dev
-amazon_id_4065,publisher,true value in no source,Pocket Books,MTV Books,MTV Books/Pocket Books,MTV Books,Gallery Publishing Group,dev
-amazon_id_7012,page_count,true value in no source,431.0,448.0,,448.0,448.0,dev
+dbpedia_id_28903,publisher,wrong value chosen,HarperCollins,HarperCollinsChildren’sBooks,HarperCollinsChildren’sBooks,,HarperCollins,dev
+dbpedia_id_28903,page_count,wrong value chosen,616.0,400.0,400.0,,616.0,dev
+amazon_id_38872,title,wrong value chosen,The Caller,Caller,The Caller,Caller,,dev
+amazon_id_32034,authors_author,wrong value chosen,['Kristen Proby'],['Kristen Pro'],['Kristen Pro'],['Kristen Proby'],,test
+amazon_id_32034,publisher,wrong value chosen,Ampersand Enterprises,Ampersand Publishing,Ampersand Publishing,Ampersand Enterprises,,test
+amazon_id_32034,page_count,true value in no source,261.0,246.0,246.0,344.0,,test
+amazon_id_29139,page_count,true value in no source,437.0,422.0,422.0,448.0,,dev
+dbpedia_id_26827,authors_author,wrong value chosen,['Ali Novak'],"['Ali Novak', 'Fallzswimmer']","['Ali Novak', 'Fallzswimmer']",,['Ali Novak'],dev
+amazon_id_21101,publisher,wrong value chosen,Dutton,E. P. Dutton,,Dutton,E. P. Dutton,test
+amazon_id_21101,page_count,true value in no source,321.0,336.0,,336.0,336.0,test
+dbpedia_id_48916,publisher,true value in no source,Amulet Books,Harry N. Abrams,Harry N. Abrams,,Abrams Books,test
+amazon_id_39987,page_count,true value in no source,358.0,368.0,368.0,368.0,,test
+amazon_id_15673,publisher,true value in no source,Pocket Books,Gallery Books,Gallery Books,Gallery Books,,dev
+dbpedia_id_55405,title,true value in no source,Trinity,Trinity: A Graphic History of the First Atomic Bomb,Trinity: A Graphic History of the First Atomic Bomb,,Trinity: A Graphic History of the First Atomic Bomb,dev
+dbpedia_id_31382,page_count,true value in no source,241.0,255.0,255.0,,,dev
+dbpedia_id_19007,title,true value in no source,Hush,Hush: An Irish Princess' Tale,Hush: An Irish Princess' Tale,,Hush: An Irish Princess' Tale,dev
+dbpedia_id_19007,publisher,wrong value chosen,Atheneum,Atheneum Books for Young Readers,Atheneum Books for Young Readers,,Atheneum,dev
+dbpedia_id_47159,title,suspected identity-resolution error,Corpus Delicti,The Method,Corpus Delicti. Ein Prozess,,The Method,test
+amazon_id_4065,publisher,true value in no source,Pocket Books,MTV Books/Pocket Books,MTV Books/Pocket Books,MTV Books,Gallery Publishing Group,test
+amazon_id_7012,authors_author,wrong value chosen,"['James Patterson', 'David Ellis']",['James Patterson'],,['James Patterson'],"['James Patterson', 'David Ellis']",test
+amazon_id_7012,page_count,true value in no source,431.0,448.0,,448.0,448.0,test
 dbpedia_id_3499,page_count,true value in no source,422.0,432.0,432.0,,432.0,dev
+amazon_id_31645,publisher,wrong value chosen,G.P. Putnam's Sons,Putnam,Putnam,G. P. Putnam's Sons,,test
 amazon_id_31645,page_count,true value in no source,439.0,391.0,391.0,448.0,,test
+amazon_id_32719,publisher,wrong value chosen,Dutton,E. P. Dutton,,Dutton,E. P. Dutton,test
 amazon_id_32719,page_count,true value in no source,324.0,336.0,,336.0,336.0,test
 dbpedia_id_34457,publisher,wrong value chosen,"Little, Brown and Company","Little, Brown Books for Young Readers","Little, Brown Books for Young Readers",,"Little, Brown and Company",test
 dbpedia_id_2714,page_count,true value in no source,316.0,336.0,336.0,,,dev
-amazon_id_3589,page_count,true value in no source,420.0,432.0,432.0,432.0,,dev
-dbpedia_id_27788,title,wrong value chosen,No Future,Doctor Who: No Future,Doctor Who: No Future,,No Future,test
-dbpedia_id_27788,publisher,true value in no source,Doctor Who Books,Virgin Publishing,Virgin Publishing,,Virgin Books,test
-dbpedia_id_27788,publication_date,no value in any source,1994,,,,,test
-amazon_id_19576,publisher,wrong value chosen,Penguin Books,Penguin Classics,Penguin Books,Penguin Classics,,test
+amazon_id_3589,page_count,true value in no source,420.0,432.0,432.0,432.0,,test
+dbpedia_id_27788,publication_date,no value in any source,1994,,,,,dev
 amazon_id_1766,publisher,wrong value chosen,William Morrow,William Morrow Paperbacks,William Morrow Paperbacks,William Morrow Paperbacks,William Morrow and Company,test
-amazon_id_7026,publisher,wrong value chosen,Jove Books,Berkley,,Berkley,Jove Books,dev
-dbpedia_id_29362,publication_date,true value in no source,2014,2009-07-15,2009-07-15,,2009-07-10,dev
-dbpedia_id_29362,page_count,true value in no source,400.0,365.0,365.0,,384.0,dev
-dbpedia_id_45704,publisher,true value in no source,Random House Children's Books,Dell Yearling Random House,Dell Yearling Random House,,Random House,test
-dbpedia_id_45704,publication_date,true value in no source,2009,2003-02-11,,,2003-02-11,test
+dbpedia_id_29362,page_count,true value in no source,373.0,365.0,365.0,,384.0,test

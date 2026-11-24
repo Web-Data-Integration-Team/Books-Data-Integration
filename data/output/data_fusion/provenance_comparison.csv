@@ -1,8 +1,8 @@
 ,no provenance,no provenance,no provenance,provenance,provenance,provenance,difference
 ,function,dev,test,function,dev,test,test
 attribute,,,,,,,
-title,voting,0.96,0.8928571428571429,prefer_higher_trust (goodreads > amazon > dbpedia),0.96,0.8571428571428571,-0.03571428571428581
-authors_author,union,0.92,0.9285714285714286,prefer_higher_trust (goodreads > dbpedia > amazon),0.96,0.9285714285714286,0.0
-publisher,voting,0.76,0.6071428571428571,prefer_higher_trust (amazon > goodreads > dbpedia),0.8,0.6071428571428571,0.0
-publication_date,voting,0.76,0.7142857142857143,prefer_higher_trust (goodreads > amazon > dbpedia),0.76,0.7142857142857143,0.0
-page_count,minimum,0.5652173913043478,0.6666666666666666,prefer_higher_trust (goodreads > dbpedia > amazon),0.5652173913043478,0.5925925925925926,-0.07407407407407407
+title,shortest_string,0.875,0.9583333333333334,prefer_higher_trust (amazon > dbpedia > goodreads),0.875,0.875,-0.08333333333333337
+authors_author,union,0.9166666666666666,0.9583333333333334,prefer_higher_trust (goodreads > amazon > dbpedia),0.9583333333333334,0.9166666666666666,-0.04166666666666674
+publisher,voting,0.8333333333333334,0.7083333333333334,prefer_higher_trust (goodreads > dbpedia > amazon),0.875,0.625,-0.08333333333333337
+publication_date,voting,0.9583333333333334,1.0,prefer_higher_trust (goodreads > amazon > dbpedia),0.9583333333333334,1.0,0.0
+page_count,minimum,0.782608695652174,0.6086956521739131,prefer_higher_trust (goodreads > dbpedia > amazon),0.7391304347826086,0.5652173913043478,-0.0434782608695653
