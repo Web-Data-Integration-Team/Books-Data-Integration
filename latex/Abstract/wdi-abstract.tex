@@ -356,4 +356,180 @@ filter. Finally, some Goodreads award strings contain escaped HTML entities
 (\texttt{\&amp;}) that already exist in the source CSV; since they do not
 affect matching, we left them unchanged.
 
+% =====================================================================
+\section{Phase 2: Identity Resolution}
+% Authors: Shiqi Xu (Gold Standard, Blocking, Learning-Based Matching, Global Matching),
+% Kejsi Limaci (Rule-Based Matching, Results and Error Analysis)
+% All numbers refer to commit 4daa279 (identity_resolution.ipynb). Do not re-run
+% the matching after this commit, otherwise the numbers and the fusion evaluation
+% set no longer match.
+
+We match each of the three dataset pairs separately with PyDI. The pipeline
+consists of a gold standard (Sect.~\ref{sec:gs}), blocking
+(Sect.~\ref{sec:blocking}), rule-based and learning-based matchers
+(Sect.~\ref{sec:rules}, \ref{sec:ml}), global one-to-one matching with a
+consistency check across the three pairs (Sect.~\ref{sec:global}) and an
+evaluation on held-out test pairs (Sect.~\ref{sec:irresults}).
+
+% ---------------------------------------------------------------- Shiqi
+\subsection{Gold Standard}\label{sec:gs}
+Since none of the sources links its records to the others, we derive the labels
+from the ISBN, which is not used by any matcher (weak supervision). Two records
+are labelled as a match if they share an ISBN-13. Following the lecture, the
+gold standard contains matches and non-matches of different difficulty
+(Table~\ref{tab:gs}): \emph{random matches}; \emph{corner-case matches}, whose
+titles differ strongly (word Jaccard $<0.5$, e.g.\ a subtitle or a series name
+in only one source); \emph{corner-case non-matches}, i.e.\ different editions of
+the same work (same normalised title and author, different ISBN); and
+\emph{random non-matches}. The random non-matches are drawn from pairs by the
+same author instead of from all pairs, because completely random pairs are
+trivially different and would make the evaluation too optimistic (selection
+bias).
+
+\begin{table}[htbp]
+\centering
+\caption{Gold standard per dataset pair (after the manual check).}
+\label{tab:gs}
+\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+ & \multicolumn{2}{c}{\textbf{Matches}} & \multicolumn{2}{c}{\textbf{Non-matches}} & & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+\textbf{Pair} & random & corner & corner & random & \textbf{Train} & \textbf{Test} \\
+\midrule
+Goodreads--Amazon  & 300 & 65  & 375 & 450 & 833 & 357 \\
+Goodreads--DBpedia & 245 & 142 & 371 & 450 & 845 & 363 \\
+Amazon--DBpedia    & 258 & 59  & 371 & 450 & 796 & 342 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+An ISBN is not a perfect label, so we checked 1,428 sampled pairs. Of 1,112
+ISBN-based matches, 239 (21\%) did not describe the same edition, while only 8
+of 316 non-matches were wrong. The main reason is DBpedia: its infobox describes
+the first edition, but the ISBN often belongs to a later edition, so a shared
+ISBN does not mean that the two records describe the same edition (108 of the
+249 removed pairs). Other errors were different books with a shared ISBN (e.g.\
+a box set and a single volume) and translations. The 249 wrong pairs are listed
+in \texttt{excluded\_pairs.csv} and removed. Each gold standard is split
+70/30 into training and test set; 25\% of the training pairs serve as
+validation set for all choices (model, hyperparameters, threshold), so the test
+set is used only once.
+
+\subsection{Blocking}\label{sec:blocking}
+Without blocking, each pair would require up to $3.1\cdot10^9$ comparisons.
+We combine three exact-key blockers: the surname of the first author, the
+cleaned title, and the cleaned title before a colon, matched against the full
+title of the other source (``Mockingjay: The Final Book'' vs.\
+``Mockingjay''). A pair becomes a candidate if it shares at least one key.
+Table~\ref{tab:blocking} shows that the title alone loses up to half of the
+matches, because titles differ in subtitles, series names and DBpedia
+disambiguations, while the union keeps 96--99\% of them with a reduction ratio
+above 99.9\%. The remaining loss consists mostly of author names written
+differently (initials, transliterations) together with a changed title. These
+matches count as false negatives in all results below.
+
+\begin{table}[htbp]
+\centering
+\caption{Blocking: pair completeness (PC) and number of candidates.}
+\label{tab:blocking}
+\footnotesize
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Pair} & \textbf{PC title} & \textbf{PC union} & \textbf{Candidates (union)} \\
+\midrule
+Goodreads--Amazon  & 72.4\% & 99.3\% & 1,315,284 \\
+Goodreads--DBpedia & 53.4\% & 97.8\% & 1,071,227 \\
+Amazon--DBpedia    & 65.4\% & 96.1\% & 1,212,964 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ---------------------------------------------------------------- Kejsi
+\subsection{Rule-Based Matching}\label{sec:rules}
+% TODO Kejsi (about half a page):
+% - baseline rule (which comparators, threshold chosen on validation)
+% - tuned linear weighted rule: weight grid, threshold, publisher_norm decision
+% - non-linear rule: gate idea and variants
+% - one sentence why rules struggle on the DBpedia pairs (test F1 in Table ref{tab:irresults})
+
+% ---------------------------------------------------------------- Shiqi
+\subsection{Learning-Based Matching}\label{sec:ml}
+Each candidate pair is described by 16 similarity features: Jaro-Winkler and
+Levenshtein on the cleaned title, word Jaccard on the full title, Jaro-Winkler
+on the title before the colon and on the first author and Jaccard on the author lists,
+Jaccard on the cleaned and on the normalised publisher, the absolute year
+difference (up to 10 years) and the relative page-count difference (up to
+50\%), and Jaro-Winkler on format and language. Since a missing value and a
+dissimilar value both yield a low similarity, four indicator features state
+whether year, page count, publisher and format are present in both records.
+We trained Logistic Regression, Random Forest and Gradient Boosting, tuned their
+hyperparameters by grid search with 5-fold stratified cross-validation on the
+training set (F1) and selected the model with the highest F1 on the validation
+set: Gradient Boosting for Goodreads--Amazon (validation F1 0.90) and Random
+Forest for the two DBpedia pairs (0.78 and 0.77). The tree ensembles outperform
+Logistic Regression mainly because the features interact: a high title
+similarity indicates a match only if year and page count also agree, otherwise
+it describes another edition of the same work.
+
+\subsection{Global Matching and Cluster Consistency}\label{sec:global}
+The lecture recommends local matching for duplicate detection within one source
+and global matching for sources without duplicates. Our sources are nearly
+duplicate-free at edition level: only 0.2\% of the Goodreads, 2.8\% of the
+Amazon and 0.8\% of the DBpedia records share an ISBN with another record of
+the same source. We therefore apply greedy one-to-one matching to the match
+probabilities; only the threshold (0.5--0.9) is tuned on the validation set.
+
+The gold standard cannot show how many wrong correspondences are produced
+outside the labelled pairs. As a plausibility check, we estimate the number of
+true matches from the shared ISBNs divided by the share of records with an ISBN
+in both sources (2,642, 6,590 and 2,854). Without the one-to-one constraint the
+matchers return 11,251, 17,465 and 5,801 correspondences, four times the
+estimate for Goodreads--Amazon, although the test F1 is similar or even higher
+for the DBpedia pairs (Table~\ref{tab:irresults}). With the constraint the
+numbers (4,146, 7,369 and 2,362) are much closer to the estimate.
+
+One-to-one matching holds within each pair, but chaining the three pairs still
+produced clusters with up to ten records (4.5\% of the clusters have four or
+more), i.e.\ two records of the same source were connected through a third
+record. Since each source lists an edition at most once, such a cluster contains
+at least one wrong correspondence. We therefore process all correspondences of
+the three pairs in descending order of their score and keep a correspondence
+only if it does not put two records of the same source into one cluster. This
+removes 3--6\% of the correspondences and costs about one point F1
+(Table~\ref{tab:irresults}), but guarantees that data fusion never merges two
+editions of the same source. The final 13,340 correspondences form 9,960
+clusters of size two and 1,433 of size three.
+
+% ---------------------------------------------------------------- Kejsi
+\subsection{Results and Error Analysis}\label{sec:irresults}
+
+\begin{table}[htbp]
+\centering
+\caption{Test results (F1; precision/recall for the final configuration).}
+\label{tab:irresults}
+\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrc}
+\toprule
+ & \multicolumn{2}{c}{\textbf{Rules}} & \multicolumn{3}{c}{\textbf{ML}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-6}
+\textbf{Pair} & linear & non-lin. & no 1:1 & 1:1 & 1:1 + cleanup: P / R / \textbf{F1} \\
+\midrule
+Goodreads--Amazon  & 0.765 & 0.774 & 0.851 & 0.851 & 0.961 / 0.753 / \textbf{0.844} \\
+Goodreads--DBpedia & 0.688 & 0.669 & 0.760 & 0.737 & 0.758 / 0.694 / \textbf{0.725} \\
+Amazon--DBpedia    & 0.535 & 0.547 & 0.804 & 0.750 & 0.843 / 0.663 / \textbf{0.742} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% TODO Kejsi (about three quarters of a page):
+% - compare rules vs. ML (Table ref{tab:irresults}); why the DBpedia pairs are hardest
+% - typical errors with one example each, e.g.
+%     * DBpedia first edition vs. later edition (label noise, see Sect. ref{sec:gs})
+%     * same title, different book/author (e.g. "Fallen" by K. George vs. K. Slaughter)
+%     * volumes of a series / omnibus editions
+%     * missing or damaged values (e.g. dates lost in the Goodreads source)
+% - recall loss: blocking (Table ref{tab:blocking}) + one-to-one + cleanup
+% - future work: e.g. more corner cases in training, edition-aware DBpedia handling
+
 \end{document}
