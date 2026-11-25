@@ -1,13 +1,13 @@
 attribute,function,trust order,strict,tolerant
-title,longest_string,-,0.6666666666666666,0.75
+title,longest_string,-,0.7083333333333334,0.75
 title,shortest_string,-,0.875,0.875
 title,voting,-,0.75,0.75
 title,prefer_higher_trust,goodreads > amazon > dbpedia,0.75,0.75
 title,prefer_higher_trust,goodreads > dbpedia > amazon,0.75,0.75
 title,prefer_higher_trust,amazon > goodreads > dbpedia,0.75,0.75
-title,prefer_higher_trust,amazon > dbpedia > goodreads,0.7916666666666666,0.875
-title,prefer_higher_trust,dbpedia > goodreads > amazon,0.7916666666666666,0.875
-title,prefer_higher_trust,dbpedia > amazon > goodreads,0.7916666666666666,0.875
+title,prefer_higher_trust,amazon > dbpedia > goodreads,0.8333333333333334,0.875
+title,prefer_higher_trust,dbpedia > goodreads > amazon,0.8333333333333334,0.875
+title,prefer_higher_trust,dbpedia > amazon > goodreads,0.8333333333333334,0.875
 authors_author,union,-,0.9166666666666666,0.9166666666666666
 authors_author,intersection,-,0.9166666666666666,0.9166666666666666
 authors_author,intersection_k_sources,-,0.9166666666666666,0.9166666666666666
