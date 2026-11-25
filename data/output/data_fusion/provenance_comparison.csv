@@ -5,4 +5,4 @@ title,shortest_string,0.875,0.9583333333333334,prefer_higher_trust (amazon > dbp
 authors_author,union,0.9166666666666666,0.9583333333333334,prefer_higher_trust (goodreads > amazon > dbpedia),0.9583333333333334,0.9166666666666666,-0.04166666666666674
 publisher,voting,0.8333333333333334,0.7083333333333334,prefer_higher_trust (goodreads > dbpedia > amazon),0.875,0.625,-0.08333333333333337
 publication_date,voting,0.9583333333333334,1.0,prefer_higher_trust (goodreads > amazon > dbpedia),0.9583333333333334,1.0,0.0
-page_count,minimum,0.782608695652174,0.6086956521739131,prefer_higher_trust (goodreads > dbpedia > amazon),0.7391304347826086,0.5652173913043478,-0.0434782608695653
+page_count,minimum,0.782608695652174,0.6521739130434783,prefer_higher_trust (goodreads > dbpedia > amazon),0.7391304347826086,0.6086956521739131,-0.04347826086956519

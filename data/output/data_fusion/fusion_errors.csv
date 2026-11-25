@@ -23,8 +23,7 @@ amazon_id_4065,publisher,true value in no source,Pocket Books,MTV Books/Pocket B
 amazon_id_7012,authors_author,wrong value chosen,"['James Patterson', 'David Ellis']",['James Patterson'],,['James Patterson'],"['James Patterson', 'David Ellis']",test
 amazon_id_7012,page_count,true value in no source,431.0,448.0,,448.0,448.0,test
 dbpedia_id_3499,page_count,true value in no source,422.0,432.0,432.0,,432.0,dev
-amazon_id_31645,publisher,wrong value chosen,G.P. Putnam's Sons,Putnam,Putnam,G. P. Putnam's Sons,,test
-amazon_id_31645,page_count,true value in no source,439.0,391.0,391.0,448.0,,test
+amazon_id_31645,publisher,suspected identity-resolution error,G.P. Putnam's Sons,Mira,Mira,G. P. Putnam's Sons,,test
 amazon_id_32719,publisher,wrong value chosen,Dutton,E. P. Dutton,,Dutton,E. P. Dutton,test
 amazon_id_32719,page_count,true value in no source,324.0,336.0,,336.0,336.0,test
 dbpedia_id_34457,publisher,wrong value chosen,"Little, Brown and Company","Little, Brown Books for Young Readers","Little, Brown Books for Young Readers",,"Little, Brown and Company",test

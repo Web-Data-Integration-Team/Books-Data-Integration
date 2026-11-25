@@ -1,13 +1,13 @@
 attribute,function,trust order,strict,tolerant
-title,longest_string,-,0.625,0.7083333333333334
+title,longest_string,-,0.6666666666666666,0.75
 title,shortest_string,-,0.875,0.875
 title,voting,-,0.75,0.75
 title,prefer_higher_trust,goodreads > amazon > dbpedia,0.75,0.75
 title,prefer_higher_trust,goodreads > dbpedia > amazon,0.75,0.75
 title,prefer_higher_trust,amazon > goodreads > dbpedia,0.75,0.75
 title,prefer_higher_trust,amazon > dbpedia > goodreads,0.7916666666666666,0.875
-title,prefer_higher_trust,dbpedia > goodreads > amazon,0.75,0.8333333333333334
-title,prefer_higher_trust,dbpedia > amazon > goodreads,0.75,0.8333333333333334
+title,prefer_higher_trust,dbpedia > goodreads > amazon,0.7916666666666666,0.875
+title,prefer_higher_trust,dbpedia > amazon > goodreads,0.7916666666666666,0.875
 authors_author,union,-,0.9166666666666666,0.9166666666666666
 authors_author,intersection,-,0.9166666666666666,0.9166666666666666
 authors_author,intersection_k_sources,-,0.9166666666666666,0.9166666666666666
@@ -32,14 +32,14 @@ publisher,publisher_vote,amazon > dbpedia > goodreads,0.4166666666666667,0.79166
 publisher,publisher_vote,dbpedia > goodreads > amazon,0.4583333333333333,0.8333333333333334
 publisher,publisher_vote,dbpedia > amazon > goodreads,0.4583333333333333,0.8333333333333334
 publication_date,voting,-,0.9583333333333334,0.9583333333333334
-publication_date,earliest,-,0.875,0.875
+publication_date,earliest,-,0.9166666666666666,0.9166666666666666
 publication_date,most_recent,-,0.9583333333333334,0.9583333333333334
 publication_date,prefer_higher_trust,goodreads > amazon > dbpedia,0.9583333333333334,0.9583333333333334
 publication_date,prefer_higher_trust,goodreads > dbpedia > amazon,0.9583333333333334,0.9583333333333334
 publication_date,prefer_higher_trust,amazon > goodreads > dbpedia,0.9583333333333334,0.9583333333333334
 publication_date,prefer_higher_trust,amazon > dbpedia > goodreads,0.9166666666666666,0.9166666666666666
-publication_date,prefer_higher_trust,dbpedia > goodreads > amazon,0.875,0.875
-publication_date,prefer_higher_trust,dbpedia > amazon > goodreads,0.875,0.875
+publication_date,prefer_higher_trust,dbpedia > goodreads > amazon,0.9166666666666666,0.9166666666666666
+publication_date,prefer_higher_trust,dbpedia > amazon > goodreads,0.9166666666666666,0.9166666666666666
 page_count,median,-,0.2608695652173913,0.6521739130434783
 page_count,average,-,0.2608695652173913,0.6956521739130435
 page_count,maximum,-,0.34782608695652173,0.5217391304347826
