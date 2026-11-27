@@ -1,0 +1,347 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{booktabs}
+
+\begin{document}
+
+% =====================================================================
+% Data fusion part: corrected paragraphs and additional tables
+% Needs: \usepackage{booktabs}, optionally \usepackage{graphicx} (for \resizebox)
+% All numbers are taken from data_fusion.ipynb. "TODO" = please verify.
+% =====================================================================
+
+
+% ---------------------------------------------------------------------
+% 1.1  Groups + preprocessing (new, short; put before "Provenance")
+% ---------------------------------------------------------------------
+\paragraph{Preparation.}
+Before fusion, titles and author lists are cleaned per source with the
+normalisation shared with identity resolution: trailing disambiguation, series and
+genre notes are removed from titles (changed for 2.0\,\% of the Goodreads,
+45.0\,\% of the Amazon and 23.7\,\% of the DBpedia records), and author lists are
+cleaned source-specifically, e.g.\ translators and illustrators are dropped from
+Goodreads lists and DBpedia disambiguations such as ``(writer)'' are removed
+(55.5\,\% of the Goodreads, 9.2\,\% of the DBpedia records). The original values
+are kept in \texttt{title\_raw} and \texttt{authors\_raw}. All 11,393 groups are
+clean (at most one record per dataset), so filtering suspicious groups would have
+no effect and all correspondences are used.
+
+
+% ---------------------------------------------------------------------
+% 1.1  Provenance (replaces the old paragraph)
+% ---------------------------------------------------------------------
+\paragraph{Provenance Metadata.}
+Two provenance elements are attached to every dataset: a trust score
+(\texttt{PRIOR\_TRUST}, data quality) and a dataset date
+(\texttt{DATASET\_DATE}, timeliness). As we had no prior knowledge about the
+reliability of the sources, all start with the same trust score of 1.0. Reliability
+was instead measured per attribute on the development set as the share of correct
+values among the values a source provides (Table~\ref{tab:reliability}). The
+resulting source order is passed to \texttt{prefer\_higher\_trust} and to our own
+\texttt{publisher\_vote} as an attribute-specific \texttt{trust\_map}, because the
+sources are good at different attributes: Amazon is by far the least reliable source
+for page counts (0.25), DBpedia the most reliable (0.81). For attributes without
+ground truth (price, language, format, edition, genres, awards) the order follows
+domain knowledge (Table~\ref{tab:strategy}).
+Amazon is assigned the year 2023 and DBpedia 2026 according to the websites of
+the datasets; since the collection date of Goodreads is unknown, its publication
+year (2020) is used. The dates are only used by \texttt{most\_recent}, which was
+tried for \texttt{publication\_date} (most book attributes are static after
+publication). The original record IDs of all fused records are retained
+(\texttt{\_fusion\_sources}) for traceability.
+
+\begin{table}[t]
+\centering
+\caption{Share of correct values per source (tolerant comparison, development
+set, only where the source has a value). Basis for the source orders.}
+\label{tab:reliability}
+\begin{tabular}{lccc}
+\toprule
+Attribute & Goodreads & Amazon & DBpedia \\
+\midrule
+title            & 0.71 & 0.90 & 0.89 \\
+authors\_author  & 0.95 & 0.90 & 0.95 \\
+publisher        & 0.85 & 0.80 & 0.84 \\
+publication\_date& 1.00 & 1.00 & 0.94 \\
+page\_count      & 0.70 & 0.25 & 0.81 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% ---------------------------------------------------------------------
+% 1.1  Density paragraph (replaces the old one; fixes Goodreads/DBpedia
+%      and the unfinished singleton sentence)
+% ---------------------------------------------------------------------
+\paragraph{Density.}
+Table~\ref{tab:density} shows the density of the input and the fused datasets; the
+last row is the unweighted mean over the 10 fused attributes. Goodreads and Amazon
+are dense (0.94 each), whereas DBpedia is much sparser (0.49) because it lacks
+\texttt{format}, \texttt{rating}, \texttt{ratings\_count} and \texttt{price}.
+The 151,748 input records are merged into 138,922 records (12,826 merged away),
+i.e.\ 79,652 additional entities (+134.4\,\%) compared to the largest input dataset
+(DBpedia, 59,270 records). The mean density rises from 0.492 to 0.776
+(+0.284), with the largest gains in the attributes DBpedia lacks (slot filling).
+It stays below that of Goodreads and Amazon because the integrated dataset also
+contains the 50,724 DBpedia-only records, which keep their low density (0.486).
+The 11,393 merged groups alone reach a density of 0.982, so slot filling was
+effective.
+
+
+% ---------------------------------------------------------------------
+% 1.1  Consistency: one clarifying sentence for the last paragraph
+% ---------------------------------------------------------------------
+% Replace "Overall, 91.2% ..." by:
+Overall, 91.2\,\% of the 11,393 merged groups contain at least one conflict across
+the ten attributes under the tolerant comparison (97.0\,\% with identical values),
+with on average 2.93 conflicting attributes per group. Conflict resolution is thus
+relevant for almost all merged groups.
+
+
+% ---------------------------------------------------------------------
+% 1.2  Evaluation set: construction (replaces the old "Construction")
+% ---------------------------------------------------------------------
+\paragraph{Construction.}
+The evaluation set contains 48 entities (238 values) for \texttt{title},
+\texttt{authors\_author}, \texttt{publisher}, \texttt{publication\_date} and
+\texttt{page\_count}. We exported 90 candidate groups in two batches (60 + 30),
+randomly sampled from the record groups with at least two conflicting attributes;
+the second batch was additionally restricted to groups whose records share an
+ISBN. % TODO: verify "79 looked up" (rows in the two filled CSVs: 51 + 28)
+79 candidates were looked up, and 48 of them could be verified with at least four
+attributes (\texttt{page\_count} was available for 46). Eleven candidates were
+dropped, e.g.\ because their group changed in the final identity-resolution run or
+because no matching WorldCat edition existed. Three retained entities
+changed their group after the final run: for two the ISBNs still show the same
+edition, one is a wrong match and counts as identity-resolution error.
+The true values were looked up manually in WorldCat via the ISBN. % TODO: keep only if true
+Where an ISBN referred to several editions, the edition matching year and
+publisher of the candidate was chosen.
+WorldCat is an independent global library catalogue with edition-level metadata and
+is more reliable than user-edited platforms such as Goodreads. The 48 entities
+were split evenly into a development set (function selection) and a test set
+(final evaluation), each with 24 entities and 119 values.
+
+
+% ---------------------------------------------------------------------
+% 1.2  Upper bound (replaces the last paragraph of 1.2; reconciles 19/17)
+% ---------------------------------------------------------------------
+For 19 of the 238 values (8.0\,\%) the true value does not occur in any record of
+the group (12 page counts, 3 publishers, 3 titles, 1 publication year), which
+bounds the accuracy of any extractive fusion rule by 92.0\,\% under tolerant
+matching. One of the three titles belongs to a suspected wrong match
+(Section~\ref{sec:errors}).
+
+
+% ---------------------------------------------------------------------
+% 1.3  Tested strategies (replaces "Tested Strategies and Custom Resolution
+%      Function" AND the first sentences of "Conflict Resolution Strategies")
+% ---------------------------------------------------------------------
+\paragraph{Tested Strategies and Custom Function.}
+For each evaluated attribute 4--6 conflict resolution functions of PyDI were
+compared (Table~\ref{tab:cr}): \texttt{longest\_string}, \texttt{shortest\_string}
+and \texttt{voting} for text, \texttt{union}, \texttt{intersection} and
+\texttt{intersection\_k\_sources} for author lists, \texttt{earliest} and
+\texttt{most\_recent} for dates, \texttt{median}, \texttt{average},
+\texttt{maximum} and \texttt{minimum} for page counts, and the provenance-aware
+\texttt{prefer\_higher\_trust}, which was tried with all six source orders because
+reliability differs per attribute. Additionally we implemented
+\texttt{publisher\_vote}, because standard voting treats spelling variants such as
+``Viking'' and ``Viking Press'' as different values. Our function votes over
+normalised publisher names (legal forms and generic words removed), breaks ties
+by source trust and returns the most frequent spelling of the winning group.
+For attributes without ground truth the functions were fixed by reasoning
+(Table~\ref{tab:strategy}): median for rating and ratings\_count, trust-based
+selection for price, language and format; for genres Goodreads first instead of a
+union, because the genre vocabularies hardly overlap (26.1\,\% of the matched
+groups share at least one genre, none has identical lists); Amazon first for
+edition (more complete) and Goodreads for awards (only source).
+
+
+% ---------------------------------------------------------------------
+% 1.3  Table: final strategy (new)
+% ---------------------------------------------------------------------
+\begin{table}[t]
+\centering
+\caption{Final strategy. G = Goodreads, A = Amazon, D = DBpedia; the order
+is the trust order of \texttt{prefer\_higher\_trust}.}
+\label{tab:strategy}
+\small
+\begin{tabular}{llll}
+\toprule
+Attribute & Function & Order & Chosen by \\
+\midrule
+title             & shortest\_string     & --        & dev grid \\
+authors\_author   & prefer\_higher\_trust& G > A > D & dev grid \\
+publisher         & prefer\_higher\_trust& G > D > A & dev grid \\
+publication\_date & voting               & --        & dev grid \\
+page\_count       & minimum              & --        & dev grid \\
+rating, ratings\_count & median          & --        & fixed \\
+price, format, language & prefer\_higher\_trust & A > G > D & fixed \\
+edition           & prefer\_higher\_trust& A > G > D & fixed \\
+genres, awards    & prefer\_higher\_trust& G > A > D & fixed \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% ---------------------------------------------------------------------
+% 1.3  Results text (replaces the paragraph after Table 3)
+% ---------------------------------------------------------------------
+On the test set the tolerant accuracy rises from 0.824 to 0.832 and the strict
+accuracy from 0.681 to 0.748 (Table~\ref{tab:final}). \texttt{title},
+\texttt{publication\_date} and the strict \texttt{page\_count} accuracy improve,
+whereas \texttt{authors\_author} (0.958 $\to$ 0.917) and \texttt{publisher}
+(0.667 $\to$ 0.625) are slightly worse than the baseline on the test set, and
+tolerant \texttt{page\_count} stays at 0.652. The custom \texttt{publisher\_vote}
+reached the same tolerant development accuracy as \texttt{prefer\_higher\_trust}
+(0.875), but a lower strict one (0.458 vs.\ 0.583), so the simpler function was
+selected.
+
+% ---------------------------------------------------------------------
+% 1.3  Table 4 extended (replaces Table 4: adds strict test accuracy)
+% ---------------------------------------------------------------------
+\begin{table}[t]
+\centering
+\caption{Accuracy of baseline (longest string, union, median) and final strategy.
+Dev/test tolerant, test additionally strict. Overall is weighted by the number
+of values (119 each).}
+\label{tab:final}
+\small
+\begin{tabular}{llcccccc}
+\toprule
+ & & \multicolumn{2}{c}{Dev (tol.)} & \multicolumn{2}{c}{Test (tol.)} & \multicolumn{2}{c}{Test (strict)} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+Attribute & Selected function & Base. & Final & Base. & Final & Base. & Final \\
+\midrule
+title       & shortest string    & 0.750 & 0.875 & 0.875 & 0.958 & 0.875 & 0.958 \\
+authors     & trust (G > A > D)  & 0.917 & 0.958 & 0.958 & 0.917 & 0.917 & 0.875 \\
+publisher   & trust (G > D > A)  & 0.792 & 0.875 & 0.667 & 0.625 & 0.458 & 0.458 \\
+pub.\ date  & voting             & 0.917 & 0.958 & 0.958 & 1.000 & 0.958 & 1.000 \\
+page count  & minimum            & 0.652 & 0.783 & 0.652 & 0.652 & 0.174 & 0.435 \\
+\midrule
+Overall     &                    & 0.807 & 0.891 & 0.824 & 0.832 & 0.681 & 0.748 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ---------------------------------------------------------------------
+% 1.3  Tolerant vs. strict (short paragraph, new)
+% ---------------------------------------------------------------------
+\paragraph{Strict vs.\ tolerant evaluation.}
+Strict accuracy compares exactly (after trimming and lower-casing); the tolerant
+one accepts title and author lists with word-Jaccard $\geq 0.8$, publishers with the
+same normalised name, publication dates in the same year (WorldCat provides only
+years in our evaluation set) and page counts within $\pm 2\,\%$.
+The tolerance cuts both ways: it accepts ``Dune'' vs.\ ``Dune (novel)'' and the
+false positive ``Penguin Books'' = ``Penguin Press'', but still rejects
+``Dutton'' vs.\ ``E.\ P.\ Dutton''.
+
+
+% ---------------------------------------------------------------------
+% 1.3  OPTIONAL: provenance vs. no provenance (test set)
+% ---------------------------------------------------------------------
+\begin{table}[t]
+\centering
+\caption{Best function without and with provenance (chosen on dev, tolerant
+accuracy on the test set).}
+\label{tab:prov}
+\small
+\begin{tabular}{lllcc}
+\toprule
+Attribute & Without provenance & With provenance & Test w/o & Test with \\
+\midrule
+title       & shortest\_string & trust (A > D > G) & 0.958 & 0.917 \\
+authors     & union            & trust (G > A > D) & 0.958 & 0.917 \\
+publisher   & voting           & trust (G > D > A) & 0.708 & 0.625 \\
+pub.\ date  & voting           & trust (G > A > D) & 1.000 & 1.000 \\
+page count  & minimum          & trust (G > D > A) & 0.652 & 0.609 \\
+\bottomrule
+\end{tabular}
+\end{table}
+% Text: Provenance-based functions did not outperform value-only functions on the
+% test set (differences of 0.04--0.08, i.e.\ one or two entities). The source
+% order chosen for publisher on dev (0.875 vs. 0.833 for voting) did not
+% generalise, which hints at overfitting to the small development set.
+%
+% NOTE: Table 4 (final) uses trust for authors/publisher, i.e. the dev-selected
+% function, not the better test function. Keep this wording consistent.
+
+
+% ---------------------------------------------------------------------
+% 1.4  Error analysis (replaces the whole section text)
+% ---------------------------------------------------------------------
+\subsection{Error Analysis and Pipeline Summary}\label{sec:errors}
+On the whole evaluation set (development and test, 238 values) 33 values remain
+wrong or missing, a tolerant accuracy of 86.1\,\% (the functions were chosen on the
+development half, so this number is slightly optimistic compared to the 83.2\,\%
+on the test half). Each error was assigned one cause (Table~\ref{tab:errors}).
+Most errors occur in \texttt{page\_count} (13) and \texttt{publisher} (12),
+followed by \texttt{title} (4), \texttt{authors\_author} (3) and
+\texttt{publication\_date} (1).
+
+\begin{table}[t]
+\centering
+\caption{Remaining errors per attribute and cause (whole evaluation set).}
+\label{tab:errors}
+\small
+\begin{tabular}{lcccc|c}
+\toprule
+Attribute & ID-res.\ error & No value & Wrong value chosen & True value in no source & Total \\
+\midrule
+title            & 1 & 0 & 1 & 2  & 4  \\
+authors\_author  & 0 & 0 & 3 & 0  & 3  \\
+publisher        & 1 & 0 & 8 & 3  & 12 \\
+publication\_date& 0 & 1 & 0 & 0  & 1  \\
+page\_count      & 0 & 0 & 1 & 12 & 13 \\
+\midrule
+Total            & 2 & 1 & 13 & 17 & 33 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Not solvable by fusion (18 errors).}
+In 17 cases the true value is in no source of the group, and in one case no source
+has a value at all. For \texttt{page\_count} (12 cases) the sources differ by
+3--7\,\% from WorldCat (e.g.\ 320 vs.\ 352, 261 vs.\ 246), caused by other printings
+or counting conventions; this exceeds the 2\,\% tolerance, and no fusion function
+can choose a value that does not exist. For \texttt{publisher} (3 cases) the
+sources name the parent publisher or a later imprint (e.g.\ Abrams vs.\ Amulet
+Books, Gallery Books vs.\ Pocket Books), which would need an external imprint
+mapping. For \texttt{title} (2 cases) all sources carry the subtitle while the
+reference has the main title only (``Hush: An Irish Princess' Tale'' vs.\
+``Hush'').
+
+\paragraph{Solvable in principle (13 errors).}
+All eight wrong \texttt{publisher} choices are naming variants where the true
+value is in a source: initials (``Dutton'' vs.\ ``E.\ P.\ Dutton''), imprint
+suffixes (``Atheneum'' vs.\ ``Atheneum Books for Young Readers'', ``William
+Morrow'' vs.\ ``William Morrow Paperbacks'') or merged spellings
+(``HarperCollinsChildren'sBooks''); better normalisation (initials, imprint terms,
+compound names like ``MTV Books/Pocket Books'') would resolve several of them.
+Two ties between two sources (NAL vs.\ Penguin Books) can only be decided by an
+imprint mapping. For \texttt{authors\_author}, a truncated name (``Kristen Pro'')
+could be detected by a prefix check, and a subset list (James Patterson only)
+by combining lists, whereas a username listed as co-author (``Fallzswimmer'') needs
+the opposite rule; with only two sources there is no majority, so no single
+rule fixes all three. The wrong title (``Caller'' instead of ``The Caller'') is a
+side effect of \texttt{shortest\_string} that article-aware normalisation would
+avoid, and the page count error (400 vs.\ 616) would be avoided by trusting DBpedia,
+the most reliable source for this attribute, but \texttt{minimum} was better on the
+development set overall. Such rules involve trade-offs and may introduce new errors.
+
+\paragraph{Identity resolution (2 errors).}
+For one entity the group contains records with different ISBNs, i.e.\ different
+editions; an ISBN consistency check in identity resolution would have prevented
+this match. The other pairs a German with an English title of the same work and
+needs a clearer definition of edition-level identity.
+
+Overall, some errors could be reduced by better normalisation, source selection
+and identity resolution, whereas missing or incompatible source values (18 of 33
+errors) cannot be fixed by the fusion strategy. Given the small evaluation set,
+a single entity changes the accuracy by about four percentage points, so the
+results should be interpreted cautiously.
+
+\end{document}
