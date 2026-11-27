@@ -360,7 +360,7 @@ During fusion, original source identifiers and attribute values were retained to
 
 \paragraph{Density.}
 % What was the density of your input and the merged datasets?
-Table~\ref{tab:density} shows the density of the input and merged datasets. The table value at the bottom reports the unweighted mean over the 10 fused attributes. Overall, the Goodreads and Amazon datasets are dense, whereas Goodreads is much sparser. Looking at the individual attributes, it becomes clear that this is due to lacking the attributes \texttt{format}, \texttt{rating}, \texttt{ratings\_count}, and \texttt{price}.
+Table~\ref{tab:density} shows the density of the input and merged datasets. The table value at the bottom reports the unweighted mean over the 10 fused attributes. Overall, the Goodreads and Amazon datasets are dense, whereas DBpedia is much sparser. Looking at the individual attributes, it becomes clear that this is due to lacking the attributes \texttt{format}, \texttt{rating}, \texttt{ratings\_count}, and \texttt{price}.
 
 When comparing the fused dataset to the dataset with the largest input (DBpedia with $59,270$ records) the density increased from $0.492$ to $0.776$ ($+0.284$) with the biggest gains in the attributes the DBpedia dataset was lacking (due to slot filling). 
 Yet the density of the fused dataset stays below the density of the other two datasets, likely because it also fused unmerged/unmatched? singletons/records?, especially $50,724$ DBpedia-only records, that kept their low density. When only looking at the the merged groups a density of 0.982 is reached showing slot-filling was effective.
