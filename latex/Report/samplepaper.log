@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.10)  27 NOV 2026 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.10)  28 NOV 2026 10:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -450,69 +450,36 @@ Package hyperref Info: Link coloring OFF on input line 19.
 
  [1
 
-{/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [2] [3] [4] [5]
-
-LaTeX Warning: Reference `sec:identityres' on page 6 undefined on input line 349.
-
-[6]
+{/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [2] [3] [4] [5] [6]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7] [8]
-
-LaTeX Warning: Reference `tab:source_ranking' on page 9 undefined on input line 455.
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 455--456
-\T1/cmr/m/n/10 at-tributes, we bench-marked stan-dard PyDI res-o-lu-tion func-tions cov-er-ing
+Underfull \hbox (badness 1400) in paragraph at lines 455--456
+\T1/cmr/m/n/10 com-pared (Ta-ble []9[]): \T1/cmtt/m/n/10 longest_string\T1/cmr/m/n/10 , \T1/cmtt/m/n/10 shortest_string\T1/cmr/m/n/10 , \T1/cmtt/m/n/10 voting\T1/cmr/m/n/10 , \T1/cmtt/m/n/10 union\T1/cmr/m/n/10 ,
  []
-
-
-Underfull \hbox (badness 2285) in paragraph at lines 455--456
-\T1/cmr/m/n/10 string, nu-meric, list, and provenance-aware paradigms: \T1/cmtt/m/n/10 longest_string\T1/cmr/m/n/10 ,
- []
-
-
-Underfull \hbox (badness 4832) in paragraph at lines 455--456
-\T1/cmtt/m/n/10 shortest_string\T1/cmr/m/n/10 , \T1/cmtt/m/n/10 most_complete\T1/cmr/m/n/10 , \T1/cmtt/m/n/10 voting\T1/cmr/m/n/10 , \T1/cmtt/m/n/10 median\T1/cmr/m/n/10 , \T1/cmtt/m/n/10 average\T1/cmr/m/n/10 , \T1/cmtt/m/n/10 minimum\T1/cmr/m/n/10 ,
- []
-
-
-Overfull \hbox (28.20148pt too wide) in paragraph at lines 455--456
-\T1/cmtt/m/n/10 maximum\T1/cmr/m/n/10 , \T1/cmtt/m/n/10 most_recent\T1/cmr/m/n/10 , \T1/cmtt/m/n/10 favour_sources\T1/cmr/m/n/10 , and \T1/cmtt/m/n/10 weighted_voting\T1/cmr/m/n/10 . For \T1/cmtt/m/n/10 favour_sources
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9] [10] [11] (./samplepaper.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `samplepaper.out' has not changed.
 (rerunfilecheck)             Checksum: 27B6CFD62E4406285A0C562E04F974E7;415.
  ) 
 Here is how much of TeX's memory you used:
- 10246 strings out of 469006
- 156100 string characters out of 5454812
- 588210 words of memory out of 5000000
- 38766 multiletter control sequences out of 15000+600000
+ 10250 strings out of 469006
+ 156183 string characters out of 5454812
+ 588747 words of memory out of 5000000
+ 38769 multiletter control sequences out of 15000+600000
  640473 words of font info for 65 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,11n,79p,883b,455s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1246b,455s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on samplepaper.pdf (11 pages, 376226 bytes).
+Output written on samplepaper.pdf (11 pages, 381914 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 500000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 52 named destinations out of 1000 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 

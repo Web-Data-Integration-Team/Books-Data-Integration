@@ -169,7 +169,7 @@ filter. Finally, some Goodreads award strings contain escaped HTML entities
 affect matching, we left them unchanged.
 
 % =====================================================================
-\section{Phase 2: Identity Resolution}
+\section{Phase 2: Identity Resolution}\label{sec:identityres}
 % Authors: Shiqi Xu (Gold Standard, Blocking, Learning-Based Matching, Global Matching),
 % Kejsi Limaci (Rule-Based Matching, Results and Error Analysis)
 % All numbers refer to commit 4daa279 (identity_resolution.ipynb). Do not re-run
@@ -352,7 +352,7 @@ In the final phase, the book records from the three datasets are integrated in P
 
 \paragraph{Provenance Metadata.}
 Two provenance metadata elements are attached to every dataset: a \texttt{PRIOR\_TRUST} score for data quality and \texttt{DATASET\_DATE} for timeliness. Since prior knowledge of the reliability of the datasets was not available, all sources initially received a trust score of 1.0. %As each source is more suitable for different attributes, attribute-specific source rankings are derived from the development set and applied through preference-based rules and weighted voting, rather than defining subjective weights.%
-Source reliability was then evaluated separately for each attribute using the share of correct values among available values in the development set. The resulting rankings were used for preference-based rules and weighted voting. For attributes without ground truth, source preferences were based on domain knowledge.
+Source reliability was then evaluated separately for each attribute using the share of correct values among available values in the development set. These shares (Table~\ref{tab:source_ranking}) motivate attribute-specific source orders for the trust-based conflict resolution functions instead of one global ranking. For attributes without ground truth, source preferences were based on domain knowledge.
 
 Based on the collection dates reported on the respective dataset websites, the year $2023$ was assigned to Amazon and $2026$ to DBpedia. Since for Goodreads the collection date was unknown, the publication year of the dataset ($2020$) was used instead. These dates are only used by the \texttt{most\_recent} conflict resolution function, as most book attributes remain rather static after publication.
 
@@ -362,9 +362,8 @@ During fusion, original source identifiers and attribute values were retained to
 % What was the density of your input and the merged datasets?
 Table~\ref{tab:density} shows the density of the input and merged datasets. The table value at the bottom reports the unweighted mean over the 10 fused attributes. Overall, the Goodreads and Amazon datasets are dense, whereas DBpedia is much sparser. Looking at the individual attributes, it becomes clear that this is due to lacking the attributes \texttt{format}, \texttt{rating}, \texttt{ratings\_count}, and \texttt{price}.
 
-When comparing the fused dataset to the dataset with the largest input (DBpedia with $59,270$ records) the density increased from $0.492$ to $0.776$ ($+0.284$) with the biggest gains in the attributes the DBpedia dataset was lacking (due to slot filling). 
-Yet the density of the fused dataset stays below the density of the other two datasets, likely because it also fused unmerged/unmatched? singletons/records?, especially $50,724$ DBpedia-only records, that kept their low density. When only looking at the the merged groups a density of 0.982 is reached showing slot-filling was effective.
-% Die Werte vielleicht noch in die Tabelle aufnehmen?
+Compared with the largest input dataset (DBpedia with $59,270$ records), the density increased from $0.492$ to $0.776$ ($+0.284$), with the biggest gains in the attributes that DBpedia lacks (due to slot filling).
+Yet the density of the fused dataset stays below that of Goodreads and Amazon, because it also contains the unmatched records, in particular the $50,724$ DBpedia-only records, which keep their low density. Considering only the merged groups, the density reaches $0.982$, showing that slot filling was effective.
 
 \begin{table}[h]
 \caption{Density of the input datasets and the fused dataset (share of non-null values per attribute). The fused dataset contains all 138,922 records, including unmatched ones.}
@@ -395,7 +394,7 @@ Attribute & Goodreads & Amazon & DBpedia & Fused \\
 \paragraph{Consistency.}
 % How consistent were the datasets?
 
-The consistency of the record groups was measured in two variants (identical vs. tolerant). While identical consistency requires exact values matches, the tolerant consistency measure was more lenient. Textual values were considered equal at a word-level Jaccard similarity of $\geq 0.8$, after normalization, page counts with a tolerance of $2\%$ and publication dates were compared by year. Publisher names were additionally stripped of generic terms and legal forms. Yet \texttt{rating}, \texttt{ratings\_count}, and \texttt{price} still required exact equality.
+The consistency of the record groups was measured in two variants (identical vs. tolerant). While identical consistency requires exact value matches, the tolerant consistency measure was more lenient. Textual values were considered equal at a word-level Jaccard similarity of $\geq 0.8$, after normalization, page counts with a tolerance of $2\%$ and publication dates were compared by year. Publisher names were additionally stripped of generic terms and legal forms. Yet \texttt{rating}, \texttt{ratings\_count}, and \texttt{price} still required exact equality.
 
 \begin{table}[h]
 \caption{Consistency of the record groups (share of merged groups without conflicting values per attribute).}
@@ -423,15 +422,15 @@ Attribute & Identical & Tolerant \\
 \end{tabular}
 \end{table}
 
-Both consistency measures are displayed in table ~\ref{tab:consistency}. The attributes \texttt{format}, \texttt{language}, \texttt{authors\_author}, and \texttt{price} already have high consistency. In contrast, \texttt{page\_count}, \texttt{title}, and \texttt{publisher} show lower consistency, indicating data conflicts and potential for conflict resolution. Many conflicts for \texttt{publisher} and \texttt{publication\_date} were due to different notations and were resolved by normalization or year-based comparison. Yet conflicts in \texttt{page\_count} and \texttt{title} largely remained, even for the tolerant measure.
+Both consistency measures are displayed in Table~\ref{tab:consistency}. The attributes \texttt{format}, \texttt{language}, \texttt{authors\_author}, and \texttt{price} already have high consistency. In contrast, \texttt{page\_count}, \texttt{title}, and \texttt{publisher} show lower consistency, indicating data conflicts and potential for conflict resolution. Many conflicts for \texttt{publisher} and \texttt{publication\_date} were due to different notations and disappear under the tolerant measure (normalized publisher names, year-based comparison of dates). Yet conflicts in \texttt{page\_count} and \texttt{title} largely remained, even for the tolerant measure.
 
-Inconsistencies in \texttt{rating}, \texttt{rating\_count}, and \texttt{price} may reflect changes over time or subjective assessments rather than errors. % vielleicht eher was für median strategy
+Inconsistencies in \texttt{rating}, \texttt{ratings\_count}, and \texttt{price} may reflect changes over time or subjective assessments rather than errors.
 
-Overall, $91.2\%$ of the $11,393$ merged groups contained at least one conflict across the ten attributes, with an average of $2.93$ conflicting attributes per group.% Considering only the five evaluated attributes, this share decreases to 86.3%.
+Overall, under the tolerant measure, $91.2\%$ of the $11,393$ merged groups contained at least one conflict across the ten attributes, with an average of $2.93$ conflicting attributes per group.% Considering only the five evaluated attributes, this share decreases to 86.3%.
 Thus, conflict resolution is relevant for nearly all merged groups.
 
 
-\subsection{Evaluation Set}
+\subsection{Evaluation Set}\label{sec:evalset}
 % Size and content of your evaluation set and how you created it
 
 \paragraph{Construction.}
@@ -452,12 +451,32 @@ Across all 238 ground-truth values, 19 values (8.0\%) do not appear in any recor
 % Which conflict resolution functions have you tried for each attribute? Did you maybe define your own conflict resolution functions specifically for your use case or maybe there was something PYDi didn’t cover and you wanted to try it?
 
 \paragraph{Tested Strategies and Custom Resolution Function.}
-For the five evaluated attributes, we benchmarked standard PyDI resolution functions covering string, numeric, list, and provenance-aware paradigms: \texttt{longest\_string}, \texttt{shortest\_string}, \texttt{most\_complete}, \texttt{voting}, \texttt{median}, \texttt{average}, \texttt{minimum}, \texttt{maximum}, \texttt{most\_recent}, \texttt{favour\_sources}, and \texttt{weighted\_voting}. For \texttt{favour\_sources} and \texttt{weighted\_voting}, source priority rankings were determined on the development set (Table~\ref{tab:source_ranking}).
+\begin{sloppypar}
+For each of the five evaluated attributes, 4--6 standard PyDI conflict resolution functions covering string, list, numeric, temporal, and provenance-aware paradigms were compared (Table~\ref{tab:cr-grid}): \texttt{longest\_string}, \texttt{shortest\_string}, \texttt{voting}, \texttt{union}, \texttt{intersection}, \texttt{intersection\_k\_sources}, \texttt{earliest}, \texttt{most\_recent}, \texttt{median}, \texttt{average}, \texttt{minimum}, \texttt{maximum}, and \texttt{prefer\_higher\_trust}, which takes the value of the most trusted source. Since source reliability varies across attributes (Table~\ref{tab:source_ranking}), \texttt{prefer\_higher\_trust} was tested with all six possible source orders. On the small development set, several orders often reach the same accuracy: for every attribute except \texttt{publisher}, two or three orders tie, and the first order tried is kept. The selected order therefore does not necessarily follow the shares of correct values; for \texttt{page\_count}, for instance, the order with DBpedia first reaches the same tolerant accuracy (0.739) as the selected order with Goodreads first.
+\end{sloppypar}
 
-\paragraph{Conflict Resolution Strategies.}
-% Which conflict resolution functions you tried for each attribute. Whether you defined your own conflict resolution functions.
-For each attribute with available ground truth, 4--6 PyDI conflict resolution functions were compared (Table~\ref{tab:cr-grid}). Trust-based functions were tested with all six possible source orders, as source reliability varies across attributes. Additionally, a custom function, \texttt{publisher\_vote}, was implemented because PyDI's standard voting treats spelling variants such as ``Viking'' and ``Viking Press'' as different values. Our function instead counts votes over normalized publisher names, resolves ties by source trust, and uses the most frequent spelling to represent the winning value.
+\begin{table}[h]
+\caption{Source reliability on the dev part of the evaluation set: share of correct values per source (tolerant comparison, only entities where the source has a value). The last column gives the source order used for \texttt{prefer\_higher\_trust}, i.e.\ the first of the best orders in the grid (Table~\ref{tab:cr-grid}); except for \texttt{publisher}, two or three orders tie. G = Goodreads, A = Amazon, D = DBpedia; bold = most reliable source.}
+\label{tab:source_ranking}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{lrrrl}
+\toprule
+Attribute & Goodreads & Amazon & DBpedia & Trust order \\
+\midrule
+\texttt{title}             & 0.71 & \textbf{0.90} & 0.89 & A $>$ D $>$ G \\
+\texttt{authors\_author}   & \textbf{0.95} & 0.90 & \textbf{0.95} & G $>$ A $>$ D \\
+\texttt{publisher}         & \textbf{0.85} & 0.80 & 0.84 & G $>$ D $>$ A \\
+\texttt{publication\_date} & \textbf{1.00} & \textbf{1.00} & 0.94 & G $>$ A $>$ D \\
+\texttt{page\_count}       & 0.70 & 0.25 & \textbf{0.81} & G $>$ D $>$ A \\
+\bottomrule
+\end{tabular}
+\end{table}
 
+Additionally, a custom function, \texttt{publisher\_vote}, was implemented because PyDI's standard voting treats spelling variants such as ``Viking'' and ``Viking Press'' as different values. Our function instead counts votes over normalized publisher names, resolves ties by source trust, and uses the most frequent spelling to represent the winning value.
+
+\paragraph{Attributes without Ground Truth.}
 For attributes without ground truth, strategies were selected based on their characteristics: median for \texttt{rating} and \texttt{ratings\_count}, and trust-based selection for \texttt{price}, \texttt{language}, and \texttt{format}. For \texttt{genres\_genre}, trust-based selection with Goodreads first was preferred over union due to the limited overlap between source vocabularies. Finally, Amazon was prioritised for \texttt{edition}, as it provides more complete edition information, while \texttt{awards\_award} was taken from Goodreads, the only source providing this attribute.
 
 \paragraph{Accuracy Comparison across Strategies.}
@@ -484,7 +503,7 @@ page count & & & 0.652 & & & & & & 0.652 & 0.696 & 0.522 & \textbf{0.783} & 0.73
 \end{tabular}}
 \end{table}
 
-On the test set, tolerant accuracy increased from 0.824 to 0.832, while strict accuracy improved from 0.681 to 0.748. Improvements were particularly notable for \texttt{title} and \texttt{publication\_date}, whereas \texttt{page\_count} remained unchanged. The custom \texttt{publisher\_vote} achieved the same tolerant development accuracy as \texttt{prefer\_higher\_trust}, but lower strict accuracy (0.458 vs. 0.583), so the simpler function was selected instead.
+On the test set, tolerant accuracy increased from 0.824 to 0.832, while strict accuracy improved from 0.681 to 0.748. Improvements were particularly notable for \texttt{title} and \texttt{publication\_date}, whereas \texttt{page\_count} remained unchanged and \texttt{authors\_author} and \texttt{publisher} decreased slightly (by one entity each). The custom \texttt{publisher\_vote} achieved the same tolerant development accuracy as \texttt{prefer\_higher\_trust}, but lower strict accuracy (0.458 vs. 0.583), so the simpler function was selected instead.
 
 \begin{table}[h]
 \caption{Tolerant accuracy of the baseline (longest string, union, median) and the final strategy on the dev and the test part of the evaluation set. G = Goodreads, A = Amazon, D = DBpedia. Overall is weighted by the number of values (119).}
@@ -509,11 +528,11 @@ page count       & minimum                & 0.652 & 0.783 & 0.652 & 0.652 \\
 \end{tabular}
 \end{table}
 
-Provenance-based functions did not outperform value-only alternatives on the test set; however, the differences were small (0.04--0.08, corresponding to only one or two entities) and should be interpreted cautiously given the small test set. The lower publisher accuracy on the test set also suggests that the source order selected on the development set may not generalise well. Finally, page count is limited by the input data: for 12 of the 46 values, the ground-truth value is absent from all sources, limiting the maximum achievable accuracy for this attribute to 0.739.
+Provenance-based functions did not outperform value-only alternatives on the test set; however, the differences were small (0--0.08, corresponding to at most two entities) and should be interpreted cautiously given the small test set. The lower publisher accuracy on the test set also suggests that the source order selected on the development set may not generalise well. Finally, page count is limited by the input data: for 12 of the 46 values, the ground-truth value is absent from all sources, limiting the maximum achievable accuracy for this attribute to 0.739.
 
 \subsection{Error Analysis and Pipeline Summary}
 % An analysis of the errors that remain after applying your best resolution function.
-Across the 238 evaluated values, 33 errors remained, resulting in a tolerant accuracy of 86.1\%. Most errors occurred in \texttt{page\_count} (13) and \texttt{publisher} (12), followed by \texttt{title} (4), \texttt{authors\_author} (3), and \texttt{publication\_date} (1). In 17 cases, the correct value was absent from all input sources, making these errors impossible to resolve through extractive fusion alone. This particularly affected page counts, where different editions or counting conventions caused deviations beyond the applied 2\% tolerance. Other cases involved publisher imprints being represented by their parent publishers, which would require external mappings to resolve reliably.
+Across the 238 evaluated values (dev and test combined), 33 errors remained, resulting in a tolerant accuracy of 86.1\%. Since the dev part was used to select the functions, this value is optimistic; the unbiased estimate is the test accuracy of 0.832. Most errors occurred in \texttt{page\_count} (13) and \texttt{publisher} (12), followed by \texttt{title} (4), \texttt{authors\_author} (3), and \texttt{publication\_date} (1). In 17 cases, the correct value was absent from all input sources, making these errors impossible to resolve through extractive fusion alone. This particularly affected page counts, where different editions or counting conventions caused deviations beyond the applied 2\% tolerance. Other cases involved publisher imprints being represented by their parent publishers, which would require external mappings to resolve reliably. In one further case, no source provides a value at all (\texttt{publication\_date}). Together with one of the two suspected identity-resolution errors discussed below (\texttt{title}), these are the 19 values without a correct candidate in any record of their group (Sect.~\ref{sec:evalset}).
 
 Of the remaining errors, 13 resulted from selecting an incorrect value. Several could potentially be addressed through improved normalization, for example by handling initials and imprint-related terms in publisher names or removing subtitles from titles where appropriate. Others would require attribute-specific strategies: using the more reliable source for page counts or combining author lists in cases where one source provides only a subset. However, such rules involve trade-offs and may introduce new errors. Additionally, two cases were suspected identity-resolution errors. An ISBN consistency check could have prevented one incorrect match, while the other involved records with different language versions of a title and would require a clearer definition of edition-level identity.
 

@@ -17,6 +17,7 @@
 \newlabel{tab:dates}{{2}{3}{Precision of the publication date per source}{table.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Numeric Values and Further Problems}{3}{subsection.2.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3}Phase 2: Identity Resolution}{3}{section.3}\protected@file@percent }
+\newlabel{sec:identityres}{{3}{3}{Phase 2: Identity Resolution}{section.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Gold Standard}{4}{subsection.3.1}\protected@file@percent }
 \newlabel{sec:gs}{{3.1}{4}{Gold Standard}{subsection.3.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Gold standard per dataset pair (after the manual check).}}{4}{table.3}\protected@file@percent }
@@ -45,16 +46,19 @@
 \@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Consistency of the record groups (share of merged groups without conflicting values per attribute).}}{8}{table.7}\protected@file@percent }
 \newlabel{tab:consistency}{{7}{8}{Consistency of the record groups (share of merged groups without conflicting values per attribute)}{table.7}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Evaluation Set}{8}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:evalset}{{4.2}{8}{Evaluation Set}{subsection.4.2}{}}
 \@writefile{toc}{\contentsline {paragraph}{Construction.}{8}{section*.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Limitations.}{8}{section*.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Conflict Resolution Functions and Experimental Results}{9}{subsection.4.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Tested Strategies and Custom Resolution Function.}{9}{section*.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Conflict Resolution Strategies.}{9}{section*.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Accuracy Comparison across Strategies.}{9}{section*.9}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Tolerant accuracy of the conflict resolution functions on the dev part of the evaluation set (24 entities, 23 values for page count). Empty cell: function not tried for this attribute. \emph  {trust} = \texttt  {prefer\_higher\_trust} (best of 6 source orders); * = own function; bold = selected function (ties go to the simpler function).}}{10}{table.8}\protected@file@percent }
-\newlabel{tab:cr-grid}{{8}{10}{Tolerant accuracy of the conflict resolution functions on the dev part of the evaluation set (24 entities, 23 values for page count). Empty cell: function not tried for this attribute. \emph {trust} = \texttt {prefer\_higher\_trust} (best of 6 source orders); * = own function; bold = selected function (ties go to the simpler function)}{table.8}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Tolerant accuracy of the baseline (longest string, union, median) and the final strategy on the dev and the test part of the evaluation set. G = Goodreads, A = Amazon, D = DBpedia. Overall is weighted by the number of values (119).}}{10}{table.9}\protected@file@percent }
-\newlabel{tab:cr-final}{{9}{10}{Tolerant accuracy of the baseline (longest string, union, median) and the final strategy on the dev and the test part of the evaluation set. G = Goodreads, A = Amazon, D = DBpedia. Overall is weighted by the number of values (119)}{table.9}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Error Analysis and Pipeline Summary}{10}{subsection.4.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Source reliability on the dev part of the evaluation set: share of correct values per source (tolerant comparison, only entities where the source has a value). The last column gives the source order used for \texttt  {prefer\_higher\_trust}, i.e.\ the first of the best orders in the grid (Table~\ref {tab:cr-grid}); except for \texttt  {publisher}, two or three orders tie. G = Goodreads, A = Amazon, D = DBpedia; bold = most reliable source.}}{9}{table.8}\protected@file@percent }
+\newlabel{tab:source_ranking}{{8}{9}{Source reliability on the dev part of the evaluation set: share of correct values per source (tolerant comparison, only entities where the source has a value). The last column gives the source order used for \texttt {prefer\_higher\_trust}, i.e.\ the first of the best orders in the grid (Table~\ref {tab:cr-grid}); except for \texttt {publisher}, two or three orders tie. G = Goodreads, A = Amazon, D = DBpedia; bold = most reliable source}{table.8}{}}
+\@writefile{toc}{\contentsline {paragraph}{Attributes without Ground Truth.}{9}{section*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Accuracy Comparison across Strategies.}{10}{section*.9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Tolerant accuracy of the conflict resolution functions on the dev part of the evaluation set (24 entities, 23 values for page count). Empty cell: function not tried for this attribute. \emph  {trust} = \texttt  {prefer\_higher\_trust} (best of 6 source orders); * = own function; bold = selected function (ties go to the simpler function).}}{10}{table.9}\protected@file@percent }
+\newlabel{tab:cr-grid}{{9}{10}{Tolerant accuracy of the conflict resolution functions on the dev part of the evaluation set (24 entities, 23 values for page count). Empty cell: function not tried for this attribute. \emph {trust} = \texttt {prefer\_higher\_trust} (best of 6 source orders); * = own function; bold = selected function (ties go to the simpler function)}{table.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Tolerant accuracy of the baseline (longest string, union, median) and the final strategy on the dev and the test part of the evaluation set. G = Goodreads, A = Amazon, D = DBpedia. Overall is weighted by the number of values (119).}}{10}{table.10}\protected@file@percent }
+\newlabel{tab:cr-final}{{10}{10}{Tolerant accuracy of the baseline (longest string, union, median) and the final strategy on the dev and the test part of the evaluation set. G = Goodreads, A = Amazon, D = DBpedia. Overall is weighted by the number of values (119)}{table.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Error Analysis and Pipeline Summary}{11}{subsection.4.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{11}{section.5}\protected@file@percent }
 \gdef \@abspage@last{11}
