@@ -265,6 +265,82 @@ Amazon--DBpedia    & 65.4\% & 96.1\% & 1,212,964 \\
 % - non-linear rule: gate idea and variants
 % - one sentence why rules struggle on the DBpedia pairs (test F1 in Table ref{tab:irresults})
 
+A linearly weighted rule declares a pair a match if the weighted sum of attribute
+similarities reaches a threshold $\beta$.
+
+\paragraph{Baseline.}
+The baseline uses hand-set weights: the Jaro-Winkler similarities of the cleaned
+title (0.5) and of the first author (0.3), and a year similarity that decreases
+linearly with the absolute difference up to 10 years (0.2), with $\beta$ tuned on
+the validation set. Most of its false positives are other editions of the same
+work: same title and author, but a different publisher or missing edition
+attributes.
+
+\paragraph{Linearly Weighted Matching Rule.}
+We add publisher, page count and format, and compute the score as the weighted
+average over the attributes present in both records, so that a missing value
+(frequent in DBpedia) does not count as dissimilar. Publishers are compared on
+normalised names (e.g.\ ``Little, Brown and Company'' $\to$ ``little brown'').
+The weights are learned on the training set, by a grid search over integer
+weights ($0..k$, $k \in \{3,4,5\}$) that maximises F1, or by least squares. The procedure and $\beta \in \{0.5,\dots,0.9\}$ are selected per pair
+on the validation set after greedy one-to-one matching
+(Table~\ref{tab:linrule}).
+
+\begin{table}[htbp]
+\centering
+\caption{Selected linearly weighted rules: weight range of the grid search,
+learned weights and threshold $\beta$.}
+\label{tab:linrule}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{lcccccccc}
+\toprule
+\textbf{Pair} & \textbf{Grid} & \textbf{Title} & \textbf{Author} & \textbf{Publisher} & \textbf{Year} & \textbf{Pages} & \textbf{Format} & $\boldsymbol{\beta}$ \\
+\midrule
+Goodreads--Amazon  & 0--4 & 1 & 1 & 1 & 1 & 4 & 2 & 0.8 \\
+Goodreads--DBpedia & 0--3 & 2 & 1 & 2 & 3 & 3 & 0 & 0.7 \\
+Amazon--DBpedia    & 0--3 & 3 & 1 & 2 & 2 & 1 & 0 & 0.5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\paragraph{Non-Linear Matching Rule.}
+An error analysis of the linear rule on the validation set shows that most of
+its false positives are still other editions of the same work with a
+near-identical title and author. Either an edition attribute differs, which the
+other similarities outweigh in the weighted average, or several edition
+attributes are missing, so that the score rests almost only on title, author and
+year. We therefore test a cascade of conditions:
+(1)~the \emph{gate} rejects the pair unless title and author both reach a
+minimum similarity; (2)~the \emph{exclusion} rejects the pair if format, page
+count, publisher or year clearly differ, checked only for attributes present in
+both records; (3)~the \emph{missing-data} condition requires an almost identical
+title and author if at least two of publisher, page count and format are
+missing; (4)~a pair that passes all conditions is a match. The thresholds are
+learned per pair on the training set, and variants that switch conditions off
+are compared. Accepted pairs keep their linear-rule score for greedy one-to-one
+matching; variant and threshold are selected on the validation set
+(Table~\ref{tab:nonlinrule}), where the simpler variants performed best.
+
+\begin{table}[htbp]
+\centering
+\caption{Selected non-linear rules: thresholds of the gate and the missing-data
+condition, and $\beta$ on the linear-rule score.}
+\label{tab:nonlinrule}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{llcccc}
+\toprule
+\textbf{Pair} & \textbf{Variant} & \textbf{Title} & \textbf{Author} & \textbf{Missing data} & $\boldsymbol{\beta}$ \\
+\midrule
+Goodreads--Amazon  & \emph{gate + missing data} & 0.8 & 0.9 & 0.98 & 0.65 \\
+Goodreads--DBpedia & \emph{gate only}         & 0.7 & 0.8 & --   & 0.70 \\
+Amazon--DBpedia    & \emph{gate only}         & 0.7 & 0.8 & --   & 0.70 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 % ---------------------------------------------------------------- Shiqi
 \subsection{Learning-Based Matching}\label{sec:ml}
 Each candidate pair is described by 16 similarity features: Jaro-Winkler and
